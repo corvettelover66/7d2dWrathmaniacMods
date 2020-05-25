@@ -1,0 +1,4 @@
+<ExternalModFixes>
+<!-- Fix for  S420_SimpleUI-LeftHUD-BuffTimers -->
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']"/>
+</ExternalModFixes>
