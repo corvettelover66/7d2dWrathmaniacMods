@@ -1,0 +1,10 @@
+<WrathmaniacsBladeTrapUsesSteelToolParts>
+	<set xpath="/recipes/recipe[@name='bladeTrap']/ingredient[@name='resourceMechanicalParts']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='bladeTrap']/ingredient[@name='resourceOil']/@count">4</set>
+	<set xpath="/recipes/recipe[@name='bladeTrap']/effect_group/passive_effect[@name='CraftingIngredientCount']/@value">.5,.25,.2,.15,0</set>
+	<set xpath="/recipes/recipe[@name='bladeTrap']/effect_group/passive_effect[@name='CraftingIngredientCount']/@tags">resourceForgedIron,resourceMechanicalParts,resourceElectricParts,resourceOil</set>
+	<remove xpath="/recipes/recipe[@name='bladeTrap']/ingredient[@name='resourceForgedSteel']" />
+	<append xpath="/recipes/recipe[@name='bladeTrap']">
+		<ingredient name="meleeToolAllSteelParts" count="4" />
+	</append>
+</WrathmaniacsBladeTrapUsesSteelToolParts>

@@ -1,0 +1,3 @@
+<WrathmanicsRandomGameTweaks>
+	<set xpath="/blocks/block[@name='mineCookingPot']/property[@name='CanPickup']/@param1">mineCookingPot</set>
+</WrathmanicsRandomGameTweaks>

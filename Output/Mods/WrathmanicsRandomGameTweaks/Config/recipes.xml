@@ -1,0 +1,21 @@
+<WrathmanicsRandomGameTweaks>
+	<set xpath="/recipes/recipe[@name='plantedAloe1']/ingredient[@name='resourceCropAloeLeaf']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='ammoGasCan']/@count">100</set>
+	<set xpath="/recipes/recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">45</set>
+	<append xpath="/recipes">
+		<recipe name="ammoArrowSteelAP" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="2" />
+			<ingredient name="resourceArrowHeadSteelAP" count="1" />
+			<ingredient name="resourceFeather" count="1" />
+		</recipe>
+		<recipe name="ammoCrossbowBoltSteelAP" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="2" />
+			<ingredient name="resourceArrowHeadSteelAP" count="1" />
+			<ingredient name="resourceFeather" count="1" />
+		</recipe>
+		<recipe name="resourceBrokenGlass" count="1" material_based="true" craft_area="forge">
+			<ingredient name="unit_glass" count="10"></ingredient>
+			<ingredient name="unit_clay" count="1"></ingredient>
+		</recipe>
+	</append>
+</WrathmanicsRandomGameTweaks>

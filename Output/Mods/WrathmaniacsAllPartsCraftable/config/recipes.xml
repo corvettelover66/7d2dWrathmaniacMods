@@ -1,0 +1,171 @@
+<WrathmaniacsAllPartsCraftable>
+	<append xpath="/recipes">
+		<recipe name="resourceSpring" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="15">
+			<ingredient name="resourceForgedSteel" count="6"></ingredient>
+			<ingredient name="resourceDuctTape" count="1"></ingredient>
+			<ingredient name="resourceAcid" count="1"></ingredient>
+		</recipe>
+		<recipe name="resourceAcid" count="4" tags="learnable" craft_area="chemistryStation" craft_time="15">
+			<ingredient name="resourceScrapPolymers" count="5"></ingredient>
+			<ingredient name="resourcePotassiumNitratePowder" count="10"></ingredient>
+			<ingredient name="carBattery" count="1"></ingredient>
+			<ingredient name="drinkJarRiverWater" count="1"></ingredient>
+		</recipe>
+		<recipe name="resourceAcid" count="1" tags="learnable" craft_area="chemistryStation" craft_time="15">
+			<ingredient name="resourceScrapPolymers" count="10"></ingredient>
+			<ingredient name="resourcePotassiumNitratePowder" count="30"></ingredient>
+			<ingredient name="resourceAnimalFat" count="5"></ingredient>
+			<ingredient name="drinkJarRiverWater" count="2"></ingredient>
+		</recipe>
+				<!-- Xml Written at 2020:2:1 12:02:12 AM -->
+		<recipe name="resourceMechanicalParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceForgedSteel" count="6"></ingredient>
+			<ingredient name="resourceDuctTape" count="1"></ingredient>
+			<ingredient name="resourceAcid" count="1"></ingredient>
+			<ingredient name="resourceSpring" count="1"></ingredient>
+		</recipe>
+		<!-- Xml Written at 2020:50:29 11:50:30 PM -->
+		<recipe name="resourceElectricParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceScrapPolymers" count="5"></ingredient>
+			<ingredient name="resourceForgedSteel" count="5"></ingredient>
+			<ingredient name="resourceDuctTape" count="1"></ingredient>
+			<ingredient name="resourceAcid" count="1"></ingredient>
+		</recipe>
+		<recipe name="Disassemble meleeToolSledgehammerSteelParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="meleeToolSledgehammerSteelParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble meleeClubBaseballBatParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="meleeClubBaseballBatParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble meleeThrownSpearSteelParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="meleeThrownSpearSteelParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble meleeToolKnifeMacheteParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="meleeToolKnifeMacheteParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble meleeKnucklesSteelParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="meleeKnucklesSteelParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble meleeStunBatonParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="meleeStunBatonParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble gunJunkTurretParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="gunJunkTurretParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble gunRocketLauncherParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="gunRocketLauncherParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble gunAk47Parts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="gunAk47Parts" count="1" />
+		</recipe>
+		<recipe name="Disassemble gunHuntingRifleParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="gunHuntingRifleParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble armorSteelSetParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="armorSteelSetParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble meleeToolAllSteelParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="meleeToolAllSteelParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble gunBowWoodenParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="gunBowWoodenParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble gunPistolParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="gunPistolParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble armorMilitarySetParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="armorMilitarySetParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble meleeToolChainsawParts" tags="learnable,workbenchCrafting" count="1" craft_area="workbench" craft_time="16">
+			<ingredient name="meleeToolChainsawParts" count="1" />
+		</recipe>
+		<recipe name="Disassemble gunDoubleBarrelShotgunParts" tags="learnable,workbenchCrafting" count="1" craft_area="workbench" craft_time="16">
+			<ingredient name="gunDoubleBarrelShotgunParts" count="1" />
+		</recipe>
+		<recipe name="gunDoubleBarrelShotgunParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1"></ingredient>
+			<ingredient name="resourceMechanicalParts" count="3"></ingredient>
+			<ingredient name="resourceForgedSteel" count="8"></ingredient>
+		</recipe>
+		<recipe name="meleeToolChainsawParts" count="1" craft_time="30" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="10" />
+			<ingredient name="resourceMechanicalParts" count="5" />
+			<ingredient name="resourceSpring" count="2" />
+		</recipe>
+		<recipe name="armorMilitarySetParts" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="10" />
+			<ingredient name="resourceMechanicalParts" count="5" />
+			<ingredient name="resourceSpring" count="2" />
+		</recipe>
+		<recipe name="gunPistolParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceForgedSteel" count="5" />
+		</recipe>
+		<recipe name="gunBowWoodenParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceForgedIron" count="5" />
+		</recipe>
+		<recipe name="meleeToolAllSteelParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceForgedSteel" count="5" />
+		</recipe>
+		<recipe name="armorSteelSetParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceForgedSteel" count="5" />
+		</recipe>
+		<recipe name="gunHuntingRifleParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="2" />
+			<ingredient name="resourceMechanicalParts" count="3" />
+			<ingredient name="resourceForgedSteel" count="8" />
+		</recipe>
+		<recipe name="gunAk47Parts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="2" />
+			<ingredient name="resourceMechanicalParts" count="5" />
+			<ingredient name="resourceForgedSteel" count="10" />
+		</recipe>
+		<recipe name="gunRocketLauncherParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="2" />
+			<ingredient name="resourceMechanicalParts" count="6" />
+			<ingredient name="resourceForgedSteel" count="12" />
+		</recipe>
+		<recipe name="gunJunkTurretParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceForgedSteel" count="5" />
+		</recipe>
+		<recipe name="meleeStunBatonParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceForgedSteel" count="5" />
+		</recipe>
+		<recipe name="meleeKnucklesSteelParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceForgedSteel" count="5" />
+		</recipe>
+		<recipe name="meleeToolKnifeMacheteParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceForgedSteel" count="7" />
+		</recipe>
+		<recipe name="meleeThrownSpearSteelParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="3" />
+			<ingredient name="resourceForgedSteel" count="7" />
+		</recipe>
+		<recipe name="meleeClubBaseballBatParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceForgedSteel" count="5" />
+		</recipe>
+		<recipe name="meleeToolSledgehammerSteelParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceForgedSteel" count="10" />
+		</recipe>
+	</append>
+</WrathmaniacsAllPartsCraftable>

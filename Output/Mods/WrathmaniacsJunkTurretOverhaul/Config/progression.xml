@@ -1,0 +1,14 @@
+<WrathmaniacsJunkTurretOverhaul>
+	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkTurrets']/effect_group[@name='General and deployed turrets']/passive_effect[@name='EntityDamage']/@value">.05,.1,.15,.2,.25</set>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkTurrets']/effect_group[@name='General and deployed turrets']">
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="ammoSteelJunkTurret,ammoBundleSteelJunkTurret"/>
+	</append>
+
+	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkTurrets']/effect_group[@name='General and deployed turrets']/passive_effect[@name='RoundsPerMinute']/@value">.1,.2,.3,.4,.5</set>
+
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkTurrets']/effect_group[@name='General and deployed turrets']">
+			<passive_effect name="JunkTurretActiveCount"  operation="base_add"  level="2"  value="1"/>
+	</append>
+
+	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkTurrets']/effect_group[@name='General and deployed turrets']/passive_effect[@name='JunkTurretActiveRange']/@value">10,12,16,18,25,40</set>
+</WrathmaniacsJunkTurretOverhaul>

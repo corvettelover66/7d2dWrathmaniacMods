@@ -1,0 +1,7 @@
+Reduced the amount of aloe leaf needed to make aloe cream from 4 to 2.
+Reduced the gas amount necessary for the Moltov Cocktail from 300 to 100.
+Reduced the amount of iron needed to craft Iron bars in the forge from 100 to 45.
+Added recipes for steel arrow/crossbow ammo to use wood instead of polymers. Polymer recipes still exist.
+Added a recipe to make broken glass in the forge.
+Added medium attachments to the smg. This allows you to put things like the 4x scope on it.
+Changed the returned item when picking up a cooking pot mine. Before it would return a cooking pot. Now it returns the mine.

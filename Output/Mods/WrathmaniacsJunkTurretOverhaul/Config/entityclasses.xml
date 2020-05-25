@@ -1,0 +1,5 @@
+<WrathmaniacsJunkTurretOverhaul>
+	<set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='PitchRange']/@value">85</set>
+
+	<set xpath="/entity_classes/entity_class[@name='turretJunk']/property[@name='YawRange']/@value">160</set>
+</WrathmaniacsJunkTurretOverhaul>

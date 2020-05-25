@@ -1,0 +1,55 @@
+<WrathmaniacsJunkTurretOverhaul>
+	<append xpath="/items">
+		<item name="ammoBundleSteelJunkTurret">
+			<property name="Extends" value="ammoBundle9mmBulletBall" />
+			<property name="DisplayType"  value="ammoBulletFake" />
+			<property name="CustomIcon" value="ammoJunkTurret" />
+			<property name="EconomicValue" value="2500" />
+			<property name="UnlockedBy" value="perkTurrets,gunJunkTurretSchematic" />
+			<property class="Action0">
+				<property name="Create_item" value="ammoSteelJunkTurret" />
+				<property name="Create_item_count" value="1000" />
+			</property>
+		</item>
+		<item name="ammoSteelJunkTurret">
+			<property name="Tags" value="ammo" />
+			<property name="CustomIcon" value="ammoJunkTurret" />
+			<property name="DisplayType"  value="ammoBulletFake" />
+			<property name="DescriptionKey" value="ammoSteelJunkTurretDesc" />
+			<property name="HoldType" value="45" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="UnlockedBy" value="perkTurrets,gunJunkTurretSchematic" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="800" />
+			<property name="EconomicValue" value="18" />
+			<property name="Group" value="Ammo/Weapons" />
+			<effect_group name="ammoJunkTurret" tiered="false">
+				<display_value name="dEntityDamage" value="22.6" />
+				<display_value name="dBlockDamage" value="2" />
+			</effect_group>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="22.6" />
+				<passive_effect name="BlockDamage" operation="base_set" value="2" />
+			</effect_group>
+		</item>
+		<item name="resourceJunkTurretRepairKit">
+			<property name="HoldType" value="45" />
+			<property name="Tags" value="junk" />
+			<property name="CustomIcon" value="resourceJunkTurretRepairKit" />
+			<property name="DescriptionKey" value="resourceJunkTurretRepairKitDesc" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Msteel" />
+			<property name="Stacknumber" value="25" />
+			<property name="EconomicValue" value="186" />
+			<property name="RepairTime" value="3" />
+			<property name="RepairAmount" value="32000" />
+			<property name="Group" value="Resources" />
+		</item>
+	</append>
+	<append xpath="/items/item[@name='gunJunkTurretSchematic']/property[@name='Unlocks']/@value">ammoSteelJunkTurret,ammoBundleSteelJunkTurret</append>
+	<append xpath="/items/item[@name='gunJunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoSteelJunkTurret</append>
+	<set xpath="/items/item[@name='gunJunkTurret']/property[@name='RepairTools']/@value">resourceJunkTurretRepairKit</set>
+	<set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">60</set>
+</WrathmaniacsJunkTurretOverhaul>
