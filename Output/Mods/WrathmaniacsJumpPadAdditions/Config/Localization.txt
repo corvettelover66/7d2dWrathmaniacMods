@@ -1,0 +1,18 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+JumpPad,blocks,Block,New,Jump Pad Original,,,,,
+JumpPadDesc,blocks,Block,New,The original jump pad. This thing is gonna launch you!! 50 + Meters (lifting power times 11.5),,,,,
+
+JumpPadWeak,blocks,Block,New,Jump Pad (x2),,,,,
+JumpPadWeakDesc,blocks,Block,New,"Jump pad (lifting power times 2), jump on this to go a bit higher 6-10 meters",,,,,
+
+JumpPadNormal,blocks,Block,New,Jump Pad (x3),,,,,
+JumpPadNormalDesc,blocks,Block,New,"Jump pad (lifting power times 3), jump on this to go considerably higher 10-14 meters",,,,,
+
+JumpPadStrong,blocks,Block,New,Jump Pad (x4),,,,,
+JumpPadStrongDesc,blocks,Block,New,"Jump pad (lifting power times 4), jump on this to go pretty damn high 14-18 meters",,,,,
+
+JumpPadReallyStrong,blocks,Block,New,Jump Pad (x6),,,,,
+JumpPadReallyStrongDesc,blocks,Block,New,"Jump pad (lifting power times 6), jump on this to very high 22-26 meters",,,,,
+
+JumpPadTimesEight,blocks,Block,New,Jump Pad (x8),,,,,
+JumpPadTimesEightDesc,blocks,Block,New,"Jump pad (lifting power times 8), jump on this to very f**ing high 32-36 meters",,,,,
