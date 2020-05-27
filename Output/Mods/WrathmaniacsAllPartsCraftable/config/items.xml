@@ -1,4 +1,6 @@
 <WrathmaniacsAllPartsCraftable>
+
+
 	<append xpath="/items">
 		<item name="Disassemble Item">
 			<property name="ItemTypeIcon" value="bundle" />
@@ -270,14 +272,19 @@
 	<!-- Xml Written at 2020:23:1 12:23:58 AM -->
 	<append xpath="/items/item[@name='bookWasteTreasuresAcid']/effect_group">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceAcid" operation="set" value="1"></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceScrapPolymers" operation="set" value="1"></triggered_effect>
+	</append>
+		<append xpath="/items/item[@name='resourceAcid']">
+		<property name="UnlockedBy" value="perkGreaseMonkey,bookWasteTreasuresAcid,chemistryStationSchematic"></property>
 	</append>
 	<!-- Xml Written at 2020:23:1 12:23:58 AM -->
-	<append xpath="/items/item[@name='resourceAcid']">
+	<append xpath="/items/item[@name='resourceScrapPolymers']">
 		<property name="UnlockedBy" value="perkGreaseMonkey,bookWasteTreasuresAcid,chemistryStationSchematic"></property>
 	</append>
 	<!-- Xml Written at 2020:23:1 12:23:58 AM -->
 	<append xpath="/items/item[@name='chemistryStationSchematic']/effect_group">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceAcid" operation="set" value="1"></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceScrapPolymers" operation="set" value="1"></triggered_effect>
 	</append>
 	<!-- Xml Written at 2020:2:1 12:02:12 AM -->
 	<append xpath="/items/item[@name='workbenchSchematic']/effect_group">
@@ -453,4 +460,6 @@
 	<append xpath="/items/item[@name='gunJunkTurretParts']">
 		<property name="UnlockedBy" value="bookPistolPeteMaintenance,perkTurrets" />
 	</append>
+	<set xpath="/items/item[@name='resourceAcid']/property[@name='Group']/@value">Resources,Chemicals</set>
+	<set xpath="/items/item[@name='resourceScrapPolymers']/property[@name='Group']/@value">Resources,Chemicals</set>
 </WrathmaniacsAllPartsCraftable>
