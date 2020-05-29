@@ -1,12 +1,12 @@
 <WrathmaniacsJunkTurretOverhaul>
 	<append xpath="/recipes">
-		<recipe name="ammoBundleJunkTurret"  count="1"  craft_area="workbench"  craft_time="140" >
+		<recipe name="ammoBundleJunkTurret"  count="1"  craft_area="workbench"  craft_time="140" tags="learnable,perkTurrets"  >
 			<ingredient name="resourceForgedIron"  count="150" />
 		</recipe>
 	</append>
 
 	<append xpath="/recipes">
-		<recipe name="ammoBundleJunkTurret"  count="1"  craft_area="workbench"  craft_time="160" >
+		<recipe name="ammoBundleJunkTurret"  count="1"  craft_area="workbench"  craft_time="160" tags="learnable,perkTurrets"  >
 			<ingredient name="resourceScrapIron"  count="2400" />
 		</recipe>
 	</append>
