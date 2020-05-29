@@ -1,8 +1,19 @@
 <WrathmaniacsJunkTurretOverhaul>
 	<append xpath="/items">
+		<item name="ammoBundleJunkTurret">
+			<property name="Extends" value="ammoBundle9mmBulletBall" />
+			<property name="DisplayType" value="ammoBulletFake" />
+			<property name="CustomIcon" value="ammoJunkTurret" />
+			<property name="EconomicValue" value="1500" />
+			<property name="UnlockedBy"  value="perkTurrets,gunJunkTurretSchematic" />
+			<property class="Action0">
+				<property name="Create_item" value="ammoJunkTurret" />
+				<property name="Create_item_count" value="1000" />
+			</property>
+		</item>
 		<item name="ammoBundleSteelJunkTurret">
 			<property name="Extends" value="ammoBundle9mmBulletBall" />
-			<property name="DisplayType"  value="ammoBulletFake" />
+			<property name="DisplayType" value="ammoBulletFake" />
 			<property name="CustomIcon" value="ammoJunkTurret" />
 			<property name="EconomicValue" value="2500" />
 			<property name="UnlockedBy" value="perkTurrets,gunJunkTurretSchematic" />
@@ -14,7 +25,7 @@
 		<item name="ammoSteelJunkTurret">
 			<property name="Tags" value="ammo" />
 			<property name="CustomIcon" value="ammoJunkTurret" />
-			<property name="DisplayType"  value="ammoBulletFake" />
+			<property name="DisplayType" value="ammoBulletFake" />
 			<property name="DescriptionKey" value="ammoSteelJunkTurretDesc" />
 			<property name="HoldType" value="45" />
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
@@ -48,7 +59,7 @@
 			<property name="Group" value="Resources" />
 		</item>
 	</append>
-	<append xpath="/items/item[@name='gunJunkTurretSchematic']/property[@name='Unlocks']/@value">ammoSteelJunkTurret,ammoBundleSteelJunkTurret</append>
+	<append xpath="/items/item[@name='gunJunkTurretSchematic']/property[@name='Unlocks']/@value">ammoSteelJunkTurret,ammoBundleSteelJunkTurret,ammoBundleJunkTurret</append>
 	<append xpath="/items/item[@name='gunJunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoSteelJunkTurret</append>
 	<set xpath="/items/item[@name='gunJunkTurret']/property[@name='RepairTools']/@value">resourceJunkTurretRepairKit</set>
 	<set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">60</set>

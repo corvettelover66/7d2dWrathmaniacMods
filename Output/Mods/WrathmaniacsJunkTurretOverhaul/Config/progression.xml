@@ -1,6 +1,7 @@
 <WrathmaniacsJunkTurretOverhaul>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkTurrets']/effect_group[@name='General and deployed turrets']/passive_effect[@name='EntityDamage']/@value">.05,.1,.15,.2,.25</set>
 	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkTurrets']/effect_group[@name='General and deployed turrets']">
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags="ammoBundleJunkTurret"/>
 			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="ammoSteelJunkTurret,ammoBundleSteelJunkTurret"/>
 	</append>
 

@@ -1,0 +1,8 @@
+<WrathmaniacsJunkTurretOverhaul>
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegular']">
+			<item name="ammoSteelJunkTurret"  count="15,75" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']">
+			<item name="ammoSteelJunkTurret"  count="15,100" />
+	</append></WrathmaniacsJunkTurretOverhaul>
