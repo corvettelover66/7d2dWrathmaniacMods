@@ -1,0 +1,16 @@
+<WrathmaniacsMedicalRecipes>
+	<append xpath="/recipes">
+		<recipe name="medicalFirstAidBandage"  count="1"  tags="learnable"  craft_time="3" >
+			<ingredient name="medicalAloeCream"  count="1" />
+			<ingredient name="medicalBandage"  count="1" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="drugPainkillers"  count="1"  tags="learnable,chemStationCrafting"  craft_area="chemistryStation"  craft_time="12" >
+			<ingredient name="resourceBone"  count="1" />
+			<ingredient name="resourceCropChrysanthemumPlant"  count="1" />
+			<ingredient name="resourcePotassiumNitratePowder"  count="5" />
+			<ingredient name="ammoGasCan"  count="10" />
+		</recipe>
+	</append></WrathmaniacsMedicalRecipes>

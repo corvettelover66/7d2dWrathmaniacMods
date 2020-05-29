@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Medical Recipes" />
+		<Description value="So far just adds Painkillers that come with a schematic." />
+		<Author value="Wrathmaniac" />
+		<Version value="MR-1.0" />
+	</ModInfo>
+</xml>
