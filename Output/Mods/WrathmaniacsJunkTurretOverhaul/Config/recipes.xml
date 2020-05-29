@@ -1,20 +1,11 @@
 <WrathmaniacsJunkTurretOverhaul>
 	<append xpath="/recipes">
-		<recipe name="ammoBundleJunkTurret"  count="1"  craft_area="workbench"  craft_time="140" tags="learnable,perkTurrets"  >
-			<ingredient name="resourceForgedIron"  count="150" />
+		<recipe name="ammoBundleJunkTurret" count="1" craft_area="workbench" craft_time="140" tags="learnable,perkTurrets">
+			<ingredient name="resourceForgedIron" count="150" />
 		</recipe>
-	</append>
-
-	<append xpath="/recipes">
-		<recipe name="ammoBundleJunkTurret"  count="1"  craft_area="workbench"  craft_time="160" tags="learnable,perkTurrets"  >
-			<ingredient name="resourceScrapIron"  count="2400" />
+		<recipe name="ammoBundleJunkTurret" count="1" craft_area="workbench" craft_time="160" tags="learnable,perkTurrets">
+			<ingredient name="resourceScrapIron" count="2400" />
 		</recipe>
-	</append>
-
-	<append xpath="/recipes/recipe[@name='gunJunkTurret']">
-			<ingredient name="carBattery"  count="1" />
-	</append>
-	<append xpath="/recipes">
 		<recipe name="ammoBundleSteelJunkTurret" count="1" tags="learnable,perkTurrets" craft_area="workbench" craft_time="300">
 			<ingredient name="resourceForgedSteel" count="80" />
 		</recipe>
@@ -29,4 +20,8 @@
 			<ingredient name="resourceRepairKit" count="1" />
 			<ingredient name="carBattery" count="1" />
 		</recipe>
-	</append></WrathmaniacsJunkTurretOverhaul>
+	</append>
+	<append xpath="/recipes/recipe[@name='gunJunkTurret']">
+		<ingredient name="carBattery" count="1" />
+	</append>
+</WrathmaniacsJunkTurretOverhaul>
