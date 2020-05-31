@@ -1,5 +1,89 @@
-<HarrysIronBullets>
+<AB_HarrysIronBullets>
 	<append xpath="/items">
+		<item name="Disassemble 6.5Creedmoor (100)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="6.5" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="100,300,200" />
+			</property>
+		</item>
+		<item name="Disassemble 6.5Creedmoor (10)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="6.5" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="10,30,20" />
+			</property>
+		</item>
+		<item name="Disassemble 458SOCOM (100)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="458socom" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="400,200,200" />
+			</property>
+		</item>
+		<item name="Disassemble 458SOCOM (10)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="458socom" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="40,20,20" />
+			</property>
+		</item>
+		<item name="Disassemble 10mmauto (100)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="10mm" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="100,100,100" />
+			</property>
+		</item>
+		<item name="Disassemble 10mmauto (10)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="10mm" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="10,10,10" />
+			</property>
+		</item>
 		<item name="Disassemble 9x39mm (10)">
 			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
 			<property name="CustomIcon" value="9x39" />
@@ -15777,4 +15861,4 @@
 	<set xpath="/items/item[@name='ammo44MagnumBulletAP']/property[@name='DisplayType' and @value]/@value">HarryBulletAP4</set>
 	<!-- Cal Bundle Icon-->
 	<set xpath="/items/item[@name='ammoBundle44MagnumBulletAP']/property[@name='CustomIcon' and @value]/@value">44magap</set>
-</HarrysIronBullets>
+</AB_HarrysIronBullets>

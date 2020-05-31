@@ -1,29 +1,35 @@
-<HarrysIronBullets>
+<AB_HarrysIronBullets>
 	<append xpath="/recipes">
-		<recipe name="Disassemble 762x51mmNATO Ammo (100)"  count="1"  craft_time="1" >
-			<ingredient name="762x51mmNATO"  count="100" />
+		<recipe name="Disassemble 6.5Creedmoor (10)" count="1" craft_time="1">
+			<ingredient name="65Creedmoor" count="10" />
 		</recipe>
-	</append>
-
-	<append xpath="/recipes">
-		<recipe name="Disassemble 762x51mmNATO Ammo (10)"  count="1"  craft_time="1" >
-			<ingredient name="762x51mmNATO"  count="10" />
+		<recipe name="Disassemble 6.5Creedmoor (100)" count="1" craft_time="1">
+			<ingredient name="65Creedmoor" count="100" />
 		</recipe>
-	</append>
-
-	<append xpath="/recipes">
-		<recipe name="Disassemble 9x39mm (100)"  count="1"  craft_time="1" >
-			<ingredient name="9x39mm"  count="100" />
+		<recipe name="Disassemble 458SOCOM (10)" count="1" craft_time="1">
+			<ingredient name="458SOCOM" count="10" />
 		</recipe>
-	</append>
-
-	<append xpath="/recipes">
-		<recipe name="Disassemble 9x39mm (10)"  count="1"  craft_time="1" >
-			<ingredient name="9x39mm"  count="10" />
+		<recipe name="Disassemble 458SOCOM (100)" count="1" craft_time="1">
+			<ingredient name="458SOCOM" count="100" />
 		</recipe>
-	</append>
-
-	<append xpath="/recipes">
+		<recipe name="Disassemble 10mmauto (10)" count="1" craft_time="1">
+			<ingredient name="10mmauto" count="10" />
+		</recipe>
+		<recipe name="Disassemble 10mmauto (100)" count="1" craft_time="1">
+			<ingredient name="10mmauto" count="100" />
+		</recipe>
+		<recipe name="Disassemble 762x51mmNATO Ammo (100)" count="1" craft_time="1">
+			<ingredient name="762x51mmNATO" count="100" />
+		</recipe>
+		<recipe name="Disassemble 762x51mmNATO Ammo (10)" count="1" craft_time="1">
+			<ingredient name="762x51mmNATO" count="10" />
+		</recipe>
+		<recipe name="Disassemble 9x39mm (100)" count="1" craft_time="1">
+			<ingredient name="9x39mm" count="100" />
+		</recipe>
+		<recipe name="Disassemble 9x39mm (10)" count="1" craft_time="1">
+			<ingredient name="9x39mm" count="10" />
+		</recipe>
 		<recipe name="Disassemble 545x39mm (10)" count="1" craft_time="1">
 			<ingredient name="545x39mm" count="10" />
 		</recipe>
@@ -2699,4 +2705,4 @@ craft_time="5" always_unlocked="true
 	<append xpath="/recipes/recipe[@name='ammo762mmBulletBall' and @tags]/@tags">,learnable</append>
 	<append xpath="/recipes/recipe[@name='ammo9mmBulletBall' and @tags]/@tags">,learnable</append>
 	<append xpath="/recipes/recipe[@name='ammo44MagnumBulletBall' and @tags]/@tags">,learnable</append>
-</HarrysIronBullets>
+</AB_HarrysIronBullets>
