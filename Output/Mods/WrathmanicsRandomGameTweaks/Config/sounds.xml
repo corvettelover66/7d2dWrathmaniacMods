@@ -1,3 +1,0 @@
-<WrathmanicsRandomGameTweaks>
-	<set xpath="/Sounds/SoundDataNode[@name='junkturret_fire']/NoiseScale[@value='1']/@value">.5</set>
-</WrathmanicsRandomGameTweaks>
