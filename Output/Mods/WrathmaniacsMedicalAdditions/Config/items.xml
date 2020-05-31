@@ -1,4 +1,4 @@
-<WrathmaniacsMedicalRecipes>
+<WrathmaniacsMedicalAdditions>
 	<append xpath="/items">
 		<item name="medicalPainKillersSchematic" >
 			<property name="Extends"  value="schematicNoQualityMaster"/>
@@ -16,4 +16,4 @@
 			<property name="UnlockedBy"  value="perkPhysician,medicalPainKillersSchematic"/>
 	</append>
 	<set xpath="/items/item[@name='drugPainkillers']/property[@name='Group']/@value">Chemicals</set>
-</WrathmaniacsMedicalRecipes>
+</WrathmaniacsMedicalAdditions>

@@ -1,4 +1,5 @@
-<WrathmaniacsMedicalRecipes>
+<WrathmaniacsMedicalAdditions>
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsRare']">
 			<item name="medicalPainKillersSchematic" />
-	</append></WrathmaniacsMedicalRecipes>
+	</append>
+</WrathmaniacsMedicalAdditions>
