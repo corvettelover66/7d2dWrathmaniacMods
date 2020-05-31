@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Medical Recipes" />
-		<Description value="So far just adds Painkillers that come with a schematic." />
+		<Name value="Medical Additions" />
+		<Description value="Adds Painkillers that come with a schematic. Also reduces alow vera leaf to 2." />
 		<Author value="Wrathmaniac" />
-		<Version value="MR-1.0" />
+		<Version value="MA-1.0" />
 	</ModInfo>
 </xml>
