@@ -5,4 +5,5 @@
 
 	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']">
 			<item name="ammoSteelJunkTurret"  count="15,100" />
-	</append></WrathmaniacsJunkTurretOverhaul>
+	</append>
+</WrathmaniacsJunkTurretOverhaul>
