@@ -1,4 +1,8 @@
 <WrathmaniacsJunkTurretOverhaul>
+	<setattribute xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='DegradationPerUse']" name="tier">1,6</setattribute>
+
+	<set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='DegradationPerUse']/@value">0.35,0.25</set>
+
 	<append xpath="/items">
 		<item name="ammoBundleJunkTurret">
 			<property name="Extends" value="ammoBundle9mmBulletBall" />
@@ -62,5 +66,4 @@
 	<append xpath="/items/item[@name='gunJunkTurretSchematic']/property[@name='Unlocks']/@value">ammoSteelJunkTurret,ammoBundleSteelJunkTurret,ammoBundleJunkTurret</append>
 	<append xpath="/items/item[@name='gunJunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoSteelJunkTurret</append>
 	<set xpath="/items/item[@name='gunJunkTurret']/property[@name='RepairTools']/@value">resourceJunkTurretRepairKit</set>
-	<set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">60</set>
-</WrathmaniacsJunkTurretOverhaul>
+	<set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">60</set></WrathmaniacsJunkTurretOverhaul>
