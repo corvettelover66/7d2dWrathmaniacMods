@@ -6,6 +6,14 @@
 			<effect_group>
 				<passive_effect name="JumpStrength" operation="base_set" value="8" />
 			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="3" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".39" tags="perkParkour"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="5" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".75" tags="perkParkour"/>
+			</effect_group>
 		</buff>
 		<buff name="JumpPadBuffTimesEight" hidden="true">
 			<stack_type value="ignore" />
@@ -23,6 +31,14 @@
 			<duration value="0.5" />
 			<effect_group>
 				<passive_effect name="JumpStrength" operation="base_set" value="6" />
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="3" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".39" tags="perkParkour"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="5" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".75" tags="perkParkour"/>
 			</effect_group>
 		</buff>
 		<buff name="JumpPadBuffReallyStrong" hidden="true">
@@ -42,6 +58,14 @@
 			<effect_group>
 				<passive_effect name="JumpStrength" operation="base_set" value="4" />
 			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="3" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".39" tags="perkParkour"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="5" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".75" tags="perkParkour"/>
+			</effect_group>
 		</buff>
 		<buff name="JumpPadBuffStrong" hidden="true">
 			<stack_type value="ignore" />
@@ -59,6 +83,14 @@
 			<duration value="0.5" />
 			<effect_group>
 				<passive_effect name="JumpStrength" operation="base_set" value="3" />
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="3" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".39" tags="perkParkour"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="5" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".75" tags="perkParkour"/>
 			</effect_group>
 		</buff>
 		<buff name="JumpPadBuffNormal" hidden="true">
@@ -78,6 +110,14 @@
 			<effect_group>
 				<passive_effect name="JumpStrength" operation="base_set" value="2" />
 			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="3" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".39" tags="perkParkour"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="5" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".75" tags="perkParkour"/>
+			</effect_group>
 		</buff>
 		<buff name="JumpPadBuffWeak" hidden="true">
 			<stack_type value="ignore" />
@@ -91,6 +131,4 @@
 			</effect_group>
 		</buff>
 	</append>
-	<remove xpath="/buffs/buff[@name='Superjump']/effect_group/passive_effect[@name='JumpStrength' and @value='8']" />
-	<remove xpath="/buffs/buff[@name='Superjump']/effect_group/passive_effect[@name='JumpStrength' and @value='6']" />
 </WrathmaniacsJumpPadAdditions>
