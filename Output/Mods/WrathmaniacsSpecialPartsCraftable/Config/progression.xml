@@ -1,0 +1,10 @@
+<WrathmaniacsSpecialPartsCraftable>
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="resourceSpring" />
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="resourceMechanicalParts,resourceRefinedCopper" />
+	</append>
+	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group">
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="resourceAcid,resourceScrapPolymers" />
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="resourceElectricParts,resourceConductiveRefinedCopper" />
+	</append>
+</WrathmaniacsSpecialPartsCraftable>

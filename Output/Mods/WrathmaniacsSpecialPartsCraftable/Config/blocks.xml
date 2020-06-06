@@ -1,0 +1,10 @@
+<WrathmaniacsSpecialPartsCraftable>
+	<append xpath="/blocks/block[@name='terrOreIron']">
+			<drop event="Harvest"  name="resourceScrapCopper"  count="12,28"  tag="oreWoodHarvest" />
+			<drop event="Destroy"  name="resourceScrapCopper"  count="125,210"  prob="0.2"/>
+	</append>
+	<append xpath="/blocks/block[@name='oreIronBoulder']">
+			<drop event="Harvest"  name="resourceScrapCopper"  count="12,28"  tag="oreWoodHarvest" />
+			<drop event="Destroy"  name="resourceScrapCopper"  count="150,250"  prob="0.5"/>
+	</append>
+</WrathmaniacsSpecialPartsCraftable>

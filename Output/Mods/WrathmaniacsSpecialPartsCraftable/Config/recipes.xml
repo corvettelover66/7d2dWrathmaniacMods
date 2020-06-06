@@ -1,0 +1,63 @@
+<WrathmaniacsSpecialPartsCraftable>
+	<append xpath="/recipes">
+		<recipe name="resourceRefinedCopper" count="10" craft_area="campfire" craft_time="45" craft_tool="toolBeaker">
+			<ingredient name="resourceScrapCopper" count="50" />
+			<ingredient name="resourceScrapIron" count="25" />
+			<ingredient name="resourceAcid" count="1" />
+		</recipe>
+		<recipe name="resourceRefinedCopper" count="10" tags="chemStationCrafting" craft_area="chemistryStation" craft_time="30">
+			<ingredient name="resourceScrapCopper" count="50" />
+			<ingredient name="resourceScrapIron" count="25" />
+			<ingredient name="resourceAcid" count="1" />
+		</recipe>
+		<recipe name="resourceRefinedCopper" count="20" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="20">
+			<ingredient name="resourceScrapCopper" count="50" />
+			<ingredient name="resourceScrapIron" count="20" />
+			<ingredient name="resourceAcid" count="1" />
+		</recipe>
+		<recipe name="resourceConductiveRefinedCopper" count="20" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="25">
+			<ingredient name="resourceScrapCopper" count="50" />
+			<ingredient name="resourceScrapIron" count="20" />
+			<ingredient name="resourceAcid" count="1" />
+			<ingredient name="drinkJarGrainAlcohol" count="1" />
+		</recipe>
+		<recipe name="resourceScrapPolymers" count="4" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="15">
+			<ingredient name="ammoGasCan" count="200" />
+			<ingredient name="resourceOil" count="1" />
+		</recipe>
+		<recipe name="resourceScrapPolymers" count="1" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="3">
+			<ingredient name="ammoGasCan" count="50" />
+			<ingredient name="resourceCoal" count="2" />
+		</recipe>
+		<recipe name="resourceSpring" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="15">
+			<ingredient name="resourceForgedSteel" count="5"></ingredient>
+			<ingredient name="resourceRefinedCopper" count="5"></ingredient>
+			<ingredient name="resourceDuctTape" count="1"></ingredient>
+		</recipe>
+		<recipe name="resourceAcid" count="4" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="60">
+			<ingredient name="resourceScrapPolymers" count="5"></ingredient>
+			<ingredient name="resourcePotassiumNitratePowder" count="10"></ingredient>
+			<ingredient name="carBattery" count="1"></ingredient>
+			<ingredient name="drinkJarRiverWater" count="1"></ingredient>
+		</recipe>
+		<recipe name="resourceAcid" count="1" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="15">
+			<ingredient name="resourceScrapPolymers" count="10" />
+			<ingredient name="resourcePotassiumNitratePowder" count="20" />
+			<ingredient name="resourceCoal" count="20" />
+			<ingredient name="resourceBone" count="4" />
+			<ingredient name="drinkJarRiverWater" count="2" />
+		</recipe>
+		<recipe name="resourceMechanicalParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceRefinedCopper" count="10" />
+			<ingredient name="resourceForgedSteel" count="5"></ingredient>
+			<ingredient name="resourceForgedIron" count="5"></ingredient>
+			<ingredient name="resourceDuctTape" count="1"></ingredient>
+		</recipe>
+		<recipe name="resourceElectricParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceConductiveRefinedCopper" count="10"></ingredient>
+			<ingredient name="resourceScrapPolymers" count="5"></ingredient>
+			<ingredient name="resourceForgedSteel" count="5"></ingredient>
+			<ingredient name="resourceDuctTape" count="1"></ingredient>
+		</recipe>
+	</append>
+</WrathmaniacsSpecialPartsCraftable>

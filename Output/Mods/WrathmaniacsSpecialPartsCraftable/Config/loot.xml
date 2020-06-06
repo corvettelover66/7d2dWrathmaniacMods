@@ -1,0 +1,35 @@
+<WrathmaniacsSpecialPartsCraftable>
+	<append xpath="/lootcontainers/lootgroup[@name='tools']">
+			<item name="resourceRefinedCopper"  prob="1"  count="15,40" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']">
+			<item name="resourceAcidSchematic" />
+			<item name="resourceScrapPolymersSchematic" />
+			<item name="resourceMechanicalPartsSchematic" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsCommon']">
+			<item name="resourceRefinedCopperSchematic" />
+			<item name="resourceSpringSchematic" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='labEquipment']">
+			<item name="resourceRefinedCopper"  prob="1"  count="15,40" />
+			<item name="resourceConductiveRefinedCopper"  prob="1"  count="10,30" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='chemistryStationLoot']">
+			<item name="resourceRefinedCopper"  prob="1"  count="15,30" />
+			<item name="resourceConductiveRefinedCopper"  prob="1"  count="10,20" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='electricalDevices']">
+			<item name="resourceConductiveRefinedCopper"  prob="1"  count="10,30" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsElectrical']">
+			<item name="resourceRefinedCopperSchematic" />
+			<item name="resourceElectricPartsSchematic" />
+			<item name="resourceConductiveRefinedCopperSchematic" />
+	</append>
+</WrathmaniacsSpecialPartsCraftable>
