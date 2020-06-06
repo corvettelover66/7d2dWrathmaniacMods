@@ -4,7 +4,7 @@
 			<ingredient name="medicalAloeCream" count="1" />
 			<ingredient name="medicalBandage" count="1" />
 		</recipe>
-		<recipe name="drugPainkillers" count="1" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="12">
+		<recipe name="drugPainkillers" count="1" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="30">
 			<ingredient name="resourceBone" count="1" />
 			<ingredient name="resourceCropChrysanthemumPlant" count="1" />
 			<ingredient name="resourcePotassiumNitratePowder" count="5" />
