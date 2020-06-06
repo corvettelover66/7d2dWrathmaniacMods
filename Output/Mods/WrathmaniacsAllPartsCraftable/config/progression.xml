@@ -4,41 +4,6 @@
 				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="meleeToolAllSteelParts,Disassemble meleeToolAllSteelParts"/>
 			</effect_group>
 	</append>
-<!-- Xml Written at 2020:51:1 12:51:05 AM -->
-
-<append xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="resourceSpring" >
-		</passive_effect>
-</append>
-<!-- Xml Written at 2020:23:1 12:23:58 AM -->
-
-<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="resourceAcid" >
-		</passive_effect>
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="resourceScrapPolymers" >
-		</passive_effect>
-</append>
-<!-- Xml Written at 2020:2:1 12:02:12 AM -->
-
-<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="resourceMechanicalParts" >
-		</passive_effect>
-</append>
-<!-- Xml Written at 2020:50:29 11:50:30 PM -->
-
-<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="resourceElectricParts" >
-		</passive_effect>
-</append>
-<!-- Xml Written at 2020:13:29 8:13:34 PM -->
-
-<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="resourceElectricParts" >
-		</passive_effect>
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="resourceMechanicalParts" >
-		</passive_effect>
-</append>
-<!-- Xml Written at 2020:57:29 7:57:49 PM -->
 
 <append xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group">
 		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="meleeToolSledgehammerSteelParts,Disassemble meleeToolSledgehammerSteelParts" >

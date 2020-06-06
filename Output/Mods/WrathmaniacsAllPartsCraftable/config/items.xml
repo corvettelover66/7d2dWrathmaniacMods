@@ -1,6 +1,4 @@
 <WrathmaniacsAllPartsCraftable>
-
-
 	<append xpath="/items">
 		<item name="Disassemble Item">
 			<property name="ItemTypeIcon" value="bundle" />
@@ -252,61 +250,10 @@
 			</property>
 		</item>
 	</append>
-	<!-- Xml Written March 14, 2020 at 12:14:18 -->
 	<append xpath="/items/item[@name='gunPumpShotgunSchematic']/effect_group">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunDoubleBarrelShotgunParts" operation="set" value="1"></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Disassemble gunDoubleBarrelShotgunParts" operation="set" value="1"></triggered_effect>
 	</append>
-	<!-- Xml Written at 2020:51:1 12:51:05 AM -->
-	<append xpath="/items/item[@name='meleeToolWrenchSchematic']/effect_group">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceSpring" operation="set" value="1"></triggered_effect>
-	</append>
-	<!-- Xml Written at 2020:51:1 12:51:05 AM -->
-	<append xpath="/items/item[@name='vehicleAnySchematic']/effect_group">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceSpring" operation="set" value="1"></triggered_effect>
-	</append>
-	<!-- Xml Written at 2020:51:1 12:51:05 AM -->
-	<append xpath="/items/item[@name='resourceSpring']">
-		<property name="UnlockedBy" value="perkSalvageOperations,meleeToolWrenchSchematic,vehicleAnySchematic"></property>
-	</append>
-	<!-- Xml Written at 2020:23:1 12:23:58 AM -->
-	<append xpath="/items/item[@name='bookWasteTreasuresAcid']/effect_group">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceAcid" operation="set" value="1"></triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceScrapPolymers" operation="set" value="1"></triggered_effect>
-	</append>
-		<append xpath="/items/item[@name='resourceAcid']">
-		<property name="UnlockedBy" value="perkGreaseMonkey,bookWasteTreasuresAcid,chemistryStationSchematic"></property>
-	</append>
-	<!-- Xml Written at 2020:23:1 12:23:58 AM -->
-	<append xpath="/items/item[@name='resourceScrapPolymers']">
-		<property name="UnlockedBy" value="perkGreaseMonkey,bookWasteTreasuresAcid,chemistryStationSchematic"></property>
-	</append>
-	<!-- Xml Written at 2020:23:1 12:23:58 AM -->
-	<append xpath="/items/item[@name='chemistryStationSchematic']/effect_group">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceAcid" operation="set" value="1"></triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceScrapPolymers" operation="set" value="1"></triggered_effect>
-	</append>
-	<!-- Xml Written at 2020:2:1 12:02:12 AM -->
-	<append xpath="/items/item[@name='workbenchSchematic']/effect_group">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceMechanicalParts" operation="set" value="1"></triggered_effect>
-	</append>
-	<!-- Xml Written at 2020:2:1 12:02:12 AM -->
-	<append xpath="/items/item[@name='resourceMechanicalParts']">
-		<property name="UnlockedBy" value="perkAdvancedEngineering,workbenchSchematic"></property>
-	</append>
-	<!-- Xml Written at 2020:50:29 11:50:30 PM -->
-	<append xpath="/items/item[@name='resourceElectricParts']">
-		<property name="UnlockedBy" value="perkYeahScience,generatorbankSchematic,batterybankSchematic"></property>
-	</append>
-	<!-- Xml Written at 2020:50:29 11:50:30 PM -->
-	<append xpath="/items/item[@name='batterybankSchematic']/effect_group">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceElectricParts" operation="set" value="1"></triggered_effect>
-	</append>
-	<!-- Xml Written at 2020:50:29 11:50:30 PM -->
-	<append xpath="/items/item[@name='generatorbankSchematic']/effect_group">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceElectricParts" operation="set" value="1"></triggered_effect>
-	</append>
-	<!-- Xml Written at 2020:13:29 8:13:34 PM -->
 	<append xpath="/items/item[@name='meleeToolAllSteelParts']">
 		<property name="UnlockedBy" value="perkMiner69r,meleeToolSteelSetSchematic"></property>
 	</append>
@@ -321,18 +268,8 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelSetParts" operation="set" value="1"></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Disassemble armorSteelSetParts" operation="set" value="1"></triggered_effect>
 	</append>
-	<append xpath="/items/item[@name='batterybankSchematic']/effect_group">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceElectricParts" operation="set" value="1"></triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceMechanicalParts" operation="set" value="1"></triggered_effect>
-	</append>
 	<!-- Xml Written at 2020:13:29 8:13:34 PM -->
-	<append xpath="/items/item[@name='generatorbankSchematic']/effect_group">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceElectricParts" operation="set" value="1"></triggered_effect>
-	</append>
-	<!-- Xml Written at 2020:13:29 8:13:34 PM -->
-	<append xpath="/items/item[@name='resourceElectricParts']">
-		<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic,batterybankSchematic"></property>
-	</append>
+
 	<!-- Xml Written at 2020:57:29 7:57:49 PM -->
 	<append xpath="/items/item[@name='meleeToolSledgehammerSteelSchematic']/effect_group">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSledgehammerSteelParts" operation="set" value="1"></triggered_effect>
@@ -358,7 +295,7 @@
 	</append>
 	<!-- Xml Written at 2020:48:29 7:48:16 PM -->
 	<append xpath="/items/item[@name='meleeThrownSpearSteelParts']">
-		<property name="UnlockedBy" value="perkJavelinMaster,meleeThrownSpearIronSchematic"></property>
+		<property name="UnlockedBy" value="perkJavelinMaster,meleeThrownSpearSteelSchematic"></property>
 	</append>
 	<!-- Xml Written at 2020:45:29 7:45:25 PM -->
 	<append xpath="/items/item[@name='meleeToolKnifeMacheteSchematic']/effect_group">
@@ -460,6 +397,4 @@
 	<append xpath="/items/item[@name='gunJunkTurretParts']">
 		<property name="UnlockedBy" value="bookPistolPeteMaintenance,perkTurrets" />
 	</append>
-	<set xpath="/items/item[@name='resourceAcid']/property[@name='Group']/@value">Resources,Chemicals</set>
-	<set xpath="/items/item[@name='resourceScrapPolymers']/property[@name='Group']/@value">Resources,Chemicals</set>
 </WrathmaniacsAllPartsCraftable>
