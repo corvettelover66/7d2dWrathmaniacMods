@@ -1,7 +1,8 @@
 <WrathmanicsRandomGameTweaks>
-	<set xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='ammoGasCan']/@count">100</set>
-	<set xpath="/recipes/recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">45</set>
 	<append xpath="/recipes">
+		<recipe name="resourceNail" count="10" craft_area="workbench" craft_time="4">
+			<ingredient name="resourceForgedIron" count="1" />
+		</recipe>
 		<recipe name="ammoArrowSteelAP" count="1" craft_area="workbench">
 			<ingredient name="resourceWood" count="2" />
 			<ingredient name="resourceArrowHeadSteelAP" count="1" />
@@ -17,4 +18,11 @@
 			<ingredient name="unit_clay" count="1"></ingredient>
 		</recipe>
 	</append>
+	<set xpath="/recipes/recipe[@name='resourceRepairKit']/ingredient[@name='resourceForgedIron']/@count">2</set>
+	<append xpath="/recipes/recipe[@name='resourceRepairKit']">
+		<ingredient name="resourceOil" count="1" />
+		<ingredient name="resourceCloth" count="2" />
+	</append>
+	<set xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='ammoGasCan']/@count">100</set>
+	<set xpath="/recipes/recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">45</set>
 </WrathmanicsRandomGameTweaks>
