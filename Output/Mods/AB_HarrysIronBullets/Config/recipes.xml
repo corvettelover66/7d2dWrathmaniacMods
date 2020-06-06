@@ -1,5 +1,17 @@
 <AB_HarrysIronBullets>
 	<append xpath="/recipes">
+		<recipe name="Disassemble 410 Gauge Shotgun Shells Slugs Ammo (10)" count="1" craft_time="1">
+			<ingredient name="410GaugeShotgunShellsSlugs" count="10" />
+		</recipe>
+		<recipe name="Disassemble 410 Gauge Shotgun Shells Slugs Ammo (100)" count="1" craft_time="1">
+			<ingredient name="410GaugeShotgunShellsSlugs" count="100" />
+		</recipe>
+		<recipe name="Disassemble 5mm Remington Magnum (10)" count="1" craft_time="1">
+			<ingredient name="5mmRemington" count="10" />
+		</recipe>
+		<recipe name="Disassemble 5mm Remington Magnum (100)" count="1" craft_time="1">
+			<ingredient name="5mmRemington" count="100" />
+		</recipe>
 		<recipe name="Disassemble 6.5Creedmoor (10)" count="1" craft_time="1">
 			<ingredient name="65Creedmoor" count="10" />
 		</recipe>
@@ -121,10 +133,10 @@
 			<ingredient name="10GaugeShotgunShells" count="10" />
 		</recipe>
 		<recipe name="Disassemble 16 Gauge Shotgun Shell Ammo (100)" count="1" craft_time="1">
-			<ingredient name="16GaugeShotgunSlug" count="100" />
+			<ingredient name="16GaugeShotgunShells" count="100" />
 		</recipe>
 		<recipe name="Disassemble 16 Gauge Shotgun Shell Ammo (10)" count="1" craft_time="1">
-			<ingredient name="16GaugeShotgunSlug" count="10" />
+			<ingredient name="16GaugeShotgunShells" count="10" />
 		</recipe>
 		<recipe name="Disassemble 20 Gauge Shotgun Shell Ammo (100)" count="1" craft_time="1">
 			<ingredient name="20GaugeShotgunShells" count="100" />
@@ -138,7 +150,7 @@
 		<recipe name="Disassemble 410 Gauge Buck Shotgun Shell Ammo (10)" count="1" craft_time="1">
 			<ingredient name="410Gauge000BuckShotgunShells" count="10" />
 		</recipe>
-		<recipe name="Disassemble 410 Gauge Shotgun Shells Slugs Ammo (100)" count="1" craft_time="1">
+		<recipe name="Disassemble 410 Gauge Shotgun Shell Ammo (100)" count="1" craft_time="1">
 			<ingredient name="410GaugeShotgunShells" count="100" />
 		</recipe>
 		<recipe name="Disassemble 410 Gauge Shotgun Shell Ammo (10)" count="1" craft_time="1">

@@ -1,5 +1,47 @@
 <AB_HarrysIronBullets>
 	<append xpath="/items">
+		<item name="Disassemble 410 Gauge Shotgun Shell Ammo (100)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammoShotgunShellITx10" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper" />
+				<property name="Create_item_count" value="33,33,33" />
+			</property>
+		</item>
+		<item name="Disassemble 5mm Remington Magnum (100)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="5mmREM" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="200,200,200" />
+			</property>
+		</item>
+		<item name="Disassemble 5mm Remington Magnum (10)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="5mmREM" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count" value="20,20,20" />
+			</property>
+		</item>
 		<item name="Disassemble 6.5Creedmoor (100)">
 			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
 			<property name="CustomIcon" value="6.5" />
