@@ -1,5 +1,117 @@
 <WrathmaniacsSpecialPartsCraftable>
 	<append xpath="/items">
+		<item name="allChemistryStationToolsDisassemble">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="allChemistryStationTools" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="toolCookingPot,toolBeaker,toolLeadSilverAnode" />
+				<property name="Create_item_count" value="1,1,1" />
+			</property>
+		</item>
+		<item name="resourceScrapBrassSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="DescriptionKey" value="resourceScrapBrassSchematicDesc" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="resourceScrapBrass" />
+			<property name="Unlocks" value="resourceScrapBrass" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceScrapBrass" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		<item name="allChemistryStationTools">
+			<property name="HoldType" value="45" />
+			<property name="CustomIcon" value="allChemistryStationTools" />
+			<property name="DescriptionKey" value="allChemistryStationToolsDesc" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="Material" value="Miron" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Weight" value="1" />
+			<property name="Stacknumber" value="5" />
+			<property name="EconomicValue" value="10" />
+			<property name="EconomicBundleSize" value="10" />
+			<property name="Group" value="Resources" />
+		</item>
+		<item name="resourceRawCopperMix">
+			<property name="HoldType" value="45" />
+			<property name="CustomIcon" value="resourceRawCopperMix" />
+			<property name="DescriptionKey" value="resourceRawCopperMixDesc" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MresourceCrushedSand" />
+			<property name="Weight" value="1" />
+			<property name="Stacknumber" value="1000" />
+			<property name="EconomicValue" value="10" />
+			<property name="EconomicBundleSize" value="10" />
+			<property name="Group" value="Resources" />
+		</item>
+		<item name="resourceZincSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="DescriptionKey" value="resourceZincSchematicDesc" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="resourceZinc" />
+			<property name="Unlocks" value="resourceZinc" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceZinc" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		<item name="toolLeadSilverAnodeSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="DescriptionKey" value="toolLeadSilverAnodeSchematicDesc" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="toolLeadSilverAnode" />
+			<property name="Unlocks" value="toolLeadSilverAnode" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolLeadSilverAnode" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		<item name="resourceZinc">
+			<property name="HoldType" value="45" />
+			<property name="CustomIcon" value="resourceZinc" />
+			<property name="DescriptionKey" value="resourceZincDesc" />
+			<property name="UnlockedBy" value="perkAdvancedEngineering,resourceZincSchematic" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Weight" value="1" />
+			<property name="Stacknumber" value="500" />
+			<property name="EconomicValue" value="10" />
+			<property name="EconomicBundleSize" value="10" />
+			<property name="Group" value="Resources,Chemicals" />
+		</item>
+		<item name="toolLeadSilverAnode">
+			<property name="HoldType" value="45" />
+			<property name="Tags" value="junk" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="UnlockedBy" value="perkYeahScience,toolLeadSilverAnodeSchematic" />
+			<property name="DescriptionKey" value="toolLeadSilverAnodeDesc" />
+			<property name="Stacknumber" value="10" />
+			<property name="Weight" value="15" />
+			<property name="EconomicValue" value="250" />
+			<property name="Group" value="Tools/Traps,Chemicals" />
+		</item>
+		<item name="resourceSphalerite">
+			<property name="HoldType" value="45" />
+			<property name="CustomIcon" value="resourceSphalerite" />
+			<property name="DescriptionKey" value="resourceSphaleriteDesc" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Weight" value="1" />
+			<property name="Stacknumber" value="6000" />
+			<property name="EconomicValue" value="10" />
+			<property name="EconomicBundleSize" value="10" />
+			<property name="Group" value="Resources" />
+		</item>
 		<item name="resourceAcidSchematic">
 			<property name="Extends" value="schematicNoQualityMaster" />
 			<property name="DescriptionKey" value="resourceAcidSchematicDesc" />
@@ -55,31 +167,6 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
 			</effect_group>
 		</item>
-		<item name="resourceConductiveRefinedCopper">
-			<property name="HoldType" value="45" />
-			<property name="CustomIcon" value="resourceConductiveRefinedCopper" />
-			<property name="DescriptionKey" value="resourceConductiveRefinedCopperDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
-			<property name="UnlockedBy" value="perkYeahScience,resourceConductiveRefinedCopperSchematic" />
-			<property name="Material" value="MresourceScrapCopper" />
-			<property name="Weight" value="0" />
-			<property name="Stacknumber" value="500" />
-			<property name="EconomicValue" value="120" />
-			<property name="EconomicBundleSize" value="1" />
-			<property name="Group" value="Resources,Chemicals" />
-		</item>
-		<item name="resourceConductiveRefinedCopperSchematic">
-			<property name="Extends" value="schematicNoQualityMaster" />
-			<property name="DescriptionKey" value="resourceConductiveRefinedCopperSchematicDesc" />
-			<property name="CreativeMode" value="Player" />
-			<property name="CustomIcon" value="resourceConductiveRefinedCopper" />
-			<property name="Unlocks" value="resourceConductiveRefinedCopper" />
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceConductiveRefinedCopper" operation="set" value="1" />
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-			</effect_group>
-		</item>
 		<item name="resourceRefinedCopperSchematic">
 			<property name="Extends" value="schematicNoQualityMaster" />
 			<property name="DescriptionKey" value="resourceRefinedCopperSchematicDesc" />
@@ -117,9 +204,10 @@
 			<property name="EconomicValue" value="10" />
 			<property name="EconomicBundleSize" value="10" />
 			<property name="Group" value="Resources" />
-			<property name="RepairTime" value=".5" />
-			<property name="RepairAmount" value="20" />
 		</item>
+	</append>
+	<append xpath="/items/item[@name='resourceScrapBrass']">
+		<property name="UnlockedBy" value="perkAdvancedEngineering,resourceScrapBrassSchematic" />
 	</append>
 	<append xpath="/items/item[@name='resourceAcid']">
 		<property name="UnlockedBy" value="perkYeahScience,bookWasteTreasuresAcid,resourceAcidSchematic"></property>

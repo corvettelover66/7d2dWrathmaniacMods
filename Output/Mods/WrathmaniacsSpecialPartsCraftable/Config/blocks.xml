@@ -1,10 +1,23 @@
 <WrathmaniacsSpecialPartsCraftable>
+	<append xpath="/blocks/block[@name='terrSand']">
+			<drop event="Destroy"  name="resourceSphalerite"  count="50,140"  prob=".08" />
+	</append>
+
+	<set xpath="/blocks/block[@name='terrOreIron']/drop[@name='resourceSilverNugget']/@prob">.04</set>
+
+	<append xpath="/blocks/block[@name='terrBurntForestGround']">
+			<drop event="Harvest"  name="resourceSphalerite"  count="12"  tag="oreWoodHarvest" />
+			<drop event="Destroy"  name="resourceSphalerite"  count="25,70"  prob=".05" />
+	</append>
+	<append xpath="/blocks/block[@name='terrForestGround']">
+			<drop event="Harvest"  name="resourceSphalerite"  count="6"  tag="oreWoodHarvest" />
+			<drop event="Destroy"  name="resourceSphalerite"  count="25,70"  prob=".04" />
+	</append>
 	<append xpath="/blocks/block[@name='terrOreIron']">
-			<drop event="Harvest"  name="resourceScrapCopper"  count="12,28"  tag="oreWoodHarvest" />
-			<drop event="Destroy"  name="resourceScrapCopper"  count="125,210"  prob="0.2"/>
+			<drop event="Harvest"  name="resourceScrapCopper"  count="12,25"  tag="oreWoodHarvest" />
+			<drop event="Destroy"  name="resourceScrapCopper"  count="75,150"  prob=".04"/>
 	</append>
 	<append xpath="/blocks/block[@name='oreIronBoulder']">
-			<drop event="Harvest"  name="resourceScrapCopper"  count="12,28"  tag="oreWoodHarvest" />
-			<drop event="Destroy"  name="resourceScrapCopper"  count="150,250"  prob="0.5"/>
-	</append>
-</WrathmaniacsSpecialPartsCraftable>
+			<drop event="Harvest"  name="resourceScrapCopper"  count="12,25"  tag="oreWoodHarvest" />
+			<drop event="Destroy"  name="resourceScrapCopper"  count="150,250"  prob="0.2"/>
+	</append></WrathmaniacsSpecialPartsCraftable>
