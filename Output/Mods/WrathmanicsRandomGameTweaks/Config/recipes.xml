@@ -1,5 +1,11 @@
 <WrathmanicsRandomGameTweaks>
 	<append xpath="/recipes">
+		<recipe name="bedroll" count="1">
+			<ingredient name="resourceCloth" count="5" />
+		</recipe>
+		<recipe name="ammoDartIron" count="5" craft_area="workbench" craft_time="4">
+			<ingredient name="resourceForgedIron" count="1" />
+		</recipe>
 		<recipe name="resourceNail" count="10" craft_area="workbench" craft_time="4">
 			<ingredient name="resourceForgedIron" count="1" />
 		</recipe>
@@ -18,6 +24,7 @@
 			<ingredient name="unit_clay" count="1"></ingredient>
 		</recipe>
 	</append>
+	<set xpath="/recipes/recipe[contains(@name, 'planted')]/ingredient[contains(@name, 'Crop')]/@count">2</set>
 	<set xpath="/recipes/recipe[@name='resourceRepairKit']/ingredient[@name='resourceForgedIron']/@count">2</set>
 	<append xpath="/recipes/recipe[@name='resourceRepairKit']">
 		<ingredient name="resourceOil" count="1" />
