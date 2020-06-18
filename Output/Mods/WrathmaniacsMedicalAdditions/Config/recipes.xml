@@ -1,4 +1,8 @@
 <WrathmaniacsMedicalAdditions>
+	<append xpath="/recipes/recipe[@name='medicalAloeCream']/effect_group">
+			<passive_effect name="CraftingIngredientCount"  operation="base_add"  level="2,5"  value="-2"  tags="resourceCropAloeLeaf" />
+	</append>
+
 	<append xpath="/recipes">
 		<recipe name="medicalFirstAidBandage" count="1" tags="learnable" craft_time="3">
 			<ingredient name="medicalAloeCream" count="1" />
