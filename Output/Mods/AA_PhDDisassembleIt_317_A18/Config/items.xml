@@ -2683,8 +2683,8 @@
 				<property name="Delay" value="0"/>
 				<property name="Use_time" value="0"/>
 				<property name="Sound_start" value="close_garbage"/>
-				<property name="Create_item" value="gunJunkTurretParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
-				<property name="Create_item_count" value="4,40,10,10,10"/>
+				<property name="Create_item" value="carBattery,gunJunkTurretParts,resourceForgedIron,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+				<property name="Create_item_count" value="1,4,40,10,10,10"/>
 			</property>
 		</item>
 
