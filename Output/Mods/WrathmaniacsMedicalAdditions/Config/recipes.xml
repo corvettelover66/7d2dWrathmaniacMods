@@ -15,5 +15,4 @@
 			<ingredient name="ammoGasCan" count="10" />
 		</recipe>
 	</append>
-	<set xpath="/recipes/recipe[@name='plantedAloe1']/ingredient[@name='resourceCropAloeLeaf']/@count">2</set>
 </WrathmaniacsMedicalAdditions>
