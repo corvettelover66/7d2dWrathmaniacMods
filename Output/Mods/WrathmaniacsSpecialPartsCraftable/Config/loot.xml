@@ -31,7 +31,6 @@
 	</append>
 
 	<append xpath="/lootcontainers/lootgroup[@name='labEquipment']">
-			<item name="resourceRefinedCopper"  prob="1"  count="10,20" />
 			<item name="resourceZinc" prob="1"  count="10,20" />
 			<item name="toolLeadSilverAnode" prob=".35"/>
 	</append>
