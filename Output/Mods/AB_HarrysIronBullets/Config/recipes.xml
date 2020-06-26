@@ -1,5 +1,173 @@
 <AB_HarrysIronBullets>
 	<append xpath="/recipes">
+		<recipe name="Disassemble .357 SIG (10)"  count="1"  craft_time="1" >
+			<ingredient name="357SIG"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .357 SIG (100)"  count="1"  craft_time="1" >
+			<ingredient name="357SIG"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .357 Magnum (10)"  count="1"  craft_time="1" >
+			<ingredient name="357Magnum"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .357 Magnum (100)"  count="1"  craft_time="1" >
+			<ingredient name="357Magnum"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .338 Lapua Magnum (10)"  count="1"  craft_time="1" >
+			<ingredient name="338LapuaMagnum"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .338 Lapua Magnum (100)"  count="1"  craft_time="1" >
+			<ingredient name="338LapuaMagnum"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .327 Magnum (10)"  count="1"  craft_time="1" >
+			<ingredient name="327Magnum"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .327 Magnum (100)"  count="1"  craft_time="1" >
+			<ingredient name="327Magnum"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble 30 Luger (10)"  count="1"  craft_time="1" >
+			<ingredient name="30Luger"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble 30 Luger (100)"  count="1"  craft_time="1" >
+			<ingredient name="30Luger"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .300 Winchester Magnum (10)"  count="1"  craft_time="1" >
+			<ingredient name="300WinchesterMagnum"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .300 Winchester Magnum (100)"  count="1"  craft_time="1" >
+			<ingredient name="300WinchesterMagnum"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .300 AAC Blackout (10)"  count="1"  craft_time="1" >
+			<ingredient name="300AACBlackout"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .300 AAC Blackout (100)"  count="1"  craft_time="1" >
+			<ingredient name="300AACBlackout"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .30_06 Springfield (10)"  count="1"  craft_time="1" >
+			<ingredient name="30_06SPRG"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .30_06 Springfield (100)"  count="1"  craft_time="1" >
+			<ingredient name="30_06SPRG"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble 20 Gauge Shotgun Slug (10)"  count="1"  craft_time="1" >
+			<ingredient name="20GaugeSSTShotgunSlug"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble 20 Gauge Shotgun Slug (100)"  count="1"  craft_time="1" >
+			<ingredient name="20GaugeSSTShotgunSlug"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .17 HMR (10)"  count="1"  craft_time="1" >
+			<ingredient name="17HMR"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .17 HMR (100)"  count="1"  craft_time="1" >
+			<ingredient name="17HMR"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble 16 Gauge Shotgun Slug (10)"  count="1"  craft_time="1" >
+			<ingredient name="16GaugeShotgunSlug"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble 16 Gauge Shotgun Slug (100)"  count="1"  craft_time="1" >
+			<ingredient name="16GaugeShotgunSlug"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble 10 Gauge Sabot Slug (10)"  count="1"  craft_time="1" >
+			<ingredient name="10GaugeSSTSabotSlug"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble 10 Gauge Sabot Slug (100)"  count="1"  craft_time="1" >
+			<ingredient name="10GaugeSSTSabotSlug"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble 10 Gauge Magnum Buckshot (10)"  count="1"  craft_time="1" >
+			<ingredient name="10GaugeMagnum00Buckshot"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble 10 Gauge Magnum Buckshot (100)"  count="1"  craft_time="1" >
+			<ingredient name="10GaugeMagnum00Buckshot"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .40 Smith Wesson (10)"  count="1"  craft_time="1" >
+			<ingredient name="40S_W"  count="10" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Disassemble .40 Smith Wesson (100)"  count="1"  craft_time="1" >
+			<ingredient name="40S_W"  count="100" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
 		<recipe name="Disassemble 410 Gauge Shotgun Shells Slugs Ammo (10)" count="1" craft_time="1">
 			<ingredient name="410GaugeShotgunShellsSlugs" count="10" />
 		</recipe>

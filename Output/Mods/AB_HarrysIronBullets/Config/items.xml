@@ -1,5 +1,481 @@
 <AB_HarrysIronBullets>
 	<append xpath="/items">
+		<item name="Disassemble .357 SIG (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="357sig" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="10,5,10" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .357 SIG (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="357sig" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="100,50,100" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .357 Magnum (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="357mag" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="20,20,20" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .357 Magnum (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="357mag" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="200,200,200" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .338 Lapua Magnum (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="338 Lapua Magnum" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="50,70,50" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .338 Lapua Magnum (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="338 Lapua Magnum" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="500,700,500" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .327 Magnum (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="327mag" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="10,20,10" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .327 Magnum (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="327mag" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="100,200,100" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble 30 Luger (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="30Luger" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="10,5,10" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble 30 Luger (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="30Luger" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="100,50,100" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .300 Winchester Magnum (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="300wm" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="30,60,40" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .300 Winchester Magnum (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="300wm" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="300,600,400" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .300 AAC Blackout (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="300blackout" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="20,30,20" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .300 AAC Blackout (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="300blackout" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="200,300,200" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .30_06 Springfield (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="3006" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="30,40.30" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .30_06 Springfield (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="3006" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="300,400,300" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble 20 Gauge Shotgun Slug (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="20gslug" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourcePaper" />
+				<property name="Create_item_count"  value="6,6,6" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble 20 Gauge Shotgun Slug (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="20gslug" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourcePaper" />
+				<property name="Create_item_count"  value="100,50,50" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .17 HMR (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="17HMR" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="6,6,6" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .17 HMR (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="17HMR" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="60,60,60" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble 16 Gauge Shotgun Slug (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon" value="16gslug" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourcePaper" />
+				<property name="Create_item_count"  value="10,10,5" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble 16 Gauge Shotgun Slug (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="16gslug" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourcePaper" />
+				<property name="Create_item_count"  value="100,100,50" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble 10 Gauge Sabot Slug (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="Sabot Slug" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="70,70,30" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble 10 Gauge Sabot Slug (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="Sabot Slug" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="700,700,300" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble 10 Gauge Magnum Buckshot (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="Heavy Magnum 00" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBuckshot,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="60,50,30" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble 10 Gauge Magnum Buckshot (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="Heavy Magnum 00" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBuckshot,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="600,500,300" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .40 Smith Wesson (10)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="40SW" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="20,10,20" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Disassemble .40 Smith Wesson (100)" >
+			<property name="Extends"  value="Disassemble 9mm Ammo (10)"/>
+			<property name="CustomIcon"  value="40SW" />
+			<property name="ItemTypeIcon"  value="bundle" />
+			<property name="DescriptionKey"  value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="resourceBulletTip,resourceGunPowder,resourceBulletCasing" />
+				<property name="Create_item_count"  value="200,100,200" />
+			</property>
+		</item>
+	</append>
+
+	<append xpath="/items">
 		<item name="Disassemble 410 Gauge Shotgun Shell Ammo (100)">
 			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
 			<property name="CustomIcon" value="ammoShotgunShellITx10" />
