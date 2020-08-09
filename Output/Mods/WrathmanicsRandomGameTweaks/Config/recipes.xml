@@ -1,7 +1,13 @@
 <WrathmanicsRandomGameTweaks>
 	<append xpath="/recipes">
+		<recipe name="foodCornMeal"  count="1"  tags="cementMixerCrafting"  craft_area="cementMixer"  craft_time="2" >
+			<ingredient name="foodCropCorn"  count="1" />
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
 		<recipe name="bedroll" count="1">
-			<ingredient name="resourceCloth" count="5" />
+			<ingredient name="resourceCloth" count="10" />
 		</recipe>
 		<recipe name="ammoDartIron" count="5" craft_area="workbench" craft_time="4">
 			<ingredient name="resourceForgedIron" count="1" />
@@ -24,12 +30,13 @@
 			<ingredient name="unit_clay" count="1"></ingredient>
 		</recipe>
 	</append>
+	<!-- 
 	<set xpath="/recipes/recipe[contains(@name, 'planted')]/ingredient[contains(@name, 'Crop')]/@count">2</set>
+	-->
 	<set xpath="/recipes/recipe[@name='resourceRepairKit']/ingredient[@name='resourceForgedIron']/@count">2</set>
 	<append xpath="/recipes/recipe[@name='resourceRepairKit']">
 		<ingredient name="resourceOil" count="1" />
 		<ingredient name="resourceCloth" count="2" />
 	</append>
 	<set xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='ammoGasCan']/@count">100</set>
-	<set xpath="/recipes/recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">45</set>
-</WrathmanicsRandomGameTweaks>
+	<set xpath="/recipes/recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">45</set></WrathmanicsRandomGameTweaks>
