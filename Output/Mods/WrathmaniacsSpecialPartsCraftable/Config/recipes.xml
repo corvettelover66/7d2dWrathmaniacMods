@@ -110,4 +110,5 @@
 	<remove xpath="/recipes/recipe[@name='chemistryStation']/ingredient[@name='toolBeaker']" />
 	<append xpath="/recipes/recipe[@name='carBattery']">
 		<ingredient name="resourceRefinedCopper" count="2" />
-	</append></WrathmaniacsSpecialPartsCraftable>
+	</append>
+</WrathmaniacsSpecialPartsCraftable>

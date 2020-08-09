@@ -1,13 +1,13 @@
 <WrathmaniacsSpecialPartsCraftable>
 	<append xpath="/blocks/block[@name='terrGravel']">
-			<drop event="Destroy"  name="resourceSphalerite"  count="150,250"  prob=".06" />
+			<drop event="Destroy"  name="resourceSphalerite"  count="50,100"  prob=".06" />
 	</append>
-	<append xpath="/blocks/block[@name='terrSand']">
-			<drop event="Destroy"  name="resourceSphalerite"  count="75,150"  prob=".08" />
+	<append xpath="/blocks/block[@name='terrDesertGround']">
+			<drop event="Destroy"  name="resourceSphalerite"  count="35,75"  prob=".08" />
 	</append>
 	<append xpath="/blocks/block[@name='terrBurntForestGround']">
 			<drop event="Harvest"  name="resourceSphalerite"  count="22"  tag="oreWoodHarvest" />
-			<drop event="Destroy"  name="resourceSphalerite"  count="50,100"  prob=".04" />
+			<drop event="Destroy"  name="resourceSphalerite"  count="35,75"  prob=".04" />
 	</append>
 	<append xpath="/blocks/block[@name='terrOreIron']">
 			<drop event="Harvest"  name="resourceScrapCopper"  count="45,55" prob=".7"  tag="oreWoodHarvest" />

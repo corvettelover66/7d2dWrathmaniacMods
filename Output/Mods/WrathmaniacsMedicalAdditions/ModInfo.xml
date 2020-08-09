@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Medical Additions" />
-		<Description value="Adds Painkillers that come with a schematic. Also reduces alow vera leaf to 2." />
+		<Name value="Medical Additions (A19 Experimental)" />
+		<Description value="Some general medical tweaks. See nexus for more details." />
 		<Author value="Wrathmaniac" />
 		<Version value="MA-1.0" />
 	</ModInfo>

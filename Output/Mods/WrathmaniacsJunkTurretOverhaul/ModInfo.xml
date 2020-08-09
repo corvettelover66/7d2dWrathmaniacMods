@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Junk Turret Overhaul" />
+		<Name value="Junk Turret Overhaul (A19 Experimental)" />
 		<Description value="Overhaul of the junk turret. Including a new ammo type." />
 		<Author value="Wrathmaniac" />
-		<Version value="JTO-1.2" />
+		<Version value="JTO-1.0" />
 	</ModInfo>
 </xml>

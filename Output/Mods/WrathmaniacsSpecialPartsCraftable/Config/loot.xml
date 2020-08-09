@@ -3,27 +3,29 @@
 			<item name="resourceRefinedCopper"  count="25,50" />
 			<item name="resourceZinc"  count="20,40" />
 	</append>
-
 	<append xpath="/lootcontainers/lootgroup[@name='cementMixerLoot']">
 			<item name="resourceRawCopperMix"  prob="40,120" />
 	</append>
 
-	<append xpath="/lootcontainers/lootgroup[@name='rareTools']">
+	<append xpath="/lootcontainers/lootgroup[@name='workstationToolsScaled']">
 			<item name="toolLeadSilverAnode" />
 	</append>
 
-	<append xpath="/lootcontainers/lootgroup[@name='tools']">
+	<append xpath="/lootcontainers/lootgroup[@name='junk']">
 			<item name="resourceRefinedCopper"  prob="1"  count="10,20" />
 	</append>
 
-	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']">
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT1']">
 			<item name="resourceAcidSchematic" />
 			<item name="resourceScrapPolymersSchematic" />
 			<item name="resourceMechanicalPartsSchematic" />
-			<item name="toolLeadSilverAnodeSchematic" />
 			<item name="resourceScrapBrassSchematic" />
 	</append>
-
+	
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT2']">
+			<item name="toolLeadSilverAnodeSchematic" />
+	</append>
+	
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsCommon']">
 			<item name="resourceZincSchematic" />
 			<item name="resourceRefinedCopperSchematic" />

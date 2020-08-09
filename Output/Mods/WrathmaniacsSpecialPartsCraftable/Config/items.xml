@@ -1,5 +1,16 @@
 <WrathmaniacsSpecialPartsCraftable>
 	<append xpath="/items">
+		<item name="Disassemble Item">
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="dissassembleItemGroupDesc" />
+			<property name="HoldType" value="45" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Msteel" />
+			<property name="Stacknumber" value="30000" />
+			<property name="Weight" value="0" />
+			<property name="Group" value="Resources" />
+		</item>
 		<item name="allChemistryStationToolsDisassemble">
 			<property name="Extends" value="Disassemble Item" />
 			<property name="CustomIcon" value="allChemistryStationTools" />
@@ -97,7 +108,7 @@
 			<property name="NoScrapping" value="true"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
 			<property name="Material" value="Mmetal" />
-			<property name="UnlockedBy" value="perkYeahScience,toolLeadSilverAnodeSchematic" />
+			<property name="UnlockedBy" value="perkPhysician,toolLeadSilverAnodeSchematic" />
 			<property name="DescriptionKey" value="toolLeadSilverAnodeDesc" />
 			<property name="Stacknumber" value="10" />
 			<property name="Weight" value="15" />
@@ -218,22 +229,22 @@
 		<property name="UnlockedBy" value="perkAdvancedEngineering,resourceScrapBrassSchematic" />
 	</append>
 	<append xpath="/items/item[@name='resourceAcid']">
-		<property name="UnlockedBy" value="perkYeahScience,bookWasteTreasuresAcid,resourceAcidSchematic"></property>
+		<property name="UnlockedBy" value="perkAdvancedEngineering,bookWasteTreasuresAcid,resourceAcidSchematic"/>
 	</append>
 	<append xpath="/items/item[@name='bookWasteTreasuresAcid']/effect_group">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceAcid" operation="set" value="1"></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceAcid" operation="set" value="1" />
 	</append>
 	<append xpath="/items/item[@name='resourceScrapPolymers']">
-		<property name="UnlockedBy" value="perkYeahScience,resourceScrapPolymersSchematic" />
+		<property name="UnlockedBy" value="perkAdvancedEngineering,resourceScrapPolymersSchematic" />
 	</append>
 	<append xpath="/items/item[@name='resourceMechanicalParts']">
 		<property name="UnlockedBy" value="perkAdvancedEngineering,resourceMechanicalPartsSchematic" />
 	</append>
 	<append xpath="/items/item[@name='resourceElectricParts']">
-		<property name="UnlockedBy" value="perkYeahScience,resourceElectricPartsSchematic" />
+		<property name="UnlockedBy" value="perkAdvancedEngineering,resourceElectricPartsSchematic" />
 	</append>
 	<append xpath="/items/item[@name='resourceSpring']">
-		<property name="UnlockedBy" value="perkAdvancedEngineering,resourceSpringSchematic"></property>
+		<property name="UnlockedBy" value="perkAdvancedEngineering,resourceSpringSchematic"/>
 	</append>
 	<!-- These are here just to make these resources work with smx-UI -->
 	<set xpath="/items/item[@name='resourceAcid']/property[@name='Group']/@value">Resources,Chemicals</set>

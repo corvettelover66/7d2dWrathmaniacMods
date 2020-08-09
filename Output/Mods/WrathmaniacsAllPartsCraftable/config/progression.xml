@@ -6,73 +6,76 @@
 	</append>
 
 <append xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="meleeToolSledgehammerSteelParts,Disassemble meleeToolSledgehammerSteelParts" >
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="meleeWpnSledgeT3SteelSledgehammerParts,Disassemble meleeToolSledgehammerSteelParts" >
 		</passive_effect>
 </append>
 <!-- Xml Written at 2020:54:29 7:54:28 PM -->
+	<!-- 
+		Removed for alpha 19	
+	<append xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group">
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeClubBaseballBatParts,Disassemble meleeClubBaseballBatParts" >
+			</passive_effect>
+	</append>
+	-->
 
-<append xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeClubBaseballBatParts,Disassemble meleeClubBaseballBatParts" >
-		</passive_effect>
-</append>
 <!-- Xml Written at 2020:48:29 7:48:16 PM -->
 
 <append xpath="/progression/perks/perk[@name='perkJavelinMaster']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="meleeThrownSpearSteelParts,Disassemble meleeThrownSpearSteelParts" >
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="meleeWpnSpearT3SteelSpearParts,Disassemble meleeThrownSpearSteelParts" >
 		</passive_effect>
 </append>
 <!-- Xml Written at 2020:45:29 7:45:25 PM -->
 
 <append xpath="/progression/perks/perk[@name='perkDeepCuts']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="meleeToolKnifeMacheteParts,Disassemble meleeToolKnifeMacheteParts" >
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="meleeWpnBladeT3MacheteParts,Disassemble meleeToolKnifeMacheteParts" >
 		</passive_effect>
 </append>
 <!-- Xml Written at 2020:41:29 7:41:33 PM -->
 
 <append xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeKnucklesSteelParts,Disassemble meleeKnucklesSteelParts" >
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeWpnKnucklesT3SteelKnucklesParts,Disassemble meleeKnucklesSteelParts" >
 		</passive_effect>
 </append>
 <!-- Xml Written at 2020:37:29 7:37:07 PM -->
 
 <append xpath="/progression/perks/perk[@name='perkElectrocutioner']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeStunBatonParts,Disassemble meleeStunBatonParts" >
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeWpnBatonT2StunBatonParts,Disassemble meleeStunBatonParts" >
 		</passive_effect>
 </append>
 <!-- Xml Written at 2020:30:29 7:30:35 PM -->
 
 <append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="gunRocketLauncherParts,Disassemble gunRocketLauncherParts" >
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="gunExplosivesT3RocketLauncherParts,Disassemble gunRocketLauncherParts" >
 		</passive_effect>
 </append>
 <!-- Xml Written at 2020:24:29 7:24:39 PM -->
 
 <append xpath="/progression/perks/perk[@name='perkArchery']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="gunBowWoodenParts,Disassemble gunBowWoodenParts" >
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="gunBowT1WoodenBowParts,Disassemble gunBowWoodenParts" >
 		</passive_effect>
 </append>
 <!-- Xml Written at 2020:12:29 7:12:17 PM -->
 
 <append xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="gunDoubleBarrelShotgunParts,Disassemble gunDoubleBarrelShotgunParts" >
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="gunShotgunT1DoubleBarrelParts,Disassemble gunDoubleBarrelShotgunParts" >
 		</passive_effect>
 </append>
 <!-- Xml Written at 2020:5:29 7:05:00 PM -->
 
 <append xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags=" gunPistolParts,Disassemble gunPistolParts" >
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags=" gunHandgunT1PistolParts,Disassemble gunPistolParts" >
 		</passive_effect>
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="gunHuntingRifleParts,Disassemble gunHuntingRifleParts" >
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="gunRifleT1HuntingRifleParts,Disassemble gunHuntingRifleParts" >
 		</passive_effect>
 </append>
 
 <append xpath="/progression/perks/perk[@name='perkMachineGunner']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags=" gunAk47Parts,Disassemble gunAk47Parts" >
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags=" gunMGT1AK47Parts,Disassemble gunAk47Parts" >
 		</passive_effect>
 </append>
 
 	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="meleeToolChainsawParts,Disassemble meleeToolChainsawParts"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="meleeToolAxeT3ChainsawParts,Disassemble meleeToolChainsawParts"/>
 	 </append>
 	 
 
@@ -87,10 +90,10 @@
 	
 	<append xpath="/progression/perks/perk[@name='perkPistolPeteMaintenance']">
 		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="gunJunkTurretParts,Disassemble gunJunkTurretParts"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="gunBotRoboticsParts,Disassemble gunJunkTurretParts"/>
 		</effect_group>
 	</append>
 	<append xpath="/progression/perks/perk[@name='perkTurrets']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="gunJunkTurretParts,Disassemble gunJunkTurretParts"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="gunBotRoboticsParts,Disassemble gunJunkTurretParts"/>
 	 </append>
 </WrathmaniacsAllPartsCraftable>
