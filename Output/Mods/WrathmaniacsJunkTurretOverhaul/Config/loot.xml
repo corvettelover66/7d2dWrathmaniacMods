@@ -1,5 +1,5 @@
 <WrathmaniacsJunkTurretOverhaul>
-	<append xpath="/lootcontainers/lootgroup[@name='groupToolsTiered']">
+	<append xpath="/lootcontainers/lootgroup[@name='automotive']">
 			<item name="resourceJunkTurretRepairKit"  />
 	</append>
 
