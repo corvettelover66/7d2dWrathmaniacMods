@@ -1,0 +1,10 @@
+<WrathmaniacsRandomGameTweaks>
+	<append xpath="/blocks/block[@name='mineCookingPot']">
+			<property name="CanPickup"  value="true"/>
+	</append>
+
+
+	<append xpath="/blocks/block[@name='farmPlotBlock']">
+			<property name="CanPickup"  value="true"/>
+	</append>
+</WrathmaniacsRandomGameTweaks>

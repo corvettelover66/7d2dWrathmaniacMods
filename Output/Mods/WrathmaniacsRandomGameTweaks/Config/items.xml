@@ -1,0 +1,3 @@
+<WrathmaniacsRandomGameTweaks>
+	<append xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='Tags']/@value">,mediumTopAttachments</append>
+</WrathmaniacsRandomGameTweaks>
