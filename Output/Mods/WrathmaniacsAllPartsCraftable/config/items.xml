@@ -275,12 +275,12 @@ meleeWpnClubT3SteelClubParts
 	</append>
  	-->
 
-	<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpearSchematic']/effect_group">
+	<append xpath="/items/item[@name='bookSpearHunter3SteelSpears']/effect_group">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSpearT3SteelSpearParts" operation="set" value="1" />
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Disassemble meleeThrownSpearSteelParts" operation="set" value="1"></triggered_effect>
 	</append>
 	<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpearParts']">
-		<property name="UnlockedBy" value="perkJavelinMaster,meleeWpnSpearT3SteelSpearSchematic"></property>
+		<property name="UnlockedBy" value="perkJavelinMaster,bookSpearHunter3SteelSpears"></property>
 	</append>
 	<append xpath="/items/item[@name='meleeWpnBladeT3MacheteSchematic']/effect_group">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBladeT3MacheteParts" operation="set" value="1"></triggered_effect>
