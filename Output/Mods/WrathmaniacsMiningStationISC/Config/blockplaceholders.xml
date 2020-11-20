@@ -1,0 +1,6 @@
+<WrathmaniacsMiningStation>
+	<append xpath="/blockplaceholders/placeholder[@name='cntConstructionSuppliesRandomLootHelper']">
+		<block name="miningstation"  prob=".01" />
+		<block name="cntCollapsedMiningstation"  prob=".1" />
+	</append>
+</WrathmaniacsMiningStation>

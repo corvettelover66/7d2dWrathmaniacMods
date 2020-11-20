@@ -1,0 +1,52 @@
+<WrathmaniacsMiningStation>
+	<append xpath="/items">
+		<item name="resourceIronOreMinerChip">
+			<property name="HoldType" value="45" />
+			<property name="CustomIcon" value="resourceIronOreMinerChip" />
+			<property name="DescriptionKey" value="resourceIronOreMinerChipDesc" />
+			<property name="PickupJournalEntry" value="resourceIronOreMinerChipToolTip"/>
+			<property name="Tags" value="junk" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="MelectricParts" />
+			<property name="Weight" value="1" />
+			<property name="Stacknumber" value="1" />
+			<property name="EconomicValue" value="2500" />
+			<property name="Group" value="Resources" />
+		</item>		
+		<item name="resourceShaleOreMinerChip">
+			<property name="Extends" value="resourceIronOreMinerChip" />
+			<property name="CustomIcon" value="resourceShaleOreMinerChip" />
+		</item>
+		<item name="resourceLeadOreMinerChip">
+			<property name="Extends" value="resourceIronOreMinerChip" />
+			<property name="CustomIcon" value="resourceLeadOreMinerChip" />
+		</item>
+		<item name="resourcePotassiumNitrateOreMinerChip">
+			<property name="Extends" value="resourceIronOreMinerChip" />
+			<property name="CustomIcon" value="resourcePotassiumNitrateOreMinerChip" />
+		</item>
+		<item name="resourceCoalOreMinerChip">
+			<property name="Extends" value="resourceIronOreMinerChip" />
+			<property name="CustomIcon" value="resourceCoalOreMinerChip" />
+		</item>
+		<item name="miningstationSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="controlPanelBase04" />
+			<property name="Unlocks" value="miningstation" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="miningstation" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+	</append>
+	<append xpath="/items/item[@name='meleeToolPickT3Auger']">
+		<effect_group>
+			<passive_effect name="CraftingTime" operation="perc_add" value="-.10" />
+			<requirement name="!HoldingItemHasTags" tags="meleeToolPickT3Auger" />
+		</effect_group>
+	</append>
+	<!-- -->
+</WrathmaniacsMiningStation>
