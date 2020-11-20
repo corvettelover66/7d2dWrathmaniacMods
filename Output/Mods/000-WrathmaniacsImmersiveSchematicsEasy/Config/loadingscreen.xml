@@ -1,0 +1,10 @@
+<WrathmaniacsImmersiveSchematicsEasy>
+	<append xpath="/doc/tips">
+		<tip key="loadingTipImmersiveSchematics" />
+		<tip key="loadingTipPerksUnlockSchematics" />
+		<tip key="loadingTipAdvancedEngineeringSchematics" />
+		<tip key="loadingTipModdingPerks" />
+		<tip key="loadingTipSchematicShards" />
+		<tip key="loadingTipPerksAndSchematics" />
+	</append>
+</WrathmaniacsImmersiveSchematicsEasy>

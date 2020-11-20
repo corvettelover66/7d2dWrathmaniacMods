@@ -1,0 +1,14 @@
+Changes ISC:
+Fixed localization typo
+Changed forge to 20 and workbench to 30
+Added crafting time reduction to the modder perks and advanced engineering that reduces crafting time of schematics.
+
+TODO: 
+
+Add crfting ingredient reductions using perks masterChef and livingOffTheLand
+
+Add Advanced engieering crafting time global reduction. 
+
+Add perk specfic crafting time reductions to stck with the AE global.
+
+Add perk changes to the loclization. 

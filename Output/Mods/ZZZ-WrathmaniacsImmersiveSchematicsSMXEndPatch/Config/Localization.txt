@@ -1,0 +1,4 @@
+key,source,context,changes,english
+attmods,progression,perk,New,Modification Crafting Master,
+attModsName,progression,perk,New,Mod Crafting Perks
+attModsDesc,progression,perk,New,"[AF1E19]Modification Crafting Master[-]: Allows you to build any modification seperated into three categories Armor, Melee Weapons and guns.\n[808080]All of these perks are governed by intellect.",

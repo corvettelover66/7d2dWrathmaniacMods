@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Wrathmaniac's Immersive Schematic Crafting End Patch (A19)" />
+		<Description value="Necessary Patch file that just runs some globl set commands. IMPORTANT: Should run at the very end of the load order. This is to ensure all added schematics are affected. Folder name changes should not be necessary." />
+		<Author value="wrathmaniac" />
+		<Version value="2.0" />
+	</ModInfo>
+</xml>
