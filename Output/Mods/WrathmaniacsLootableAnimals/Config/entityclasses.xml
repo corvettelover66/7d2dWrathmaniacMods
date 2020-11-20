@@ -1,0 +1,43 @@
+<WrathmaniacsLootableAnimals>
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='TimeStayAfterDeath']/@value">2400</set>
+
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateTimid']/property[@name='TimeStayAfterDeath']/@value">2400</set>
+
+	<!-- Loot list appends -->
+	<append xpath="/entity_classes/entity_class[@name='animalZombieBear']">
+		<property name="LootListOnDeath"  value="220"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalBear']">
+		<property name="LootListOnDeath"  value="221"/>
+	</append>
+	<!-- Covers mountain lion -->
+	<append xpath="/entity_classes/entity_class[@name='animalDireWolf']">
+		<property name="LootListOnDeath"  value="222"/>
+	</append>
+	<!-- Covers cyote, zombie dog, -->
+	<append xpath="/entity_classes/entity_class[@name='animalWolf']">
+		<property name="LootListOnDeath"  value="223"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalBoar']">
+		<property name="LootListOnDeath"  value="223"/>
+	</append>
+	<!-- Covers doe -->
+	<append xpath="/entity_classes/entity_class[@name='animalStag']">
+		<property name="LootListOnDeath"  value="228"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalTemplateTimid']">
+		<property name="LootListOnDeath"  value="224"/>
+	</append>	
+	<append xpath="/entity_classes/entity_class[@name='animalRabbit']">
+		<property name="LootListOnDeath"  value="224"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalChicken']">
+		<property name="LootListOnDeath"  value="225"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalSnake']">
+		<property name="LootListOnDeath"  value="226"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalZombieVulture']">
+		<property name="LootListOnDeath"  value="226"/>
+	</append>
+</WrathmaniacsLootableAnimals>

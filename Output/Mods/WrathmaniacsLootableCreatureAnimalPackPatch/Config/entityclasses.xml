@@ -1,0 +1,91 @@
+	<!-- All of the appends in the file Rely on four mods Lootable Animals, lootable zombies, creature packs animals and zombies. -->
+<WrathmaniacsLootableCreatureAnimalPackPatch>
+	<set xpath="/entity_classes/entity_class[contains(@name,'animalTemplate')]/property[@name='TimeStayAfterDeath']/@value">2400</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieAnimalTemplate']/property[@name='TimeStayAfterDeath']/@value">2400</set>
+	<!-- Need to run these after the contains call because these extend animalTemplateHostileFlying -->
+	<set xpath="/entity_classes/entity_class[@name='animalBloodFlySwarm_X']/property[@name='TimeStayAfterDeath']/@value">2.0</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnowSwarm_X']/property[@name='TimeStayAfterDeath']/@value">2.0</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieGuppyCreepyCrawly']/property[@name='DeadBodyHitPoints']/@value">200</set>
+	<append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']">
+			<property name="LootListOnDeath"  value="1003"/>
+	</append>
+	<!-- Zombies -->
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">2400</set>
+	<set xpath="/entity_classes/entity_class[contains(@name,'Regular') and contains(@name,'zombie')]/property[@name='TimeStayAfterDeath']/@value">2400</set>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Behemoth')]">
+		<property name="LootListOnDeath" value="1019"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Boss')]">
+		<property name="LootListOnDeath" value="1018"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Brute')]">
+		<property name="LootListOnDeath" value="1003"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Regular') and contains(@name,'zombie')]">
+		<property name="LootListOnDeath" value="1016"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Doctor') and not(contains(@name,'Feral'))]">
+		<property name="LootListOnDeath" value="1002"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Soldier') and not(contains(@name,'Leader'))]">
+		<property name="LootListOnDeath" value="1000"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Feral') and not(contains(@name,'Leader'))]">
+		<property name="LootListOnDeath" value="1004"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Leader') and contains(@name,'Soldier') ]">
+		<property name="LootListOnDeath" value="1018"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Radiated')]">
+		<property name="LootListOnDeath" value="1018"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Cop') and not(contains(@name,'Swat'))]">
+		<property name="LootListOnDeath" value="1015"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Swat')]">
+		<property name="LootListOnDeath" value="1017"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[contains(@name,'Sheriff')]">
+		<property name="LootListOnDeath" value="1017"/>
+	</append>
+	<!-- Animals -->
+	<append xpath="/entity_classes/entity_class[@name='animalSpider01']">
+			<property name="CanClimbVertical"  value="true"/>
+			<property name="CanClimbLadders"  value="true"/>
+	</append>
+	<insertBefore xpath="/entity_classes/entity_class[@name='animalBanditWolf']/property[@name='DeadBodyHitPoints']">
+			<drop event="Harvest"  name="resourceScrapIron"  count="1,5" />
+	</insertBefore>
+	<!-- Loot list appends -->
+	<append xpath="/entity_classes/entity_class[@name='zombieGuppyInfernalDog']">
+		<property name="LootListOnDeath"  value="221"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalWolfhound']">
+		<property name="LootListOnDeath"  value="222"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalSpider03']">
+		<property name="LootListOnDeath"  value="222"/>
+	</append>
+
+	<!-- Covers fox, spider 1&2-->
+	<append xpath="/entity_classes/entity_class[@name='animalTemplateHostileWalking']">
+		<property name="LootListOnDeath"  value="223"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieGuppyCreepyCrawly']">
+		<property name="LootListOnDeath"  value="223"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='animalGoat']">
+		<property name="LootListOnDeath"  value="228"/>
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='animalGuppyInsect']">
+		<property name="LootListOnDeath"  value="227"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalTemplateTimidFlying']">
+		<property name="LootListOnDeath"  value="225"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalBloatfly']">
+		<property name="LootListOnDeath"  value="226"/>
+	</append>
+</WrathmaniacsLootableCreatureAnimalPackPatch>

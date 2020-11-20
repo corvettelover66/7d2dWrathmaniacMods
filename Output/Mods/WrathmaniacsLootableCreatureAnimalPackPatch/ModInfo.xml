@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Creture Pack Patch For Zombies Lootable" />
+		<Description value="Adds a patch to lootable zombies, zombies and animal creature packs. External Mod Dependencies: Wrathmaniacs Lootable Animals, Lootable Zombies A19, Creature Packs Zombies and Animal, firearms expansions 3 and firearms expansion 3 expanded." />
+		<Author value="Wrathmaniac" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>
