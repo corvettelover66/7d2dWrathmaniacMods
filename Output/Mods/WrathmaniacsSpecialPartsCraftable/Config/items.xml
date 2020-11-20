@@ -59,7 +59,7 @@
 			<property name="Material" value="MresourceCrushedSand" />
 			<property name="NoScrapping" value="true"/>
 			<property name="Weight" value="1" />
-			<property name="Stacknumber" value="1000" />
+			<property name="Stacknumber" value="6000" />
 			<property name="EconomicValue" value="10" />
 			<property name="EconomicBundleSize" value="10" />
 			<property name="Group" value="Resources" />
@@ -88,6 +88,7 @@
 		</item>
 		<item name="resourceZinc">
 			<property name="HoldType" value="45" />
+			<property name="Tags" value="junk"/>
 			<property name="CustomIcon" value="resourceZinc" />
 			<property name="DescriptionKey" value="resourceZincDesc" />
 			<property name="UnlockedBy" value="perkAdvancedEngineering,resourceZincSchematic" />
@@ -195,8 +196,33 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
 			</effect_group>
 		</item>
+		<item name="solarCellSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="solarCell" />
+			<property name="Unlocks" value="solarCell" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="solarCell" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		<item name="solarbankSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="solarbank" />
+			<property name="Unlocks" value="solarbank" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="solarbank" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		<!-- 
+		Due to poor hindsight at it's creation, this was poorly named and is really "Scrap Copper"  
+		"Raw copper" in game is called scrap copper here in the items.xml
+		-->
 		<item name="resourceRefinedCopper">
 			<property name="HoldType" value="45" />
+			<property name="Tags" value="junk"/>
 			<property name="CustomIcon" value="resourceRefinedCopper" />
 			<property name="DescriptionKey" value="resourceRefinedCopperDesc" />
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
@@ -210,12 +236,14 @@
 			<property name="EconomicBundleSize" value="1" />
 			<property name="Group" value="Resources,Chemicals" />
 		</item>
+		<!-- This is really "Raw Copper" in game -->
 		<item name="resourceScrapCopper">
 			<property name="HoldType" value="45" />
 			<property name="CustomIcon" value="resourceRawCopper" />
 			<property name="DescriptionKey" value="resourceRawCopperDesc" />
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="PickupJournalEntry"  value="resourceRawCopperToolTip" />
 			<property name="Material" value="MresourceScrapCopper" />
 			<property name="NoScrapping" value="true"/>
 			<property name="Weight" value="1" />
@@ -224,6 +252,9 @@
 			<property name="EconomicBundleSize" value="10" />
 			<property name="Group" value="Resources" />
 		</item>
+	</append>
+	<append xpath="/items/item[@name='solarCell']">
+		<property name="UnlockedBy" value="perkAdvancedEngineering,solarCellSchematic" />
 	</append>
 	<append xpath="/items/item[@name='resourceScrapBrass']">
 		<property name="UnlockedBy" value="perkAdvancedEngineering,resourceScrapBrassSchematic" />
