@@ -1,0 +1,34 @@
+<WrathmaniacsMiningStation>
+	<append xpath="/recipes">
+		<!-- Non Chip required ores -->
+		<recipe name="resourceRockSmall" count="300" always_unlocked="true" material_based="true" craft_area="miningstation" craft_time="20" craft_exp_gain="0" use_ingredient_modifier="false">
+			<ingredient name="ammoGasCan" count="250" />
+		</recipe>
+		<recipe name="resourceClayLump" count="100" always_unlocked="true" material_based="true" craft_area="miningstation" craft_time="20" craft_exp_gain="0" use_ingredient_modifier="false">
+			<ingredient name="ammoGasCan" count="250" />
+		</recipe>
+		<!-- Chip required ores -->
+		<recipe name="resourceScrapIron" craft_tool="resourceIronOreMinerChip" count="250" always_unlocked="true" material_based="true" craft_area="miningstation" craft_time="20" craft_exp_gain="0" use_ingredient_modifier="false">
+			<ingredient name="ammoGasCan" count="250" />
+		</recipe>
+		<recipe name="resourceScrapLead" craft_tool="resourceLeadOreMinerChip" count="150" always_unlocked="true" material_based="true" craft_area="miningstation" craft_time="20" craft_exp_gain="0" use_ingredient_modifier="false">
+			<ingredient name="ammoGasCan" count="250" />
+		</recipe>
+		<recipe name="resourcePotassiumNitratePowder" craft_tool="resourcePotassiumNitrateOreMinerChip" count="150" always_unlocked="true" material_based="true" craft_area="miningstation" craft_time="20" craft_exp_gain="0" use_ingredient_modifier="false">
+			<ingredient name="ammoGasCan" count="250" />
+		</recipe>
+		<recipe name="resourceCoal" craft_tool="resourceCoalOreMinerChip" count="150" always_unlocked="true" material_based="true" craft_area="miningstation" craft_time="20" craft_exp_gain="0" use_ingredient_modifier="false">
+			<ingredient name="ammoGasCan" count="250" />
+		</recipe>
+		<recipe name="resourceOilShale" craft_tool="resourceShaleOreMinerChip" count="50" always_unlocked="true" material_based="true" craft_area="miningstation" craft_time="20" craft_exp_gain="0" use_ingredient_modifier="false">
+			<ingredient name="ammoGasCan" count="250" />
+		</recipe>
+		<recipe name="miningstation" count="1" tags="perkAdvancedEngineering,learnable" craft_area="workbench" craft_time="300">
+			<ingredient name="resourceForgedSteel" count="200" />
+			<ingredient name="resourceMechanicalParts" count="100" />
+			<ingredient name="resourceElectricParts" count="75" />
+			<ingredient name="resourceOil" count="40" />
+			<ingredient name="meleeToolAxeT3ChainsawParts" count="20" />
+		</recipe>
+	</append>
+</WrathmaniacsMiningStation>

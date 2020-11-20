@@ -1,0 +1,11 @@
+<WrathmaniacsMiningStation>
+	<append xpath="/windows"> 
+		<window name="windowToolsMiningStationChips"  depth="9"  cursor_area="true"  panel="Left" >
+			<rect name="content"  pos="400,735"  depth="2"  disablefallthrough="true" >
+				<grid name="inventory"  pos="0,0"  rows="10"  cols="1"  cell_width="52"  cell_height="52"  repeat_content="true"  controller="WorkstationToolGrid"  required_tools="resourceIronOreMinerChip,resourceCoalOreMinerChip,resourcePotassiumNitrateOreMinerChip,resourceLeadOreMinerChip,resourceShaleOreMinerChip,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger"  required_tools_only="true">
+					<smxui_tools_stack_50 name="0" />
+				</grid>
+			</rect>
+		</window>
+	</append>
+</WrathmaniacsMiningStation>

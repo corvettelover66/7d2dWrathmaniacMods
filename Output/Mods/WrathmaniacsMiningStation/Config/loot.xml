@@ -1,0 +1,15 @@
+<WrathmaniacsMiningStation>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT2']">
+			<item name="miningstationSchematic" />
+	</append>
+	<append xpath="/lootcontainers">
+		<!-- Collapsed or Broken Mining Station  -->
+		<lootcontainer id="229" count="1" size="6,10"  sound_open="open_workbench" sound_close="close_workbench"  loot_quality_template="qualBaseTemplate"  destroy_on_close="false"  open_time="8" >
+			<item name="resourceIronOreMinerChip" />
+			<item name="resourceShaleOreMinerChip" />
+			<item name="resourceLeadOreMinerChip" />
+			<item name="resourceCoalOreMinerChip" />
+			<item name="resourcePotassiumNitrateOreMinerChip"/>
+		</lootcontainer>
+	</append>
+</WrathmaniacsMiningStation>
