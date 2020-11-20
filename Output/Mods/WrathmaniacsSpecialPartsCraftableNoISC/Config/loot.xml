@@ -1,0 +1,53 @@
+<WrathmaniacsSpecialPartsCraftable>
+	<append xpath="/lootcontainers/lootgroup[@name='brassResource']">
+			<item name="resourceRefinedCopper"  count="25,50" />
+			<item name="resourceZinc"  count="20,40" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='cementMixerLoot']">
+			<item name="resourceRawCopperMix"  prob="500,1000" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='workstationToolsScaled']">
+			<item name="toolLeadSilverAnode" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='junk']">
+			<item name="resourceRefinedCopper"  prob="1"  count="10,20" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT1']">
+			<item name="resourceAcidSchematic" />
+			<item name="resourceScrapPolymersSchematic" />
+			<item name="resourceMechanicalPartsSchematic" />
+			<item name="resourceScrapBrassSchematic" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT2']">
+			<item name="toolLeadSilverAnodeSchematic" />
+			<item name="solarCellSchematic" />
+			<item name="solarbankSchematic" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsCommon']">
+			<item name="resourceZincSchematic" />
+			<item name="resourceRefinedCopperSchematic" />
+			<item name="resourceSpringSchematic" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='labEquipment']">
+			<item name="resourceZinc" prob="1"  count="10,20" />
+			<item name="toolLeadSilverAnode" prob=".35"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='chemistryStationLoot']">
+			<item name="resourceRefinedCopper"  prob="1"  count="10,20" />
+			<item name="resourceZinc" prob="1"  count="10,20" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='electricalDevices']">
+			<item name="resourceRefinedCopper"  prob="1"  count="15,30" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsElectrical']">
+			<item name="resourceElectricPartsSchematic" />
+	</append>
+</WrathmaniacsSpecialPartsCraftable>

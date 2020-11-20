@@ -1,0 +1,12 @@
+<WrathmaniacsSpecialPartsCraftableMiningStationPatch>
+	<set xpath="/windows/window[@name='windowToolsMiningStationChips']/rect[@name='content']/@pos">400,735</set>
+
+	<set xpath="/windows/window[@name='windowToolsMiningStationChips']/rect[@name='content']/grid[@name='inventory']/@cell_height">44</set>
+
+	<set xpath="/windows/window[@name='windowToolsMiningStationChips']/rect[@name='content']/grid[@name='inventory']/@cell_width">44</set>
+
+	<set xpath="/windows/window[@name='windowToolsMiningStationChips']/rect[@name='content']/grid[@name='inventory']/@rows">12</set>
+
+	<set xpath="/windows/window[@name='windowToolsMiningStationChips']/rect[@name='content']/grid[@name='inventory']/@required_tools">resourceIronOreMinerChip,resourceCoalOreMinerChip,resourcePotassiumNitrateOreMinerChip,resourceLeadOreMinerChip,resourceShaleOreMinerChip,resourceSphaleriteOreMinerChip,resourceRawCopperOreMinerChip,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger</set>
+
+</WrathmaniacsSpecialPartsCraftableMiningStationPatch>

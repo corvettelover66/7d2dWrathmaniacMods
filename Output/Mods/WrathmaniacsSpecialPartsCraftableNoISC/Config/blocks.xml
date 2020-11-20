@@ -1,0 +1,311 @@
+<WrathmaniacsSpecialPartsCraftable>
+	<!-- 
+		Need to copy destroyed stone block (that doesn't have copper)
+		and use it in any block that drops a destroyed block so that copper 
+		cannot be obtained by destroying blocks like cobblestone because 
+		just below I add raw copper in the drop for destroyed stone so copper can be "Mined" in the city zone.
+	-->
+
+	<append xpath="/blocks">
+		<block name="terrDestroyedStoneNoCopper" >
+			<property name="Material"  value="Mrubble"/>
+			<property name="NoScrapping"  value="true" />
+			<property name="Shape"  value="Terrain" />
+			<property name="Mesh"  value="terrain" />
+			<property name="Texture"  value="438" />
+			<property name="ImposterExclude"  value="true" />
+			<property name="Weight"  value="90" />
+			<property name="Map.Color"  value="152,149,63" />
+			<property class="RepairItems" >
+				<property name="resourceCobblestones"  value="6" />
+			</property>
+			<drop event="Harvest"  name="resourceCrushedSand"  count="4"  tag="oreWoodHarvest" />
+			<drop event="Harvest"  name="resourceRockSmall"  count="12"  tag="oreWoodHarvest" />
+			<drop event="Destroy"  count="0" />
+			<property name="CanMobsSpawnOn"  value="true" />
+			<property name="EconomicValue"  value="5" />
+			<property name="EconomicBundleSize"  value="1" />
+			<property name="SellableToTrader"  value="false" />
+			<property name="FilterTags"  value="fterrain,fconstruction,fdestruction" />
+			<property name="SortOrder1"  value="d0k0" />
+			<property name="SortOrder2"  value="0050" />
+			<property name="DisplayType"  value="blockTerrainFertile" />
+		</block>
+		<block name="terrDestroyedWoodDebrisNoCopper">
+			<property name="Extends" value="terrDestroyedStone" param1="Harvest"/>
+			<property name="Texture" value="438"/>
+			<property name="CustomIcon" value="terrDestroyedStone"/>
+			<property name="Material" value="Mwood_regular"/>
+			<property name="MaxDamage" value="30"/>
+			<property name="FuelValue" value="150"/>
+			<property name="ImposterExclude" value="true"/>
+			<drop event="Harvest" name="resourceCrushedSand" count="0" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceRockSmall" count="0" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceWood" count="3" tag="oreWoodHarvest"/>
+			<property name="Map.Color" value="110,95,49"/>
+			<property name="CanMobsSpawnOn" value="true"/>
+			<property name="FilterTags" value="fterrain,fconstruction,fdestruction"/>
+			<property name="DisplayType" value="blockTerrain"/>
+			<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
+		</block>
+	</append>
+	<set xpath="/blocks/block/drop[@event='Fall'][@name='terrDestroyedStone']/@name">terrDestroyedStoneNoCopper</set>
+	<set xpath="/blocks/block/drop[@event='Fall'][@name='terrDestroyedWoodDebris']/@name">terrDestroyedWoodDebrisNoCopper</set>
+	<append xpath="/blocks/block[@name='solarbank']">
+		<property name="UnlockedBy"  value="solarbankSchematic,perkAdvancedEngineering"/>
+	</append>
+	<append xpath="/blocks/block[@name='terrDestroyedStone']">
+			<drop event="Destroy"  name="resourceRefinedCopper"  count="25,50"  prob=".2" />
+	</append>
+	<append xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</append>
+	<insertBefore xpath="/blocks/block[@name='fusebox']/property[@name='EconomicValue']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='controlPanelBase01']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='signShopGas']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='signShopGunStore']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='signShopBookStore']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='signShopPharmacy']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='signShopToolStore']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='signShopGrocery']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='signShopOpen']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntCoffeeMaker']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntBeerCooler']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntIceMachine']/property[@name='FilterTags']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntFreezerMaster']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntWashingMachine']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntWasherOpen']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntTrashCompactor']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='conduit01']/property[@name='FilterTags']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntGasPump']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntGasPumpRandomLootHelper']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='decoComputerDeskTopPC']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='tv']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='decoTreadmill']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,6"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='hospitalBed']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntCashRegisterEmpty']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cashRegisterConveyorMiddle']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallen']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntVendingMachine2Broken']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='airConditioner']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='airConditionVentFan']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='satelliteDish']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntBusSchool']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='industrialLight01']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='chandelierLight']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='streetLight01']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='spotlightNailedDownPOI']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='spotlightPlayer']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='xRayDisplayLight1']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,8"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='generatorbank']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,12"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntCollapsedGeneratorbank']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,6"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntCollapsedSolarbank']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='batterybank']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,8"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='cntCollapsedBatterybank']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,6"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='electricwirerelay']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='pressureplate']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='pressureplateLong']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='motionsensor']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='electrictimerrelay']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='speaker']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='loudspeaker']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='electricfencepost']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='dartTrap']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='autoTurret']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,10"  tag="salvageHarvest" />
+	</insertBefore>
+-->
+	<insertBefore xpath="/blocks/block[@name='porchLight01']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+
+	<insertBefore xpath="/blocks/block[@name='cntCar03SedanDamage2Master']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,5"  tag="salvageHarvest" />
+	</insertBefore>
+
+	<insertBefore xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="2,4"  tag="salvageHarvest" />
+	</insertBefore>
+
+	<insertBefore xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/drop[@event='Destroy']">
+			<drop name="resourceRefinedCopper"  count="1,2"  tag="salvageHarvest"  prob="0.1"  event="Harvest" />
+	</insertBefore>
+	<append xpath="/blocks/block[@name='decoHoistMagnet']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,10"  tag="salvageHarvest" />
+	</append>
+	<append xpath="/blocks/block[@name='terrGravel']">
+			<drop event="Destroy"  name="resourceSphalerite"  count="75,150"  prob=".07" />
+	</append>
+	<append xpath="/blocks/block[@name='terrDesertGround']">
+			<drop event="Destroy"  name="resourceSphalerite"  count="75,150"  prob=".1" />
+	</append>
+	<append xpath="/blocks/block[@name='terrBurntForestGround']">
+			<drop event="Harvest"  name="resourceSphalerite"  count="18"  tag="oreWoodHarvest" />
+			<drop event="Destroy"  name="resourceSphalerite"  count="18,40"  prob=".05" />
+	</append>
+	<append xpath="/blocks/block[@name='terrOreIron']">
+			<drop event="Harvest"  name="resourceScrapCopper"  count="105" prob=".75"  tag="oreWoodHarvest" />
+			<drop event="Destroy"  name="resourceScrapCopper"  count="100,150"  prob=".04"/>
+	</append>
+	<append xpath="/blocks/block[@name='oreIronBoulder']">
+			<drop event="Harvest"  name="resourceScrapCopper"  count="100"  tag="oreWoodHarvest" />
+			<drop event="Destroy"  name="resourceScrapCopper"  count="150,250"  prob="0.2"/>
+	</append>
+</WrathmaniacsSpecialPartsCraftable>

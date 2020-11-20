@@ -1,0 +1,6 @@
+<WrathmaniacsSpecialPartsCraftableMiningStationPatch>
+	<append xpath="/lootcontainers/lootcontainer[@id='229']">
+			<item name="resourceSphaleriteOreMinerChip" />
+			<item name="resourceRawCopperOreMinerChip" />
+	</append>
+</WrathmaniacsSpecialPartsCraftableMiningStationPatch>
