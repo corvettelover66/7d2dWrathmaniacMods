@@ -108,11 +108,6 @@
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkTurrets']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">gunBotT1JunkSledgeSchematic</set>
 	<!-- perkElectrocutioner -->
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkElectrocutioner']">
-		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="meleeWpnBatonT3PlasmaBatonSchematic" />
-		</effect_group>
-	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkElectrocutioner']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">meleeWpnBatonT2StunBatonSchematic</set>
 	<!-- perkLightArmor -->
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkLightArmor']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">armorLeatherSetSchematic</set>
