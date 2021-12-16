@@ -1,9 +1,9 @@
 <WrathmaniacsJunkTurretOverhaul>
 	<append xpath="/ui_display_info/item_display/item_display_info[@display_type='rangedTurret']">
-			<display_entry name="DegradationPerUse"  title_key="statDegradationPerUse"  tags="perkTurrets" display_type="Decimal" />
+			<display_entry name="DegradationPerUse"  title_key="statDegradationPerUse"  tags="perkTurrets" display_type="Decimal1" />
 	</append>
 	<append xpath="/ui_display_info/item_display/item_display_info[@display_type='meleeTurret']">
-			<display_entry name="DegradationPerUse"  title_key="statDegradationPerUse"  tags="perkTurrets" display_type="Decimal" />
+			<display_entry name="DegradationPerUse"  title_key="statDegradationPerUse"  tags="perkTurrets" display_type="Decimal1" />
 	</append>
 	
 </WrathmaniacsJunkTurretOverhaul>
