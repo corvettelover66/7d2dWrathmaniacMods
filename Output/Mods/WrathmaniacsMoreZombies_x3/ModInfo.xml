@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="More Zombies x3 (A20Experimental)" />
+		<Description value="Adds more zombie spawns per biome x3." />
+		<Author value="Wrathmaniac" />
+		<Version value="MZ-1.0(20.a.e)" />
+	</ModInfo>
+</xml>

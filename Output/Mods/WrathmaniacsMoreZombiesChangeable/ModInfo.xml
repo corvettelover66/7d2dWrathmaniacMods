@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="More Zombies Changeable (A19Experimental)" />
+		<Description value="Adds more zombie spawns per biome can be easily altered without game reloads." />
+		<Author value="Wrathmaniac" />
+		<Version value="MZC-1.0" />
+	</ModInfo>
+</xml>
