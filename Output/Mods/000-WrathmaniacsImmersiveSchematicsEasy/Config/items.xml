@@ -11,7 +11,7 @@
 			</effect_group>
 		</item>
 		<item name="junkMinesSchematic">
-			<property name="Extends" value="schematicMaster" />
+			<property name="Extends" value="schematicNoQualityMaster" />
 			<property name="CreativeMode" value="Player" />
 			<property name="CustomIcon" value="mineHubcap" />
 			<property name="Unlocks" value="mineHubcap" />
