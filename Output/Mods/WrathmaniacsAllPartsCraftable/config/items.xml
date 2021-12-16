@@ -209,9 +209,9 @@
 		</item>
 		<item name="Disassemble armorMilitarySetParts">
 			<property name="Extends" value="Disassemble Item" />
-			<property name="CustomIcon" value="armorMilitarySetParts,perkLightArmor" />
+			<property name="CustomIcon" value="armorMilitarySetParts" />
 			<property name="ItemTypeIcon" value="bundle" />
-			<property name="UnlockedBy" value="bookUrbanCombatRoomClearing" />
+			<property name="UnlockedBy" value="bookUrbanCombatRoomClearing,perkLightArmor" />
 			<property class="Action0">
 				<property name="Class" value="OpenBundle" />
 				<property name="Delay" value="0" />
