@@ -1,19 +1,23 @@
 <WrathmaniacsJunkTurretOverhaul>
+	<!-- car parts shipping crate -->
+	<append xpath="/lootcontainers/lootcontainer[@id='90']">
+			<item name="resourceJunkTurretRepairKit" prob=".3"/>
+	</append>
+	<!-- shotgun Messiah crate -->
+	<append xpath="/lootcontainers/lootcontainer[@id='50']">
+			<item name="resourceJunkTurretRepairKit"  prob=".1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='workingStiffsSub']">
+			<item name="resourceJunkTurretRepairKit" />
+	</append>
 	<append xpath="/lootcontainers/lootgroup[@name='automotive']">
 			<item name="resourceJunkTurretRepairKit"  />
 	</append>
-
-	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT1']">
-			<item name="ammoSteelJunkTurret"  count="8,16" />
-	</append>
-	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT2']">
-			<item name="ammoSteelJunkTurret"  count="10,20" />
-	</append>
-
 	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']">
-			<item name="ammoSteelJunkTurret"  count="20,35" />
+			<item name="ammoJunkTurretSteel"  count="10,20" />
+			<item name="ammoJunkTurretSteelAP"  count="10,20" />
 	</append>
-</WrathmaniacsJunkTurretOverhaul>
 <!-- 
 <setattribute xpath="/lootcontainers/lootgroup[@name='automotive']/item[@name='carBattery']" name="prob">0.37</setattribute>
- -->	
+ -->
+</WrathmaniacsJunkTurretOverhaul>

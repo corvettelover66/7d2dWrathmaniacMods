@@ -1,24 +1,44 @@
 <WrathmaniacsJunkTurretOverhaul>
 	<append xpath="/recipes">
-		<recipe name="ammoBundleSteelJunkTurret" count="1" tags="learnable,perkTurrets" craft_area="workbench" craft_time="140">
-			<ingredient name="resourceForgedSteel" count="160" />
+		<recipe name="ammoBundleSteelAPJunkTurret" count="1" tags="learnable" craft_area="workbench" craft_time="140">
+			<ingredient name="resourceForgedSteel" count="200" />
 		</recipe>
-		<recipe name="ammoSteelJunkTurret" count="5" tags="learnable,perkTurrets" craft_area="workbench" craft_time="12">
+		<recipe name="ammoJunkTurretSteelAP" count="2" tags="learnable" craft_area="workbench" craft_time="12">
+			<ingredient name="resourceForgedSteel" count="1" />
+		</recipe>
+		<recipe name="ammoBundleSteelJunkTurret" count="1" tags="learnable,perkTurrets" craft_area="workbench" craft_time="140">
+			<ingredient name="resourceForgedSteel" count="200" />
+		</recipe>
+		<recipe name="ammoJunkTurretSteel" count="4" tags="learnable,perkTurrets" craft_area="workbench" craft_time="12">
 			<ingredient name="resourceForgedSteel" count="1" />
 		</recipe>
 		<recipe name="ammoBundleSteelJunkTurret" count="1" tags="learnable,perkTurrets" craft_area="forge" craft_time="160" craft_tool="toolForgeCrucible">
-			<ingredient name="unit_iron" count="4000" />
-			<ingredient name="unit_clay" count="1500" />
+			<ingredient name="unit_iron" count="4800" />
+			<ingredient name="unit_clay" count="1600" />
 		</recipe>
-		<recipe name="ammoSteelJunkTurret" count="1" tags="learnable,perkTurrets" craft_area="forge" craft_time="3" craft_tool="toolForgeCrucible">
-			<ingredient name="unit_iron" count="5" />
+		<recipe name="ammoJunkTurretSteel" count="1" tags="learnable,perkTurrets" craft_area="forge" craft_time="3" craft_tool="toolForgeCrucible">
+			<ingredient name="unit_iron" count="6" />
+			<ingredient name="unit_clay" count="2" />
+		</recipe>
+		<recipe name="ammoBundleSteelAPJunkTurret" count="1" tags="learnable" craft_area="forge" craft_time="160" craft_tool="toolForgeCrucible">
+			<ingredient name="unit_iron" count="4000" />
+			<ingredient name="unit_clay" count="750" />
+		</recipe>
+		<recipe name="ammoJunkTurretSteelAP" count="1" tags="learnable" craft_area="forge" craft_time="4" craft_tool="toolForgeCrucible">
+			<ingredient name="unit_iron" count="10" />
 			<ingredient name="unit_clay" count="2" />
 		</recipe>
 		<recipe name="resourceJunkTurretRepairKit" count="1">
 			<ingredient name="resourceRepairKit" count="1" />
 			<ingredient name="carBattery" count="1" />
 		</recipe>
-		
+		<recipe name="gunBotTurretBatteryAndParts" count="1" tags="perkTurrets" >
+			<ingredient name="carBattery" count="1" />
+			<ingredient name="gunBotRoboticsParts" count="4" />
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount"  operation="perc_add"  level="2,6"  value=".5,2.5"  tags="gunBotRoboticsParts" />
+			</effect_group>
+		</recipe>
 		<!-- 
 			Removed for alpha 19
 			<recipe name="ammoBundleJunkTurret" count="1" craft_area="workbench" craft_time="140" tags="learnable,perkTurrets">
@@ -29,10 +49,12 @@
 			</recipe>
  		-->
 	</append>
+	<remove xpath="/recipes/recipe[@name='gunBotT1JunkSledge']/ingredient[@name='gunBotRoboticsParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunBotT2JunkTurret']/ingredient[@name='gunBotRoboticsParts']"/>
 	<append xpath="/recipes/recipe[@name='gunBotT2JunkTurret']">
-		<ingredient name="carBattery" count="1" />
+		<ingredient name="gunBotTurretBatteryAndParts" count="1" />
 	</append>
 	<append xpath="/recipes/recipe[@name='gunBotT1JunkSledge']">
-		<ingredient name="carBattery" count="1" />
+		<ingredient name="gunBotTurretBatteryAndParts" count="1" />
 	</append>
 </WrathmaniacsJunkTurretOverhaul>
