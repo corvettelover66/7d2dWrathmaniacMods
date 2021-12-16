@@ -1,0 +1,3 @@
+<WrathmaniacsItemRepairingOverhaul>
+	<set xpath="/lootcontainers/lootgroup/item[@name='resourceRepairKit']/@name">resourceNormalRepairKit</set>
+</WrathmaniacsItemRepairingOverhaul>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Item Repairing Overhaul" />
+		<Description value="Changes the way special items are repaired, forcing the player to be more mindful of weapon and vehicle use and available parts. Also, forces Junk Turrets to use batteries to be crafted and repaired." />
+		<Author value="wrathmaniac" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>
