@@ -1,0 +1,143 @@
+<WrathmaniacsItemRepairingOverhaul>
+	<append xpath="/items">
+		<!-- Intermediate item needed for "Vehicle Repair Kit" to fix UI limitation of 5 items in a recipe -->
+		<item name="vehicleAllParts">
+			<property name="HoldType" value="45" />
+			<property name="CustomIcon" value="vehicleAllParts" />
+			<property name="DescriptionKey" value="vehicleAllCarPartsDesc" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="NoScrapping" value="true" />
+			<property name="Material" value="Miron" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Weight" value="1" />
+			<property name="Stacknumber" value="5" />
+			<property name="EconomicValue" value="2000" />
+			<property name="Group" value="Resources" />
+		</item>
+		<!-- Intermediate item needed for "Either Bot Turret Construction" to fix UI limitation of 5 items in a recipe -->
+		<item name="gunBotTurretBatteryAndParts">
+			<property name="Extends" value="vehicleAllParts" />
+			<property name="CustomIcon" value="gunBotTurretBatteryAndParts" />
+			<property name="DescriptionKey" value="gunBotTurretBatteryAndPartsDesc" />
+			<property name="EconomicValue" value="600" />
+		</item>
+		<item name="resourceMGPartsRepairKit">
+			<property name="HoldType" value="45" />
+			<property name="Tags" value="junk" />
+			<property name="CustomIcon" value="resourceMGPartsRepairKit" />
+			<property name="DescriptionKey" value="resourceMGPartsRepairKitDesc" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Msteel" />
+			<property name="Stacknumber" value="25" />
+			<property name="EconomicValue" value="186" />
+			<property name="RepairTime" value="3" />
+			<property name="RepairAmount" value="32000" />
+			<property name="Group" value="Resources" />
+		</item>
+		<item name="resourceNormalRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />			
+			<property name="DescriptionKey" value="resourceNormalRepairKitDesc" />
+			<property name="CustomIcon" value="resourceNormalRepairKit" />
+		</item>
+		<item name="resourceWpnSledgePartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceWpnSledgePartsRepairKit" />
+		</item>
+		<item name="resourceHandgunPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceHandgunPartsRepairKit" />
+		</item>
+		<item name="resourceRiflePartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceRiflePartsRepairKit" />
+		</item>
+		<item name="resourceShotgunPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceShotgunPartsRepairKit" />
+		</item>
+		<item name="resourceBowPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceBowPartsRepairKit" />
+		</item>
+		<item name="resourceExplosivesPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceExplosivesPartsRepairKit" />
+		</item>
+		<item name="resourceBotPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceBotPartsRepairKit" />
+		</item>
+		<item name="resourceWpnBatonPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceWpnBatonPartsRepairKit" />
+		</item>
+		<item name="resourceWpnKnucklesPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceWpnKnucklesPartsRepairKit" />
+		</item>
+		<item name="resourceWpnBladePartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceWpnBladePartsRepairKit" />
+		</item>
+		<item name="resourceWpnSpearPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceWpnSpearPartsRepairKit" />
+		</item>
+		<item name="resourceToolAllSteelPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceToolAllSteelPartsRepairKit" />
+		</item>
+		<item name="resourceMilitarySetPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceMilitarySetPartsRepairKit" />
+		</item>
+		<item name="resourceSteelSetPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceSteelSetPartsRepairKit" />
+		</item>
+		<item name="resourceToolAxePartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceToolAxePartsRepairKit" />
+		</item>
+		<item name="resourceWpnClubPartsRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceWpnClubPartsRepairKit" />
+		</item>
+	</append>
+	<append xpath="/items/item[@name='resourceRepairKit']">
+		<property name="PickupJournalEntry" value="resourceRepairKitToolTip" />
+	</append>
+	<set xpath="/items/item[contains(@name,'gunMG')]/property[@name='RepairTools']/@value">resourceMGPartsRepairKit</set>
+	<set xpath="/items/item[contains(@name,'gunHandgun')]/property[@name='RepairTools']/@value">resourceHandgunPartsRepairKit</set>
+	<set xpath="/items/item[contains(@name,'gunRifle')]/property[@name='RepairTools']/@value">resourceRiflePartsRepairKit</set>
+	<set xpath="/items/item[contains(@name,'gunShotgun') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceShotgunPartsRepairKit</set>
+	<set xpath="/items/item[contains(@name,'gunBow') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceBowPartsRepairKit</set>
+	<set xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='RepairTools']/@value">resourceExplosivesPartsRepairKit</set>
+	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='RepairTools']/@value">resourceWpnBatonPartsRepairKit</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='RepairTools']/@value">resourceWpnBladePartsRepairKit</set>
+	<set xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/property[@name='RepairTools']/@value">resourceWpnSledgePartsRepairKit</set>
+	<set xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='RepairTools']/@value">resourceWpnClubPartsRepairKit</set>
+	<set xpath="/items/item[contains(@name,'gunBot')]/property[@name='RepairTools']/@value">resourceBotPartsRepairKit</set>
+	<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']">
+		<property name="RepairTools" value="resourceWpnSpearPartsRepairKit" />
+	</append>
+	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnuckles']">
+		<property name="RepairTools" value="resourceWpnKnucklesPartsRepairKit" />
+	</append>
+	<!--  covers ratchet, all steel tools, and axe -->
+	<set xpath="/items/item[contains(@name,'meleeTool') and contains(@name,'T2') ]/property[@name='RepairTools']/@value">resourceToolAllSteelPartsRepairKit</set>
+	<!-- Steel Axe -->
+	<append xpath="/items/item[@name='meleeToolAxeT2SteelAxe']">
+		<property name="RepairTools" value="resourceToolAllSteelPartsRepairKit" />
+	</append>
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='RepairTools']/@value">resourceToolAllSteelPartsRepairKit</set>
+	<!-- steel armor -->
+	<set xpath="/items/item[@name='armorSteelMaster']/property[@name='RepairTools']/@value">resourceSteelSetPartsRepairKit</set>
+	<!-- military armor -->
+	<set xpath="/items/item[@name='armorMilitaryMaster']/property[@name='RepairTools']/@value">resourceMilitarySetPartsRepairKit</set>
+	<!-- covers impact driver, auger, chainsaw -->
+	<set xpath="/items/item[contains(@name,'meleeTool') and contains(@name,'T3') and not(contains(@name,'Nailgun')) ]/property[@name='RepairTools']/@value">resourceToolAxePartsRepairKit</set>
+	<!-- I need to overwrite the repair kits AFTER setting the others, this will ensure only basic items get affected-->
+	<set xpath="/items/item/property[@value='resourceRepairKit']/@value">resourceNormalRepairKit</set>
+</WrathmaniacsItemRepairingOverhaul>
