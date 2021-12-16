@@ -1,0 +1,6 @@
+<WrathmaniacsMoreZombies_x4>
+	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'Zombies') and @maxcount=1]/@maxcount">4</set>
+	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'Zombies') and @maxcount=2]/@maxcount">8</set>
+	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'Zombies') and @maxcount=3]/@maxcount">12</set>
+	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'Zombies') and @maxcount=4]/@maxcount">16</set>
+</WrathmaniacsMoreZombies_x4>
