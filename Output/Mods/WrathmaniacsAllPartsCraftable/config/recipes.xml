@@ -1,5 +1,13 @@
 <WrathmaniacsAllPartsCraftable>
 	<append xpath="/recipes">
+		<recipe name="Disassemble Steel Club Parts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="meleeWpnClubT3SteelClubParts" count="1" />
+		</recipe>
+		<recipe name="meleeWpnClubT3SteelClubParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceSpring" count="1" />
+			<ingredient name="resourceMechanicalParts" count="3" />
+			<ingredient name="resourceForgedSteel" count="7" />
+		</recipe>
 		<recipe name="Disassemble meleeToolSledgehammerSteelParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
 			<ingredient name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" />
 		</recipe>
@@ -54,14 +62,14 @@
 			<ingredient name="resourceForgedSteel" count="8"></ingredient>
 		</recipe>
 		<recipe name="meleeToolAxeT3ChainsawParts" count="1" craft_time="30" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
-			<ingredient name="resourceForgedSteel" count="10" />
-			<ingredient name="resourceMechanicalParts" count="5" />
 			<ingredient name="resourceSpring" count="2" />
+			<ingredient name="resourceMechanicalParts" count="5" />
+			<ingredient name="resourceForgedSteel" count="10" />
 		</recipe>
 		<recipe name="armorMilitarySetParts" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
-			<ingredient name="resourceForgedSteel" count="10" />
-			<ingredient name="resourceMechanicalParts" count="5" />
 			<ingredient name="resourceSpring" count="2" />
+			<ingredient name="resourceMechanicalParts" count="5" />
+			<ingredient name="resourceForgedSteel" count="10" />
 		</recipe>
 		<recipe name="gunHandgunT1PistolParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
 			<ingredient name="resourceSpring" count="1" />
@@ -123,15 +131,6 @@
 			<ingredient name="resourceMechanicalParts" count="3" />
 			<ingredient name="resourceForgedSteel" count="7" />
 		</recipe>
-		<!-- 
-			Removed for alpha 19
-		<recipe name="meleeClubBaseballBatParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
-			<ingredient name="resourceSpring" count="1" />
-			<ingredient name="resourceMechanicalParts" count="2" />
-			<ingredient name="resourceForgedSteel" count="5" />
-		</recipe>
- 		-->
-
 		<recipe name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
 			<ingredient name="resourceSpring" count="1" />
 			<ingredient name="resourceMechanicalParts" count="2" />
