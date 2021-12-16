@@ -1,16 +1,6 @@
 <!-- Xml Written October 26, 2020 at 01:33:28 -->
 <WrathmaniacsImmersiveSchematicsNormal>
 	<append xpath="/items">
-		<item name="meleeWpnBatonT3PlasmaBatonSchematic">
-			<property name="Extends" value="schematicNoQualityMaster" />
-			<property name="CreativeMode" value="Player" />
-			<property name="CustomIcon" value="meleeWpnBatonT3PlasmaBaton" />
-			<property name="Unlocks" value="meleeWpnBatonT3PlasmaBaton" />
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBatonT3PlasmaBaton" operation="set" value="1" />
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-			</effect_group>
-		</item>
 		<item name="resourceLockPickSchematic">
 			<property name="Extends" value="schematicNoQualityMaster" />
 			<property name="CreativeMode" value="Player" />
@@ -22,7 +12,7 @@
 			</effect_group>
 		</item>
 		<item name="junkMinesSchematic">
-			<property name="Extends" value="schematicMaster" />
+			<property name="Extends" value="schematicNoQualityMaster" />
 			<property name="CreativeMode" value="Player" />
 			<property name="CustomIcon" value="mineHubcap" />
 			<property name="Unlocks" value="mineHubcap" />

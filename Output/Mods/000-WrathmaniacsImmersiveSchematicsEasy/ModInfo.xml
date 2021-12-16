@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Wrathmaniac's Immersive Schematic Crafting (A19)" />
+		<Name value="Wrathmaniac's Immersive Schematic Crafting (A20)" />
 		<Description value="A mod that prevents wasted schematics without breakin their necessity in game. Easy: 6 shards every schematic read, important recipes buildable in backpack on perk unlock forge, first aid bandages, iron tools, wrench and painkiller schematics. " />
 		<Author value="Wrathmaniac" />
-		<Version value="2.0" />
+		<Version value="ISC-1.0(20.a.e)" />
 	</ModInfo>
 </xml>

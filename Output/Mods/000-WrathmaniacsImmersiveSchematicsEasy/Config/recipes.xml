@@ -241,7 +241,7 @@
 		<recipe name="gunRifleT3SniperRifleSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
 			<ingredient name="resourceSchematicPiece" count="50" />
 		</recipe>
-		<recipe name="gunRifleT2MarksmanRifleSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
+		<recipe name="gunRifleT2LeverActionRifle" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
 			<ingredient name="resourceSchematicPiece" count="50" />
 		</recipe>
 		<recipe name="gunRifleT1HuntingRifleSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
