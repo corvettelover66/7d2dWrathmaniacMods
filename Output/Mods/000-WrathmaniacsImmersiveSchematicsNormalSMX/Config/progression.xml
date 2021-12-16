@@ -11,9 +11,11 @@
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">workbenchSchematic,chemistryStationSchematic,cementMixerSchematic,toolAnvilSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">forgeSchematic</set>
 	<!-- perkPhysician -->
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group">
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,4"  value="1"  tags="drugPainKillersSchematic"/>
+	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4']/@tags">drugFortBitesSchematic,drugRecogSchematic,drugAntibioticsSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,4']/@tags">medicalFirstAidKitSchematic,drugSteroidsSchematic</set>
-	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,4']/@tags">drugPainKillersSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,4']/@tags">chemistryStationSchematic,medicalFirstAidBandageSchematic,medicalPlasterCastSchematic</set>
 	<!-- perkGreaseMonkey -->
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">vehicleGyroCopterChassisSchematic,vehicleGyroCopterAccessoriesSchematic</set>
