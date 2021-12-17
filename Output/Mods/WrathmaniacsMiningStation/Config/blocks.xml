@@ -22,10 +22,10 @@
 			<property name="Material" value="Mmetal" />
 			<property name="MaxDamage" value="500" />
 			<property name="StabilitySupport" value="false" />
-			<property name="Shape" value="Ext3dModel" />
+			<property name="Shape" value="ModelEntity" />
 			<property name="Texture" value="293" />
 			<property name="Mesh" value="models" />
-			<property name="Model" value="Industrial/control_panel_base_04" param1="main_mesh" />
+			<property name="Model" value="Entities/Industrial/controlPanelBase_04Prefab"/>
 			<property name="DisplayType" value="blockMulti" />
 			<property name="MultiBlockDim" value="1,1,1" />
 			<property name="ImposterDontBlock" value="true" />
@@ -56,11 +56,11 @@
 			<property name="Material" value="Mmetal" />
 			<property name="MaxDamage" value="800" />
 			<property name="StabilitySupport" value="false" />
-			<property name="Shape" value="Ext3dModel" />
+			<property name="Shape" value="ModelEntity" />
 			<property name="Texture" value="293" />
 			<property name="Mesh" value="models" />
 			<property name="Path" value="solid" />
-			<property name="Model" value="Industrial/control_panel_base_04" param1="main_mesh" />
+			<property name="Model" value="Entities/Industrial/controlPanelBase_04Prefab" />
 			<property name="DisplayType" value="blockMulti" />
 			<property name="UnlockedBy" value="perkAdvancedEngineering,miningstationSchematic" />
 			<property name="MultiBlockDim" value="1,1,1" />
@@ -101,10 +101,5 @@
 			<property name="FilterTags" value="fdecor,fother,ffurniture" />
 			<property name="SortOrder1" value="70i0" />
 		</block>
-		<!-- 
-		<block name="controlPanelBase04" >
-			<property name="Extends"  value="cntCollapsedMiningstation"  param1="Path"/>
-		</block>
-		 -->
 	</append>
 </WrathmaniacsMiningStation>
