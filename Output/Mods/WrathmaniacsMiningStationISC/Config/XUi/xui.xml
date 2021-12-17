@@ -6,7 +6,6 @@
 			<window name="windowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowToolsMiningStationChips"/>
-			<window name="windowToolsMiningStationAugers"/>
 			<window name="windowNonPagingHeader" />
 		</window_group>	
 	</append>
