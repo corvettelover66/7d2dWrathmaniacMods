@@ -1,6 +1,18 @@
 <WrathmaniacsMiningStation>
-	<!-- Due to this block overwrite is is not reccommended to install this mod mid playthrough as mining stations will not be properly placed in the world. -->
-	<remove xpath="/blocks/block[@name='controlPanelBase04']"/>
+	<!-- Due to these block appends is is not reccommended to install this mod mid playthrough as mining terminals will not be lootable without refreshing the chunks. -->
+	<append xpath="/blocks/block[@name='controlPanelBase04']">
+		<property name="Class" value="Loot" />
+		<property name="LootList" value="230" />
+	</append>
+	<append xpath="/blocks/block[@name='controlPanelTop02']">
+		<property name="Class" value="Loot" />
+		<property name="LootList" value="230" />
+	</append>
+	<!-- Double terminal block -->
+	<append xpath="/blocks/block[@name='controlPanelTop06']">
+		<property name="Class" value="Loot" />
+		<property name="LootList" value="231" />
+	</append>
 	<append xpath="/blocks">
 		<block name="cntCollapsedMiningstation">
 			<property name="CreativeMode" value="Dev" />
@@ -10,10 +22,10 @@
 			<property name="Material" value="Mmetal" />
 			<property name="MaxDamage" value="500" />
 			<property name="StabilitySupport" value="false" />
-			<property name="Shape" value="Ext3dModel" />
+			<property name="Shape" value="ModelEntity" />
 			<property name="Texture" value="293" />
 			<property name="Mesh" value="models" />
-			<property name="Model" value="Industrial/control_panel_base_04" param1="main_mesh" />
+			<property name="Model" value="Entities/Industrial/controlPanelBase_04Prefab"/>
 			<property name="DisplayType" value="blockMulti" />
 			<property name="MultiBlockDim" value="1,1,1" />
 			<property name="ImposterDontBlock" value="true" />
@@ -26,9 +38,8 @@
 				<property name="resourceElectricParts" value="50" />
 			</property>
 			<drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest" />
-			<drop event="Harvest" name="resourceWood" count="20" tag="allHarvest" />
 			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
-			<drop event="Harvest" name="resourceForgedSteel" count="10" tag="salvageHarvest" />
+			<drop event="Harvest" name="resourceForgedSteel" count="5" tag="salvageHarvest" />
 			<drop event="Harvest" name="resourceMechanicalParts" count="15" tag="salvageHarvest" />
 			<drop event="Harvest" name="resourceElectricParts" count="10" tag="salvageHarvest" />
 			<drop event="Destroy" count="0" />
@@ -45,11 +56,11 @@
 			<property name="Material" value="Mmetal" />
 			<property name="MaxDamage" value="800" />
 			<property name="StabilitySupport" value="false" />
-			<property name="Shape" value="Ext3dModel" />
+			<property name="Shape" value="ModelEntity" />
 			<property name="Texture" value="293" />
 			<property name="Mesh" value="models" />
 			<property name="Path" value="solid" />
-			<property name="Model" value="Industrial/control_panel_base_04" param1="main_mesh" />
+			<property name="Model" value="Entities/Industrial/controlPanelBase_04Prefab" />
 			<property name="DisplayType" value="blockMulti" />
 			<property name="UnlockedBy" value="perkAdvancedEngineering,miningstationSchematic" />
 			<property name="MultiBlockDim" value="1,1,1" />
@@ -62,26 +73,25 @@
 			<property name="HeatMapFrequency" value="1000" />
 			<property name="Stacknumber" value="1" />
 			<property class="Workstation">
-				<property name="Modules" value="output" />
 				<property name="CraftingAreaRecipes" value="miningstation" />
+				<property name="Modules" value="tools,output" />
 			</property>
 			<property name="WorkstationIcon" value="ui_game_symbol_mining" />
 			<property name="OpenSound" value="open_workbench" />
 			<property name="CloseSound" value="close_workbench" />
 			<property name="CraftSound" value="gas_refill" />
 			<property name="CraftCompleteSound" value="miningstation_Finish" />
-			<property name="WorkstationJournalTip" value="minerstationtip" />
+			<property name="WorkstationJournalTip" value="miningstationToolTip" />
 			<property class="RepairItems">
-				<property name="resourceForgedSteel" value="100" />
-				<property name="resourceMechanicalParts" value="50" />
-				<property name="resourceElectricParts" value="50" />
-				<property name="meleeToolAxeT3ChainsawParts" value="20" />
+				<property name="resourceForgedSteel" value="70" />
+				<property name="resourceMechanicalParts" value="40" />
+				<property name="resourceElectricParts" value="30" />
 			</property>
-			<drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest" />
+			<drop event="Harvest" name="resourceScrapIron" count="400" tag="allHarvest" />
 			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
-			<drop event="Harvest" name="resourceForgedSteel" count="10" tag="salvageHarvest" />
-			<drop event="Harvest" name="resourceMechanicalParts" count="15" tag="salvageHarvest" />
-			<drop event="Harvest" name="resourceElectricParts" count="12" tag="salvageHarvest" />
+			<drop event="Harvest" name="resourceForgedSteel" count="20" tag="salvageHarvest" />
+			<drop event="Harvest" name="resourceMechanicalParts" count="30" tag="salvageHarvest" />
+			<drop event="Harvest" name="resourceElectricParts" count="25" tag="salvageHarvest" />
 			<drop event="Destroy" count="0" />
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1" />
 			<property name="TakeDelay" value="15" />
@@ -90,10 +100,6 @@
 			<property name="Group" value="Building,advBuilding" />
 			<property name="FilterTags" value="fdecor,fother,ffurniture" />
 			<property name="SortOrder1" value="70i0" />
-		</block>
-		<block name="controlPanelBase04" >
-			<property name="Extends"  value="cntCollapsedMiningstation"  param1="Path"/>
-			<drop event="Harvest"  name="resourceIronOreMinerChip"  count="1"  tag="salvageHarvest" />
 		</block>
 	</append>
 </WrathmaniacsMiningStation>

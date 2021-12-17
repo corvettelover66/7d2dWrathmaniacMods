@@ -4,12 +4,28 @@
 	</append>
 	<append xpath="/lootcontainers">
 		<!-- Collapsed or Broken Mining Station  -->
-		<lootcontainer id="229" count="1" size="6,10"  sound_open="open_workbench" sound_close="close_workbench"  loot_quality_template="qualBaseTemplate"  destroy_on_close="false"  open_time="8" >
+		<lootcontainer id="229" name="collapsed_mining_station" count="1" size="6,10"  sound_open="open_workbench" sound_close="close_workbench"  loot_quality_template="qualBaseTemplate"  destroy_on_close="false"  open_time="15" >
 			<item name="resourceIronOreMinerChip" />
 			<item name="resourceShaleOreMinerChip" />
 			<item name="resourceLeadOreMinerChip" />
 			<item name="resourceCoalOreMinerChip" />
 			<item name="resourcePotassiumNitrateOreMinerChip"/>
+		</lootcontainer>
+		<!-- Mining Terminal  -->
+		<lootcontainer id="230" name="mining_terminal" count="1" size="6,10"  sound_open="open_workbench" sound_close="close_workbench"  loot_quality_template="qualBaseTemplate"  destroy_on_close="false"  open_time="15" >
+			<item name="resourceIronOreMinerChip" prob=".25"/>
+			<item name="resourceShaleOreMinerChip" prob=".25"/>
+			<item name="resourceLeadOreMinerChip" prob=".25"/>
+			<item name="resourceCoalOreMinerChip" prob=".25" />
+			<item name="resourcePotassiumNitrateOreMinerChip" prob=".25"/>
+		</lootcontainer>
+		<!-- Double Mining Terminal  -->
+		<lootcontainer id="231" name="mining_terminal_times_two" count="2" size="6,10"  sound_open="open_workbench" sound_close="close_workbench"  loot_quality_template="qualBaseTemplate"  destroy_on_close="false"  open_time="15" >
+			<item name="resourceIronOreMinerChip" prob=".25"/>
+			<item name="resourceShaleOreMinerChip" prob=".25"/>
+			<item name="resourceLeadOreMinerChip" prob=".25"/>
+			<item name="resourceCoalOreMinerChip" prob=".25" />
+			<item name="resourcePotassiumNitrateOreMinerChip" prob=".25"/>
 		</lootcontainer>
 	</append>
 </WrathmaniacsMiningStation>

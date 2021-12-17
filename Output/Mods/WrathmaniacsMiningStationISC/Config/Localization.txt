@@ -1,22 +1,27 @@
 key,source,context,changes,english,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
-miningstationSchematic,items,item,New,Mining Station Schematic,,,,,,,,,,,,,,,,,
-miningstation,blocks,Block,New,Mining Station,,,,,,,,,,,,,,,,,
-miningstationDesc,blocks,Block,New,"The Mining Station is a piece of technological beauty, capable of finding and mining any resource deep below the surface. Basic ores can be mined immediately but rare ores such as lead and iron require mining chips.  Supports up to five augers, each auger added reduces the mining time of any resource.\n\n[AF1E19] Warning[-]: overloading the Auto Miner output will cause gas overflows and you will lose both resources and gas.",,,,,,,,,,,,,,,,,
+miningstationSchematic,items,item,New,Mining Station Schematic,,,,,,채굴 시설 도면
+miningstation,blocks,Block,New,Mining Station,,,,,,채굴 시설
+miningstationDesc,blocks,Block,New,"The Mining Station is a piece of technological beauty, capable of finding and mining any resource deep below the surface. Basic ores can be mined immediately but rare ores such as lead and iron require mining chips.  Supports up to five augers, each auger added reduces the mining time of any resource.\n\n[AF1E19] Warning[-]: overloading the Auto Miner output will cause gas overflows and you will lose both resources and gas.",,,,,,채굴시설은 기술적 아름다움의 한 조각입니다...! 지면 깊은 곳에서 어떤 자원도 찾아내고 채굴할 수 있습니다. 기본 광석은 즉시 채굴할 수 있지만 납과 철과 같은 희귀 광석은 채굴 칩을 필요 합니다. 나사송곳을 추가하면 채굴 시간이 줄어듭니다 최대 5개의 나사송곳을 지원합니다 모든 자원의 채굴 시간이 단축됩니다.\n\n[AF1E19] 경고[-]: 자동채굴기 출력에 과부하가 걸리면 가스가 넘쳐 자원과 가스가 모두 손실될 것입니다.
 controlPanelBase04,blocks,Block,New,Mining Terminal,Kontrollkonsole – Sockel 04,Base de panel de control 04,Base de panneau de contrôle 04,Base del pannello di controllo 04,制御盤ベース04,제어 패널 (베이스 04),Panel sterowania — podstawa 04,Base do painel de controle 04,База блока управления 04,Kontrol Paneli Tabanı 04,控制面板 基底 04,控制面板底座 04,Base de panel de control 04
-resourceIronOreMinerChip,items,item,New,Iron Mining Chip,,,,,,,,,,,,,,,,,
-resourceIronOreMinerChipDesc,items,item,New,"Mining chips are needed by the mining station to mine rare ores such as lead, potassium nitrate, coal, shale, and iron. To use one, you simply equip the chip to the mining station like you would a tool at the campfire.",,,,,,,,,,,,,,,,,
-resourceShaleOreMinerChip,items,item,New,Shale Mining Chip,,,,,,,,,,,,,,,,,
-resourceLeadOreMinerChip,items,item,New,Lead Mining Chip,,,,,,,,,,,,,,,,,
-resourcePotassiumNitrateOreMinerChip,items,item,New,Potassium Nitrate Mining Chip,,,,,,,,,,,,,,,,,
-resourceCoalOreMinerChip,items,item,New,Coal Mining Chip,,,,,,,,,,,,,,,,,
-cntCollapsedMiningstation,blocks,Block,New,Destroyed Mining Station,,,,,,,,,,,,,,,,,
-resourceIronOreMinerChipToolTip,Journal Tip,,New,"Mining chips are a necessary tool for the mining station, if you want to mine rare ores such as lead and iron. Impossible to craft, though you are sure to find one in mining terminals and destroyed mining stations. Without the correct mining chip, a mining station is unable to locate and mine rare ores. ",,,,,,,,,,,,,,
-resourceIronOreMinerChipToolTip_title,Journal Tip,,New,Mining Chips,,,,,
-loadingTipMiningStation,UI,Loading Screen,New,"An advanced workstation, expensive and not easily equipped, the mining station is capable of locating and mining any ore deep below the surface.  This workstation requires mining chips to find rare ores and is capable of equipping up to five augers, each auger equipped speeds up mining time by 10%!",,
-loadingTipMiningStation_title,UI,Loading Screen,New,Mining Stations,
-loadingTipMiningChips,UI,Loading Screen,New,"Uncraftable and not the easiest to obtain, mining chips are both valuable and necessary for a mining station to be fully functional. There are 5 mining chips, one for each rare ore: Iron, Lead, Potassium Nitrate, Coal, and Shale. Basic resources such as clay and rocks can be mined without a chip.",,
-loadingTipMiningChips_title,UI,Loading Screen,New,Mining Chips,
-loadingTipMiningTerminals,UI,Loading Screen,New,Mining terminals can be found in many industrial buildings and look very similiar to the mining station. They will take some time to open but when you do you are sure to get a mining chip.,,
-loadingTipMiningTerminals_title,UI,Loading Screen,New,Mining Terminals,
-loadingTipDestroyedMiningStations,UI,Loading Screen,New,"Destroyed mining stations can only be found in closed shipping crates, but if found you are sure to get a mining chip. ",,
-loadingTipDestroyedMiningStations_title,UI,Loading Screen,New,Destroyed Mining Stations,
+controlPanelTop02,blocks,Block,New,Mining Terminal,Kontrollkonsole – Oben 02,Parte superior de panel de control 02,Haut de panneau de contrôle 02,Parte superiore del pannello di controllo 02,制御盤上部02,제어 패널 (상부 02),Panel sterowania — góra 02,Topo do painel de controle 02,Верх блока управления 02,Kontrol Paneli Üstü 02,控制面板 顶部 02,控制面板頂部 02,Parte superior de panel de control 02
+controlPanelTop06,blocks,Block,New,Mining Terminals,Kontrollkonsole – Oben 06,Parte superior de panel de control 06,Haut de panneau de contrôle 06,Parte superiore del pannello di controllo 06,制御盤上部06,제어 패널 (상부 06),Panel sterowania — góra 06,Topo do painel de controle 06,Верх блока управления 06,Kontrol Paneli Üstü 06,控制面板 顶部 06,控制面板頂部 06,Parte superior de panel de control 06
+resourceIronOreMinerChip,items,item,New,Iron Mining Chip,,,,,,철 채굴 칩
+resourceIronOreMinerChipDesc,items,item,New,"Mining chips are needed by the mining station to mine rare ores such as lead, potassium nitrate, coal, shale, and iron. To use one, you simply equip the chip to the mining station like you would a tool at the campfire.",,,,,,"납,질산염 분말,석탄,오일셰일,원철 같은 희귀한 광석을 채취하기 위해 마이닝 칩은 마이닝 스테이션에 필요합니다 사용하려면 캠프파이어에 도구를 넣는 것 처럼 간단하게 마이닝 스테이션에 장착하세요."
+resourceShaleOreMinerChip,items,item,New,Shale Mining Chip,,,,,,셰일오일 채굴 칩
+resourceLeadOreMinerChip,items,item,New,Lead Mining Chip,,,,,,납 채굴 칩
+resourcePotassiumNitrateOreMinerChip,items,item,New,Potassium Nitrate Mining Chip,,,,,,질산염 채굴 칩
+resourceCoalOreMinerChip,items,item,New,Coal Mining Chip,,,,,,석탄 채굴 칩
+cntCollapsedMiningstation,blocks,Block,New,Destroyed Mining Station,,,,,,부서진 채굴 시설
+miningstationToolTip,Journal Tip,,New,"Mining stations are advanced machines that require a lot of materials to build but are capable of mining ores easily using gasoline. The machine works similiarly to a campfire able to equipping both mining chips and extra augers as tools. The mining chips are necessary to find rare ores, without one the mining station can only mine rock, and clay. Augers are purely optional, as there is one built in, though any extra auger on the machine speeds up ore mining by 10%.",,,,,,마이닝 스테이션은 지으려면 많은 재료가 필요하지만 휘발유를 이용해 광석을 쉽게 채굴할 수 있는 첨단 기계입니다. 이 기계는 채굴 칩과 추가 나사송곳을 모두 도구로 사용할 수 있습니다. 채굴 칩은 희귀한 광석을 찾기 위해 필요하며,채굴 칩이 없으면 돌과 점토만 채굴할 수 있습니다. 기계에 추가되는 나사송곳이 광석 채굴 속도를 10%까지 증가시키지만 기본으로 장착되있기 때문에 추가 나사송곳은 선택사항입니다
+miningstationToolTip_title,Journal Tip,,New,Mining Stations,,,,,,채굴 시설
+resourceIronOreMinerChipToolTip,Journal Tip,,New,"Mining chips are a necessary tool for the mining station to be fully equipped. Impossible to craft, though findable in mining terminals and destroyed mining stations. Without the correct mining chip, a mining station is unable to locate and mine rare ores.\n\nThere are 5 mining chips, one for each rare ore: Iron, Lead, Potassium Nitrate, Coal, and Shale.",,,,,,"채굴 칩은 채굴장이 완전히 작동되기 위해 꼭 필요한 도구입니다. 채굴 터미널과 파괴된 채굴 시설에서 찾을 수 있지만 제작이 불가능합니다. 맞는 채굴 칩이 없으면 채굴 시설은 희귀한 광석을 채굴할 수 없습니다.\n\n희귀 광석당 하나씩 5개의 채굴 칩이 있습니다. 철,납,질산염 분말,석탄,오일셰일."
+resourceIronOreMinerChipToolTip_title,Journal Tip,,New,Mining Chips,,,,,,채굴 시설
+loadingTipMiningStation,UI,Loading Screen,New,"An advanced workstation, expensive and not easily equipped, the mining station is capable of locating and mining any ore deep below the surface.  This workstation requires mining chips to find rare ores and is capable of equipping up to five augers, each auger equipped speeds up mining time by 10%."
+loadingTipMiningStation_title,UI,Loading Screen,New,Mining Stations
+loadingTipMiningChips,UI,Loading Screen,New,"Uncraftable and not the easiest to obtain, mining chips are both valuable and necessary for a mining station to be fully functional. Basic resources such as clay and rocks can be mined without a chip."
+loadingTipMiningChips_title,UI,Loading Screen,New,Mining Chips
+loadingTipMiningTerminals,UI,Loading Screen,New,Mining terminals can be found in many industrial buildings and look very similiar to the mining station. They will take some time to open but each one has a good chance to give you a mining chip.
+loadingTipMiningTerminals_title,UI,Loading Screen,New,Mining Terminals
+loadingTipDestroyedMiningStations,UI,Loading Screen,New,"Destroyed mining stations can only be found in closed shipping crates, but if found you are sure to get a mining chip. It's also good to know that closed shipping crates can contain a working mining station, though this is very uncommon."
+loadingTipDestroyedMiningStations_title,UI,Loading Screen,New,Destroyed Mining Stations
+xuiChips,UI,XUI,New,Chips & Augers
