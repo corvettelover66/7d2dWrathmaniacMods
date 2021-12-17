@@ -1,4 +1,4 @@
-<WrathmaniacsSpecialPartsCraftableMiningStationPatch>
+<WrathmaniacsSpecialPartsCraftableMiningStationPatchSMX>
 	<append xpath="/items">
 		<item name="resourceRawCopperOreMinerChip">
 			<property name="Extends" value="resourceIronOreMinerChip" />
@@ -9,4 +9,4 @@
 			<property name="CustomIcon" value="resourceSphaleriteOreMinerChip" />
 		</item>
 	</append>
-</WrathmaniacsSpecialPartsCraftableMiningStationPatch>
+</WrathmaniacsSpecialPartsCraftableMiningStationPatchSMX>
