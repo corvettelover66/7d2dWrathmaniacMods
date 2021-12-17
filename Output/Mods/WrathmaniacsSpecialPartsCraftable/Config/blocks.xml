@@ -116,10 +116,6 @@
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
-	<insertBefore xpath="/blocks/block[@name='cntWashingMachine']/drop[@event='Destroy']">
-			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
-	</insertBefore>
-	
 	<insertBefore xpath="/blocks/block[@name='cntWasherOpen']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
@@ -129,10 +125,6 @@
 	</insertBefore>
 	
 	<insertBefore xpath="/blocks/block[@name='conduit01']/property[@name='FilterTags']">
-			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
-	</insertBefore>
-	
-	<insertBefore xpath="/blocks/block[@name='cntGasPump']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
