@@ -51,11 +51,10 @@
 			<ingredient name="resourceScrapIron" count="10" />
 			<ingredient name="resourceAcid" count="1" />
 		</recipe>
-		<recipe name="resourceRefinedCopper" count="100" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="20">
+		<recipe name="resourceRefinedCopper" count="120" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="20">
 			<ingredient name="resourceRawCopperMix" count="750" />
 			<ingredient name="resourceScrapIron" count="10" />
 			<ingredient name="resourceAcid" count="1" />
-			<ingredient name="drinkJarGrainAlcohol" count="1" />
 		</recipe>
 		<recipe name="resourceScrapPolymers" count="4" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="15">
 			<ingredient name="ammoGasCan" count="200" />
