@@ -1,0 +1,62 @@
+<WrathmaniacsRepairedWorkstations>
+	<append xpath="/blocks/block[@name='cntCollapsedSolarbank']">
+			<drop event="Harvest"  name="resourceSolarcellParts"  count="0,16" tag="salvageHarvest"/>
+			<drop event="Harvest"  name="resourceSolarcellParts"  count="1,16" tag="salvageHarvest"/>
+			<drop event="Harvest"  name="resourceSolarbankParts"  count="0,7" tag="salvageHarvest"/>
+			<drop event="Harvest"  name="resourceSolarbankParts"  count="1,15" ag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntCollapsedForge']">
+			<drop event="Harvest"  name="resourceForgeParts"  count="0,3" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceForgeParts"  count="1,3" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntCollapsedWorkbench']">
+			<drop event="Harvest"  name="resourceWorkbenchParts"  count="0,5" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceWorkbenchParts"  count="1,5" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntCollapsedCementMixer']">
+			<drop event="Harvest"  name="resourceCementMixerParts"  count="0,5" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceCementMixerParts"  count="1,5" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntCollapsedChemistryStation']">
+			<drop event="Harvest"  name="resourceChemistryStationParts"  count="0,6" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceChemistryStationParts"  count="1,6" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntCollapsedGeneratorbank']">
+			<drop event="Harvest"  name="resourceGeneratorbankParts"  count="0,3" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceGeneratorbankParts"  count="1,3" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntCollapsedBatterybank']">
+			<drop event="Harvest"  name="resourceBatterybankParts"  count="0,4" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceBatterybankParts"  count="1,4" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='forge']">
+			<drop event="Harvest"  name="resourceForgeParts"  count="1,3" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceForgeParts"  count="1,6" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='workbench']">
+			<drop event="Harvest"  name="resourceWorkbenchParts"  count="1,5" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceWorkbenchParts"  count="1,10" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='cementMixer']">
+			<drop event="Harvest"  name="resourceCementMixerParts"  count="1,5" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceCementMixerParts"  count="1,10" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='chemistryStation']">
+			<drop event="Harvest"  name="resourceChemistryStationParts"  count="1,6" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceChemistryStationParts"  count="1,12" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='generatorbank']">
+			<drop event="Harvest"  name="resourceGeneratorbankParts"  count="1,3" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceGeneratorbankParts"  count="1,6" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='batterybank']">
+			<drop event="Harvest"  name="resourceBatterybankParts"  count="1,4" tag="salvageHarvest" prob=".5"/>
+			<drop event="Harvest"  name="resourceBatterybankParts"  count="1,8" tag="salvageHarvest"/>
+	</append>
+	<append xpath="/blocks/block[@name='solarbank']">
+			<drop event="Harvest"  name="resourceSolarcellParts"  count="0,16" tag="salvageHarvest"/>
+			<drop event="Harvest"  name="resourceSolarcellParts"  count="1,16" tag="salvageHarvest"/>
+			<drop event="Harvest"  name="resourceSolarbankParts"  count="0,7" tag="salvageHarvest"/>
+			<drop event="Harvest"  name="resourceSolarbankParts"  count="1,15" tag="salvageHarvest"/>
+	</append>
+</WrathmaniacsRepairedWorkstations>
