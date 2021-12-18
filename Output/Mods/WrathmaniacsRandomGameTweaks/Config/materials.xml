@@ -10,6 +10,4 @@
 	<set xpath="/materials/material[@id='MrConcrete']/property[@name='stability_glue']/@value">300</set>
 
 	<set xpath="/materials/material[@id='Mconcrete']/property[@name='stability_glue']/@value">300</set>
-
-<!--
---></WrathmaniacsRandomGameTweaks>
+</WrathmaniacsRandomGameTweaks>

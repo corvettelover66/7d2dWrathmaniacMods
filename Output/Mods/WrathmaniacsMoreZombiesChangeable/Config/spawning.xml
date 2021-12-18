@@ -1,3 +1,0 @@
-<WrathmaniacsMoreZombies_x8>
-	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'Zombies')]/@maxcount">2</set>
-</WrathmaniacsMoreZombies_x8>

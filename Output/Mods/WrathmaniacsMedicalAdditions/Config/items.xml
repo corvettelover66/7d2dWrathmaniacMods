@@ -1,6 +1,6 @@
 <WrathmaniacsMedicalAdditions>
 	<append xpath="/items">
-		<item name="medicalPainKillersSchematic">
+		<item name="drugPainKillersSchematic">
 			<property name="Extends" value="schematicNoQualityMaster" />
 			<property name="CreativeMode" value="Player" />
 			<property name="CustomIcon" value="drugPainkillers" />
@@ -16,7 +16,7 @@
 	<set xpath="/items/item[@name='medicalBandage']/property[@name='Stacknumber']/@value">20</set>
 	<set xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='Stacknumber']/@value">15</set>
 	<append xpath="/items/item[@name='drugPainkillers']">
-		<property name="UnlockedBy" value="perkPhysician,medicalPainKillersSchematic" />
+		<property name="UnlockedBy" value="perkPhysician,drugPainKillersSchematic" />
 	</append>
 	<set xpath="/items/item[@name='drugPainkillers']/property[@name='Group']/@value">Chemicals</set>
 </WrathmaniacsMedicalAdditions>

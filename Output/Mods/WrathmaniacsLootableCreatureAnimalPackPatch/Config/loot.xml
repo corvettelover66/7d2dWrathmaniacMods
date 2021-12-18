@@ -22,8 +22,7 @@
 			<item prob="0.05"  group="modGunT2" />
 			<item name="armorMilitaryVest"  prob="0.1" />
 			<item name="resourceMilitaryFiber"  prob="0.04"  count="1,4" />
-			<item group="schematicsModsAndGeneralCommon"  prob="0.04"  count="1" />
-			<item group="schematicsWeaponsArmorCommon"  prob="0.03"  count="1" />
+			<item group="schematicsModsAndGeneralCommon"  prob="0.01"  count="1" />
 		</lootcontainer>
 		<!-- Leader or Radiated or boss-->
 		<lootcontainer id="1018" count="1,5" size="6,10"  sound_open="UseActions/open_corpse"  sound_close="UseActions/close_corpse"  loot_quality_template="qualBaseTemplate"  destroy_on_close="false"    open_time="5" >
@@ -218,8 +217,8 @@
 		<item group="gunShotgunT3AutoShotgun" prob=".01"/>
 		<item group="gunRifleT2MarksmanRifle" prob=".02"/>
 		<item group="gunRifleT3SniperRifle" prob=".01"/>
-		<item group="schematicsModsAndGeneralCommon"  prob="0.04"  count="1" />
-		<item group="schematicsWeaponsArmorCommon"  prob="0.03"  count="1" />
+		<item group="schematicsModsAndGeneralCommon"  prob="0.01"  count="1" />
+		<item group="schematicsWeaponsArmorCommon"  prob="0.01"  count="1" />
 	</append>
 
 	<!-- Feral -->
@@ -274,8 +273,6 @@
 		<item group="Colt1911" prob=".03"/>
 		<item group="gunShotgunT2PumpShotgun" prob=".02"/>
 		<item group="Winchester" prob=".03"/>
-		<item group="schematicsModsAndGeneralCommon"  prob="0.08"  count="1" />
-		<item group="schematicsWeaponsArmorCommon"  prob="0.08"  count="1" />
 	</append>
 	<!-- Janitor / utility zombie -->
 	<set xpath="/lootcontainers/lootcontainer[@id='1007']/item[@group='schematicsToolsT2']/@prob">.1</set>

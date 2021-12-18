@@ -1,3 +1,25 @@
 <WrathmaniacsRandomGameTweaks>
+	<set xpath="/items/item[@name='foodShamSandwich']/property[@name='Stacknumber']/@value">100</set>
+
+	<append xpath="/items/item[@name='thrownTimedCharge']/property[@name='Explosion.BlockTags']/@value">,concrete</append>
+
+	<set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">5</set>
+
+	<set xpath="/items/item[@name='meleeToolFlashlight02']/property[@name='Stacknumber']/@value">10</set>
+
+	<set xpath="/items/item[@name='resourcePaper']/property[@name='Stacknumber']/@value">5000</set>
+
+	<remove xpath="/items/item[@name='drinkJarBeer']/effect_group[@name='Drink Tier 3']/triggered_effect[@operation='set']"/>
+
+	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/property[@name='Stacknumber']/@value">200</set>
+
+	<set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Stacknumber']/@value">200</set>
+
+	<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">200</set>
+
+	<set xpath="/items/item[@name='ammo762mmBulletBall']/property[@name='Stacknumber']/@value">300</set>
+
+	<set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Stacknumber']/@value">500</set>
+
 	<append xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='Tags']/@value">,mediumTopAttachments</append>
 </WrathmaniacsRandomGameTweaks>

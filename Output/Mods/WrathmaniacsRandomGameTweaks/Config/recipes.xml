@@ -1,5 +1,12 @@
 <WrathmaniacsRandomGameTweaks>
+
 	<append xpath="/recipes">
+		<recipe name="mineCookingPot" count="1" craft_area="workbench"  tags="learnable,workbenchCrafting">
+			<ingredient name="toolCookingPot" count="1" />
+			<ingredient name="resourceGunPowder" count="5" />
+			<ingredient name="resourceNail" count="1" />
+			<ingredient name="resourceDuctTape" count="1" />
+		</recipe>
 		<recipe name="foodCornMeal" count="1" tags="cementMixerCrafting" craft_area="cementMixer" craft_time="2">
 			<ingredient name="foodCropCorn" count="1" />
 		</recipe>
@@ -37,4 +44,13 @@
 	</append>
 	<set xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='ammoGasCan']/@count">100</set>
 	<set xpath="/recipes/recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">45</set>
+	<!-- Blade trap uese steel parts code. -->
+	<set xpath="/recipes/recipe[@name='bladeTrap']/ingredient[@name='resourceMechanicalParts']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='bladeTrap']/ingredient[@name='resourceOil']/@count">4</set>
+	<set xpath="/recipes/recipe[@name='bladeTrap']/effect_group/passive_effect[@name='CraftingIngredientCount']/@value">.5,.25,.2,.15,0</set>
+	<set xpath="/recipes/recipe[@name='bladeTrap']/effect_group/passive_effect[@name='CraftingIngredientCount']/@tags">resourceForgedIron,resourceMechanicalParts,resourceElectricParts,resourceOil</set>
+	<remove xpath="/recipes/recipe[@name='bladeTrap']/ingredient[@name='resourceForgedSteel']"/>
+	<append xpath="/recipes/recipe[@name='bladeTrap']">
+		<ingredient name="meleeToolAllSteelParts" count="4" />
+	</append>
 </WrathmaniacsRandomGameTweaks>

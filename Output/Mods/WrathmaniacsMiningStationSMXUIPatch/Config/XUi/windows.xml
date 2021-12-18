@@ -1,0 +1,13 @@
+<WrathmaniacsMiningStationSMXUIPatch>
+	<remove xpath="/windows/window[@name='windowToolsMiningStationChips']"/>
+	<append xpath="/windows">
+		<window name="windowToolsMiningStationChips"  depth="9"  cursor_area="true"  panel="Left" >
+			<label name="chipsLabel" text="Mining Chips" pos="80,760"  style="smxui_window_title"  overflow="ShrinkContent"  size="120,50" />
+			<rect name="content"  pos="25,735" depth="2"  disablefallthrough="true" controller="WorkstationToolGrid"  required_tools="resourceIronOreMinerChip,resourceCoalOreMinerChip,resourcePotassiumNitrateOreMinerChip,resourceLeadOreMinerChip,resourceShaleOreMinerChip,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger"  required_tools_only="true">
+				<grid name="inventory"  pos="0,0"  rows="2"  cols="5"  cell_width="50"  cell_height="275"  repeat_content="true" >
+					<smxui_tools_stack_50 name="0" />
+				</grid>
+			</rect>
+		</window>
+	</append>
+</WrathmaniacsMiningStationSMXUIPatch>
