@@ -1,0 +1,74 @@
+<WrathmaniacsRepairedWorkstations>
+	<append xpath="/recipes">
+		<recipe name="repairedSolarbank" count="1" craft_area="workbench" craft_time="120">
+			<ingredient name="resourceForgedSteel" count="20" />
+			<ingredient name="resourceElectricParts" count="8" />
+			<ingredient name="resourceScrapPolymers" count="5" />
+			<ingredient name="glassBulletproofBlockVariantHelper" count="6" />
+			<ingredient name="resourceSolarbankParts" count="15" />
+		</recipe>
+		<recipe name="solarCell" count="1" tags="perkAdvancedEngineering" craft_area="workbench" craft_time="35">
+			<ingredient name="resourceForgedSteel" count="4" />
+			<ingredient name="resourceElectricParts" count="2" />
+			<ingredient name="resourceScrapPolymers" count="2" />
+			<ingredient name="glassBulletproofBlockVariantHelper" count="1" />
+			<ingredient name="resourceSolarcellParts" count="4" />
+		</recipe>
+		<recipe name="repairedCementMixer" count="1" craft_area="workbench" craft_time="75">
+			<ingredient name="resourceForgedIron" count="10" />
+			<ingredient name="resourceSpring" count="2" />
+			<ingredient name="smallEngine" count="1" />
+			<ingredient name="resourceMechanicalParts" count="5" />
+			<ingredient name="resourceCementMixerParts" count="10" />
+		</recipe>
+		<recipe name="repairedChemistryStation" count="1" craft_area="workbench" craft_time="90">
+			<ingredient name="repairedChemistryStationItems" count="1" />
+			<ingredient name="resourceChemistryStationParts" count="12" />
+		</recipe>
+		<recipe name="repairedChemistryStationItems" count="1" craft_time="5">
+			<ingredient name="resourceForgedIron" count="40" />
+			<ingredient name="resourceMetalPipe" count="10" />
+			<ingredient name="resourceAcid" count="5" />
+			<ingredient name="toolBeaker" count="1" />
+			<ingredient name="toolCookingPot" count="3" />
+		</recipe>
+		<recipe name="repairedWorkbench" count="1" craft_time="60">
+			<ingredient name="repairedWorkbenchItems" count="1" />
+			<ingredient name="resourceWorkbenchParts" count="10" />
+		</recipe>
+		<recipe name="repairedWorkbenchItems" count="1" craft_time="5">
+			<ingredient name="resourceForgedIron" count="15" />
+			<ingredient name="resourceMechanicalParts" count="10" />
+			<ingredient name="meleeToolSalvageT1Wrench" count="1" />
+			<ingredient name="meleeToolRepairT1ClawHammer" count="1" />
+			<ingredient name="resourceWood" count="25" />
+		</recipe>
+		<recipe name="repairedForge" count="1" craft_time="20">
+			<ingredient name="repairedForgeItems" count="1" />
+			<ingredient name="resourceForgeParts" count="6" />
+		</recipe>
+		<recipe name="repairedForgeItems" count="1" craft_time="5">
+			<ingredient name="resourceRockSmall" count="20" />
+			<ingredient name="resourceClayLump" count="30" />
+			<ingredient name="resourceLeather" count="5" />
+			<ingredient name="resourceDuctTape" count="3" />
+			<ingredient name="resourceMetalPipe" count="2" />
+		</recipe>
+		<recipe name="repairedGeneratorbank" count="1" tags="perkAdvancedEngineering" craft_area="workbench" craft_time="75">
+			<ingredient name="resourceForgedIron" count="6" />
+			<ingredient name="resourceMechanicalParts" count="6" />
+			<ingredient name="resourceElectricParts" count="7" />
+			<ingredient name="resourceGeneratorbankParts" count="6" />
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".5,.5,.5,.3,.15" tags="resourceForgedIron,resourceMechanicalParts,resourceElectricParts" />
+			</effect_group>
+		</recipe>
+		<recipe name="repairedBatterybank" count="1" craft_area="workbench" craft_time="75">
+			<ingredient name="resourceForgedIron" count="6" />
+			<ingredient name="resourceElectricParts" count="7" />
+			<ingredient name="resourceScrapPolymers" count="3" />
+			<ingredient name="resourceBatterybankParts" count="8" />
+		</recipe>
+	</append>
+	<!-- Xml Written October 20, 2020 at 22:36:52 -->
+</WrathmaniacsRepairedWorkstations>
