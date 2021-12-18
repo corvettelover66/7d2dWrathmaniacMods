@@ -1,4 +1,4 @@
-<WrathmaniacsSpecialPartsCraftableMiningStationPatchSMX>
+<WrathmaniacsSpecialPartsCraftableMiningStationPatch>
 	<append xpath="/recipes">
 		<recipe name="resourceSphalerite" count="100" craft_tool="resourceSphaleriteOreMinerChip" always_unlocked="true" material_based="true" craft_area="miningstation" craft_time="20" craft_exp_gain="0" use_ingredient_modifier="false">
 			<ingredient name="ammoGasCan" count="250" />
@@ -7,4 +7,4 @@
 			<ingredient name="ammoGasCan" count="250" />
 		</recipe>
 	</append>
-</WrathmaniacsSpecialPartsCraftableMiningStationPatchSMX>
+</WrathmaniacsSpecialPartsCraftableMiningStationPatch>
