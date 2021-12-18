@@ -1,0 +1,7 @@
+<WrathmaniacsSpecialPartsCraftableRepairedWorkstationsPatch>
+	<remove xpath="/recipes/recipe[@name='repairedChemistryStationItems']/ingredient[@name='toolCookingPot']" />
+	<remove xpath="/recipes/recipe[@name='repairedChemistryStationItems']/ingredient[@name='toolBeaker']" />
+	<append xpath="/recipes/recipe[@name='repairedChemistryStationItems']">
+		<ingredient name="allChemistryStationTools" count="1" />
+	</append>
+</WrathmaniacsSpecialPartsCraftableRepairedWorkstationsPatch>

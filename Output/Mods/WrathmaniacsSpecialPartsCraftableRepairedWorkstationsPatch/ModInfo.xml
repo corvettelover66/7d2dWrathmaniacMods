@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Special Parts Craftable Repaired Workstations Patch" />
+		<Description value="Patch for Repaired workstations that adds the anode to the repaired Chem station." />
+		<Author value="Wrathmaniac" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>
