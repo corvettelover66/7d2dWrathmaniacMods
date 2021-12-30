@@ -28,17 +28,7 @@
 			<ingredient name="unit_iron" count="10" />
 			<ingredient name="unit_clay" count="2" />
 		</recipe>
-		<recipe name="resourceJunkTurretRepairKit" count="1">
-			<ingredient name="resourceRepairKit" count="1" />
-			<ingredient name="carBattery" count="1" />
-		</recipe>
-		<recipe name="gunBotTurretBatteryAndParts" count="1" tags="perkTurrets" >
-			<ingredient name="carBattery" count="1" />
-			<ingredient name="gunBotRoboticsParts" count="4" />
-			<effect_group>
-				<passive_effect name="CraftingIngredientCount"  operation="perc_add"  level="2,6"  value=".5,2.5"  tags="gunBotRoboticsParts" />
-			</effect_group>
-		</recipe>
+		
 		<!-- 
 			Removed for alpha 19
 			<recipe name="ammoBundleJunkTurret" count="1" craft_area="workbench" craft_time="140" tags="learnable,perkTurrets">
@@ -48,13 +38,5 @@
 				<ingredient name="resourceScrapIron" count="2400" />
 			</recipe>
  		-->
-	</append>
-	<remove xpath="/recipes/recipe[@name='gunBotT1JunkSledge']/ingredient[@name='gunBotRoboticsParts']"/>
-	<remove xpath="/recipes/recipe[@name='gunBotT2JunkTurret']/ingredient[@name='gunBotRoboticsParts']"/>
-	<append xpath="/recipes/recipe[@name='gunBotT2JunkTurret']">
-		<ingredient name="gunBotTurretBatteryAndParts" count="1" />
-	</append>
-	<append xpath="/recipes/recipe[@name='gunBotT1JunkSledge']">
-		<ingredient name="gunBotTurretBatteryAndParts" count="1" />
 	</append>
 </WrathmaniacsJunkTurretOverhaul>

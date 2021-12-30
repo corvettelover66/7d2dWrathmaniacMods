@@ -72,34 +72,6 @@
 				<property name="Create_item_count" value="500" />
 			</property>
 		</item>
-		<item name="resourceJunkTurretRepairKit">
-			<property name="HoldType" value="45" />
-			<property name="Tags" value="junk" />
-			<property name="CustomIcon" value="resourceJunkTurretRepairKit" />
-			<property name="DescriptionKey" value="resourceJunkTurretRepairKitDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
-			<property name="Material" value="Msteel" />
-			<property name="Stacknumber" value="25" />
-			<property name="EconomicValue" value="186" />
-			<property name="RepairTime" value="3" />
-			<property name="RepairAmount" value="32000" />
-			<property name="Group" value="Resources" />
-		</item>
-		<!-- Intermediate item needed for "Either Bot Turret Construction" to fix UI limitation of 5 items in a recipe -->
-		<item name="gunBotTurretBatteryAndParts">
-			<property name="HoldType" value="45" />
-			<property name="CustomIcon" value="gunBotTurretBatteryAndParts" />
-			<property name="DescriptionKey" value="gunBotTurretBatteryAndPartsDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="NoScrapping" value="true" />
-			<property name="Material" value="Miron" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
-			<property name="Weight" value="1" />
-			<property name="Stacknumber" value="5" />
-			<property name="EconomicValue" value="600" />
-			<property name="Group" value="Resources" />
-		</item>
 	</append>
 	<set xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='MagazineSize' and @operation='base_add']/@value">10,50</set>
 	<set xpath="/items/item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">2000</set>
@@ -107,8 +79,6 @@
 	<set xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='DegradationPerUse']/@value">0.4,0.3</set>
 	<append xpath="/items/item[@name='gunBotT2JunkTurretSchematic']/property[@name='Unlocks']/@value">ammoJunkTurretSteel,ammoBundleSteelJunkTurret</append>
 	<append xpath="/items/item[@name='gunBotT2JunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoJunkTurretSteel,ammoJunkTurretSteelAP</append>
-	<set xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='RepairTools']/@value">resourceJunkTurretRepairKit</set>
-	<set xpath="/items/item[@name='gunBotT1JunkSledge']/property[@name='RepairTools']/@value">resourceJunkTurretRepairKit</set>
 	<setattribute xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='DegradationPerUse']" name="tier">1,6</setattribute>
 	<set xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='DegradationPerUse']/@value">0.4,0.3</set>
 </WrathmaniacsJunkTurretOverhaul>
