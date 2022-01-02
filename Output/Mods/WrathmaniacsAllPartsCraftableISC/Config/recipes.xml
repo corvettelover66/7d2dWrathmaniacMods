@@ -57,9 +57,9 @@
 			<ingredient name="gunShotgunT1DoubleBarrelParts" count="1" />
 		</recipe>
 		<recipe name="gunShotgunT1DoubleBarrelParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
-			<ingredient name="resourceSpring" count="1"></ingredient>
-			<ingredient name="resourceMechanicalParts" count="3"></ingredient>
-			<ingredient name="resourceForgedSteel" count="8"></ingredient>
+			<ingredient name="resourceSpring" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="3"/>
+			<ingredient name="resourceForgedSteel" count="8"/>
 		</recipe>
 		<recipe name="meleeToolAxeT3ChainsawParts" count="1" craft_time="30" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
 			<ingredient name="resourceSpring" count="2" />
