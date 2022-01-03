@@ -316,7 +316,7 @@
 		<property name="UnlockedBy" value="gunShotgunT1DoubleBarrelSchematic,gunShotgunT2PumpShotgunSchematic,gunShotgunT3AutoShotgunSchematic,perkBoomstick"/>
 	</append>
 	<append xpath="/items/item[@name='gunRifleT1HuntingRifleParts']">
-		<property name="UnlockedBy" value="gunRifleT1HuntingRifleSchematic,gunRifleT2MarksmanRifleSchematic,gunRifleT3SniperRifleSchematic,perkDeadEye" />
+		<property name="UnlockedBy" value="gunRifleT1HuntingRifleSchematic,gunRifleT2LeverActionRifleSchematic,gunRifleT3SniperRifleSchematic,perkDeadEye" />
 	</append>
 	<append xpath="/items/item[@name='gunHandgunT1PistolParts']">
 		<property name="UnlockedBy" value="gunHandgunT1PistolSchematic,gunHandgunT2Magnum44Schematic,gunHandgunT3DesertVultureSchematic,gunHandgunT3SMG5Schematic,perkGunslinger"/>
