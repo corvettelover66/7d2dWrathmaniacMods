@@ -141,7 +141,7 @@
 			<property name="Extends" value="Disassemble Item" />
 			<property name="CustomIcon" value="gunRifleT1HuntingRifleParts" />
 			<property name="ItemTypeIcon" value="bundle" />
-			<property name="UnlockedBy" value="gunRifleT1HuntingRifleSchematic,gunRifleT2MarksmanRifleSchematic,gunRifleT3SniperRifleSchematic,perkDeadEye" />
+			<property name="UnlockedBy" value="gunRifleT1HuntingRifleSchematic,gunRifleT2LeverActionRifleSchematic,gunRifleT3SniperRifleSchematic,perkDeadEye" />
 			<property class="Action0">
 				<property name="Class" value="OpenBundle" />
 				<property name="Delay" value="0" />
