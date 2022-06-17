@@ -1,0 +1,20 @@
+<FirearmsExpansion4>
+	<append xpath="/progression/perks/perk[@name='perkElectrocutioner']/effect_group"><passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="Railgun"/></append>
+	
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAutoWeaponsComplete']/effect_group">
+			<passive_effect name="RecipeTagUnlocked"  tags="ammoBundle556mmBulletAP,ammoBundle556mmBulletHP,ammoBundle556mmBulletBall"/>
+	</append>
+	
+	<insertafter xpath="/progression/perks/perk[@name='perkAutoWeaponsRagdoll']">
+		<perk name="perkAutoWeaponsHPAmmo" parent="skillAutoWeapons" max_level="1" base_skill_point_cost="0" name_key="bookAutoWeaponsHPammo" desc_key="perkAutoWeaponsHPAmmoDesc" long_desc_key="perkAutoWeaponsHPAmmoLongDesc">
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo556HP"/>
+			</effect_group>
+		</perk>
+		<perk name="perkAutoWeaponsAPAmmo" parent="skillAutoWeapons" max_level="1" base_skill_point_cost="0" name_key="bookAutoWeaponsAPammo" desc_key="perkAutoWeaponsAPAmmoDesc" long_desc_key="perkAutoWeaponsAPAmmoLongDesc">
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo556AP"/>
+			</effect_group>
+		</perk>
+	</insertafter>
+</FirearmsExpansion4>
