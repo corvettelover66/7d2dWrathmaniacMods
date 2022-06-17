@@ -7,6 +7,8 @@
 	-->
 	<!-- To speed up the process I defaulted most schematic recipes to 50 then, using some global sets I was able to easily add variation accross the board. -->
 	<!-- That is what ths is is a bunch of sets based on certain categories to add variation -->
+	<set xpath="/recipes/recipe[@name='toolBeakerSchematic']/ingredient[@name='resourceSchematicPiece']/@count">30</set>
+	
 	<!-- Gun Mods -->
 	<set xpath="/recipes/recipe[contains(@name,'mod') and contains(@name,'Gun')]/ingredient[@name='resourceSchematicPiece']/@count">35</set>
 	<set xpath="/recipes/recipe[contains(@name,'modGun') and contains(@name,'Schematic')]/@tags">perkGunModder,learnable,schematicCrafting</set>

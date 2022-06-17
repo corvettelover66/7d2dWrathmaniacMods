@@ -30,72 +30,72 @@
 		</recipe>
 		<recipe name="resourceSteelSetPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="armorSteelSetParts" count="3" />
+			<ingredient name="armorSteelSetParts" count="1" />
 		</recipe>
 		<recipe name="resourceToolAxePartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="meleeToolAxeT3ChainsawParts" count="3" />
+			<ingredient name="meleeToolAxeT3ChainsawParts" count="1" />
 		</recipe>
 		<recipe name="resourceMilitarySetPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="armorMilitarySetParts" count="3" />
+			<ingredient name="armorMilitarySetParts" count="1" />
 		</recipe>
 		<recipe name="resourceToolAllSteelPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="meleeToolAllSteelParts" count="2" />
+			<ingredient name="meleeToolAllSteelParts" count="1" />
 		</recipe>
 		<recipe name="resourceWpnSledgePartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="meleeWpnSledgeT3SteelSledgehammerParts" count="2" />
+			<ingredient name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" />
 		</recipe>
 		<recipe name="resourceWpnSpearPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="meleeWpnSpearT3SteelSpearParts" count="2" />
+			<ingredient name="meleeWpnSpearT3SteelSpearParts" count="1" />
 		</recipe>
 		<recipe name="resourceWpnBladePartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="meleeWpnBladeT3MacheteParts" count="2" />
+			<ingredient name="meleeWpnBladeT3MacheteParts" count="1" />
 		</recipe>
 		<recipe name="resourceWpnKnucklesPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="meleeWpnKnucklesT3SteelKnucklesParts" count="2" />
+			<ingredient name="meleeWpnKnucklesT3SteelKnucklesParts" count="1" />
 		</recipe>
 		<recipe name="resourceWpnBatonPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="meleeWpnBatonT2StunBatonParts" count="3" />
+			<ingredient name="meleeWpnBatonT2StunBatonParts" count="1" />
 		</recipe>
 		<recipe name="resourceBotPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
 			<ingredient name="carBattery" count="1" />
-			<ingredient name="gunBotRoboticsParts" count="2" />
+			<ingredient name="gunBotRoboticsParts" count="1" />
 		</recipe>
 		<recipe name="resourceExplosivesPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="gunExplosivesT3RocketLauncherParts" count="4" />
+			<ingredient name="gunExplosivesT3RocketLauncherParts" count="1" />
 		</recipe>
 		<recipe name="resourceBowPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="gunBowT1WoodenBowParts" count="2" />
+			<ingredient name="gunBowT1WoodenBowParts" count="1" />
 		</recipe>
 		<recipe name="resourceShotgunPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="gunShotgunT1DoubleBarrelParts" count="3" />
+			<ingredient name="gunShotgunT1DoubleBarrelParts" count="1" />
 		</recipe>
 		<recipe name="resourceRiflePartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="gunRifleT1HuntingRifleParts" count="2" />
+			<ingredient name="gunRifleT1HuntingRifleParts" count="1" />
 		</recipe>
 		<recipe name="resourceHandgunPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="gunHandgunT1PistolParts" count="2" />
+			<ingredient name="gunHandgunT1PistolParts" count="1" />
 		</recipe>
 		<recipe name="resourceMGPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="gunMGT1AK47Parts" count="3" />
+			<ingredient name="gunMGT1AK47Parts" count="1" />
 		</recipe>
 		<recipe name="resourceWpnClubPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="meleeWpnClubT3SteelClubParts" count="2" />
+			<ingredient name="meleeWpnClubT3SteelClubParts" count="1" />
 		</recipe>
 		<recipe name="gunBotTurretBatteryAndParts" count="1" tags="perkTurrets" >
 			<ingredient name="carBattery" count="1" />

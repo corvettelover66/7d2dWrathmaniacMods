@@ -1,8 +1,0 @@
-<WrathmaniacsSpecialPartsCraftableLamuipatch>
-	<set xpath="/windows/window[@name='LamwindowToolsCampfire']/@width">304</set>
-
-	<append xpath="/windows/window[@name='LamwindowToolsCampfire']/rect[@name='content']/grid[@name='inventory']/@required_tools">,toolLeadSilverAnode</append>
-
-	<set xpath="/windows/window[@name='LamwindowToolsCampfire']/rect[@name='content']/grid[@name='inventory']/@cols">4</set>
-
-</WrathmaniacsSpecialPartsCraftableLamuipatch>

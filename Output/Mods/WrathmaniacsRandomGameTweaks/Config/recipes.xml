@@ -1,5 +1,4 @@
 <WrathmaniacsRandomGameTweaks>
-
 	<append xpath="/recipes">
 		<recipe name="mineCookingPot" count="1" craft_area="workbench"  tags="learnable,workbenchCrafting">
 			<ingredient name="toolCookingPot" count="1" />
@@ -37,6 +36,7 @@
 	<!-- 
 	<set xpath="/recipes/recipe[contains(@name, 'planted')]/ingredient[contains(@name, 'Crop')]/@count">2</set>
 	-->
+	<append xpath="/recipes/recipe[@name='meleeToolRepairT3Nailgun']/@tags">,perkAdvancedEngineering</append>
 	<set xpath="/recipes/recipe[@name='resourceRepairKit']/ingredient[@name='resourceForgedIron']/@count">2</set>
 	<append xpath="/recipes/recipe[@name='resourceRepairKit']">
 		<ingredient name="resourceOil" count="1" />

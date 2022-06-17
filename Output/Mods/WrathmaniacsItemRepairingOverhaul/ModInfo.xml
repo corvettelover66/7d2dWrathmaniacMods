@@ -2,8 +2,8 @@
 <xml>
 	<ModInfo>
 		<Name value="Item Repairing Overhaul" />
-		<Description value="Changes the way special items are repaired, forcing the player to be more mindful of weapon and vehicle use and available parts. Also, forces Junk Turrets to use batteries to be crafted and repaired." />
+		<Description value="Changes the way special items are repaired, forcing the player to be more mindful of weapon and vehicle use and available parts. Also, forces Junk Turrets to use batteries to be crafted and repaired. Note: Fixed rebotic parts recipe to use 4 parts." />
 		<Author value="wrathmaniac" />
-		<Version value="IRO-1.0.a.20.e" />
+		<Version value="IRO-1.3.a.20.e" />
 	</ModInfo>
 </xml>

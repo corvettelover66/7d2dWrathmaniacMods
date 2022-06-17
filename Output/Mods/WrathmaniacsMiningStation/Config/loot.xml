@@ -1,4 +1,14 @@
 <WrathmaniacsMiningStation>
+	<append xpath="/lootcontainers">
+		<lootgroup name="miningChips" >
+			<item name="resourceCoalOreMinerChip"  loot_prob_template="medLow" />
+			<item name="resourceIronOreMinerChip"  loot_prob_template="medLow" />
+			<item name="resourceLeadOreMinerChip"  loot_prob_template="medLow" />
+			<item name="resourcePotassiumNitrateOreMinerChip"  loot_prob_template="medLow" />
+			<item name="resourceShaleOreMinerChip"  loot_prob_template="medLow" />
+		</lootgroup>
+	</append>
+
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT2']">
 			<item name="miningstationSchematic" />
 	</append>

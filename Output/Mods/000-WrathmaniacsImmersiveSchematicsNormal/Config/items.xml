@@ -1,6 +1,17 @@
 <!-- Xml Written October 26, 2020 at 01:33:28 -->
 <WrathmaniacsImmersiveSchematicsNormal>
 	<append xpath="/items">
+		<item name="toolBeakerSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="toolBeaker" />
+			<property name="Unlocks"  value="toolBeaker" />
+			<property name="UnlockedBy"  value="perkPhysician"/>
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="toolBeaker"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
 		<item name="resourceLockPickSchematic">
 			<property name="Extends" value="schematicNoQualityMaster" />
 			<property name="CreativeMode" value="Player" />
@@ -129,6 +140,9 @@
 			<property name="EconomicBundleSize" value="10" />
 			<property name="Group" value="Resources,Chemicals,CFChemicals" />
 		</item>
+	</append>
+	<append xpath="/items/item[@name='toolBeaker']">
+			<property name="UnlockedBy"  value="toolBeakerSchematic"/>
 	</append>
 	<append xpath="/items/item[@name='schematicMaster']/property[@class='Action0']">
 		<property name="Create_item" value="resourceSchematicPiece" />

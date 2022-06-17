@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<ModInfo>
-		<Name value="Better Starting Items Machine Gunner(A20 Experimental)" />
-		<Description value="Replaces the starting items with a backpack that contains better starting items for a modded A20. Machine Gunner: 7.62mm ammo:250, First Aid Bandage:5, Painkillers:2, Boiled Water:2, Can Chili:5, Torch:1, Duke's Note:1, Keystone Block:1" />
-		<Author value="Wrathmaniac" />
-		<Version value="WBSI-1.0(A.20.e)" />
-	</ModInfo>
-</xml>

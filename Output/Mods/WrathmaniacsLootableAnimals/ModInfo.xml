@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<ModInfo>
-		<Name value="Wrathmaniacs Lootable Animals" />
-		<Description value="Small mod that makes animals lootable as well. TODO: Move all Firearm dependencies to a patch file." />
-		<Author value="wrathmaniac" />
-		<Version value="1.0" />
-	</ModInfo>
-</xml>

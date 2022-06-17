@@ -2,16 +2,16 @@
 	<!-- Due to these block appends is is not reccommended to install this mod mid playthrough as mining terminals will not be lootable without refreshing the chunks. -->
 	<append xpath="/blocks/block[@name='controlPanelBase04']">
 		<property name="Class" value="Loot" />
-		<property name="LootList" value="230" />
+		<property name="LootList" value="mining_terminal" />
 	</append>
 	<append xpath="/blocks/block[@name='controlPanelTop02']">
 		<property name="Class" value="Loot" />
-		<property name="LootList" value="230" />
+		<property name="LootList" value="mining_terminal" />
 	</append>
 	<!-- Double terminal block -->
 	<append xpath="/blocks/block[@name='controlPanelTop06']">
 		<property name="Class" value="Loot" />
-		<property name="LootList" value="231" />
+		<property name="LootList" value="mining_terminal_times_two" />
 	</append>
 	<append xpath="/blocks">
 		<block name="cntCollapsedMiningstation">

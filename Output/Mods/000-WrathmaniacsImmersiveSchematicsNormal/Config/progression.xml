@@ -94,7 +94,7 @@
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4']/@tags">drugFortBitesSchematic,drugRecogSchematic,drugAntibioticsSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,4']/@tags">medicalFirstAidKitSchematic,drugSteroidsSchematic</set>
-	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,4']/@tags">chemistryStationSchematic,medicalFirstAidBandageSchematic,medicalPlasterCastSchematic</set>
+	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,4']/@tags">chemistryStationSchematic,medicalFirstAidBandageSchematic,medicalPlasterCastSchematic,toolBeakerSchematic</set>
 	<!-- perkGreaseMonkey -->
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">vehicleGyroCopterChassisSchematic,vehicleGyroCopterAccessoriesSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">ammoGasCanBundleSchematic,vehicle4x4TruckChassisSchematic,vehicle4x4TruckAccessoriesSchematic</set>
@@ -207,11 +207,12 @@
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">thrownDynamiteSchematic,junkMinesSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">thrownAmmoPipeBombSchematic</set>
 	<!-- perkDeadEye -->
+	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDeadEye']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">gunRifleT1HuntingRifleSchematic</set>
 	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkDeadEye']">
 		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunRifleT2MarksmanRifleSchematic" />
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="gunRifleT3SniperRifleSchematic" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="gunRifleT2LeverActionRifleSchematic" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="gunRifleT3SniperRifleSchematic" />
 		</effect_group>
 	</append>
-	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDeadEye']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">gunRifleT1HuntingRifleSchematic</set>
+
 </WrathmaniacsImmersiveSchematicsNormal>
