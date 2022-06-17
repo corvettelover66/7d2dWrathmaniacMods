@@ -1,0 +1,130 @@
+<WrathmaniacsFirearmsExpansion4Additions>
+	<append xpath="/items">
+		<item name="bookEnforcer45ACPHPAmmo">
+			<property name="Extends" value="bookEnforcerDamage" />
+			<property name="DescriptionKey" value="perkEnforcer45ACPHPAmmoLongDesc" />
+			<property name="Unlocks" value="perkEnforcer45ACPHPAmmo" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcer45ACPHPAmmo" level="-1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcerComplete" level="-1">
+					<requirement name="PerksUnlocked" operation="GTE" value="9" skill_name="skillEnforcer" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" operation="GTE" value="9" skill_name="skillEnforcer" />
+				</triggered_effect>
+			</effect_group>
+		</item>
+		<item name="bookEnforcer45ACPAPAmmo">
+			<property name="Extends" value="bookEnforcerDamage" />
+			<property name="DescriptionKey" value="perkEnforcer45ACPAPAmmoLongDesc" />
+			<property name="Unlocks" value="perkEnforcer45ACPAPAmmo" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcer45ACPAPAmmo" level="-1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkEnforcerComplete" level="-1">
+					<requirement name="PerksUnlocked" operation="GTE" value="9" skill_name="skillEnforcer" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
+					<requirement name="PerksUnlocked" operation="GTE" value="9" skill_name="skillEnforcer" />
+				</triggered_effect>
+			</effect_group>
+		</item>
+		<item name="ammoBundle45ACPBulletAP">
+			<property name="Extends" value="ammoBundleMaster" />
+			<property name="CustomIcon" value="ammo9mmBulletAP" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="1400" />
+			<property name="UnlockedBy" value="perkEnforcerComplete" />
+			<property class="Action0">
+				<property name="Create_item" value="ammo45ACPBulletAP" />
+			</property>
+		</item>
+		<item name="ammoBundle45ACPBulletHP">
+			<property name="Extends" value="ammoBundleMaster" />
+			<property name="CustomIcon" value="ammo45ACPBulletHP" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="1400" />
+			<property name="UnlockedBy" value="perkEnforcerComplete" />
+			<property class="Action0">
+				<property name="Create_item" value="ammo45ACPBulletHP" />
+			</property>
+		</item>
+		<item name="ammoBundle45ACPBulletBall">
+			<property name="Extends" value="ammoBundleMaster" />
+			<property name="CustomIcon" value="ammo45ACPBulletBall" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="900" />
+			<property name="UnlockedBy" value="perkEnforcerComplete" />
+			<property class="Action0">
+				<property name="Create_item" value="ammo45ACPBulletBall" />
+			</property>
+		</item>
+		<item name="ammo45ACPBulletBall">
+			<property name="Extends" value="ammo44MagnumBulletBall" />
+			<property name="Stacknumber" value="340" />
+			<property name="EconomicValue" value="8" />
+			<effect_group name="ammo45ACPBulletBall" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="39" tags="perkGunslinger,9mmGun" />
+				<passive_effect name="BlockDamage" operation="base_set" value="10" tags="perkGunslinger" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood" />
+			</effect_group>
+		</item>
+		<item name="ammo45ACPBulletAP">
+			<property name="Extends" value="ammo45ACPBulletBall" />
+			<property name="DisplayType" value="ammoBulletAP" />
+			<property name="EconomicValue" value="13" />
+			<property name="DescriptionKey" value="ammoAPGroupDesc" />
+			<property name="UnlockedBy" value="perkEnforcer45ACPAPAmmo" />
+			<effect_group name="ammo45ACPBulletAP" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="39" tags="perkGunslinger,9mmGun" />
+				<passive_effect name="BlockDamage" operation="base_set" value="14" tags="perkGunslinger" />
+				<passive_effect name="TargetArmor" operation="perc_add" value="-.25" tags="perkGunslinger" />
+				<display_value name="dTargetArmor" value="-.25" />
+				<passive_effect name="EntityPenetrationCount" operation="base_set" value="1" />
+				<display_value name="dTargetPenetration" value="1" />
+				<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkGunslinger" />
+				<display_value name="dDegradationPerUse" value=".3" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood" />
+			</effect_group>
+		</item>
+		<item name="ammo45ACPBulletHP">
+			<property name="Extends" value="ammo45ACPBulletBall" />
+			<property name="DisplayType" value="ammoBulletHP" />
+			<property name="EconomicValue" value="13" />
+			<property name="DescriptionKey" value="ammoHPGroupDesc" />
+			<property name="UnlockedBy" value="perkEnforcer45ACPHPAmmo" />
+			<effect_group name="ammo45ACPBulletHP" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="60" tags="perkGunslinger,9mmGun" />
+				<passive_effect name="BlockDamage" operation="base_set" value="6" tags="perkGunslinger" />
+				<passive_effect name="TargetArmor" operation="perc_add" value=".9" tags="perkGunslinger" />
+				<display_value name="dTargetArmor" value=".9" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood" />
+			</effect_group>
+		</item>
+	</append>
+	<set xpath="/items/item[contains(@name,'bookEnforcer') or contains(@name,'bookAutoWeapons') ]/effect_group[@tiered='false']/triggered_effect[@trigger='onSelfPrimaryActionEnd']/requirement[@name='PerksUnlocked']/@value">9</set>
+	<set xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">ammo45ACPBulletBall,ammo45ACPBulletAP,ammo45ACPBulletHP</set>
+	
+	<append xpath="/items/item[@name='Colt1911']/property[@class='Action0']">
+		<property name="Magazine_items" value=" ammo45ACPBulletBall,ammo45ACPBulletAP,ammo45ACPBulletHP" />
+	</append>
+	<append xpath="/items/item[@name='Colt38']/property[@class='Action0']">
+		<property name="Magazine_items" value=" ammo45ACPBulletBall,ammo45ACPBulletAP,ammo45ACPBulletHP" />
+	</append>
+	<append xpath="/items/item[@name='P226']/property[@class='Action0']">
+			<property name="Magazine_items"  value="ammo45ACPBulletBall,ammo45ACPBulletAP,ammo45ACPBulletHP"/>
+	</append>
+	<append xpath="/items/item[@name='HK USP']/property[@class='Action0']">
+			<property name="Magazine_items"  value="ammo45ACPBulletBall,ammo45ACPBulletAP,ammo45ACPBulletHP"/>
+	</append>
+	<append xpath="/items/item[@name='Thompson']/property[@class='Action0']">
+		<property name="Magazine_items" value=" ammo45ACPBulletBall,ammo45ACPBulletAP,ammo45ACPBulletHP" />
+	</append>
+	<append xpath="/items/item[@name='KRISS Vector']/property[@class='Action0']">
+			<property name="Magazine_items"  value="ammo45ACPBulletBall,ammo45ACPBulletAP,ammo45ACPBulletHP"/>
+	</append>
+</WrathmaniacsFirearmsExpansion4Additions>
