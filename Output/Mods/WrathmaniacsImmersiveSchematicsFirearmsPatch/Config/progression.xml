@@ -1,0 +1,48 @@
+<WrathmaniacsImmersiveSchematicsFirearmsPatch>
+	<!-- perkGunslinger -->
+	
+	<!-- Set the colt38 to be unlockable from the start -->
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkGunslinger']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">,P226 Schematic,Beretta NANO Schematic</append>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkGunslinger']/effect_group">
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags="Colt1911 Schematic,Glock40 Schematic,Beretta M9 Schematic"/>
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="HK USP Schematic,VZ61 Skorpion Schematic,Beretta M92 Schematic"/>
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="KRISS Vector Schematic,Mac10 Schematic"/>
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="Thompson Schematic"/>
+	</append>
+
+	<!-- perkMachineGunner -->
+	<!-- Remove the AK unlock -->
+	<remove xpath="/progression/perks[@min_level='0']/perk[@name='perkMachineGunner']/effect_group/passive_effect[@name='RecipeTagUnlocked']"/>
+		
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkMachineGunner']/effect_group">
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="1,5"  value="1"  tags="FNFAL Schematic,M16 Schematic"/>
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags="SCAR Schematic"/>
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="gunMGT1AK47Schematic,M4A1 Schematic"/>
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="ARX160 Schematic,ACWR Schematic"/>
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="Chaingun Schematic,M240 Schematic"/>
+	</append>
+
+	<!-- perkBoomstick -->
+	<remove xpath="/progression/perks[@min_level='0']/perk[@name='perkBoomstick']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @tags='gunShotgunT2PumpShotgunSchematic']"/>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkBoomstick']/effect_group">
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags="Winchester Schematic,gunShotgunT2PumpShotgunSchematic"/>
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="KSG12 Schematic"/>
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="4,5"  value="1"  tags="SPAS12 Schematic"/>
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="AA12 Schematic"/>
+	</append>
+
+
+	<!-- perkDemolitionsExpert -->
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,Flamethrower Schematic</append>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5,5']/@tags">,M79GL40Schematic</append>
+
+	<!-- perkDeadEye -->
+	<!-- These two appends rely on the Immersive Schematic Crafting Progression Changes -->
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkDeadEye']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">,M1 Schematic</append>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkDeadEye']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,JNG90 Schematic</append>
+	
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkDeadEye']/effect_group">
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="SR25 Schematic"/>
+		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="M98 Schematic,M82 Barrett Schematic,50BMGBulletBallSchematic"/>
+	</append>
+</WrathmaniacsImmersiveSchematicsFirearmsPatch>
