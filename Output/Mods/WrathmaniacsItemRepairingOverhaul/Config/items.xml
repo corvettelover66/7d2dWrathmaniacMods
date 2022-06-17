@@ -108,9 +108,9 @@
 	<append xpath="/items/item[@name='resourceRepairKit']">
 		<property name="PickupJournalEntry" value="resourceRepairKitToolTip" />
 	</append>
-	<set xpath="/items/item[contains(@name,'gunMG')]/property[@name='RepairTools']/@value">resourceMGPartsRepairKit</set>
-	<set xpath="/items/item[contains(@name,'gunHandgun')]/property[@name='RepairTools']/@value">resourceHandgunPartsRepairKit</set>
-	<set xpath="/items/item[contains(@name,'gunRifle')]/property[@name='RepairTools']/@value">resourceRiflePartsRepairKit</set>
+	<set xpath="/items/item[contains(@name,'gunMG') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceMGPartsRepairKit</set>
+	<set xpath="/items/item[contains(@name,'gunHandgun') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceHandgunPartsRepairKit</set>
+	<set xpath="/items/item[contains(@name,'gunRifle') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceRiflePartsRepairKit</set>
 	<set xpath="/items/item[contains(@name,'gunShotgun') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceShotgunPartsRepairKit</set>
 	<set xpath="/items/item[contains(@name,'gunBow') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceBowPartsRepairKit</set>
 	<set xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='RepairTools']/@value">resourceExplosivesPartsRepairKit</set>
