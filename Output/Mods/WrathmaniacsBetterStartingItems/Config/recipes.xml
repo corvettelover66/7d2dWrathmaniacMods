@@ -1,0 +1,19 @@
+<WrathmaniacsBetterStartingItems>
+	<append xpath="/recipes">
+		<recipe name="startingBundleArcher"  count="1" >
+			<ingredient name="startingItemPiece"  count="1" />
+		</recipe>
+		<recipe name="startingBundleMachineGunner"  count="1" >
+			<ingredient name="startingItemPiece"  count="1" />
+		</recipe>
+		<recipe name="startingBundlePistoler"  count="1" >
+			<ingredient name="startingItemPiece"  count="1" />
+		</recipe>
+		<recipe name="startingBundleRifleman"  count="1" >
+			<ingredient name="startingItemPiece"  count="1" />
+		</recipe>
+		<recipe name="startingBundleShotgunner"  count="1" >
+			<ingredient name="startingItemPiece"  count="1" />
+		</recipe>
+	</append>
+</WrathmaniacsBetterStartingItems>

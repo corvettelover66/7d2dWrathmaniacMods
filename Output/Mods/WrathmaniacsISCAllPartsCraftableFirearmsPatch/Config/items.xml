@@ -1,0 +1,37 @@
+<WrathmaniacsISCAllPartsCraftableFirearmsPatch>
+
+	<append xpath="/items/item[@name='Thompson Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+	</append>
+	
+	<append xpath="/items/item[@name='M82 Barrett Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunRifleT1HuntingRifleParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunHuntingRifleParts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='Beretta M9 Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='Beretta M92 Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='Beretta NANO Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='VZ61 Skorpion Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='AA12 Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunShotgunT1DoubleBarrelParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunDoubleBarrelShotgunParts"  operation="set"  value="1"/>
+	</append>
+</WrathmaniacsISCAllPartsCraftableFirearmsPatch>
