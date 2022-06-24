@@ -301,10 +301,10 @@
 	<item name="ammo556BulletBall" count="8,15"/>
 </append> 
 <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Machinegunner']">
-	<item name="ammo556BulletBall" count="15,20"/>
+	<item name="ammo762mmBulletBall" count="15,20"/>
 </append> 
 <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Machinegunner']">
-	<item name="ammo556BulletBall" count="20,30"/>
+	<item name="ammo762mmBulletBall" count="20,30"/>
 </append> 
 <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Machinegunner']">
 	<item name="ammo556BulletBall" count="30,50"/>
