@@ -203,7 +203,7 @@
 	<!-- perkDemolitionsExpert -->
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5,5']/@tags">thrownGrenadeContactSchematic,mineAirFilterSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">gunExplosivesT3RocketLauncherSchematic</set>
-	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">thrownGrenadeSchematic,resourceGunPowderBundle</set>
+	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">thrownGrenadeSchematic,resourceGunPowderBundleSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">thrownDynamiteSchematic,junkMinesSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">thrownAmmoPipeBombSchematic</set>
 	<!-- perkDeadEye -->

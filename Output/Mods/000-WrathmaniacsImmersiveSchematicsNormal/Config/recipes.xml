@@ -181,6 +181,9 @@
 			<ingredient name="resourceSchematicPiece" count="50" />
 		</recipe>
 		 -->
+ 		<recipe name="resourceGunPowderBundleSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
+			<ingredient name="resourceSchematicPiece" count="60" />
+		</recipe>
 		<recipe name="meleeWpnBatonT2StunBatonSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
 			<ingredient name="resourceSchematicPiece" count="50" />
 		</recipe>

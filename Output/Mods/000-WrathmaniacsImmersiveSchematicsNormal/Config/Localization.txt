@@ -9,7 +9,8 @@ drugRecogSchematic,items,Medical,New,Recog Schematic
 toolBeakerSchematic,items,Medical,New,Beaker Schematic
 drugPainKillersSchematic,items,Medical,New,Painkillers Schematic
 carBatterySchematic,items,vehicles,New,Car Battery Schematic
-ammoGasCanBundleSchematic,items,Ammo,New,Gas Can Bundle Schematic
+ammoGasCanBundleSchematic,items,Ammo,New,Stack of Gas Cans Schematic
+resourceGunPowderBundleSchematic,items,Resources,New,Stack of Gunpowder Schematic
 armorMiningHelmetSchematic,items,Clothes,New,Mining Helmet Schematic
 electricwirerelaySchematic,blocks,Electricity,New,Electric Wire Relay Schematic
 mineAirFilterSchematic,blocks,Trap,New,Air filter Mine Schematic
