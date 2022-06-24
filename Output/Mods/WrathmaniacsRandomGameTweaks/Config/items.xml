@@ -1,4 +1,6 @@
 <WrathmaniacsRandomGameTweaks>
+	<set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">10</set>
+
 	<set xpath="/items/item[@name='foodShamSandwich']/property[@name='Stacknumber']/@value">100</set>
 
 	<append xpath="/items/item[@name='thrownTimedCharge']/property[@name='Explosion.BlockTags']/@value">,concrete</append>
