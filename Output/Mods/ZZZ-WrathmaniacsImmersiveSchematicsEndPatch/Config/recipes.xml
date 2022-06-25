@@ -75,6 +75,7 @@
 	<append xpath="/recipes/recipe[contains(@name,'meleeWpnBaton') and contains(@name,'Schematic')]/@tags">,perkElectrocutioner</append>
 	<!-- Adds it to every schematic recipe -->
 	<append xpath="/recipes/recipe[contains(@name,'Schematic')]">
+		<ingredient name="resourcePaper"  count="10" />
 		<effect_group>
 			<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="resourceSchematicPiece" />
 			<passive_effect name="CraftingIngredientCount" level="4" operation="perc_add" value="-.45" tags="resourceSchematicPiece" />

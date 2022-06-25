@@ -23,7 +23,7 @@
 			<item name="drugFortBitesSchematic" />
 			<item name="drugSteroidsSchematic" />
 			<item name="toolBeakerSchematic" />
-			<item name="resourceGunPowderBundleSchematic" />	
+			<item name="resourceGunPowderBundleSchematic" />
 	</append>
 
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT1']">
