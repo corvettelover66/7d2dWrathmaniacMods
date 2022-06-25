@@ -17,7 +17,7 @@
 		<block name="cntCollapsedMiningstation">
 			<property name="CreativeMode" value="Dev" />
 			<property name="Class" value="Loot" />
-			<property name="LootList" value="229" />
+			<property name="LootList" value="collapsed_mining_station" />
 			<property name="CustomIcon" value="miningstation" />
 			<property name="Material" value="Mmetal" />
 			<property name="MaxDamage" value="500" />
