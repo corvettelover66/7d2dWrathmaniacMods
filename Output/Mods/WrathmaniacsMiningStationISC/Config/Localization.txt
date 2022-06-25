@@ -37,6 +37,4 @@ loadingTipMiningChips,UI,Loading Screen,New,"Uncraftable and not the easiest to 
 loadingTipMiningChips_title,UI,Loading Screen,New,Mining Chips
 loadingTipMiningTerminals,UI,Loading Screen,New,Terminals can be found in many industrial buildings and look very similiar to the mining station. By searching them you may find a rare mining chip a necessary tool needed by the mining station to obtain rare ore.
 loadingTipMiningTerminals_title,UI,Loading Screen,New,Terminals
-loadingTipDestroyedMiningStations,UI,Loading Screen,New,"Destroyed mining stations can only be found in closed shipping crates, but if found you are sure to get a mining chip. It's also good to know that closed shipping crates can contain a working mining station, though this is very uncommon."
-loadingTipDestroyedMiningStations_title,UI,Loading Screen,New,Destroyed Mining Stations
 xuiChips,UI,XUI,New,Chips & Augers
