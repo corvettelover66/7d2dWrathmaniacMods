@@ -5,7 +5,5 @@
 			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="resourceMechanicalParts,resourceScrapPolymers,resourceElectricParts,resourceAcid" />
 			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="solarCell,solarbank" />
 	</append> 
-	<append xpath="/progression/perks/perk[@name='perkPhysician']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="1,5"  value="1"  tags="toolLeadSilverAnode" />
-	</append>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,4']/@tags">,toolLeadSilverAnode</append>
 </WrathmaniacsSpecialPartsCraftable>
