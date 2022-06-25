@@ -1,6 +1,9 @@
-<WrathmaniacsMiningStation>
+<WrathmaniacsMiningStationISC>
 	<append xpath="/recipes">
 		<!-- Non Chip required ores -->
+		<recipe name="resourceCrushedSand"  count="200"  always_unlocked="true"  material_based="true"  craft_area="miningstation"  craft_time="40"  craft_exp_gain="0"  use_ingredient_modifier="false" >
+			<ingredient name="ammoGasCan"  count="250" />
+		</recipe>
 		<recipe name="resourceRockSmall" count="300" always_unlocked="true" material_based="true" craft_area="miningstation" craft_time="40" craft_exp_gain="0" use_ingredient_modifier="false">
 			<ingredient name="ammoGasCan" count="250" />
 		</recipe>
@@ -34,4 +37,4 @@
 			<ingredient name="resourceSchematicPiece"  count="100" />
 		</recipe>
 	</append>
-</WrathmaniacsMiningStation>
+</WrathmaniacsMiningStationISC>
