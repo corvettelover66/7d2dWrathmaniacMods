@@ -36,7 +36,6 @@
 	<!-- 
 	<set xpath="/recipes/recipe[contains(@name, 'planted')]/ingredient[contains(@name, 'Crop')]/@count">2</set>
 	-->
-	<append xpath="/recipes/recipe[@name='meleeToolRepairT3Nailgun']/@tags">,perkAdvancedEngineering</append>
 	<set xpath="/recipes/recipe[@name='resourceRepairKit']/ingredient[@name='resourceForgedIron']/@count">2</set>
 	<append xpath="/recipes/recipe[@name='resourceRepairKit']">
 		<ingredient name="resourceOil" count="1" />
