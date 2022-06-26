@@ -78,8 +78,10 @@
 		</perk>
 	</append>
 	<!-- perkAdvancedEngineering -->
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect__group">
-		<passive_effect name="CraftingTime"  operation="perc_add"  level="0,1,2,3,4,5"  value=".2,0,0,-.1,-.2,-.3" tags="schematicCrafting" />
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']">
+		<effect_group>
+			<passive_effect name="CraftingTime"  operation="perc_add"  level="0,1,2,3,4,5"  value=".2,0,0,-.1,-.2,-.3" tags="schematicCrafting" />
+		</effect_group>
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">toolForgeCrucibleSchematic,autoTurretSchematic,toolBellowsSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">batterybankSchematic,shotgunTurretSchematic,meleeToolRepairT3NailgunSchematic,poweredDoorsSchematic</set>
