@@ -1,7 +1,0 @@
-<WrathmaniacsMiningStation>
-	<append xpath="/doc/tips">
-			<tip key="loadingTipMiningStation" />
-			<tip key="loadingTipMiningChips" />
-			<tip key="loadingTipMiningTerminals" />
-	</append>
-</WrathmaniacsMiningStation>

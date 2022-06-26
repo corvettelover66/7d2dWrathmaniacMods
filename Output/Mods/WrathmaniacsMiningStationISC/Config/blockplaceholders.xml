@@ -1,8 +1,0 @@
-<WrathmaniacsMiningStation>
-<!--  
-	<set xpath="/blockplaceholders/placeholder[@name='cntCementMixerBustedRandomLootHelper']/block[@name='cntCollapsedCementMixer']/@prob">.95</set>
-	<append xpath="/blockplaceholders/placeholder[@name='cntCementMixerBustedRandomLootHelper']">
-		<block name="cntCollapsedMiningstation"  prob=".05" />
-	</append>
--->
-</WrathmaniacsMiningStation>
