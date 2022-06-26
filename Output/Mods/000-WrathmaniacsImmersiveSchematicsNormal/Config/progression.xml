@@ -109,14 +109,18 @@
 	<!-- perkLightArmor -->
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkLightArmor']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">armorLeatherSetSchematic</set>
 	<!-- perkDeepCuts -->
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkDeepCuts']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="meleeWpnBladeT3MacheteSchematic" />
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkDeepCuts']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="meleeWpnBladeT3MacheteSchematic" />
+		</effect_group>
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDeepCuts']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">meleeWpnBladeT1HuntingKnifeSchematic</set>
 	<!-- perkGunslinger -->
 	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkGunslinger']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunHandgunT2Magnum44Schematic" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="gunHandgunT3DesertVultureSchematic,gunHandgunT3SMG5Schematic" />
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunHandgunT2Magnum44Schematic" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="gunHandgunT3DesertVultureSchematic,gunHandgunT3SMG5Schematic" />
+		</effect_group>
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkGunslinger']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">gunHandgunT1PistolSchematic</set>
 	<!-- perkArchery -->
@@ -128,14 +132,18 @@
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,3']/@tags">plantedBlueberry1Schematic,plantedCoffee1Schematic,plantedCorn1Schematic,plantedCotton1Schematic,plantedMushroom1Schematic,plantedPotato1Schematic,plantedHop1Schematic,plantedPumpkin1Schematic,plantedGraceCorn1Schematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,3']/@tags">plantedAloe1Schematic,plantedChrysanthemum1Schematic,plantedGoldenrod1Schematic,plantedYucca1Schematic</set>
 	<!-- perkMachineGunner -->
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkMachineGunner']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunMGT2TacticalARSchematic" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="gunMGT3M60Schematic" />
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkMachineGunner']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunMGT2TacticalARSchematic" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="gunMGT3M60Schematic" />
+		</effect_group>
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkMachineGunner']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">gunMGT1AK47Schematic</set>
 	<!-- perkBrawler -->
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkBrawler']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="meleeWpnKnucklesT3SteelKnucklesSchematic" />
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkBrawler']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="meleeWpnKnucklesT3SteelKnucklesSchematic" />
+		</effect_group>
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkBrawler']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">meleeWpnKnucklesT1IronKnucklesSchematic</set>
 	<!-- perkMiner69r -->
@@ -156,22 +164,28 @@
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkHeavyArmor']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">armorIronSetSchematic</set>
 	<!-- perkSkullCrusher -->
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkSkullCrusher']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="meleeWpnSledgeT3SteelSledgehammerSchematic" />
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkSkullCrusher']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="meleeWpnSledgeT3SteelSledgehammerSchematic" />
+		</effect_group>
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkSkullCrusher']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">meleeWpnSledgeT1IronSledgehammerSchematic</set>
 	<!-- perkPummelPete -->
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkPummelPete']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">meleeWpnClubT1BaseballBatSchematic</set>
 	<!-- perkBoomstick -->
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkBoomstick']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunShotgunT2PumpShotgunSchematic" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="gunShotgunT3AutoShotgunSchematic" />
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkBoomstick']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunShotgunT2PumpShotgunSchematic" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="gunShotgunT3AutoShotgunSchematic" />
+		</effect_group>
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkBoomstick']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">gunShotgunT1DoubleBarrelSchematic</set>
 	<!-- perkSalvageOperations -->
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkSalvageOperations']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="meleeToolSalvageT2RatchetSchematic" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="meleeToolSalvageT3ImpactDriverSchematic" />
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkSalvageOperations']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="meleeToolSalvageT2RatchetSchematic" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="meleeToolSalvageT3ImpactDriverSchematic" />
+		</effect_group>
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">meleeToolSalvageT1WrenchSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkLockPicking']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">resourceLockPickSchematic</set>
@@ -184,9 +198,11 @@
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">thrownAmmoPipeBombSchematic</set>
 	<!-- perkDeadEye -->
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDeadEye']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">gunRifleT1HuntingRifleSchematic</set>
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkDeadEye']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="gunRifleT2LeverActionRifleSchematic" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="gunRifleT3SniperRifleSchematic" />
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkDeadEye']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="gunRifleT2LeverActionRifleSchematic" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="gunRifleT3SniperRifleSchematic" />
+		</effect_group>
 	</append>
 
 </WrathmaniacsImmersiveSchematicsNormal>
