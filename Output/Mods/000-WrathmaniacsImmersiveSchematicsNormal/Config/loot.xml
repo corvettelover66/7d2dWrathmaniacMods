@@ -1,4 +1,8 @@
 <WrathmaniacsImmersiveSchematicsNormal>
+	<append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT1']">
+			<item name="foodCanDogfoodSchematic" />
+	</append>
+	
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT1']">
 			<item name="junkMinesSchematic" />
 	</append>

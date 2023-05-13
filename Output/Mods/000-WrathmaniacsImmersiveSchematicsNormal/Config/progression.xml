@@ -119,10 +119,8 @@
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkDeepCuts']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">meleeWpnBladeT1HuntingKnifeSchematic</set>
 	<!-- perkGunslinger -->
 	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkGunslinger']/effect_group">
-		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunHandgunT2Magnum44Schematic" />
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="gunHandgunT3DesertVultureSchematic,gunHandgunT3SMG5Schematic" />
-		</effect_group>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunHandgunT2Magnum44Schematic" />
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="gunHandgunT3DesertVultureSchematic,gunHandgunT3SMG5Schematic" />
 	</append>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkGunslinger']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">gunHandgunT1PistolSchematic</set>
 	<!-- perkArchery -->
@@ -156,7 +154,7 @@
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">meleeToolIronSetSchematic,meleeToolFarmT1IronHoeSchematic</set>
 	<!-- perkMasterChef -->
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5,5']/@tags">drinkJarGrandpasMoonshineSchematic,drinkJarGrandpasAwesomeSauceSchematic,drinkJarGrandpasLearningElixirSchematic</set>
-	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">foodGumboStewSchematic,foodShepardsPieSchematic,foodSpaghettiSchematic,foodTunaFishGravyToastSchematic</set>
+	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">foodGumboStewSchematic,foodShepardsPieSchematic,foodSpaghettiSchematic,foodTunaFishGravyToastSchematic,foodCanDogfoodSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">foodShamChowderSchematic,foodHoboStewSchematic,foodFishTacosSchematic,drinkYuccaJuiceSmoothieSchematic,foodChiliDogSchematic,drinkJarBeerSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">foodSteakAndPotatoSchematic,foodBlueberryPieSchematic,foodMeatStewSchematic,foodVegetableStewSchematic,foodPumpkinPieSchematic,foodPumpkinCheesecakeSchematic,foodPumpkinBreadSchematic</set>
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">foodBaconAndEggsSchematic,foodBoiledMeatSchematic,foodGrilledMeatSchematic,foodBakedPotatoSchematic,foodCornBreadSchematic,foodCornOnTheCobSchematic,drinkJarRedTeaSchematic,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic</set>

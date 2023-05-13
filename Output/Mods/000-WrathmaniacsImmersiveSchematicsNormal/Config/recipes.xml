@@ -1,6 +1,16 @@
 <WrathmaniacsImmersiveSchematicsNormal>
 	<append xpath="/recipes">
 		<!-- New Recipes -->
+		<recipe name="foodCanDogfood"  count="5"  tags="perkMasterChef,learnable"  craft_area="campfire"  craft_tool="toolCookingPot" craft_time='25'>
+			<ingredient name="drinkCanEmpty"  count="5" />
+			<ingredient name="foodRottingFlesh"  count="25" />
+			<ingredient name="resourceBone"  count="5" />
+			<ingredient name="resourceAnimalFat"  count="5" />
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount"  operation="base_add"  level="4,5"  value="-1"  tags="foodRottingFlesh,resourceBone,resourceAnimalFat" />
+			</effect_group>
+		</recipe>
+
 		<recipe name="toolBeaker"  count="1"  tags="learnable,perkPhysician"  material_based="true"  craft_area="forge" >
 			<ingredient name="unit_glass"  count="50" />
 			<ingredient name="unit_lead"  count="20" />
@@ -452,6 +462,9 @@
 			<ingredient name="resourceSchematicPiece" count="30" />
 		</recipe>
 		<!-- Backpack recipes -->
+		<recipe name="foodCanDogfoodSchematic"  count="1"  tags="learnable,schematicCrafting"  craft_time="300" >
+			<ingredient name="resourceSchematicPiece"  count="50" />
+		</recipe>
 		<recipe name="meleeToolIronSetSchematic" count="1" tags="learnable,schematicCrafting" craft_time="300">
 			<ingredient name="resourceSchematicPiece" count="50" />
 		</recipe>

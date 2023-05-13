@@ -1,6 +1,17 @@
 <!-- Xml Written October 26, 2020 at 01:33:28 -->
 <WrathmaniacsImmersiveSchematicsNormal>
 	<append xpath="/items">
+		<item name="foodCanDogfoodSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="foodCanDogfood" />
+			<property name="Unlocks"  value="foodCanDogfood" />
+			<property name="UnlockedBy"  value="perkMasterChef" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="foodCanDogfood"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
 		<item name="resourceGunPowderBundleSchematic" >
 			<property name="Extends"  value="schematicNoQualityMaster"/>
 			<property name="CreativeMode"  value="Player" />

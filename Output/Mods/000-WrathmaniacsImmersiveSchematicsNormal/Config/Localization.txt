@@ -1,7 +1,8 @@
-key,source,context,changes,english
+key,source,context,changes,english,french,german,klingon,spanish,polish
 resourceSchematicPiece,items,Resources,New,Schematic Shard
 resourceSchematicPieceDesc,items,Resources,New,"Every time you read a schematic you get a little craftier, these shards can be used to craft any schematic! Of course you will need to specialize in specfic perks to have access to pertinent schematics."
 resourceLockPickSchematic,items,Resources,New,Lockpick Schematic
+foodCanDogfoodSchematic,items,Food,New,Dog Food Recipe
 meleeToolFarmT1IronHoeSchematic,items,Tools,New,Iron Hoe Schematic
 drugSteroidsSchematic,items,Medical,New,Steroids Schematic
 drugFortBitesSchematic,items,Medical,New,Fort Bites Schematic
@@ -78,3 +79,4 @@ perkArmorModderRank1LongDesc,progression,perk Int,New,"You've been doing some ti
 perkArmorModderRank2LongDesc,progression,perk Int,New,"You're quite the novice at armor mods and can add some advanced mods to your armor. Unlock crafting for the bandolier, double storage pocket, and helmet light."
 perkArmorModderRank3LongDesc,progression,perk Int,New,"You're an Armor Mod Master, there is not an armor modification too difficult for you. Unlock crafting for the advanced muffled connectors, customized fittings, impact bracing, reinforced armor plating, triple storage pocket and water purifier mods."
 perkPhysicianRank1LongDesc,progression,perk Int,New,"Medical healing items heal 25% more health over time. Gain 40% more XP using bandages, first aid bandages, first aid kits and splints. Can craft chemistry stations, beakers, first aid bandages and plaster casts."
+perkMasterChefRank4LongDesc,progression,perk Str,New,"Cook for an army by making Gumbo Stew, Shepards Pie, Spaghetti, Dog Food, and Tuna Gravy on Toast. Cook 40% faster. Use 20% less of a recipe's main ingredients.","Cuisinez pour toute une armée des plats tels que le gombo, la shepherd's pie, les spaghettis, et la terrine de thon sur pain grillé. Vous cuisinez 40 % plus rapidement. Vous utilisez 20 % de moins des ingrédients principaux dans les compositions.","Koche für eine Armee Gumbo-Eintopf, Shepards Pie, Spaghetti und Toast mit Thunfischsoße. Koche 40 % schneller. Verwende 20 % weniger von den Hauptzutaten eines Rezeptes.","Cocina para un ejército haciendo estofado de gumbo, pastel de pastores, espaguetis y salsa de atún en pan tostado. Cocina un 40 % más rápido. Usa un 20 % menos de los ingredientes principales de una receta.","Wiesz jak gotować dla wielu osób i znacz przepisy na potrawkę gumbo, placek pasterski, spaghetti czy tosty z tuńczykiem i sosem. Gotuj o 40% szybciej. Zużywaj 20% mniej głównych składników przepisu."
