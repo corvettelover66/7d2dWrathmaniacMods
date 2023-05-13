@@ -99,8 +99,8 @@
 			<ingredient name="resourceCoal" count="2" />
 		</recipe>
 		<recipe name="resourceSpring" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="15">
-			<ingredient name="resourceForgedSteel" count="5" />
-			<ingredient name="resourceZinc" count="2" />
+			<ingredient name="resourceZinc" count="5" />
+			<ingredient name="resourceForgedSteel" count="2" />
 			<ingredient name="resourceDuctTape" count="1" />
 		</recipe>
 		<recipe name="resourceSpring" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="15">
