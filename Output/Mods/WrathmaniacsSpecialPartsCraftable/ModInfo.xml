@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="Special Parts Craftable (A19)" />
-		<Description value="Adds a unique way to craft important special parts. All recipes are locked behind schematics. Notes: Added a campfire recipe for acid." />
+		<Description value="Adds a unique way to craft important special parts. All recipes are locked behind schematics." />
 		<Author value="Wrathmaniac" />
 		<Version value="SPC-1.1.a.20.e" />
 	</ModInfo>
