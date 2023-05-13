@@ -1,0 +1,112 @@
+Alpha 20:
+
+Notes 5/13/2023
+
+
+=============================================================
+ISC:
+=============================================================
+
+
+Added a schematic for Gun Powder stacks and added the unlock to the demolitions perk and the schematic to loot.
+
+Added a recipe and schematic for the Beaker, also added the schematic unlock to physician and the schematic to loot.
+
+Fixed bug with incorrect T2 rifle. Mod was using the old T2 marksman rifle in perk and for the schematic. This mean the T2 Lever Action was never unlocked.
+
+Small fix to the localization. Now the overwrites will not mess up Translations to other languages.
+
+Added paper to all schematic recipes.
+
+Pulled out the hard and easy categories into patches to make deployment and changes of the mod easier.
+
+Added a recipe and schematic for Dog Food.
+
+=============================================================
+Item repairing Overhaul:
+=============================================================
+
+Reduced the used parts in the repair kits. It felt too expensive, even with the ability to create needed parts.
+
+Fixed the robotic recipe to use 4 parts.
+
+Removed the unneeded AllVehicleParts item from the Vehicle Repair Kit.
+
+
+=============================================================
+Mining Station
+=============================================================
+
+Fixed issue with localization and Terminals being correct in game. Alpha 20 added different color terminals that were missed in the localization.
+
+Renamed mining terminals to Terminals in localization.
+
+Removed destroyed mining stations as closed containers no longer contains construction material in A 20.
+
+Reworked the LOOT file to make chips more rare and not always found in terminals.
+
+Added a recipe to the mining station for crushed sand. Increased the crafting time of all mining resources from 20 to 40.
+
+Created a patch for ISC. Now users will need both the Mining Station file and the ISC patch.
+
+=============================================================
+Random Game Tweaks
+=============================================================
+
+Adding a small chance to get beer from wine barrels.
+
+Removed Farm Plot pickups as it's uneeded. They can be picked up by shoveling them in A20.
+
+Increased the radiator stack from 5 to 10.
+
+Reduced the ammo stack increases. 
+
+
+=============================================================
+Special Parts craftable
+=============================================================
+
+Fixed the bug where fallen wood has a chance to give copper.
+
+Fixed progressions so that extra effect_groups were not created.
+
+Made various changes to the recipes. Some we buffs some were nerfs.
+
+Added a recipe for acid to the campfire.
+
+
+======
+Patches
+	====
+	Mining Station
+	====
+	Fixed the Loot container
+	Increased craft time of SPC resources in the mining station.
+======
+
+============
+Mining station Patch
+============
+
+Fixed the change to loot from Mining Station to add the chips.
+
+
+=============================================================
+Better Starting Items
+=============================================================
+
+Split into a single file where a player can choose in game.
+
+
+=============================================================
+All Parts Craftable
+=============================================================
+
+=======
+PATCHES:
+
+	Firearms -
+		Adds the needed parts unlocks to the schematics for the guns added by the mod.
+
+=======
+
