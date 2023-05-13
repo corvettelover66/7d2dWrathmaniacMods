@@ -36,12 +36,14 @@
 	<!-- 
 	<set xpath="/recipes/recipe[contains(@name, 'planted')]/ingredient[contains(@name, 'Crop')]/@count">2</set>
 	-->
+	<!-- 
 	<set xpath="/recipes/recipe[@name='resourceRepairKit']/ingredient[@name='resourceForgedIron']/@count">2</set>
 	<append xpath="/recipes/recipe[@name='resourceRepairKit']">
 		<ingredient name="resourceOil" count="1" />
 		<ingredient name="resourceCloth" count="2" />
 	</append>
-	<set xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='ammoGasCan']/@count">100</set>
+ 	-->	
+ 	<set xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='ammoGasCan']/@count">100</set>
 	<set xpath="/recipes/recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">45</set>
 	<!-- Blade trap uese steel parts code. -->
 	<set xpath="/recipes/recipe[@name='bladeTrap']/ingredient[@name='resourceMechanicalParts']/@count">2</set>
