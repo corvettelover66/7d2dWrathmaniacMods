@@ -30,11 +30,11 @@
 			<ingredient name="resourceRefinedCopper" count="2" />
 			<ingredient name="resourceAcid" count="1" />
 		</recipe>
-		<recipe name="resourceZinc" count="2" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="10">
-			<ingredient name="resourceSphalerite" count="5" />
+		<recipe name="resourceZinc" count="1" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="10">
+			<ingredient name="resourceSphalerite" count="3" />
 		</recipe>
-		<recipe name="resourceZinc" count="1" craft_area="campfire" craft_time="18" craft_tool="toolLeadSilverAnode">
-			<ingredient name="resourceSphalerite" count="5" />
+		<recipe name="resourceZinc" count="1" craft_area="campfire" craft_time="22" craft_tool="toolLeadSilverAnode">
+			<ingredient name="resourceSphalerite" count="6" />
 		</recipe>
 		<recipe name="toolLeadSilverAnode" count="1" tags="learnable" craft_area="workbench" craft_time="300">
 			<ingredient name="resourceScrapLead" count="200" />
@@ -46,19 +46,15 @@
 		<recipe name="resourceRawCopperMix" count="1" tags="cementMixerCrafting" craft_area="cementMixer">
 			<ingredient name="resourceScrapCopper" count="1" />
 		</recipe>
-		<recipe name="resourceRefinedCopper" count="100" craft_area="campfire" craft_time="45" craft_tool="toolLeadSilverAnode">
+		<recipe name="resourceRefinedCopper" count="100" craft_area="campfire" craft_time="120" craft_tool="toolLeadSilverAnode">
 			<ingredient name="resourceRawCopperMix" count="1500" />
 			<ingredient name="resourceScrapIron" count="10" />
 			<ingredient name="resourceAcid" count="1" />
 		</recipe>
-		<recipe name="resourceRefinedCopper" count="120" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="20">
+		<recipe name="resourceRefinedCopper" count="100" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="60">
 			<ingredient name="resourceRawCopperMix" count="750" />
 			<ingredient name="resourceScrapIron" count="10" />
 			<ingredient name="resourceAcid" count="1" />
-		</recipe>
-		<recipe name="resourceScrapPolymers" count="4" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="15">
-			<ingredient name="ammoGasCan" count="200" />
-			<ingredient name="resourceOil" count="1" />
 		</recipe>
 		<recipe name="resourceScrapPolymers" count="1" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="15">
 			<ingredient name="ammoGasCan" count="25" />
@@ -90,16 +86,23 @@
 			<ingredient name="resourceBone" count="4" />
 			<ingredient name="drinkJarRiverWater" count="2" />
 		</recipe>
+		<recipe name="resourceAcid" count="1" tags="learnable" craft_area="campfire"  craft_tool="toolBeaker" craft_time="30">
+			<ingredient name="resourceScrapPolymers" count="10" />
+			<ingredient name="resourcePotassiumNitratePowder" count="40" />
+			<ingredient name="resourceCoal" count="40" />
+			<ingredient name="resourceBone" count="8" />
+			<ingredient name="drinkJarRiverWater" count="2" />
+		</recipe>
 		<recipe name="resourceMechanicalParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="25">
-			<ingredient name="resourceRefinedCopper" count="10" />
-			<ingredient name="resourceForgedSteel" count="5" />
-			<ingredient name="resourceForgedIron" count="5" />
+			<ingredient name="resourceRefinedCopper" count="15" />
+			<ingredient name="resourceForgedSteel" count="1" />
+			<ingredient name="resourceForgedIron" count="2" />
 			<ingredient name="resourceDuctTape" count="1" />
 		</recipe>
 		<recipe name="resourceElectricParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
-			<ingredient name="resourceRefinedCopper" count="20" />
+			<ingredient name="resourceRefinedCopper" count="25" />
 			<ingredient name="resourceScrapPolymers" count="5" />
-			<ingredient name="resourceForgedSteel" count="5" />
+			<ingredient name="resourceForgedSteel" count="2" />
 			<ingredient name="resourceDuctTape" count="1" />
 		</recipe>
 		<recipe name="solarbank" count="1" craft_area="workbench" craft_time="240" tags="learnable,workbenchCrafting">

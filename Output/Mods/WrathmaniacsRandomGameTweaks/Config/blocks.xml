@@ -1,4 +1,7 @@
 <WrathmaniacsRandomGameTweaks>
+	<append xpath="/blocks/block[@name='wineBarrel']">
+			<drop event="Destroy"  name="drinkJarBeer"  count="1"  prob=".1" />
+	</append>
 	<append xpath="/blocks/block[@name='concreteMaster']">
 			<property name="Tags"  value="concrete"/>
 	</append>
@@ -11,8 +14,4 @@
 	<set xpath="/blocks/block[@name='metalReinforcedDoorWooden']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">10</set>
 
 	<set xpath="/blocks/block[@name='metalReinforcedDoorWooden']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceForgedIron</set>
-
-	<append xpath="/blocks/block[@name='farmPlotBlock']">
-			<property name="CanPickup"  value="true"/>
-	</append>
 </WrathmaniacsRandomGameTweaks>

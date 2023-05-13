@@ -1,6 +1,7 @@
 <WrathmaniacsItemRepairingOverhaul>
 	<append xpath="/items">
 		<!-- Intermediate item needed for "Vehicle Repair Kit" to fix UI limitation of 5 items in a recipe -->
+		<!-- TODO Remove as this was unneeded -->
 		<item name="vehicleAllParts">
 			<property name="HoldType" value="45" />
 			<property name="CustomIcon" value="vehicleAllParts" />

@@ -1,7 +1,0 @@
-<WrathmaniacsBetterStartingItems>
-	<set xpath="/entity_classes/entity_class[@name='playerMale' or @name='playerFemale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">startingBundle</set>
-
-	<set xpath="/entity_classes/entity_class[@name='playerMale' or @name='playerFemale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">startingBundle</set>
-
-	<set xpath="/entity_classes/entity_class[@name='playerMale' or @name='playerFemale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">startingBundle</set>
-</WrathmaniacsBetterStartingItems>
