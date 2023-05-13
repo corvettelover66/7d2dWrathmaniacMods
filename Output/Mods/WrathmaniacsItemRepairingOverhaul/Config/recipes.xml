@@ -10,11 +10,11 @@
 			less balanced for the bike, 
 			I'm choosing the latter-->
 		<recipe name="resourceRepairKit"  count="1" craft_time="3">
-			<ingredient name="vehicleAllParts"  count="1" />
-			<ingredient name="resourceForgedIron" count="1" />
-			<ingredient name="resourceCloth" count="2" />
-			<ingredient name="resourceDuctTape" count="2" />
-			<ingredient name="resourceOil" count="4" />
+			<ingredient name="resourceNormalRepairKit" count="2" />
+			<ingredient name="smallEngine"  count="1" />
+			<ingredient name="carBattery"  count="1" />
+			<ingredient name="vehicleWheels" count="2" />
+			<ingredient name="resourceHeadlight" count="2" />
 		</recipe>
 		<recipe name="resourceNormalRepairKit"  count="1" craft_time="3">
 			<ingredient name="resourceForgedIron" count="1" />
@@ -22,6 +22,7 @@
 			<ingredient name="resourceDuctTape" count="1" />
 			<ingredient name="resourceOil" count="1" />
 		</recipe>
+		<!-- TODO Remove as this was unneeded -->
 		<recipe name="vehicleAllParts"  count="1"  craft_time="2">
 			<ingredient name="smallEngine"  count="1" />
 			<ingredient name="carBattery"  count="1" />
@@ -34,7 +35,9 @@
 		</recipe>
 		<recipe name="resourceToolAxePartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="meleeToolAxeT3ChainsawParts" count="1" />
+			<ingredient name="resourceForgedSteel" count="1" />
+			<ingredient name="meleeToolAxeT3ChainsawParts" count="2" />
+			<ingredient name="smallEngine"  count="1" />
 		</recipe>
 		<recipe name="resourceMilitarySetPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
