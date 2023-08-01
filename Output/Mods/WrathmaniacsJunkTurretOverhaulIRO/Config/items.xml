@@ -76,6 +76,7 @@
 	<set xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='MagazineSize' and @operation='base_add']/@value">10,50</set>
 	<set xpath="/items/item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">2000</set>
 	<setattribute xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='DegradationPerUse']" name="tier">1,6</setattribute>
+		<append xpath="/items/item[@name='gunBotT2JunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoJunkTurretSteel,ammoJunkTurretSteelAP</append>
 	<set xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='DegradationPerUse']/@value">0.4,0.3</set>
 	<setattribute xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='DegradationPerUse']" name="tier">1,6</setattribute>
 	<set xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='DegradationPerUse']/@value">0.4,0.3</set>
