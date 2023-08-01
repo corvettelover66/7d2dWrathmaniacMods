@@ -11,33 +11,33 @@
 	</append>
 
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']">
-			<unlock_entry item="toolLeadSilverAnode"  unlock_tier="1" />
+			<unlock_entry item="toolLeadSilverAnode"  unlock_tier="2" />
 	</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']">
 			<effect_group>
-				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="50,100"  value="1"  tags="toolLeadSilverAnode"/>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="55,100"  value="1"  tags="toolLeadSilverAnode"/>
 			</effect_group>
 	</append>
 
-	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@unlock_level">,50</append>
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@unlock_level">,55</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@icon">,toolLeadSilverAnode</append>
 
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingElectrician']">
-			<display_entry icon="resourceMechanicalParts,resourceScrapPolymers,resourceElectricParts,resourceAcid"  name_key="electricianT3"  has_quality="false"  unlock_level="65,65,65,65" >
+			<display_entry icon="resourceMechanicalParts,resourceScrapPolymers,resourceElectricParts,resourceAcid"  name_key="electricianT3-1,electricianT3-2,electricianT3-3,electricianT3-4"  has_quality="false"  unlock_level="60,65,70,75" >
 				<unlock_entry item="resourceMechanicalParts"  unlock_tier="1" />
-				<unlock_entry item="resourceScrapPolymers"  unlock_tier="1" />
-				<unlock_entry item="resourceElectricParts"  unlock_tier="1" />
-				<unlock_entry item="resourceAcid"  unlock_tier="1" />
+				<unlock_entry item="resourceScrapPolymers"  unlock_tier="2" />
+				<unlock_entry item="resourceElectricParts"  unlock_tier="3" />
+				<unlock_entry item="resourceAcid"  unlock_tier="4" />
 			</display_entry>
-			<display_entry icon="resourceSpring,resourceRefinedCopper,resourceZinc,resourceScrapBrass"  name_key="electricianT2"  has_quality="false"  unlock_level="50,50,50,50" >
+			<display_entry icon="resourceSpring,resourceRefinedCopper,resourceZinc,resourceScrapBrass"  name_key="electricianT2-1,electricianT2-2,electricianT2-3,electricianT2-4"  has_quality="false"  unlock_level="40,45,50,55" >
 				<unlock_entry item="resourceSpring"  unlock_tier="1" />
-				<unlock_entry item="resourceRefinedCopper"  unlock_tier="1" />
-				<unlock_entry item="resourceZinc"  unlock_tier="1" />
-				<unlock_entry item="resourceScrapBrass"  unlock_tier="1" />
+				<unlock_entry item="resourceRefinedCopper"  unlock_tier="2" />
+				<unlock_entry item="resourceZinc"  unlock_tier="3" />
+				<unlock_entry item="resourceScrapBrass"  unlock_tier="4" />
 			</display_entry>
 			<effect_group>
-				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="50,100"  value="1"  tags="resourceSpring,resourceRefinedCopper,resourceZinc,resourceScrapBrass"/>
-				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="65,100"  value="1"  tags="resourceMechanicalParts,resourceScrapPolymers,resourceElectricParts,resourceAcid"/>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="40,100"  value="1"  tags="resourceSpring,resourceRefinedCopper,resourceZinc,resourceScrapBrass"/>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="60,100"  value="1"  tags="resourceMechanicalParts,resourceScrapPolymers,resourceElectricParts,resourceAcid"/>
 			</effect_group>
 	</append>
 </WrathmaniacsSpecialPartsCraftable>
