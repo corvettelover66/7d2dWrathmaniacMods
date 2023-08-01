@@ -25,7 +25,7 @@
 			<property name="Path" value="solid" />
 			<property name="Model" value="Entities/Industrial/controlPanelBase_04Prefab" />
 			<property name="DisplayType" value="blockMulti" />
-			<property name="UnlockedBy" value="perkAdvancedEngineering,miningstationSchematic" />
+			<property name="UnlockedBy" value="craftingWorkstations" />
 			<property name="MultiBlockDim" value="1,1,1" />
 			<property name="ImposterDontBlock" value="true" />
 			<property name="Place" value="TowardsPlacerInverted" />
