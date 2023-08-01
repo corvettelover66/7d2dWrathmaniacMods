@@ -23,7 +23,7 @@
 			<ingredient name="toolBeaker" count="1" />
 			<ingredient name="toolCookingPot" count="1" />
 		</recipe>
-		<recipe name="carBattery" count="1" tags="learnable,perkGreaseMonkey,chemStationCrafting" craft_area="chemistryStation">
+		<recipe name="carBattery" count="1" tags="learnable,chemStationCrafting" craft_area="chemistryStation">
 			<ingredient name="resourceZinc" count="100" />
 			<ingredient name="resourceCoal" count="10" />
 			<ingredient name="resourceScrapPolymers" count="6" />
@@ -105,6 +105,8 @@
 			<ingredient name="resourceForgedSteel" count="2" />
 			<ingredient name="resourceDuctTape" count="1" />
 		</recipe>
+		<!-- 
+
 		<recipe name="solarbank" count="1" craft_area="workbench" craft_time="240" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceForgedSteel" count="50" />
 			<ingredient name="resourceElectricParts" count="25" />
@@ -117,6 +119,8 @@
 			<ingredient name="resourceScrapPolymers" count="5" />
 			<ingredient name="glassBulletproofBlockVariantHelper" count="1" />
 		</recipe>
+		
+		-->
 	</append>
 	<append xpath="/recipes/recipe[@name='chemistryStation']">
 		<ingredient name="allChemistryStationTools" count="1" />
