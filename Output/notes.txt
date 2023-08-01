@@ -111,3 +111,12 @@ PATCHES:
 
 =======
 
+
+=============================================================
+Repaired Workstation
+=============================================================
+
+Updated all icons to use new pictures.
+
+Added the dew collector to the repaired workstations.
+

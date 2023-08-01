@@ -69,6 +69,11 @@
 			<ingredient name="resourceScrapPolymers" count="3" />
 			<ingredient name="resourceBatterybankParts" count="8" />
 		</recipe>
+		<recipe name="repairedDewCollector"  count="1"  tags="learnable,workbenchCrafting" >
+			<ingredient name="resourceScrapPolymers"  count="40" />
+			<ingredient name="resourceMetalPipe"  count="2" />
+			<ingredient name="resourceDuctTape"  count="2" />
+			<ingredient name="resourceDewCollectorParts"  count="10" />
+		</recipe>
 	</append>
-	<!-- Xml Written October 20, 2020 at 22:36:52 -->
 </WrathmaniacsRepairedWorkstations>

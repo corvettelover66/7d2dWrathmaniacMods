@@ -1,11 +1,15 @@
 <WrathmaniacsRepairedWorkstations>
+	<append xpath="/blocks/block[@name='cntCollapsedDewCollector']">
+			<drop event="Harvest"  name="resourceDewCollectorParts"  count="0,5"  tag="salvageHarvest"  prob=".5" />
+			<drop event="Harvest"  name="resourceDewCollectorParts"  count="1,5"  tag="salvageHarvest" />
+	</append>
 	<append xpath="/blocks/block[@name='cntCollapsedSolarbank']">
 			<drop event="Harvest"  name="resourceSolarcellParts"  count="0,16" tag="salvageHarvest"/>
 			<drop event="Harvest"  name="resourceSolarcellParts"  count="1,16" tag="salvageHarvest"/>
 			<drop event="Harvest"  name="resourceSolarbankParts"  count="0,7" tag="salvageHarvest"/>
 			<drop event="Harvest"  name="resourceSolarbankParts"  count="1,15" ag="salvageHarvest"/>
 	</append>
-	<append xpath="/blocks/block[@name='cntCollapsedForge']">
+	<append xpath="/blocks/block[@name='cntForgeWorkstationBroken']">
 			<drop event="Harvest"  name="resourceForgeParts"  count="0,3" tag="salvageHarvest" prob=".5"/>
 			<drop event="Harvest"  name="resourceForgeParts"  count="1,3" tag="salvageHarvest"/>
 	</append>

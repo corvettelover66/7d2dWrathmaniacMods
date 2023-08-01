@@ -132,6 +132,18 @@
 			<property name="EconomicValue" value="750" />
 			<property name="Group" value="Resources" />
 		</item>
+		<item name="repairedDewCollector" >
+			<property name="Extends"  value="repairedWorkbench"/>
+			<property name="CustomIcon"  value="cntDewCollector" />
+			<property class="Action0" >
+				<property name="Class"  value="OpenBundle" />
+				<property name="Delay"  value="0" />
+				<property name="Use_time"  value="0" />
+				<property name="Sound_start"  value="close_garbage" />
+				<property name="Create_item"  value="cntDewCollector" />
+				<property name="Create_item_count"  value="1" />
+			</property>
+		</item>
 		<item name="resourceWorkbenchParts">
 			<property name="HoldType" value="45" />
 			<property name="CustomIcon" value="resourceWorkbenchParts" />
@@ -171,6 +183,10 @@
 		<item name="resourceForgeParts">
 			<property name="Extends" value="resourceWorkbenchParts" />
 			<property name="CustomIcon" value="resourceForgeParts" />
+		</item>
+		<item name="resourceDewCollectorParts" >
+			<property name="Extends"  value="resourceWorkbenchParts"/>
+			<property name="CustomIcon"  value="resourceDewCollectorParts" />
 		</item>
 	</append>
 </WrathmaniacsRepairedWorkstations>
