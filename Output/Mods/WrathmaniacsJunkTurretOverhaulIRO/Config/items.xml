@@ -26,7 +26,7 @@
 		<item name="ammoJunkTurretSteelAP">
 			<property name="Extends" value="ammoJunkTurretSteel" />
 			<property name="CustomIcon" value="ammoJunkTurretSteelAP" />
-			<property name="UnlockedBy" value="craftingRobotics" />
+			<property name="UnlockedBy" value="perkTechJunkie3APAmmo" />
 			<property name="DescriptionKey" value="ammoAPGroupDesc" />
 			<property name="DisplayType" value="ammoJunkTurretAP" />
 			<property name="EconomicValue" value="18" />
@@ -64,7 +64,7 @@
 			<property name="DisplayType" value="ammoBulletFake" />
 			<property name="CustomIcon" value="ammoJunkTurretSteelAP" />
 			<property name="EconomicValue" value="2500" />
-			<property name="UnlockedBy" value="craftingRobotics" />
+			<property name="UnlockedBy" value="perkTechJunkie3APAmmo" />
 			<property class="Action0">
 				<property name="Create_item" value="ammoJunkTurretSteelAP" />
 				<property name="Create_item_count" value="500" />
