@@ -1,21 +1,39 @@
 <WrathmaniacsJunkTurretOverhaul>
-	<!-- car parts shipping crate -->
-	<append xpath="/lootcontainers/lootcontainer[@id='90']">
-			<item name="resourceJunkTurretRepairKit" prob=".3"/>
+	<append xpath="/lootcontainers">
+		<lootgroup name="groupJunkTurretSteelLarge" >
+			<item name="ammoJunkTurretSteel"  count="20,30"  loot_stage_count_mod="0.01" />
+		</lootgroup>
+		<lootgroup name="groupJunkTurretSteelMedium" >
+			<item name="ammoJunkTurretSteel"  count="8,15"  loot_stage_count_mod="0.01" />
+		</lootgroup>
+		<lootgroup name="groupJunkTurretSteelSmall" >
+			<item name="ammoJunkTurretSteel"  count="5,7"  loot_stage_count_mod="0.01" />
+		</lootgroup>
 	</append>
-	<!-- shotgun Messiah crate -->
-	<append xpath="/lootcontainers/lootcontainer[@id='50']">
-			<item name="resourceJunkTurretRepairKit"  prob=".1"/>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoMedium']">
+			<item group="groupJunkTurretSteelMedium" />
 	</append>
-	<append xpath="/lootcontainers/lootgroup[@name='workingStiffsSub']">
-			<item name="resourceJunkTurretRepairKit" />
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoSmall']">
+			<item group="groupJunkTurretSteelSmall" />
 	</append>
-	<append xpath="/lootcontainers/lootgroup[@name='automotive']">
-			<item name="resourceJunkTurretRepairKit"  />
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoLarge']">
+			<item group="groupJunkTurretSteelLarge" />
 	</append>
-	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']">
-			<item name="ammoJunkTurretSteel"  count="10,20" />
-			<item name="ammoJunkTurretSteelAP"  count="10,20" />
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']">
+			<item name="ammoJunkTurretSteel"  count="60"  loot_prob_template="QuestT1Prob" />
+			<item name="ammoJunkTurretSteelAP"  count="45"  loot_prob_template="QuestT2Prob" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupShotgunMessiahCrate04']">
+			<item name="resourceBotPartsRepairKit"  count="1"  loot_prob_template="med" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupRobotics']">
+			<item name="resourceBotPartsRepairKit"  count="1"  loot_prob_template="med" />
 	</append>
 <!-- 
 <setattribute xpath="/lootcontainers/lootgroup[@name='automotive']/item[@name='carBattery']" name="prob">0.37</setattribute>
