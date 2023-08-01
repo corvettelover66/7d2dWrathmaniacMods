@@ -1,5 +1,4 @@
 key,source,context,changes,english
-miningstationSchematic,items,item,New,Mining Station Schematic
 miningstation,blocks,Block,New,Mining Station
 miningstationDesc,blocks,Block,New,"The Mining Station is a piece of technological beauty, capable of finding and mining any resource deep below the surface. Basic ores can be mined immediately but rare ores such as lead and iron require mining chips.  Supports up to five augers, each auger added reduces the mining time of any resource.\n\n[AF1E19] Warning[-]: overloading the Auto Miner output will cause gas overflows and you will lose both resources and gas."
 controlPanelBase04,blocks,Block,New,Terminal
