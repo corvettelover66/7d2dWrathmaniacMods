@@ -104,10 +104,6 @@
 			</lootprobtemplate>
 	</insertAfter>
 	
-	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT2']">
-			<item name="miningstationSchematic" />
-	</append>
-	
 	<append xpath="/lootcontainers">
 		<lootgroup name="groupMiningChips" count="0,1">
 			<item name="resourceCoalOreMinerChip"  loot_prob_template="ProbChips" />
