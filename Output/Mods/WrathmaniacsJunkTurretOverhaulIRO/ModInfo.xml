@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Junk Turret Overhaul Item Repairing Overhaul Version" />
+		<Name value="Junk Turret Overhaul Item Repairing Overhaul Version (Alpha 21)" />
 		<Description value="Seperate version for the Junk Turret Overhaul to match up better with the mod Item Repairing Overhaul." />
 		<Author value="wrathmaniac" />
-		<Version value="JTO-IRO-1.0.a.20.e" />
+		<Version value="JTO-IRO-1.0.a.21" />
 	</ModInfo>
 </xml>
