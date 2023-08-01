@@ -1,3 +1,0 @@
-<WrathmaniacsImmersiveSchematicsHard>
-	<set xpath="/items/item[@name='schematicMaster']/property[@class='Action0']/property[@name='Create_item_count']/@value">2</set>
-</WrathmaniacsImmersiveSchematicsHard>

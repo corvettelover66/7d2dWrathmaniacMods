@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Special Parts Craftable (A19)" />
-		<Description value="Adds a unique way to craft important special parts. All recipes are locked behind schematics." />
+		<Name value="Special Parts Craftable (A20 Experimental)" />
+		<Description value="Adds a unique way to craft important special parts. Recipes can be unlocked with perks. " />
 		<Author value="Wrathmaniac" />
-		<Version value="SPC-1.1.a.20.e" />
+		<Version value="SPCNISC-1.0.a.20.e" />
 	</ModInfo>
 </xml>

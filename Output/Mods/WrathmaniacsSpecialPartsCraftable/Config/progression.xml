@@ -1,9 +1,14 @@
 <!-- Xml Written July 30, 2020 at 15:55:03 -->
 <WrathmaniacsSpecialPartsCraftable>
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">,resourceSpringSchematic,resourceRefinedCopperSchematic,resourceZincSchematic,resourceScrapBrassSchematic</append>
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,resourceMechanicalPartsSchematic,resourceScrapPolymersSchematic,resourceElectricPartsSchematic,resourceAcidSchematic</append>
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">,solarCellSchematic,solarbankSchematic</append>
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags="resourceSpring,resourceRefinedCopper,resourceZinc,resourceScrapBrass" />
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="resourceMechanicalParts,resourceScrapPolymers,resourceElectricParts,resourceAcid" />
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="solarCell,solarbank" />
+	</append> 
 	
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,4']/@tags">,toolLeadSilverAnodeSchematic</append>
-
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">,resourceSpring,resourceRefinedCopper,resourceZinc,resourceScrapBrass</append>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,resourceMechanicalParts,resourceScrapPolymers,resourceElectricParts,resourceAcid</append>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">,solarCell,solarbank</append>
+	
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,4']/@tags">,toolLeadSilverAnode</append>
 </WrathmaniacsSpecialPartsCraftable>

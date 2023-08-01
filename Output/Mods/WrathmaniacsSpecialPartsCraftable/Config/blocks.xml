@@ -52,14 +52,14 @@
 	
 	<set xpath="/blocks/block/drop[@event='Fall'][@name='terrDestroyedStone']/@name">terrDestroyedStoneNoCopper</set>
 	<set xpath="/blocks/block/drop[@event='Fall'][@name='terrDestroyedWoodDebris']/@name">terrDestroyedWoodDebrisNoCopper</set>
-	
+
 	<append xpath="/blocks/block[@name='solarbank']">
 		<property name="UnlockedBy"  value="solarbankSchematic,perkAdvancedEngineering"/>
 	</append>
 	<append xpath="/blocks/block[@name='terrDestroyedStone']">
 			<drop event="Destroy"  name="resourceRefinedCopper"  count="25,50"  prob=".2" />
 	</append>
-	
+
 	<!-- Add copper to various block harvest -->
 	<append xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
