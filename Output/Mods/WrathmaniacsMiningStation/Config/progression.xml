@@ -1,3 +1,10 @@
 <WrathmaniacsMiningStation>
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">,miningstation</append>
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/effect_group">
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="80,100"  value="1"  tags="miningstation"/>
+	</append>
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']">
+			<display_entry icon="miningstation"  name_key="workstationsT5"  has_quality="false"  unlock_level="80"  item="miningstation" >
+				<unlock_entry unlock_tier="1" />
+			</display_entry>
+	</append>
 </WrathmaniacsMiningStation>

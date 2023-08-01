@@ -14,42 +14,6 @@
 		<property name="LootList" value="mining_terminal_times_two" />
 	</append>
 	<append xpath="/blocks">
-		<block name="cntCollapsedMiningstation">
-			<property name="CreativeMode" value="Dev" />
-			<property name="Class" value="Loot" />
-			<property name="LootList" value="collapsed_mining_station" />
-			<property name="CustomIcon" value="miningstation" />
-			<property name="Material" value="Mmetal" />
-			<property name="MaxDamage" value="500" />
-			<property name="StabilitySupport" value="false" />
-			<property name="Shape" value="ModelEntity" />
-			<property name="Texture" value="293" />
-			<property name="Mesh" value="models" />
-			<property name="Model" value="Entities/Industrial/controlPanelBase_04Prefab"/>
-			<property name="DisplayType" value="blockMulti" />
-			<property name="MultiBlockDim" value="1,1,1" />
-			<property name="ImposterDontBlock" value="true" />
-			<property name="Place" value="TowardsPlacerInverted" />
-			<property name="OnlySimpleRotations" value="true" />
-			<property name="IsTerrainDecoration" value="true" />
-			<property class="RepairItems">
-				<property name="resourceForgedSteel" value="25" />
-				<property name="resourceMechanicalParts" value="20" />
-				<property name="resourceElectricParts" value="50" />
-			</property>
-			<drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest" />
-			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
-			<drop event="Harvest" name="resourceForgedSteel" count="5" tag="salvageHarvest" />
-			<drop event="Harvest" name="resourceMechanicalParts" count="15" tag="salvageHarvest" />
-			<drop event="Harvest" name="resourceElectricParts" count="10" tag="salvageHarvest" />
-			<drop event="Destroy" count="0" />
-			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1" />
-			<property name="Group" value="Decor/Miscellaneous" />
-			<property name="DescriptionKey" value="creativeMenuBlockGroupDesc" />
-			<property name="SellableToTrader" value="false" />
-			<property name="FilterTags" value="floot,fdecor,ffurniture" />
-			<property name="SortOrder1" value="70i0" />
-		</block>
 		<block name="miningstation">
 			<property name="Class" value="Workstation" />
 			<property name="CustomIcon" value="miningstation" />
@@ -58,11 +22,10 @@
 			<property name="StabilitySupport" value="false" />
 			<property name="Shape" value="ModelEntity" />
 			<property name="Texture" value="293" />
-			<property name="Mesh" value="models" />
 			<property name="Path" value="solid" />
 			<property name="Model" value="Entities/Industrial/controlPanelBase_04Prefab" />
 			<property name="DisplayType" value="blockMulti" />
-			<property name="UnlockedBy" value="perkAdvancedEngineering,miningstationSchematic" />
+			<property name="UnlockedBy" value="craftingWorkstations" />
 			<property name="MultiBlockDim" value="1,1,1" />
 			<property name="ImposterDontBlock" value="true" />
 			<property name="Place" value="TowardsPlacerInverted" />
