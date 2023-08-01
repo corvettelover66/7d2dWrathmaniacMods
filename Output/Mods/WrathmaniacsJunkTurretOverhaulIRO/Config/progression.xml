@@ -1,5 +1,10 @@
-<WrathmaniacsJunkTurretOverhaul>
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkTechJunkie3APAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,ammoJunkTurretSteelAP</append>
+<WrathmaniacsJunkTurretOverhaulIRO>
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingRobotics']">
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="52,100"  value="1"  tags="ammoJunkTurretSteel,ammoBundleSteelJunkTurret"/>
+			</effect_group>
+	</append>
+	<append xpath="/progression/perks[@min_level='0']/book[@name='perkTechJunkie3APAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,ammoJunkTurretSteelAP</append>
 	<!-- 
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkTurrets']/effect_group[@name='General and deployed turrets']/passive_effect[@name='EntityDamage']/@value">.1,.15,.2,.25,.25</set>
 	-->
@@ -14,4 +19,4 @@
 	</append>
 
 	<set xpath="/progression/perks[@min_level='0']/perk[@name='perkTurrets']/effect_group/passive_effect[@name='JunkTurretActiveRange']/@value">10,12,14,16,20,25</set>
-</WrathmaniacsJunkTurretOverhaul>
+</WrathmaniacsJunkTurretOverhaulIRO>

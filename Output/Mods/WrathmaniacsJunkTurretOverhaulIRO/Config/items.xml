@@ -77,8 +77,6 @@
 	<set xpath="/items/item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">2000</set>
 	<setattribute xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='DegradationPerUse']" name="tier">1,6</setattribute>
 	<set xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='DegradationPerUse']/@value">0.4,0.3</set>
-	<append xpath="/items/item[@name='gunBotT2JunkTurretSchematic']/property[@name='Unlocks']/@value">ammoJunkTurretSteel,ammoBundleSteelJunkTurret</append>
-	<append xpath="/items/item[@name='gunBotT2JunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoJunkTurretSteel,ammoJunkTurretSteelAP</append>
 	<setattribute xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='DegradationPerUse']" name="tier">1,6</setattribute>
 	<set xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='DegradationPerUse']/@value">0.4,0.3</set>
 </WrathmaniacsJunkTurretOverhaul>
