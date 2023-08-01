@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<ModInfo>
-		<Name value="All Parts Craftable ISC (a 20)" />
-		<Description value="All Parts items can be crafted. Though not for free, all are locked behind schematics or books. " />
-		<Author value="wrathmaniac" />
-		<Version value="WAPC-ISC.1.2.a.20.e" />
-	</ModInfo>
-</xml>

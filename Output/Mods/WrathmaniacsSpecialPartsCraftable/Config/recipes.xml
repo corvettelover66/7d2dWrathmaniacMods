@@ -1,39 +1,5 @@
 <WrathmaniacsSpecialPartsCraftable>
 	<append xpath="/recipes">
-		<!-- Schematics -->
-		<recipe name="solarCellSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
-			<ingredient name="resourceSchematicPiece" count="50" />
-		</recipe>
-		<recipe name="solarbankSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
-			<ingredient name="resourceSchematicPiece" count="75" />
-		</recipe>
-		<recipe name="resourceRefinedCopperSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
-			<ingredient name="resourceSchematicPiece" count="50" />
-		</recipe>
-		<recipe name="resourceSpringSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
-			<ingredient name="resourceSchematicPiece" count="50" />
-		</recipe>
-		<recipe name="resourceElectricPartsSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
-			<ingredient name="resourceSchematicPiece" count="50" />
-		</recipe>
-		<recipe name="resourceMechanicalPartsSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
-			<ingredient name="resourceSchematicPiece" count="50" />
-		</recipe>
-		<recipe name="resourceAcidSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
-			<ingredient name="resourceSchematicPiece" count="50" />
-		</recipe>
-		<recipe name="toolLeadSilverAnodeSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
-			<ingredient name="resourceSchematicPiece" count="50" />
-		</recipe>
-		<recipe name="resourceScrapPolymersSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
-			<ingredient name="resourceSchematicPiece" count="50" />
-		</recipe>
-		<recipe name="resourceZincSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
-			<ingredient name="resourceSchematicPiece" count="50" />
-		</recipe>
-		<recipe name="resourceScrapBrassSchematic" count="1" tags="learnable,schematicCrafting" craft_area="workbench" craft_time="300">
-			<ingredient name="resourceSchematicPiece" count="50" />
-		</recipe>
 		<!-- New Recipes -->
 		<recipe name="allChemistryStationToolsDisassemble" count="1" craft_time="1">
 			<ingredient name="allChemistryStationTools" count="1" />
@@ -99,8 +65,8 @@
 			<ingredient name="resourceCoal" count="2" />
 		</recipe>
 		<recipe name="resourceSpring" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="15">
-			<ingredient name="resourceZinc" count="5" />
-			<ingredient name="resourceForgedSteel" count="2" />
+			<ingredient name="resourceForgedSteel" count="5" />
+			<ingredient name="resourceZinc" count="2" />
 			<ingredient name="resourceDuctTape" count="1" />
 		</recipe>
 		<recipe name="resourceSpring" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="15">
