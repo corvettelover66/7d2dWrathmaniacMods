@@ -6,7 +6,7 @@ Notes 5/13/2023
 =============================================================
 ISC:
 =============================================================
-
+Removed!!!!
 
 Added a schematic for Gun Powder stacks and added the unlock to the demolitions perk and the schematic to loot.
 
@@ -49,6 +49,8 @@ Added a recipe to the mining station for crushed sand. Increased the crafting ti
 
 Created a patch for ISC. Now users will need both the Mining Station file and the ISC patch.
 
+Updated for Alpha 21
+
 =============================================================
 Random Game Tweaks
 =============================================================
@@ -75,6 +77,7 @@ Made various changes to the recipes. Some we buffs some were nerfs.
 
 Added a recipe for acid to the campfire.
 
+Updated for alpha 21
 
 ======
 Patches
@@ -103,6 +106,8 @@ Split into a single file where a player can choose in game.
 All Parts Craftable
 =============================================================
 
+TODO!!!!!!!!!
+
 =======
 PATCHES:
 
@@ -120,6 +125,7 @@ Updated all icons to use new pictures.
 
 Added the dew collector to the repaired workstations.
 
+Updated to alpha 21
 
 =============================================================
 Junk Turret Overhaul
