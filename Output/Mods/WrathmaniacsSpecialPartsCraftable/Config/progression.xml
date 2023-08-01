@@ -1,14 +1,43 @@
-<!-- Xml Written July 30, 2020 at 15:55:03 -->
 <WrathmaniacsSpecialPartsCraftable>
-	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
-			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags="resourceSpring,resourceRefinedCopper,resourceZinc,resourceScrapBrass" />
-			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="resourceMechanicalParts,resourceScrapPolymers,resourceElectricParts,resourceAcid" />
-			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="solarCell,solarbank" />
-	</append> 
-	
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">,resourceSpring,resourceRefinedCopper,resourceZinc,resourceScrapBrass</append>
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,resourceMechanicalParts,resourceScrapPolymers,resourceElectricParts,resourceAcid</append>
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">,solarCell,solarbank</append>
-	
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,4']/@tags">,toolLeadSilverAnode</append>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/unlock_entry[@item='drugSteroids']/@unlock_tier">4</set>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/unlock_entry[@item='drugAntibiotics']/@unlock_tier">3</set>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/unlock_entry[@item='medicalFirstAidKit']/@unlock_tier">2</set>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/@unlock_level">45,50,60,75</set>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/@name_key">medicalT3-1,medicalT3-2,medicalT3-3,medicalT3-4</set>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/@icon">drugPainkillers,medicalFirstAidKit,drugAntibiotics,drugSteroids</set>
+
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']">
+			<unlock_entry item="drugPainkillers"  unlock_tier="1" />
+	</append>
+
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']">
+			<unlock_entry item="toolLeadSilverAnode"  unlock_tier="2" />
+	</append>
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']">
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="55,100"  value="1"  tags="toolLeadSilverAnode"/>
+			</effect_group>
+	</append>
+
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@unlock_level">,55</append>
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@icon">,toolLeadSilverAnode</append>
+
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingElectrician']">
+			<display_entry icon="resourceMechanicalParts,resourceScrapPolymers,resourceElectricParts,resourceAcid"  name_key="electricianT3-1,electricianT3-2,electricianT3-3,electricianT3-4"  has_quality="false"  unlock_level="60,65,70,75" >
+				<unlock_entry item="resourceMechanicalParts"  unlock_tier="1" />
+				<unlock_entry item="resourceScrapPolymers"  unlock_tier="2" />
+				<unlock_entry item="resourceElectricParts"  unlock_tier="3" />
+				<unlock_entry item="resourceAcid"  unlock_tier="4" />
+			</display_entry>
+			<display_entry icon="resourceSpring,resourceRefinedCopper,resourceZinc,resourceScrapBrass"  name_key="electricianT2-1,electricianT2-2,electricianT2-3,electricianT2-4"  has_quality="false"  unlock_level="40,45,50,55" >
+				<unlock_entry item="resourceSpring"  unlock_tier="1" />
+				<unlock_entry item="resourceRefinedCopper"  unlock_tier="2" />
+				<unlock_entry item="resourceZinc"  unlock_tier="3" />
+				<unlock_entry item="resourceScrapBrass"  unlock_tier="4" />
+			</display_entry>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="40,100"  value="1"  tags="resourceSpring,resourceRefinedCopper,resourceZinc,resourceScrapBrass"/>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="60,100"  value="1"  tags="resourceMechanicalParts,resourceScrapPolymers,resourceElectricParts,resourceAcid"/>
+			</effect_group>
+	</append>
 </WrathmaniacsSpecialPartsCraftable>

@@ -64,7 +64,8 @@
 	<append xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</append>
-	<insertBefore xpath="/blocks/block[@name='fusebox']/property[@name='EconomicValue']">
+	
+	<insertBefore xpath="/blocks/block[@name='breakerBoxClosed']/property[@name='EconomicValue']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
@@ -104,6 +105,10 @@
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
+	<insertBefore xpath="/blocks/block[@name='cntToaster']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
 	<insertBefore xpath="/blocks/block[@name='cntCoffeeMaker']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
@@ -124,10 +129,6 @@
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
-	<insertBefore xpath="/blocks/block[@name='cntTrashCompactor']/drop[@event='Destroy']">
-			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
-	</insertBefore>
-	
 	<insertBefore xpath="/blocks/block[@name='conduit01']/property[@name='FilterTags']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
@@ -140,7 +141,7 @@
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
-	<insertBefore xpath="/blocks/block[@name='tv']/drop[@event='Destroy']">
+	<insertBefore xpath="/blocks/block[@name='tvSmallStand1x1']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
@@ -176,7 +177,7 @@
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
-	<insertBefore xpath="/blocks/block[@name='satelliteDish']/drop[@event='Destroy']">
+	<insertBefore xpath="/blocks/block[@name='satelliteUnitLarge']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
@@ -196,7 +197,7 @@
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
-	<insertBefore xpath="/blocks/block[@name='spotlightNailedDownPOI']/drop[@event='Destroy']">
+	<insertBefore xpath="/blocks/block[@name='spotlightDownLeft_POI']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
@@ -204,7 +205,7 @@
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
-	<insertBefore xpath="/blocks/block[@name='xRayDisplayLight1']/drop[@event='Destroy']">
+	<insertBefore xpath="/blocks/block[@name='lightDisplayXRayFull']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,8"  tag="salvageHarvest" />
 	</insertBefore>
 	
@@ -267,10 +268,58 @@
 	<insertBefore xpath="/blocks/block[@name='autoTurret']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,10"  tag="salvageHarvest" />
 	</insertBefore>
--->
-	<insertBefore xpath="/blocks/block[@name='porchLight01']/drop[@event='Destroy']">
+
+	<insertBefore xpath="/blocks/block[@name='lightPorchWhite']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='lightWallGooseneckWhite']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='lightCeiling07']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+		
+	<insertBefore xpath="/blocks/block[@name='fluorescentLight']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+
+	<insertBefore xpath="/blocks/block[@name='lightPanelLEDWhite']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='lightPanelLEDOffsetWhite']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+
+	<insertBefore xpath="/blocks/block[@name='lightPanelLEDOffset02White']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='lightIndustrial']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='lightIndustrialHangingWhite']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>
+	
+	<insertBefore xpath="/blocks/block[@name='lightSconce']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>	
+
+	<insertBefore xpath="/blocks/block[@name='ceilingFanLight']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>	
+
+	<insertBefore xpath="/blocks/block[@name='chandelierLight']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>	
+
+	<insertBefore xpath="/blocks/block[@name='candelabraLight']/drop[@event='Destroy']">
+			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
+	</insertBefore>	
 
 	<insertBefore xpath="/blocks/block[@name='cntCar03SedanDamage2Master']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,5"  tag="salvageHarvest" />

@@ -1,9 +1,19 @@
 <WrathmaniacsSpecialPartsCraftable>
-	<append xpath="/lootcontainers/lootgroup[@name='brassResource']">
-			<item name="resourceRefinedCopper"  count="25,50" />
-			<item name="resourceZinc"  count="20,40" />
+	<append xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot01']">
+			<item name="resourceRefinedCopper"  count="25,50"  loot_prob_template="med" />
+			<item name="resourceZinc"  count="20,40"  loot_prob_template="med" />
 	</append>
-	
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupChemistryStationLoot01']">
+			<item name="resourceRefinedCopper"  count="45,80"  loot_prob_template="med" />
+			<item name="resourceZinc"  count="35,60"  loot_prob_template="med" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupScrapUncommon']">
+			<item name="resourceRefinedCopper"  count="20,40"  loot_prob_template="med" />
+			<item name="resourceZinc"  count="15,30"  loot_prob_template="med" />
+	</append>
+
 	<append xpath="/lootcontainers/lootgroup[@name='groupCementMixerLoot01']">
 			<item name="resourceRawCopperMix" count="250,500" />
 	</append>
@@ -12,36 +22,8 @@
 			<item name="toolLeadSilverAnode" />
 	</append>
 
-	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT1']">
-			<item name="resourceAcidSchematic" />
-			<item name="resourceScrapPolymersSchematic" />
-			<item name="resourceMechanicalPartsSchematic" />
-			<item name="resourceScrapBrassSchematic" />
-	</append>
-	
-	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT2']">
-			<item name="toolLeadSilverAnodeSchematic" />
-			<item name="solarCellSchematic" />
-			<item name="solarbankSchematic" />
-	</append>
-	
-	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsCommon']">
-			<item name="resourceZincSchematic" />
-			<item name="resourceRefinedCopperSchematic" />
-			<item name="resourceSpringSchematic" />
-	</append>
-
 	<append xpath="/lootcontainers/lootgroup[@name='groupChem01']">
 			<item name="resourceZinc" loot_prob_template="med"  count="10,20" />
 			<item name="toolLeadSilverAnode"  loot_prob_template="veryLow" />
-	</append>
-
-	<append xpath="/lootcontainers/lootgroup[@name='groupChemistryStationLoot01']">
-			<item name="resourceRefinedCopper"  loot_prob_template="med"  count="10,20" />
-			<item name="resourceZinc" loot_prob_template="med" count="10,20" />
-	</append>
-
-	<append xpath="/lootcontainers/lootgroup[@name='schematicsElectrical']">
-			<item name="resourceElectricPartsSchematic" />
 	</append>
 </WrathmaniacsSpecialPartsCraftable>
