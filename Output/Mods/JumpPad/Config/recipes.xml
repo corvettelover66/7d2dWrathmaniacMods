@@ -1,0 +1,10 @@
+<JumpPad>
+	<append xpath="/recipes">
+		<recipe name="JumpPad" count="1" craft_area="workbench" tags="">
+			<ingredient name="resourceMechanicalParts" count="5" />
+			<ingredient name="resourceElectricParts" count="8" />
+			<ingredient name="resourceForgedSteel" count="10" />
+			<ingredient name="carBattery" count="1" />
+		</recipe>
+	</append>
+</JumpPad>
