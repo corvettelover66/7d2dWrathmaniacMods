@@ -15,7 +15,7 @@
 			<ingredient name="resourceSolarcellParts" count="4" />
 		</recipe>
 		<recipe name="repairedCementMixer" count="1" craft_area="workbench" craft_time="75">
-			<ingredient name="resourceForgedIron" count="10" />
+			<ingredient name="resourceForgedIron" count="15" />
 			<ingredient name="resourceSpring" count="2" />
 			<ingredient name="smallEngine" count="1" />
 			<ingredient name="resourceMechanicalParts" count="5" />
@@ -37,19 +37,19 @@
 			<ingredient name="resourceWorkbenchParts" count="10" />
 		</recipe>
 		<recipe name="repairedWorkbenchItems" count="1" craft_time="5">
-			<ingredient name="resourceForgedIron" count="15" />
+			<ingredient name="resourceForgedIron" count="20" />
 			<ingredient name="resourceMechanicalParts" count="10" />
-			<ingredient name="meleeToolSalvageT1Wrench" count="1" />
-			<ingredient name="meleeToolRepairT1ClawHammer" count="1" />
-			<ingredient name="resourceWood" count="25" />
+			<ingredient name="resourceDuctTape" count="5" />
+			<ingredient name="resourceNail" count="75" />
+			<ingredient name="resourceWood" count="75" />
 		</recipe>
 		<recipe name="repairedForge" count="1" craft_time="20">
 			<ingredient name="repairedForgeItems" count="1" />
 			<ingredient name="resourceForgeParts" count="6" />
 		</recipe>
 		<recipe name="repairedForgeItems" count="1" craft_time="5">
-			<ingredient name="resourceRockSmall" count="20" />
-			<ingredient name="resourceClayLump" count="30" />
+			<ingredient name="resourceCobblestones" count="50" />
+			<ingredient name="woodLogPillar100" count="1" />
 			<ingredient name="resourceLeather" count="5" />
 			<ingredient name="resourceDuctTape" count="3" />
 			<ingredient name="resourceMetalPipe" count="2" />
