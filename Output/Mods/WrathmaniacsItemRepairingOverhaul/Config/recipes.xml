@@ -22,13 +22,6 @@
 			<ingredient name="resourceDuctTape" count="1" />
 			<ingredient name="resourceOil" count="1" />
 		</recipe>
-		<!-- TODO Remove as this was unneeded -->
-		<recipe name="vehicleAllParts"  count="1"  craft_time="2">
-			<ingredient name="smallEngine"  count="1" />
-			<ingredient name="carBattery"  count="1" />
-			<ingredient name="vehicleWheels" count="2" />
-			<ingredient name="resourceHeadlight" count="2" />
-		</recipe>
 		<recipe name="resourceSteelSetPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
 			<ingredient name="armorSteelSetParts" count="1" />
