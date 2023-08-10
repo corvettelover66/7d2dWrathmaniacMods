@@ -1,58 +1,103 @@
 <WrathmaniacsAllPartsCraftable>
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkBatterUpBaseballBats']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,meleeWpnClubT3SteelClubParts,Disassemble Steel Club Parts</append>
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkMiner69r']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeToolAllSteelParts,Disassemble meleeToolAllSteelParts"/>
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="meleeToolAxeT3ChainsawParts,Disassemble meleeToolChainsawParts"/>
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeWpnSledgeT3SteelSledgehammerParts,Disassemble meleeToolSledgehammerSteelParts"/>
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkJavelinMaster']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeWpnSpearT3SteelSpearParts,Disassemble meleeThrownSpearSteelParts" />
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkDeepCuts']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeWpnBladeT3MacheteParts,Disassemble meleeToolKnifeMacheteParts" />
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkBrawler']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeWpnKnucklesT3SteelKnucklesParts,Disassemble meleeKnucklesSteelParts" />
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeWpnClubT3SteelClubParts,Disassemble Steel Club Parts" />
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkElectrocutioner']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="meleeWpnBatonT2StunBatonParts,Disassemble meleeStunBatonParts" />
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="5,5"  value="1"  tags="gunExplosivesT3RocketLauncherParts,Disassemble gunRocketLauncherParts"/>
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkArchery']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags="gunBowT1WoodenBowParts,Disassemble gunBowWoodenParts" />
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags="gunShotgunT1DoubleBarrelParts,Disassemble gunDoubleBarrelShotgunParts"/>
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags="gunHandgunT1PistolParts,Disassemble gunPistolParts" />
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags="gunRifleT1HuntingRifleParts,Disassemble gunHuntingRifleParts" />
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkMachineGunner']/effect_group">
-		<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="2,5"  value="1"  tags="gunMGT1AK47Parts,Disassemble gunAk47Parts" />
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkUrbanCombatRoomClearing']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="armorMilitarySetParts,Disassemble armorMilitarySetParts"/>
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkLightArmor']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,4" value="1" tags="armorMilitarySetParts,Disassemble armorMilitarySetParts"/>
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkHeavyArmor']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,4" value="1" tags="armorSteelSetParts,Disassemble armorSteelSetParts"/>
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkTechJunkie7Hydraulics']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="gunBotRoboticsParts,Disassemble gunJunkTurretParts"/>
-	</append>
-	<append xpath="/progression/perks/perk[@name='perkTurrets']/effect_group">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="gunBotRoboticsParts,Disassemble gunJunkTurretParts"/>
-	 </append>
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingArmor']/display_entry[@icon='resourceMilitaryFiber']">
+			<display_entry unlock_level="39,39,39,39"  item="armorMilitarySetParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="39,100"  value="1"  tags="armorSteelSetParts,Disassemble armorSteelSetParts,armorMilitarySetParts,Disassemble armorMilitarySetParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMachineGuns']/display_entry[@item='gunMGT3M60']">
+			<display_entry unlock_level="11"  item="gunMGT1AK47Parts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="11,100"  value="1"  tags="gunMGT1AK47Parts,Disassemble gunAk47Parts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingRifles']/display_entry[@item='gunRifleT3SniperRifle']">
+			<display_entry unlock_level="11"  item="gunRifleT1HuntingRifleParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="11,100"  value="1"  tags="gunRifleT1HuntingRifleParts,Disassemble gunHuntingRifleParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingHandguns']/display_entry[@item='gunHandgunT3DesertVulture']">
+			<display_entry unlock_level="11"  item="gunHandgunT1PistolParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="11,100"  value="1"  tags="gunHandgunT1PistolParts,Disassemble gunPistolParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingShotguns']/display_entry[@item='gunShotgunT3AutoShotgun']">
+			<display_entry unlock_level="11"  item="gunShotgunT1DoubleBarrelParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="11,100"  value="1"  tags="gunShotgunT1DoubleBarrelParts,Disassemble gunDoubleBarrelShotgunParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingBows']/display_entry[@item='gunBowT3CompoundCrossbow']">
+			<display_entry unlock_level="10"  item="gunBowT1WoodenBowParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="10,100"  value="1"  tags="gunBowT1WoodenBowParts,Disassemble gunBowWoodenParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='gunExplosivesT3RocketLauncher']">
+			<display_entry unlock_level="55"  item="gunExplosivesT3RocketLauncherParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="55,100"  value="1"  tags="gunExplosivesT3RocketLauncherParts,Disassemble gunRocketLauncherParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingRobotics']/display_entry[@item='gunBotT3JunkDrone']">
+			<display_entry unlock_level="23"  item="meleeWpnBatonT2StunBatonParts"/>
+			<display_entry unlock_level="39"  item="gunBotRoboticsParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="23,100"  value="1"  tags="meleeWpnBatonT2StunBatonParts,Disassemble meleeStunBatonParts"/>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="39,100"  value="1"  tags="gunBotRoboticsParts,Disassemble gunJunkTurretParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingKnuckles']/display_entry[@item='meleeWpnKnucklesT3SteelKnuckles']">
+			<display_entry unlock_level="39"  item="meleeWpnKnucklesT3SteelKnucklesParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="39,100"  value="1"  tags="meleeWpnKnucklesT3SteelKnucklesParts,Disassemble meleeKnucklesSteelParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingBlades']/display_entry[@item='meleeWpnBladeT3Machete']">
+			<display_entry unlock_level="39"  item="meleeWpnBladeT3MacheteParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="39,100"  value="1"  tags="meleeWpnBladeT3MacheteParts,Disassemble meleeToolKnifeMacheteParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingSpears']/display_entry[@item='meleeWpnSpearT3SteelSpear']">
+			<display_entry unlock_level="39"  item="meleeWpnSpearT3SteelSpearParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="39,100"  value="1"  tags="meleeWpnSpearT3SteelSpearParts,Disassemble meleeThrownSpearSteelParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingSledgehammers']/display_entry[@item='meleeWpnSledgeT3SteelSledgehammer']">
+			<display_entry unlock_level="39"  item="meleeWpnSledgeT3SteelSledgehammerParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="39,100"  value="1"  tags="meleeWpnSledgeT3SteelSledgehammerParts,Disassemble meleeToolSledgehammerSteelParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingHarvestingTools']/display_entry[@icon='meleeToolPickT3Auger']">
+			<display_entry unlock_level="60"  item="meleeToolAxeT3ChainsawParts"/>
+			<display_entry unlock_level="27"  item="meleeToolAllSteelParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="60,100"  value="1"  tags="meleeToolAxeT3ChainsawParts,Disassemble meleeToolChainsawParts"/>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="27,100"  value="1"  tags="meleeToolAllSteelParts,Disassemble meleeToolAllSteelParts"/>
+			</effect_group>
+	</insertAfter>
+
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingClubs']/display_entry[@item='meleeWpnClubT3SteelClub']">
+			<display_entry unlock_level="39"  item="meleeWpnClubT3SteelClubParts"/>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="39,75"  value="1"  tags="meleeWpnClubT3SteelClubParts,Disassemble Steel Club Parts"/>
+			</effect_group>
+	</insertAfter>
 </WrathmaniacsAllPartsCraftable>
