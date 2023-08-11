@@ -1,6 +1,9 @@
 <WrathmaniacsMedicalAdditions>
 	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/unlock_entry[@item='drugSteroids']">
 		<unlock_entry item="drugPainkillers"  unlock_tier="1"  />
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="45,100"  value="1"  tags="drugPainkillers"/>
+		</effect_group>
 	</insertAfter>
 	
 	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/unlock_entry[@item='drugSteroids']/@unlock_tier">4</set>
