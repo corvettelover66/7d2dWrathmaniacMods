@@ -24,3 +24,12 @@ loadingTipZinc,UI,Loading Screen,New,"Zinc is a very versatile metal. It can be 
 loadingTipZinc_title,UI,Loading Screen,New,Zinc
 resourceRawCopperToolTip,Journal Tip,,New,Copper is not easily mined and has a fairy complex refining process. First you must break down the raw copper in a cement mixer to seperate the heavier minerals and extract out the copper. Then the raw copper mix must be taken to a campfire or chemistry station to be refined into usable scrap copper using a Lead-Silver anode.
 resourceRawCopperToolTip_title,Journal Tip,,New,Copper Refining
+electricianT2-1,progression,Attribute,New,Tier 2: Sensors
+electricianT2-2,progression,Attribute,New,Tier 2: Spring
+electricianT2-3,progression,Attribute,New,Tier 2: Scrap Copper
+electricianT2-4,progression,Attribute,New,Tier 2: Zinc
+electricianT2-5,progression,Attribute,New,Tier 2: Brass
+electricianT3-1,progression,Attribute,New,Tier 3: Mechanical Parts
+electricianT3-2,progression,Attribute,New,Tier 3: Scrap Polymers
+electricianT3-3,progression,Attribute,New,Tier 3: Electric Parts
+electricianT3-4,progression,Attribute,New,Tier 3: Acid
