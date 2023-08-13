@@ -51,8 +51,8 @@
 			<property name="DescriptionKey"  value="startingItemPieceDesc" />
 			<property name="EconomicValue"  value="1000" />
 			<property class="Action0" >
-				<property name="Create_item"  value="ammoArrowIron ,medicalFirstAidBandage,drugPainkillers,drinkJarBoiledWater,foodCanChili,meleeToolTorch,noteDuke01,keystoneBlock" />
-				<property name="Create_item_count"  value="150,10,6,2,5,1,1,1" />
+				<property name="Create_item"  value="ammoArrowStone ,medicalFirstAidBandage,drugPainkillers,drinkJarBoiledWater,foodCanChili,meleeToolTorch,noteDuke01,keystoneBlock" />
+				<property name="Create_item_count"  value="125,10,6,2,5,1,1,1" />
 			</property>
 		</item>
 		<item name="startingItemPiece" >
