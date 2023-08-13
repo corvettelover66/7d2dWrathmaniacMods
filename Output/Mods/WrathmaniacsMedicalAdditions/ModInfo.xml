@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Medical Additions (A19 Experimental)" />
+		<Name value="Medical Additions (A21)" />
 		<Description value="Some general medical tweaks. See nexus for more details." />
 		<Author value="Wrathmaniac" />
-		<Version value="1.2" />
+		<Version value="1.2.a.21" />
 	</ModInfo>
 </xml>

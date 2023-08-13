@@ -1,29 +1,31 @@
 key,source,context,changes,english
-repairedWorkbench,items,item,New,Repaired Workbench,
-repairedWorkbenchDesc,items,item,New,"This a repaired workstation. To craft one, you need to harvest parts from a destroyed workstation and gather all of the items needed to build it.\n\nTo get the workstation you use this item.",
-repairedWorkbenchItems,items,item,New,Workbench Items,,,,
-repairedBatterybank,items,item,New,Repaired Batterybank,,,,
-repairedCementMixer,items,item,New,Repaired Cement Mixer,,,,
-repairedChemistryStation,items,item,New,Repaired Chemistry Station,,,,
-repairedChemistryStationItems,items,item,New,Chemistry Station Items,,,,
-repairedForge,items,item,New,Repaired Forge,
-repairedForgeItems,items,item,New,Forge Items,
-repairedGeneratorbank,items,item,New,Repaired Generatorbank,,,
-repairedSolarcell,items,item,New,Repaired Solar Cell,,,
-repairedSolarbank,items,item,New,Repaired Solar Bank,,,
-resourceWorkbenchParts,items,item,New,Workbench Parts,,,,
-resourceWorkbenchPartsDesc,items,item,New,Workstation parts are used to craft a repaired workstation. They can be harvested from destroyed workstations.,,,,
-resourceWorkbenchPartsTooltip,Journal Tip,,New,"On occasion, you will find broken down or even working workstations. If you harvest the workstation using the proper tool, you will get parts for that workstation. These parts can be used to craft a repaired workstation cheaper and faster than a normal one.",
-resourceWorkbenchPartsTooltip_title,Journal Tip,,New,Workstation Parts,
-resourceBatterybankParts,items,item,New,Batterybank Parts,,,,
-resourceCementMixerParts,items,item,New,Cement Mixer Parts,,,,
-resourceChemistryStationParts,items,item,New,Chemistry Station Parts,,,,
-resourceForgeParts,items,item,New,Forge Parts,,,
-resourceGeneratorbankParts,items,item,New,Generatorbank Parts,,,,
-resourceSolarbankParts,items,item,New,Solar Bank Parts,,,,
-resourceSolarcellParts,items,item,New,Solar Cell Parts,,,,
-repairedWorkbenchItemsDesc,items,item,New,This is an intermediate item only needed to craft repaired workstations.,,,,
-loadingTipDestroyedWorkstations,UI,Loading Screen,New,Destroyed workstations are scattered around the world. If harvested using the correct salvaging tools you will get parts that can be used to craft a repaired workstation without reading the schematics or taking any perks.,
-loadingTipDestroyedWorkstations_title,UI,Loading Screen,New,Destroyed Workstations,,,,,
-loadingTipRepairedWorkstations,UI,Loading Screen,New,"Repaired workstations cannot be crafted without the parts obtained from their destroyed counterparts. They may be unlocked immediately but they are not cheap. You will need to find and break down 5 to 10 forges just for the parts required to build one. This can be mitigated with each rank of Advanced Engineering, which reduces the amount of parts needed for each station.",
-loadingTipRepairedWorkstations_title,UI,Loading Screen,New,Repaired Workstations,,,,,
+repairedWorkbench,items,item,New,Repaired Workbench
+repairedWorkbenchDesc,items,item,New,"This a repaired workstation. To craft one, you need to harvest parts from a destroyed workstation and gather all of the items needed to build it.\n\nTo get the workstation you use this item."
+repairedWorkbenchItems,items,item,New,Workbench Items
+repairedBatterybank,items,item,New,Repaired Batterybank
+repairedCementMixer,items,item,New,Repaired Cement Mixer
+repairedChemistryStation,items,item,New,Repaired Chemistry Station
+repairedChemistryStationItems,items,item,New,Chemistry Station Items
+repairedForge,items,item,New,Repaired Forge
+repairedForgeItems,items,item,New,Forge Items
+repairedGeneratorbank,items,item,New,Repaired Generatorbank
+repairedSolarcell,items,item,New,Repaired Solar Cell
+repairedSolarbank,items,item,New,Repaired Solar Bank
+repairedDewCollector,items,item,New,Repaired Dew Collector
+resourceWorkbenchParts,items,item,New,Workbench Parts
+resourceWorkbenchPartsDesc,items,item,New,Workstation parts are used to craft a repaired workstation. They can be harvested from destroyed workstations.
+resourceWorkbenchPartsTooltip,Journal Tip,,New,"On occasion, you will find broken down or even working workstations. If you harvest the workstation using the proper tool, you will get parts for that workstation. These parts can be used to craft a repaired workstation cheaper and faster than a normal one."
+resourceWorkbenchPartsTooltip_title,Journal Tip,,New,Workstation Parts
+resourceBatterybankParts,items,item,New,Batterybank Parts
+resourceCementMixerParts,items,item,New,Cement Mixer Parts
+resourceChemistryStationParts,items,item,New,Chemistry Station Parts
+resourceForgeParts,items,item,New,Forge Parts
+resourceGeneratorbankParts,items,item,New,Generatorbank Parts
+resourceSolarbankParts,items,item,New,Solar Bank Parts
+resourceSolarcellParts,items,item,New,Solar Cell Parts
+resourceDewCollectorParts,items,item,New,Dew Collector Parts
+repairedWorkbenchItemsDesc,items,item,New,This is an intermediate item only needed to craft repaired workstations.
+loadingTipDestroyedWorkstations,UI,Loading Screen,New,Destroyed workstations are scattered around the world. If harvested using the correct salvaging tools you will get parts that can be used to craft a repaired workstation without reading the schematics or taking any perks.
+loadingTipDestroyedWorkstations_title,UI,Loading Screen,New,Destroyed Workstations
+loadingTipRepairedWorkstations,UI,Loading Screen,New,"Repaired workstations cannot be crafted without the parts obtained from their destroyed counterparts. They may be unlocked immediately but they are not cheap. You will need to find and break down 5 to 10 forges just for the parts required to build one. This can be mitigated with each rank of Advanced Engineering, which reduces the amount of parts needed for each station."
+loadingTipRepairedWorkstations_title,UI,Loading Screen,New,Repaired Workstations

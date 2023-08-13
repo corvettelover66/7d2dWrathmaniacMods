@@ -8,7 +8,7 @@
 			<property name="EconomicValue"  value="1000" />
 			<property class="Action0" >
 				<property name="Create_item"  value="ammoShotgunShell,medicalFirstAidBandage,drugPainkillers,drinkJarBoiledWater,foodCanChili,meleeToolTorch,noteDuke01,keystoneBlock" />
-				<property name="Create_item_count"  value="120,10,5,2,5,1,1,1" />
+				<property name="Create_item_count"  value="120,10,6,2,5,1,1,1" />
 			</property>
 		</item>
 		<item name="startingBundleRifleman" >
@@ -19,7 +19,7 @@
 			<property name="EconomicValue"  value="1000" />
 			<property class="Action0" >
 				<property name="Create_item"  value="ammo762mmBulletBall,medicalFirstAidBandage,drugPainkillers,drinkJarBoiledWater,foodCanChili,meleeToolTorch,noteDuke01,keystoneBlock" />
-				<property name="Create_item_count"  value="125,10,5,2,5,1,1,1" />
+				<property name="Create_item_count"  value="125,10,6,2,5,1,1,1" />
 			</property>
 		</item>
 		<item name="startingBundlePistoler" >
@@ -30,7 +30,7 @@
 			<property name="EconomicValue"  value="1000" />
 			<property class="Action0" >
 				<property name="Create_item"  value="ammo9mmBulletBall,medicalFirstAidBandage,drugPainkillers,drinkJarBoiledWater,foodCanChili,meleeToolTorch,noteDuke01,keystoneBlock" />
-				<property name="Create_item_count"  value="250,10,5,2,5,1,1,1" />
+				<property name="Create_item_count"  value="250,10,6,2,5,1,1,1" />
 			</property>
 		</item>
 		<item name="startingBundleMachineGunner" >
@@ -41,7 +41,7 @@
 			<property name="EconomicValue"  value="1000" />
 			<property class="Action0" >
 				<property name="Create_item"  value="ammo762mmBulletBall,medicalFirstAidBandage,drugPainkillers,drinkJarBoiledWater,foodCanChili,meleeToolTorch,noteDuke01,keystoneBlock" />
-				<property name="Create_item_count"  value="250,5,2,2,5,1,1,1" />
+				<property name="Create_item_count"  value="250,7,3,2,5,1,1,1" />
 			</property>
 		</item>
 		<item name="startingBundleArcher" >
@@ -51,8 +51,8 @@
 			<property name="DescriptionKey"  value="startingItemPieceDesc" />
 			<property name="EconomicValue"  value="1000" />
 			<property class="Action0" >
-				<property name="Create_item"  value="ammoArrowStone,medicalFirstAidBandage,drugPainkillers,drinkJarBoiledWater,foodCanChili,meleeToolTorch,noteDuke01,keystoneBlock" />
-				<property name="Create_item_count"  value="125,10,5,2,5,1,1,1" />
+				<property name="Create_item"  value="ammoArrowStone ,medicalFirstAidBandage,drugPainkillers,drinkJarBoiledWater,foodCanChili,meleeToolTorch,noteDuke01,keystoneBlock" />
+				<property name="Create_item_count"  value="125,10,6,2,5,1,1,1" />
 			</property>
 		</item>
 		<item name="startingItemPiece" >

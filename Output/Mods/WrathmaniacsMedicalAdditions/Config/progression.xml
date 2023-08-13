@@ -1,5 +1,15 @@
 <WrathmaniacsMedicalAdditions>
-	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group">
-			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="3,5"  value="1"  tags="drugPainKillersSchematic"/>
-	</append>
+	<insertBefore xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/unlock_entry[@item='medicalFirstAidKit']">
+		<unlock_entry item="drugPainkillers"  unlock_tier="1"  />
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="45,100"  value="1"  tags="drugPainkillers"/>
+		</effect_group>
+	</insertBefore>
+	
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/unlock_entry[@item='drugSteroids']/@unlock_tier">4</set>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/unlock_entry[@item='drugAntibiotics']/@unlock_tier">3</set>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/unlock_entry[@item='medicalFirstAidKit']/@unlock_tier">2</set>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/@unlock_level">45,50,60,75</set>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/@name_key">medicalT3-1,medicalT3-2,medicalT3-3,medicalT3-4</set>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMedical']/display_entry[@icon='medicalFirstAidKit,drugAntibiotics,drugSteroids']/@icon">drugPainkillers,medicalFirstAidKit,drugAntibiotics,drugSteroids</set>
 </WrathmaniacsMedicalAdditions>

@@ -4,23 +4,28 @@ Notes 5/13/2023
 
 
 =============================================================
-ISC:
+Better Starting Items
 =============================================================
-Removed!!!!
 
-Added a schematic for Gun Powder stacks and added the unlock to the demolitions perk and the schematic to loot.
+Increased painkillers from 5 to 6 for Shotgunner, Pistoler, archer and rifleman.
 
-Added a recipe and schematic for the Beaker, also added the schematic unlock to physician and the schematic to loot.
+Incresed bandages (5 -> 7) and painkillers (2 -> 3) for Machine Gunner.
 
-Fixed bug with incorrect T2 rifle. Mod was using the old T2 marksman rifle in perk and for the schematic. This mean the T2 Lever Action was never unlocked.
+Split into a single file where a player can choose in game.
 
-Small fix to the localization. Now the overwrites will not mess up Translations to other languages.
+=============================================================
+Item Repairing Overhaul
+=============================================================
+Just some cleanup. 
 
-Added paper to all schematic recipes.
 
-Pulled out the hard and easy categories into patches to make deployment and changes of the mod easier.
+=============================================================
+Medical Additions:
+=============================================================
+Removed painkiller schematics.
 
-Added a recipe and schematic for Dog Food.
+Added the correct progressions.
+
 
 =============================================================
 Item repairing Overhaul:
@@ -47,8 +52,6 @@ Reworked the LOOT file to make chips more rare and not always found in terminals
 
 Added a recipe to the mining station for crushed sand. Increased the crafting time of all mining resources from 20 to 40.
 
-Created a patch for ISC. Now users will need both the Mining Station file and the ISC patch.
-
 Updated for Alpha 21
 
 =============================================================
@@ -62,6 +65,10 @@ Removed Farm Plot pickups as it's uneeded. They can be picked up by shoveling th
 Increased the radiator stack from 5 to 10.
 
 Reduced the ammo stack increases. 
+
+Added back Empty Jars as only a buildable item that can be used to scoop water.
+
+Added a recipe for dog food.
 
 Updated the mod to alpha 21.
 
@@ -96,26 +103,16 @@ Fixed the change to loot from Mining Station to add the chips.
 
 
 =============================================================
-Better Starting Items
-=============================================================
-
-Split into a single file where a player can choose in game.
-
-
-=============================================================
 All Parts Craftable
 =============================================================
 
-TODO!!!!!!!!!
+Updated for A21
 
-=======
-PATCHES:
+Tied the unlocks to the first appropriate weapon unlock. For example. Unlocking the double barrel shotgun also unlocks the parts. 
 
-	Firearms -
-		Adds the needed parts unlocks to the schematics for the guns added by the mod.
+Modified the localization to put disassembled AFTER the part name so that the disassembled parts are just below their counterpart in the building menu.
 
-=======
-
+Fixed a few disassembled recipe localizations to better match the name of the part.
 
 =============================================================
 Repaired Workstation
@@ -125,6 +122,10 @@ Updated all icons to use new pictures.
 
 Added the dew collector to the repaired workstations.
 
+Increased the stack sizes of parts from 25 to 200.
+
+Added the correct Advanced Engineering perk decreases to repaired workstation recipes.
+
 Updated to alpha 21
 
 =============================================================
@@ -132,3 +133,22 @@ Junk Turret Overhaul
 =============================================================
 
 Updated for alpha 21.
+
+=============================================================
+ISC:
+=============================================================
+Removed!!!!
+
+Added a schematic for Gun Powder stacks and added the unlock to the demolitions perk and the schematic to loot.
+
+Added a recipe and schematic for the Beaker, also added the schematic unlock to physician and the schematic to loot.
+
+Fixed bug with incorrect T2 rifle. Mod was using the old T2 marksman rifle in perk and for the schematic. This mean the T2 Lever Action was never unlocked.
+
+Small fix to the localization. Now the overwrites will not mess up Translations to other languages.
+
+Added paper to all schematic recipes.
+
+Pulled out the hard and easy categories into patches to make deployment and changes of the mod easier.
+
+Added a recipe and schematic for Dog Food.

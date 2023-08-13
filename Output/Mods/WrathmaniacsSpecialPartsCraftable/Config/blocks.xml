@@ -65,9 +65,9 @@
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</append>
 	
-	<insertBefore xpath="/blocks/block[@name='breakerBoxClosed']/property[@name='EconomicValue']">
+	<insertAfter xpath="/blocks/block[@name='breakerBoxClosed']/drop[@name='scrapMetalPile']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
-	</insertBefore>
+	</insertAfter>
 	
 	<insertBefore xpath="/blocks/block[@name='controlPanelBase01']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />

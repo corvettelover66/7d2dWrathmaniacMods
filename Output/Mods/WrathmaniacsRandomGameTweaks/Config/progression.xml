@@ -1,0 +1,3 @@
+<WrathmaniacsRandomGameTweaks>
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingFood']/display_entry[@icon='foodTunaFishGravyToast,foodShepardsPie,drinkJarGrandpasLearningElixir,foodSpaghetti,foodGumboStew']/unlock_entry[@item='drinkJarGrandpasLearningElixir']/@item">,foodCanDogfood</append>
+</WrathmaniacsRandomGameTweaks>
