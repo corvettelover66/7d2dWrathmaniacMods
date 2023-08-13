@@ -6,8 +6,8 @@
 			<property name="UnlockedBy" value="craftingRobotics" />
 			<property name="DisplayType" value="ammoJunkTurretRegular" />
 			<property name="HoldType" value="45" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Mmetal" />
 			<property name="Stacknumber" value="1000" />
 			<property name="EconomicValue" value="9" />

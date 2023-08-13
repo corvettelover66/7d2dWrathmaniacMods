@@ -4,8 +4,8 @@
 			<property name="ItemTypeIcon" value="bundle" />
 			<property name="DescriptionKey" value="dissassembleItemGroupDesc" />
 			<property name="HoldType" value="45" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Msteel" />
 			<property name="Stacknumber" value="30000" />
 			<property name="Weight" value="0" />

@@ -3,10 +3,10 @@
 		<!-- Intermediate item needed for "Either Bot Turret Construction" to fix UI limitation of 5 items in a recipe -->
 		<item name="gunBotTurretBatteryAndParts">
 			<property name="HoldType" value="45" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
 			<property name="NoScrapping" value="true" />
 			<property name="Material" value="Miron" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Weight" value="1" />
 			<property name="Stacknumber" value="5" />
 			<property name="Group" value="Resources" />
@@ -19,8 +19,8 @@
 			<property name="Tags" value="junk" />
 			<property name="CustomIcon" value="resourceMGPartsRepairKit" />
 			<property name="DescriptionKey" value="resourceMGPartsRepairKitDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Msteel" />
 			<property name="Stacknumber" value="25" />
 			<property name="EconomicValue" value="186" />

@@ -8,8 +8,9 @@
 			<unlock_entry item="miningstation"  unlock_tier="2" />
 	</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='toolForgeCrucible']/@unlock_level">,80</append>
+	<!-- This must be before the append below to properly run the set -->
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='toolForgeCrucible']/@name_key">workstationsT5-1,workstationsT5-2</set>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='toolForgeCrucible']/@icon">,miningstation</append>
 	
-	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='toolForgeCrucible']/@name_key">workstationsT5-1,workstationsT5-2</set>
 	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/@max_level">80</set>
 </WrathmaniacsMiningStation>

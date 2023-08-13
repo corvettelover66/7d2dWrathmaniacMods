@@ -6,8 +6,8 @@
 			<property name="UnlockedBy" value="craftingRobotics" />
 			<property name="DisplayType" value="ammoJunkTurretRegular" />
 			<property name="HoldType" value="45" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Mmetal" />
 			<property name="Stacknumber" value="1000" />
 			<property name="EconomicValue" value="9" />
@@ -75,8 +75,8 @@
 			<property name="Tags" value="junk" />
 			<property name="CustomIcon" value="resourceJunkTurretRepairKit" />
 			<property name="DescriptionKey" value="resourceJunkTurretRepairKitDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Msteel" />
 			<property name="Stacknumber" value="25" />
 			<property name="EconomicValue" value="186" />
@@ -89,10 +89,10 @@
 			<property name="HoldType" value="45" />
 			<property name="CustomIcon" value="gunBotTurretBatteryAndParts" />
 			<property name="DescriptionKey" value="gunBotTurretBatteryAndPartsDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
 			<property name="NoScrapping" value="true" />
 			<property name="Material" value="Miron" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Weight" value="1" />
 			<property name="Stacknumber" value="5" />
 			<property name="EconomicValue" value="600" />
