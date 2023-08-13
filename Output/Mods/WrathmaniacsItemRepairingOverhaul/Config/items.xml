@@ -1,23 +1,15 @@
 <WrathmaniacsItemRepairingOverhaul>
 	<append xpath="/items">
-		<!-- Intermediate item needed for "Vehicle Repair Kit" to fix UI limitation of 5 items in a recipe -->
-		<!-- TODO Remove as this was unneeded -->
-		<item name="vehicleAllParts">
+		<!-- Intermediate item needed for "Either Bot Turret Construction" to fix UI limitation of 5 items in a recipe -->
+		<item name="gunBotTurretBatteryAndParts">
 			<property name="HoldType" value="45" />
-			<property name="CustomIcon" value="vehicleAllParts" />
-			<property name="DescriptionKey" value="vehicleAllCarPartsDesc" />
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
 			<property name="NoScrapping" value="true" />
 			<property name="Material" value="Miron" />
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
 			<property name="Weight" value="1" />
 			<property name="Stacknumber" value="5" />
-			<property name="EconomicValue" value="2000" />
 			<property name="Group" value="Resources" />
-		</item>
-		<!-- Intermediate item needed for "Either Bot Turret Construction" to fix UI limitation of 5 items in a recipe -->
-		<item name="gunBotTurretBatteryAndParts">
-			<property name="Extends" value="vehicleAllParts" />
 			<property name="CustomIcon" value="gunBotTurretBatteryAndParts" />
 			<property name="DescriptionKey" value="gunBotTurretBatteryAndPartsDesc" />
 			<property name="EconomicValue" value="600" />

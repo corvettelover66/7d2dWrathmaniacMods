@@ -23,9 +23,9 @@ resourceForgeParts,items,item,New,Forge Parts
 resourceGeneratorbankParts,items,item,New,Generatorbank Parts
 resourceSolarbankParts,items,item,New,Solar Bank Parts
 resourceSolarcellParts,items,item,New,Solar Cell Parts
+resourceDewCollectorParts,items,item,New,Dew Collector Parts
 repairedWorkbenchItemsDesc,items,item,New,This is an intermediate item only needed to craft repaired workstations.
 loadingTipDestroyedWorkstations,UI,Loading Screen,New,Destroyed workstations are scattered around the world. If harvested using the correct salvaging tools you will get parts that can be used to craft a repaired workstation without reading the schematics or taking any perks.
 loadingTipDestroyedWorkstations_title,UI,Loading Screen,New,Destroyed Workstations
 loadingTipRepairedWorkstations,UI,Loading Screen,New,"Repaired workstations cannot be crafted without the parts obtained from their destroyed counterparts. They may be unlocked immediately but they are not cheap. You will need to find and break down 5 to 10 forges just for the parts required to build one. This can be mitigated with each rank of Advanced Engineering, which reduces the amount of parts needed for each station."
 loadingTipRepairedWorkstations_title,UI,Loading Screen,New,Repaired Workstations
-repairedDewCollector
