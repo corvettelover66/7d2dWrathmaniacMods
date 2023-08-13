@@ -36,3 +36,5 @@ loadingTipMiningChips_title,UI,Loading Screen,New,Mining Chips
 loadingTipMiningTerminals,UI,Loading Screen,New,Terminals can be found in many industrial buildings and look very similiar to the mining station. By searching them you may find a rare mining chip a necessary tool needed by the mining station to obtain rare ore.
 loadingTipMiningTerminals_title,UI,Loading Screen,New,Terminals
 xuiChips,UI,XUI,New,Chips & Augers
+workstationsT5-1,progression,Attribute,New,Tier 5: Crucible
+workstationsT5-2,progression,Attribute,New,Tier 5: Mining station

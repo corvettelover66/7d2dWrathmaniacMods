@@ -1,10 +1,15 @@
 <WrathmaniacsMiningStation>
-	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/effect_group">
-			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="80,100"  value="1"  tags="miningstation"/>
-	</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']">
-			<display_entry icon="miningstation"  name_key="workstationsT5"  has_quality="false"  unlock_level="80"  item="miningstation" >
-				<unlock_entry unlock_tier="1" />
-			</display_entry>
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="80,100"  value="1"  tags="miningstation"/>
+		</effect_group>
 	</append>
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='toolForgeCrucible']">
+			<unlock_entry item="miningstation"  unlock_tier="2" />
+	</append>
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='toolForgeCrucible']/@unlock_level">,80</append>
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='toolForgeCrucible']/@icon">,miningstation</append>
+	
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='toolForgeCrucible']/@name_key">workstationsT5-1,workstationsT5-2</set>
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/@max_level">80</set>
 </WrathmaniacsMiningStation>
