@@ -9,14 +9,9 @@ Better Starting Items
 
 Increased painkillers from 5 to 6 for Shotgunner, Pistoler, archer and rifleman.
 
-Incresed bandages (5 -> 7) and painkillers (2 -> 3) for Machine Gunner.
+Increased bandages (5 -> 7) and painkillers (2 -> 3) for Machine Gunner.
 
 Split into a single file where a player can choose in game.
-
-=============================================================
-Item Repairing Overhaul
-=============================================================
-Just some cleanup. 
 
 
 =============================================================
@@ -76,15 +71,7 @@ Updated the mod to alpha 21.
 Special Parts craftable
 =============================================================
 
-Fixed the bug where fallen wood has a chance to give copper.
 
-Fixed progressions so that extra effect_groups were not created.
-
-Made various changes to the recipes. Some we buffs some were nerfs.
-
-Added a recipe for acid to the campfire.
-
-Updated for alpha 21
 
 ======
 Patches
