@@ -1,0 +1,9 @@
+<!-- Xml Written July 30, 2020 at 15:55:03 -->
+<WrathmaniacsSpecialPartsCraftable>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">,resourceSpringSchematic,resourceRefinedCopperSchematic,resourceZincSchematic,resourceScrapBrassSchematic</append>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,resourceMechanicalPartsSchematic,resourceScrapPolymersSchematic,resourceElectricPartsSchematic,resourceAcidSchematic</append>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">,solarCellSchematic,solarbankSchematic</append>
+	
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,4']/@tags">,toolLeadSilverAnodeSchematic</append>
+
+</WrathmaniacsSpecialPartsCraftable>

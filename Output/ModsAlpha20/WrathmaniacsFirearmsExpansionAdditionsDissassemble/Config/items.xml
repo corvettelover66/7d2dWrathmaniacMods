@@ -1,0 +1,178 @@
+<WrathmaniacsFirearmsExpansionAdditionsDissassemble>
+	<append xpath="/items">
+		<item name="Disassemble AP 5.56mm Ammo (50)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletAPITx50" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="50,250,50" />
+			</property>
+		</item>
+		<item name="Disassemble AP 5.56mm Ammo (10)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletAPITx10" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="10,50,10" />
+			</property>
+		</item>
+		<item name="Disassemble 5.56mm Ammo (50)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletBallITx50" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="50,150,50" />
+			</property>
+		</item>
+		<item name="Disassemble 5.56mm Ammo (10)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletBallITx10" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="10,30,10" />
+			</property>
+		</item>
+		<item name="Disassemble HP 5.56mm Ammo (50)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletHPITx50" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="50,150,100" />
+			</property>
+		</item>
+		<item name="Disassemble HP 5.56mm Ammo (10)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammo762mmBulletHPITx10" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="10,30,20" />
+			</property>
+		</item>
+		<item name="Disassemble AP 45 ACP Ammo (50)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammo9mmBulletAPITx50" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="50,100,50" />
+			</property>
+		</item>
+		<item name="Disassemble AP 45 ACP Ammo (10)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammo9mmBulletAPITx10" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="10,20,10" />
+			</property>
+		</item>
+		<item name="Disassemble HP 45 ACP Ammo (50)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammo9mmBulletHPITx50" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="50,50,100" />
+			</property>
+		</item>
+		<item name="Disassemble HP 45 ACP Ammo (10)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammo9mmBulletHPITx10" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="10,10,20" />
+			</property>
+		</item>
+		<item name="Disassemble 45 ACP Ammo (50)">
+			<property name="Extends" value="Disassemble 9mm Ammo (10)" />
+			<property name="CustomIcon" value="ammo9mmBulletBallITx50" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="Disassemble Ammo to get back the resources used to create them." />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="50,50,50" />
+			</property>
+		</item>
+		<item name="Disassemble 45 ACP Ammo (10)">
+			<property name="CustomIcon" value="ammo9mmBulletBallITx10" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="ammoBundleGroupDesc" />
+			<property name="HoldType" value="45" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="30000" />
+			<property name="Weight" value="0" />
+			<property name="Group" value="Ammo/Weapons" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip" />
+				<property name="Create_item_count" value="10,10,10" />
+			</property>
+		</item>
+	</append>
+</WrathmaniacsFirearmsExpansionAdditionsDissassemble>

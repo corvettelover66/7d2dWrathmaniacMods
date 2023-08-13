@@ -1,0 +1,7 @@
+<WrathmaniacsMiningStationISC>
+	<append xpath="/recipes">>
+		<recipe name="miningstationSchematic"  count="1"  tags="learnable,schematicCrafting"  craft_area="workbench"  craft_time="300" >
+			<ingredient name="resourceSchematicPiece"  count="100" />
+		</recipe>
+	</append>
+</WrathmaniacsMiningStationISC>

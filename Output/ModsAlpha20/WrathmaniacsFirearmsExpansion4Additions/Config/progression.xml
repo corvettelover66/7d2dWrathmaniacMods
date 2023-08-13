@@ -1,0 +1,16 @@
+<WrathmaniacsFirearmsExpansionAdditions>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkEnforcerComplete']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,ammobundle45ACPBulletAP,ammobundle45ACPBulletHP,ammoBundle45ACPBulletBall</append>
+
+	<append xpath="/progression/perks">
+		<perk name="perkEnforcer45ACPHPAmmo" parent="skillEnforcer" name_key="bookEnforcer45ACPHPAmmo" desc_key="perkEnforcer45ACPHPAmmoDesc" max_level="1" base_skill_point_cost="0" long_desc_key="perkEnforcer45ACPHPAmmoLongDesc">
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo45ACPBulletHP" />
+			</effect_group>
+		</perk>
+		<perk name="perkEnforcer45ACPAPAmmo" parent="skillEnforcer" name_key="bookEnforcer45ACPAPAmmo" desc_key="perkEnforcer45ACPAPAmmoDesc" max_level="1" base_skill_point_cost="0" long_desc_key="perkEnforcer45ACPAPAmmoLongDesc">
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo45ACPBulletAP" />
+			</effect_group>
+		</perk>
+	</append>
+</WrathmaniacsFirearmsExpansionAdditions>

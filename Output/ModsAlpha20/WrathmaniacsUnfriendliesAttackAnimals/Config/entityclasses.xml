@@ -1,0 +1,5 @@
+<WrathmaniacsUnfriendliesAttackAnimals>
+	<append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='AITask-5']/@data">,EntityAnimalRabbit,20,EntityAnimalStag,20</append>
+
+	<append xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='AITask-2']/@data">,EntityAnimalRabbit,20,EntityAnimalStag,20,EntityZombie,20</append>
+</WrathmaniacsUnfriendliesAttackAnimals>

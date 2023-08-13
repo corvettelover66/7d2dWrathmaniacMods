@@ -1,0 +1,40 @@
+<WrathmaniacsFirearmsExpansionAdditionsDissassemble>
+	<append xpath="/recipes">
+		<recipe name="Disassemble AP 5.56mm Ammo (50)" count="1" craft_time="1">
+			<ingredient name="ammo556mmBulletAP" count="50" />
+		</recipe>
+		<recipe name="Disassemble AP 5.56mm Ammo (10)" count="1" craft_time="1">
+			<ingredient name="ammo556mmBulletAP" count="10" />
+		</recipe>
+		<recipe name="Disassemble HP 5.56mm Ammo (50)" count="1" craft_time="1">
+			<ingredient name="ammo556mmBulletHP" count="50" />
+		</recipe>
+		<recipe name="Disassemble HP 5.56mm Ammo (10)" count="1" craft_time="1">
+			<ingredient name="ammo556mmBulletHP" count="10" />
+		</recipe>
+		<recipe name="Disassemble 5.56mm Ammo (50)" count="1" craft_time="1">
+			<ingredient name="ammo556mmBulletBall" count="50" />
+		</recipe>
+		<recipe name="Disassemble 5.56mm Ammo (10)" count="1" craft_time="1">
+			<ingredient name="ammo556mmBulletBall" count="10" />
+		</recipe>
+		<recipe name="Disassemble AP 45 ACP Ammo (50)" count="1" craft_time="1">
+			<ingredient name="ammo45ACPBulletAP" count="50" />
+		</recipe>
+		<recipe name="Disassemble AP 45 ACP Ammo (10)" count="1" craft_time="1">
+			<ingredient name="ammo45ACPBulletAP" count="10" />
+		</recipe>
+		<recipe name="Disassemble HP 45 ACP Ammo (50)" count="1" craft_time="1">
+			<ingredient name="ammo45ACPBulletHP" count="50" />
+		</recipe>
+		<recipe name="Disassemble HP 45 ACP Ammo (10)" count="1" craft_time="1">
+			<ingredient name="ammo45ACPBulletHP" count="10" />
+		</recipe>
+		<recipe name="Disassemble 45 ACP Ammo (50)" count="1" craft_time="1">
+			<ingredient name="ammo45ACPBulletBall" count="50" />
+		</recipe>
+		<recipe name="Disassemble 45 ACP Ammo (10)" count="1" craft_time="1">
+			<ingredient name="ammo45ACPBulletBall" count="10" />
+		</recipe>
+	</append>
+</WrathmaniacsFirearmsExpansionAdditionsDissassemble>

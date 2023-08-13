@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="HealthHalos" />
+		<Description value="Adds health halos to entities" />
+		<Author value="Xipher7934" />
+		<Version value="A17_2b20v1" />
+	</ModInfo>
+</xml>

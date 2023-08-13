@@ -1,0 +1,22 @@
+key,source,context,changes,english,french,german,klingon,spanish,polish,japanese
+bookEnforcer45ACPAPAmmo,items,perk  book,New,Magnum Enforcer Vol 8
+perkEnforcer45ACPAPAmmoDesc,progression,perk  book,New,Craft AP 45 ACP Ammo
+perkEnforcer45ACPAPAmmoLongDesc,progression,perk  book,New,"Armor Piercing Ammunition: Criminal Scum sometimes wear bulletproof vests, so use armor piercing ammo to serve justice. Craft AP 45 ACP Ammunition."
+bookEnforcer45ACPHPAmmo,items,perk  book,New,Magnum Enforcer Vol 9
+perkEnforcer45ACPHPAmmoDesc,progression,perk  book,New,Craft HP 45 ACP Ammo
+perkEnforcer45ACPHPAmmoLongDesc,progression,perk  book,New,Hollow Point Ammunition: Looks like those 45 ACP guns just got stronger. You can craft HP 45 ACP ammunition.
+ammoBundle45ACPBulletAP,items,Ammo,New,Box of AP 45 ACP Ammo (100)
+ammoBundle45ACPBulletHP,items,Ammo,New,Box of HP 45 ACP Ammo (100)
+ammoBundle45ACPBulletBall,items,Ammo,New,Box of 45 ACP Ammo (100)
+ammo45ACPBulletAP,items,Ammo,New,AP 45 ACP Ammo
+ammo45ACPBulletHP,items,Ammo,New,HP 45 ACP Ammo
+ammo45ACPBulletBall,items,Ammo,New,45 ACP Ammo
+ammo45ACPBulletBallDesc,items,Ammo,New,A 45 ACP round used as firearm ammunition. Can be crafted at a workbench.
+ThompsonDesc,items,Gun,New,Old and legendary Automatic Submachine Gun that uses 45 ACP Ammo.\nHolding this weapon while wearing a full suit and a press cap will grant you the respect of those stingy traders and a big bonus buying and selling stuff\n\nRepair with a Repair Kit.\nScrap to Pistol Parts.
+Colt1911Desc,items,Gun,New,Powerful iconic pistol that uses 45 ACP ammo.\n\nRepair with a Repair Kit.\nScrap to Pistol Parts.
+Colt38,items,Gun,New,Colt 45
+Colt38Desc,items,Gun,New,"Slow but packs a punch, uses 45 acp ammo.\n\nRepair with a Repair Kit.\nScrap to Scrap Iron."
+USPDesc,items,Gun,New,Powerfull SemiAutomatic pistol that uses 45 acp ammo.\n\nRepair with a Repair Kit.\nScrap to Pistol Parts.
+P226Desc,items,Gun,New,SemiAutomatic Pistol that uses 45 acp ammo.\n\nRepair with a Repair Kit.\nScrap to Pistol Parts.
+VectorDesc,items,Gun,New,Fast Automatic Submachine Gun that uses 45 acp Ammo.\n\nRepair with a Repair Kit.\nScrap to Pistol Parts.
+gunRifleT2LeverActionRifleDesc,items,Gun,New,This Lever Action rifle uses 45 acp ammo and is your first choice if you want to make that shot count.\n\nRepair with a Repair Kit.\nScrap to Rifle parts.,"Ce fusil à levier utilise des munitions de calibre 7,62 mm, ce sera votre arme de prédilection si vous ne voulez pas rater votre coup.\n\nSe répare avec un kit de réparation.\nSe recycle en pièces de fusil.","Dieser Unterhebelrepetierer verwendet 7,62-mm-Munition und ist die beste Wahl für präzises Feuer.\n\nKann mit einem Reparaturkit repariert werden.\nKann zu Gewehrteilen zerlegt werden.",Este rifle de palanca utiliza municiones de 7.62 mm y es tu primera opción si quieres dar un buen tiro.\n\nSe repara con un kit de reparación.\nDesguázalo para obtener partes de rifle.,"Ten karabin dwutaktowy strzela amunicją kalibru 7,62 mm jest najlepszym wyborem, jeśli nie stać cię na pudło.\n\nNaprawiaj za pomocą zestawu naprawczego.\nZezłomuj, by uzyskać części karabinu.",このレバーアクションライフルには7.62mm弾を使用します。命中精度を上げたいならこれしかありません。\n\n修理キットで修復可能。\n解体するとライフルパーツに。

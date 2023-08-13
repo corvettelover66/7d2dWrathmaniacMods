@@ -1,0 +1,48 @@
+<WrathmaniacsFirearmsExpansionAdditions>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Machinegunner']/item[@name='ammo762mmBulletBall']/@name">ammo556mmBulletBall</set>
+	<set xpath="/lootcontainers/lootgroup[@name='Colt1911']/item[@name='ammo9mmBulletBall']/@name">ammo45ACPBulletBall</set>
+	<set xpath="/lootcontainers/lootgroup[@name='Colt38']/item[@name='ammo9mmBulletBall']/@name">ammo45ACPBulletBall</set>
+	<set xpath="/lootcontainers/lootgroup[@name='Thompson']/item[@name='ammo9mmBulletBall']/@name">ammo45ACPBulletBall</set>
+	<set xpath="/lootcontainers/lootgroup[@name='SCAR']/item[@name='ammo762mmBulletBall']/@name">ammo556mmBulletBall</set>
+	<set xpath="/lootcontainers/lootgroup[@name='FNFAL']/item[@name='ammo762mmBulletBall']/@name">ammo556mmBulletBall</set>
+	<append xpath="/lootcontainers/lootgroup[@name='perkBooks']">
+			<item name="bookSniper556HPAmmo" />
+			<item name="bookSniper556APAmmo" />
+			<item name="bookEnforcer45ACPHPAmmo" />
+			<item name="bookEnforcer45ACPAPAmmo" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']">
+			<item name="ammo556mmBulletAP"  count="12,25" />
+			<item name="ammo556mmBulletHP" count="12,25"  />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvancedGunslinger']">
+			<item name="ammo45ACPBulletBall" count="10,20"  />
+			<item name="ammo45ACPBulletHP" count="4,12"/>
+			<item name="ammo45ACPBulletAP" count="6,16"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT2']">
+			<item name="ammo556mmBulletBall" count="14,28"   />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT1']">
+			<item name="ammo556mmBulletBall" count="9,18"  />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT0']">
+			<item name="ammo45ACPBulletBall" count="8,16" />
+			<item name="ammo556mmBulletBall" count="7,14" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularGunslingerT2']">
+			<item name="ammo45ACPBulletBall" count="10,20"/>
+			<item name="ammo45ACPBulletBall" count="10,20"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularGunslingerT1']">
+			<item name="ammo45ACPBulletBall" count="10,20"/>
+			<item name="ammo45ACPBulletBall" count="10,20"/>
+	</append>
+</WrathmaniacsFirearmsExpansionAdditions>

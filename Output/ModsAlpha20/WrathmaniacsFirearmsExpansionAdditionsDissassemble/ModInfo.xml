@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Firearms Expansion Additions Dissassemble (A19)" />
+		<Description value="Adds dissassemble recipes for new ammo types 45 ACP and 5.56." />
+		<Author value="Wrathmaniac" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

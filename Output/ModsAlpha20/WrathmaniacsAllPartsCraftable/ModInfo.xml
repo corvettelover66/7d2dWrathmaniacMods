@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="All Parts Craftable (A20)" />
+		<Description value="All Parts items can be crafted. Though not for free, all are locked behind perks and/or books. " />
+		<Author value="Wrathmaniac" />
+		<Version value="WAPC-1.2.a.20.e" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,5 @@
+<WrathmaniacsRepairedWorkstations>
+	<append xpath="/doc/tips">
+			<tip key="loadingTipDestroyedWorkstations" />
+	</append>
+</WrathmaniacsRepairedWorkstations>

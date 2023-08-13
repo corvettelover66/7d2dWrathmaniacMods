@@ -1,0 +1,3 @@
+<FirearmsExpansion3.1Fixes>
+	<set xpath="/recipes/recipe[@name='Colt38']/ingredient[@name='resourceForgedIron']/@name">gunHandgunT1PistolParts</set>
+</FirearmsExpansion3.1Fixes>

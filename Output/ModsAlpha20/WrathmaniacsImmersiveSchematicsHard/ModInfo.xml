@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Wrathmaniac's Immersive Schematic Crafting Hard Patch (A20)" />
+		<Description value="A small patch to adjust the recieved shards to 2 when reading a schematic." />
+		<Author value="wrathmaniac" />
+		<Version value="ISC-H-patch-1.0.a.20" />
+	</ModInfo>
+</xml>

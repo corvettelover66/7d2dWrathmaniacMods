@@ -1,0 +1,5 @@
+<WrathmaniacsSpecialPartsCraftableSMXuipatch>
+	<set xpath="/windows/window[@name='windowToolsCampfire']/rect[@name='content']/grid[@name='inventory']/@rows">4</set>
+	<set xpath="/windows/window[@name='windowToolsCampfire']/rect[@name='content']/grid[@name='inventory']/@cols">1</set>
+	<set xpath="/windows/window[@name='windowToolsCampfire']/rect[@name='content']/@pos">400,435</set>
+</WrathmaniacsSpecialPartsCraftableSMXuipatch>

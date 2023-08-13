@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Reduce Zombie Block Damage 80%" />
+		<Description value="Reduces all zombie block/vomit damage by 80% and the cop explosion damage is set to 150 rather than 500" />
+		<Author value="Wrathmaniac" />
+		<Version value="RZBD-1.0" />
+	</ModInfo>
+</xml>

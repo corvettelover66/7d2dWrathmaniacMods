@@ -1,0 +1,389 @@
+<WrathmaniacsAllPartsCraftable>
+	<append xpath="/items">
+		<item name="Disassemble Item">
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="DescriptionKey" value="dissassembleItemGroupDesc" />
+			<property name="HoldType" value="45" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Msteel" />
+			<property name="Stacknumber" value="30000" />
+			<property name="Weight" value="0" />
+			<property name="Group" value="Resources" />
+		</item>
+		<item name="Disassemble Steel Club Parts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="meleeWpnClubT3SteelClubParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="perkBatterUpBaseballBats,perkPummelPete" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="1,3,7" />
+			</property>
+		</item>
+		<item name="Disassemble meleeToolSledgehammerSteelParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammerParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="perkSkullCrusher,meleeWpnSledgeT3SteelSledgehammerSchematic" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="1,2,10" />
+			</property>
+		</item>
+		<item name="Disassemble meleeThrownSpearSteelParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="meleeWpnSpearT3SteelSpearParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="bookSpearHunter3SteelSpears,perkJavelinMaster" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="1,3,7" />
+			</property>
+		</item>
+		<item name="Disassemble meleeToolKnifeMacheteParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="meleeWpnBladeT3MacheteParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="meleeWpnBladeT3MacheteSchematic,perkDeepCuts" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="1,2,7" />
+			</property>
+		</item>
+		<item name="Disassemble meleeKnucklesSteelParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnucklesParts" />
+			<property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic,perkBrawler" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="1,2,5" />
+			</property>
+		</item>
+		<item name="Disassemble meleeStunBatonParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="meleeWpnBatonT2StunBatonParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="meleeWpnBatonT2StunBatonSchematic,perkElectrocutioner" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="1,2,5" />
+			</property>
+		</item>
+		<item name="Disassemble gunJunkTurretParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="gunBotRoboticsParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="gunBotT1JunkSledgeSchematic,gunBotT2JunkTurretSchematic,perkTurrets" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="1,2,5" />
+			</property>
+		</item>
+		<item name="Disassemble gunRocketLauncherParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="gunExplosivesT3RocketLauncherParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="gunExplosivesT3RocketLauncherSchematic,perkDemolitionsExpert" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="2,6,12" />
+			</property>
+		</item>
+		<item name="Disassemble gunAk47Parts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="gunMGT1AK47Parts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="gunMGT1AK47Schematic,gunMGT2TacticalARSchematic,gunMGT3M60Schematic" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="2,5,10" />
+			</property>
+		</item>
+		<item name="Disassemble gunHuntingRifleParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="gunRifleT1HuntingRifleParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="gunRifleT1HuntingRifleSchematic,gunRifleT2LeverActionRifleSchematic,gunRifleT3SniperRifleSchematic,perkDeadEye" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="2,3,8" />
+			</property>
+		</item>
+		<item name="Disassemble armorSteelSetParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="armorSteelSetParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="armorSteelSetSchematic,perkHeavyArmor" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="1,2,5" />
+			</property>
+		</item>
+		<item name="Disassemble meleeToolAllSteelParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="meleeToolAllSteelParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="meleeToolSteelSetSchematic,perkMiner69r" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="1,2,5" />
+			</property>
+		</item>
+		<item name="Disassemble gunBowWoodenParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="gunBowT1WoodenBowParts" />
+			<property name="UnlockedBy" value="gunBowT1WoodenBowSchematic,gunBowT1IronCrossbowSchematic,gunBowT3CompoundBowSchematic,gunBowT3CompoundCrossbowSchematic,perkArchery" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedIron" />
+				<property name="Create_item_count" value="1,2,5" />
+			</property>
+		</item>
+		<item name="Disassemble gunPistolParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="gunHandgunT1PistolParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="gunHandgunT1PistolSchematic,gunHandgunT2Magnum44Schematic,gunHandgunT3DesertVultureSchematic,gunHandgunT3SMG5Schematic,perkGunslinger" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="1,2,5" />
+			</property>
+		</item>
+		<item name="Disassemble armorMilitarySetParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="armorMilitarySetParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="bookUrbanCombatRoomClearing,perkLightArmor" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceForgedSteel,resourceMechanicalParts,resourceSpring" />
+				<property name="Create_item_count" value="10,5,2" />
+			</property>
+		</item>
+		<item name="Disassemble meleeToolChainsawParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="meleeToolAxeT3ChainsawParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="meleeToolAxeT3ChainsawSchematic,meleeToolPickT3AugerSchematic,perkMiner69r" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceForgedSteel,resourceMechanicalParts,resourceSpring" />
+				<property name="Create_item_count" value="10,5,2" />
+			</property>
+		</item>
+		<item name="Disassemble gunDoubleBarrelShotgunParts">
+			<property name="Extends" value="Disassemble Item" />
+			<property name="CustomIcon" value="gunShotgunT1DoubleBarrelParts" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="UnlockedBy" value="gunShotgunT1DoubleBarrelSchematic,gunShotgunT2PumpShotgunSchematic,gunShotgunT3AutoShotgunSchematic,perkBoomstick" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="resourceSpring,resourceMechanicalParts,resourceForgedSteel" />
+				<property name="Create_item_count" value="1,3,8" />
+			</property>
+		</item>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSalvageT2RatchetSchematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="meleeToolAllSteelParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Disassemble meleeToolAllSteelParts" operation="set" value="1"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnClubT3SteelClubParts']">
+		<property name="UnlockedBy" value="perkBatterUpBaseballBats,perkPummelPete" />
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpBaseballBats']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="meleeWpnClubT3SteelClubParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble Steel Club Parts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolAllSteelParts']">
+		<property name="UnlockedBy" value="perkMiner69r,meleeToolSteelSetSchematic,meleeToolSalvageT2RatchetSchematic"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSteelSetSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolAllSteelParts" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Disassemble meleeToolAllSteelParts" operation="set" value="1"/>
+	</append>
+	<append xpath="/items/item[@name='armorSteelSetParts']">
+		<property name="UnlockedBy" value="armorSteelSetSchematic,perkHeavyArmor"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSledgeT3SteelSledgehammerParts" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Disassemble meleeToolSledgehammerSteelParts" operation="set" value="1"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']">
+		<property name="UnlockedBy" value="perkSkullCrusher,meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter3SteelSpears']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSpearT3SteelSpearParts" operation="set" value="1" />
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Disassemble meleeThrownSpearSteelParts" operation="set" value="1"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpearParts']">
+		<property name="UnlockedBy" value="perkJavelinMaster,bookSpearHunter3SteelSpears"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBladeT3MacheteSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBladeT3MacheteParts" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Disassemble meleeToolKnifeMacheteParts" operation="set" value="1" />
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBladeT3MacheteParts']">
+		<property name="UnlockedBy" value="meleeWpnBladeT3MacheteSchematic,perkDeepCuts"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnKnucklesT3SteelKnucklesParts" operation="set" value="1" />
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Disassemble meleeKnucklesSteelParts" operation="set" value="1" />
+	</append>
+	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesParts']">
+		<property name="UnlockedBy" value="meleeWpnKnucklesT3SteelKnucklesSchematic,perkBrawler"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBatonT2StunBatonSchematic']/effect_group">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBatonT2StunBatonParts" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Disassemble meleeStunBatonParts" operation="set" value="1"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBatonT2StunBatonParts']">
+		<property name="UnlockedBy" value="meleeWpnBatonT2StunBatonSchematic,perkElectrocutioner"/>
+	</append>
+	<append xpath="/items/item[@name='gunExplosivesT3RocketLauncherParts']">
+		<property name="UnlockedBy" value="gunExplosivesT3RocketLauncherSchematic,perkDemolitionsExpert" />
+	</append>
+	<append xpath="/items/item[@name='gunBowT1WoodenBowParts']">
+		<property name="UnlockedBy" value="gunBowT1WoodenBowSchematic,gunBowT1IronCrossbowSchematic,gunBowT3CompoundBowSchematic,gunBowT3CompoundCrossbowSchematic,perkArchery"/>
+	</append>
+	<append xpath="/items/item[@name='gunShotgunT1DoubleBarrelParts']">
+		<property name="UnlockedBy" value="gunShotgunT1DoubleBarrelSchematic,gunShotgunT2PumpShotgunSchematic,gunShotgunT3AutoShotgunSchematic,perkBoomstick"/>
+	</append>
+	<append xpath="/items/item[@name='gunRifleT1HuntingRifleParts']">
+		<property name="UnlockedBy" value="gunRifleT1HuntingRifleSchematic,gunRifleT2LeverActionRifleSchematic,gunRifleT3SniperRifleSchematic,perkDeadEye" />
+	</append>
+	<append xpath="/items/item[@name='gunHandgunT1PistolParts']">
+		<property name="UnlockedBy" value="gunHandgunT1PistolSchematic,gunHandgunT2Magnum44Schematic,gunHandgunT3DesertVultureSchematic,gunHandgunT3SMG5Schematic,perkGunslinger"/>
+	</append>
+	<append xpath="/items/item[@name='gunMGT1AK47Parts']">
+		<property name="UnlockedBy" value="gunMGT1AK47Schematic,gunMGT2TacticalARSchematic,gunMGT3M60Schematic,perkMachineGunner"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolAxeT3ChainsawParts']">
+		<property name="UnlockedBy" value="meleeToolAxeT3ChainsawSchematic,meleeToolPickT3AugerSchematic,meleeToolSalvageT3ImpactDriverSchematic,perkMiner69r" />
+	</append>
+	<append xpath="/items/item[@name='armorMilitarySetParts']">
+		<property name="UnlockedBy" value="bookUrbanCombatRoomClearing,perkLightArmor" />
+	</append>
+	<append xpath="/items/item[@name='gunBotRoboticsParts']">
+		<property name="UnlockedBy" value="bookTechJunkie7Hydraulics,gunBotT1JunkSledgeSchematic,gunBotT2JunkTurretSchematic,perkTurrets" />
+	</append>
+
+	<append xpath="/items/item[contains(@name,'gunShotgun') and contains(@name,'Schematic')]/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunShotgunT1DoubleBarrelParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunDoubleBarrelShotgunParts"  operation="set"  value="1"/>			
+	</append>
+	<append xpath="/items/item[@name='armorMilitarySetSchematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="armorMilitarySetParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble armorMilitarySetParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[contains(@name,'gunHandgun') and contains(@name,'Schematic')]/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[contains(@name,'gunBowT') and contains(@name,'Schematic')]/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunBowT1WoodenBowParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunBowWoodenParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSalvageT3ImpactDriverSchematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="meleeToolAxeT3ChainsawParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble meleeToolChainsawParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolPickT3AugerSchematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble meleeToolChainsawParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="meleeToolAxeT3ChainsawParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolAxeT3ChainsawSchematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="meleeToolAxeT3ChainsawParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble meleeToolChainsawParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSteelSetSchematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="meleeToolAllSteelParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble meleeToolAllSteelParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='armorSteelSetSchematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="armorSteelSetParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble armorSteelSetParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[contains(@name,'gunRifle') and contains(@name,'Schematic')]/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunRifleT1HuntingRifleParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunHuntingRifleParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[contains(@name,'gunMG') and contains(@name,'Schematic')]/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunMGT1AK47Parts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunAk47Parts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='gunExplosivesT3RocketLauncherSchematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunExplosivesT3RocketLauncherParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunRocketLauncherParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[contains(@name,'gunBot') and contains(@name,'Schematic')]/effect_group">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunBotRoboticsParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunJunkTurretParts"  operation="set"  value="1"/>
+	</append>
+</WrathmaniacsAllPartsCraftable>

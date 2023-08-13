@@ -1,0 +1,3 @@
+key,usedinmainmenu,source,context,changes,english
+JumpPad,blocks,Block,--,Jump Pad,Jump Pad,Jump Pad,Jump Pad
+JumpPadDesc,blocks,Block,--,Just Jump on this and go soaring.\n 50+ meter jump,Just Jump on this and go soaring.\n 50+ meter jump,Just Jump on this and go soaring.\n 50+ meter jump,Just Jump on this and go soaring.\n 50+ meter jump

@@ -1,0 +1,107 @@
+<WrathmaniacsAllPartsCraftableZFirearmsPatch>
+	<append xpath="/items/item[@name='ACWR Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunMGT1AK47Parts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunAk47Parts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='M16 Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunMGT1AK47Parts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunAk47Parts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='M4A1 Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunMGT1AK47Parts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunAk47Parts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='ARX160 Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunMGT1AK47Parts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunAk47Parts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='M240 Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunMGT1AK47Parts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunAk47Parts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='SR25 Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunRifleT1HuntingRifleParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunHuntingRifleParts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='SPAS12 Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunShotgunT1DoubleBarrelParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunDoubleBarrelShotgunParts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='HK USP Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='P226 Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="AddPart"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='KRISS Vector Schematic']/effect_group[@tiered='false']">
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+	</append>
+
+	<!-- Rifles -->
+	<append xpath="/items/item[@name='M98 Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunRifleT1HuntingRifleParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunHuntingRifleParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='JNG90 Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunRifleT1HuntingRifleParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunHuntingRifleParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='M1 Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunRifleT1HuntingRifleParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunHuntingRifleParts"  operation="set"  value="1"/>
+	</append>	
+	<!-- Pistols -->
+	<append xpath="/items/item[@name='Mac10 Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='Glock40 Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='Colt1911 Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunPistolParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunHandgunT1PistolParts"  operation="set"  value="1"/>
+	</append>
+	<!-- Shotguns -->
+	<append xpath="/items/item[@name='KSG12 Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunDoubleBarrelShotgunParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunShotgunT1DoubleBarrelParts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='Winchester Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunDoubleBarrelShotgunParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunShotgunT1DoubleBarrelParts"  operation="set"  value="1"/>
+	</append>
+	<!-- AR -->
+	<append xpath="/items/item[@name='SCAR Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunMGT1AK47Parts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunAk47Parts"  operation="set"  value="1"/>
+	</append>
+	<append xpath="/items/item[@name='FNFAL Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="gunMGT1AK47Parts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble gunAk47Parts"  operation="set"  value="1"/>
+	</append>
+	<!-- Special guns -->
+	<append xpath="/items/item[@name='Flamethrower Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="meleeToolAxeT3ChainsawParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble meleeToolChainsawParts"  operation="set"  value="1"/>
+	</append>
+	<!-- 
+	<append xpath="/items/item[@name='Railgun Schematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="meleeWpnBatonT2StunBatonParts"  operation="set"  value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Disassemble meleeStunBatonParts"  operation="set"  value="1"/>
+	</append>
+	-->
+</WrathmaniacsAllPartsCraftableZFirearmsPatch>

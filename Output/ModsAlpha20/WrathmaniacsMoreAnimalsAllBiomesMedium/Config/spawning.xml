@@ -1,0 +1,5 @@
+<WrathmaniacsMoreAnimalsAllBiomesMedium>
+	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'WildGame')]/@maxcount">4</set>
+
+	<set xpath="/spawning/biome/spawn[contains(@entitygroup,'EnemyAnimals')]/@maxcount">3</set>
+</WrathmaniacsMoreAnimalsAllBiomesMedium>

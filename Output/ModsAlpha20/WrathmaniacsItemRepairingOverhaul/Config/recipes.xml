@@ -1,0 +1,119 @@
+<WrathmaniacsItemRepairingOverhaul>
+	<remove xpath="/recipes/recipe[@name='resourceRepairKit']"/>
+	<append xpath="/recipes">
+		<!-- This becomes the Vehicle Repair kit!!!!!! 
+			Using localization and overwriting the vanilla recipe, it is the ONLY way unfortunately. 
+			With this approach there is a problem with the bike, 
+			The repair kit will either be too weak for motor vehicles or way to strong for a bike.
+			I could make the repair kit less balanced for motor vehicles, 
+			OR 
+			less balanced for the bike, 
+			I'm choosing the latter-->
+		<recipe name="resourceRepairKit"  count="1" craft_time="3">
+			<ingredient name="resourceNormalRepairKit" count="2" />
+			<ingredient name="smallEngine"  count="1" />
+			<ingredient name="carBattery"  count="1" />
+			<ingredient name="vehicleWheels" count="2" />
+			<ingredient name="resourceHeadlight" count="2" />
+		</recipe>
+		<recipe name="resourceNormalRepairKit"  count="1" craft_time="3">
+			<ingredient name="resourceForgedIron" count="1" />
+			<ingredient name="resourceCloth" count="2" />
+			<ingredient name="resourceDuctTape" count="1" />
+			<ingredient name="resourceOil" count="1" />
+		</recipe>
+		<!-- TODO Remove as this was unneeded -->
+		<recipe name="vehicleAllParts"  count="1"  craft_time="2">
+			<ingredient name="smallEngine"  count="1" />
+			<ingredient name="carBattery"  count="1" />
+			<ingredient name="vehicleWheels" count="2" />
+			<ingredient name="resourceHeadlight" count="2" />
+		</recipe>
+		<recipe name="resourceSteelSetPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="armorSteelSetParts" count="1" />
+		</recipe>
+		<recipe name="resourceToolAxePartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="resourceForgedSteel" count="1" />
+			<ingredient name="meleeToolAxeT3ChainsawParts" count="2" />
+			<ingredient name="smallEngine"  count="1" />
+		</recipe>
+		<recipe name="resourceMilitarySetPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="armorMilitarySetParts" count="1" />
+		</recipe>
+		<recipe name="resourceToolAllSteelPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="meleeToolAllSteelParts" count="1" />
+		</recipe>
+		<recipe name="resourceWpnSledgePartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" />
+		</recipe>
+		<recipe name="resourceWpnSpearPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="meleeWpnSpearT3SteelSpearParts" count="1" />
+		</recipe>
+		<recipe name="resourceWpnBladePartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="meleeWpnBladeT3MacheteParts" count="1" />
+		</recipe>
+		<recipe name="resourceWpnKnucklesPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="meleeWpnKnucklesT3SteelKnucklesParts" count="1" />
+		</recipe>
+		<recipe name="resourceWpnBatonPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="meleeWpnBatonT2StunBatonParts" count="1" />
+		</recipe>
+		<recipe name="resourceBotPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="carBattery" count="1" />
+			<ingredient name="gunBotRoboticsParts" count="1" />
+		</recipe>
+		<recipe name="resourceExplosivesPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="gunExplosivesT3RocketLauncherParts" count="1" />
+		</recipe>
+		<recipe name="resourceBowPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="gunBowT1WoodenBowParts" count="1" />
+		</recipe>
+		<recipe name="resourceShotgunPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="gunShotgunT1DoubleBarrelParts" count="1" />
+		</recipe>
+		<recipe name="resourceRiflePartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="gunRifleT1HuntingRifleParts" count="1" />
+		</recipe>
+		<recipe name="resourceHandgunPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="gunHandgunT1PistolParts" count="1" />
+		</recipe>
+		<recipe name="resourceMGPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="gunMGT1AK47Parts" count="1" />
+		</recipe>
+		<recipe name="resourceWpnClubPartsRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="meleeWpnClubT3SteelClubParts" count="1" />
+		</recipe>
+		<recipe name="gunBotTurretBatteryAndParts" count="1" tags="perkTurrets" >
+			<ingredient name="carBattery" count="1" />
+			<ingredient name="gunBotRoboticsParts" count="4" />
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount"  operation="perc_add"  level="2,6"  value=".5,2.5"  tags="gunBotRoboticsParts" />
+			</effect_group>
+		</recipe>
+	</append>
+	<remove xpath="/recipes/recipe[@name='gunBotT1JunkSledge']/ingredient[@name='gunBotRoboticsParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunBotT2JunkTurret']/ingredient[@name='gunBotRoboticsParts']"/>
+	<append xpath="/recipes/recipe[@name='gunBotT2JunkTurret']">
+		<ingredient name="gunBotTurretBatteryAndParts" count="1" />
+	</append>
+	<append xpath="/recipes/recipe[@name='gunBotT1JunkSledge']">
+		<ingredient name="gunBotTurretBatteryAndParts" count="1" />
+	</append>
+</WrathmaniacsItemRepairingOverhaul>

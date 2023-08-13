@@ -1,0 +1,13 @@
+<WrathmaniacsJunkTurretOverhaul>
+	<!-- shotgun Messiah crate -->
+	<append xpath="/lootcontainers/lootcontainer[@id='50']">
+			<item name="resourceBotPartsRepairKit"  prob=".1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']">
+			<item name="ammoJunkTurretSteel"  count="10,20" />
+			<item name="ammoJunkTurretSteelAP"  count="10,20" />
+	</append>
+<!-- 
+<setattribute xpath="/lootcontainers/lootgroup[@name='automotive']/item[@name='carBattery']" name="prob">0.37</setattribute>
+ -->
+</WrathmaniacsJunkTurretOverhaul>

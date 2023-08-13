@@ -1,0 +1,176 @@
+<WrathmaniacsRepairedWorkstations>
+	<append xpath="/items">
+		<item name="repairedWorkbench">
+			<property name="HoldType" value="45" />
+			<property name="ItemTypeIcon" value="bundle" />
+			<property name="CustomIcon" value="workbench" />
+			<property name="DescriptionKey" value="repairedWorkbenchDesc" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Miron" />
+			<property name="Stacknumber" value="5" />
+			<property name="EconomicValue" value="5000" />
+			<property name="Group" value="Resources" />
+			<property name="NoScrapping" value="true" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="workbench" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+		<item name="repairedSolarbank">
+			<property name="Extends" value="repairedWorkbench" />
+			<property name="CustomIcon" value="solarbank" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="solarbank" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+		<item name="repairedWorkbenchItems">
+			<property name="HoldType" value="45" />
+			<property name="CustomIcon" value="repairedWorkbenchItems" />
+			<property name="DescriptionKey" value="repairedWorkbenchItemsDesc" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="NoScrapping" value="true" />
+			<property name="Material" value="Miron" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Weight" value="1" />
+			<property name="Stacknumber" value="5" />
+			<property name="EconomicValue" value="1000" />
+			<property name="Group" value="Resources" />
+		</item>
+		<item name="repairedBatterybank">
+			<property name="Extends" value="repairedWorkbench" />
+			<property name="CustomIcon" value="batterybank" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value=" batterybank" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+		<item name="repairedGeneratorbank">
+			<property name="Extends" value="repairedWorkbench" />
+			<property name="CustomIcon" value="generatorbank" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="generatorbank" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+		<item name="repairedChemistryStation">
+			<property name="Extends" value="repairedWorkbench" />
+			<property name="CustomIcon" value="chemistryStation" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="chemistryStation" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+		<item name="repairedChemistryStationItems">
+			<property name="HoldType" value="45" />
+			<property name="CustomIcon" value="repairedChemistryStationItems" />
+			<property name="DescriptionKey" value="repairedWorkbenchItemsDesc" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="NoScrapping" value="true" />
+			<property name="Material" value="Miron" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Weight" value="1" />
+			<property name="Stacknumber" value="5" />
+			<property name="EconomicValue" value="1500" />
+			<property name="Group" value="Resources" />
+		</item>
+		<item name="repairedCementMixer">
+			<property name="Extends" value="repairedWorkbench" />
+			<property name="CustomIcon" value="cementMixer" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="cementMixer" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+		<item name="repairedForge">
+			<property name="Extends" value="repairedWorkbench" />
+			<property name="CustomIcon" value="forge" />
+			<property class="Action0">
+				<property name="Class" value="OpenBundle" />
+				<property name="Delay" value="0" />
+				<property name="Use_time" value="0" />
+				<property name="Sound_start" value="close_garbage" />
+				<property name="Create_item" value="forge" />
+				<property name="Create_item_count" value="1" />
+			</property>
+		</item>
+		<item name="repairedForgeItems">
+			<property name="HoldType" value="45" />
+			<property name="CustomIcon" value="repairedForgeItems" />
+			<property name="DescriptionKey" value="repairedWorkbenchItemsDesc" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="NoScrapping" value="true" />
+			<property name="Material" value="Miron" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Weight" value="1" />
+			<property name="Stacknumber" value="5" />
+			<property name="EconomicValue" value="750" />
+			<property name="Group" value="Resources" />
+		</item>
+		<item name="resourceWorkbenchParts">
+			<property name="HoldType" value="45" />
+			<property name="CustomIcon" value="resourceWorkbenchParts" />
+			<property name="DescriptionKey" value="resourceWorkbenchPartsDesc" />
+			<property name="PickupJournalEntry" value="resourceWorkbenchPartsTooltip" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Miron" />
+			<property name="Stacknumber" value="25" />
+			<property name="EconomicValue" value="800" />
+			<property name="Group" value="Resources" />
+		</item>
+		<item name="resourceBatterybankParts">
+			<property name="Extends" value="resourceWorkbenchParts" />
+			<property name="CustomIcon" value="resourceBatterybankParts" />
+		</item>
+		<item name="resourceSolarbankParts">
+			<property name="Extends" value="resourceWorkbenchParts" />
+			<property name="CustomIcon" value="resourceSolarbankParts" />
+		</item>
+		<item name="resourceSolarcellParts">
+			<property name="Extends" value="resourceWorkbenchParts" />
+			<property name="CustomIcon" value="resourceSolarcellParts" />
+		</item>
+		<item name="resourceGeneratorbankParts">
+			<property name="Extends" value="resourceWorkbenchParts" />
+			<property name="CustomIcon" value="resourceGeneratorbankParts" />
+		</item>
+		<item name="resourceChemistryStationParts">
+			<property name="Extends" value="resourceWorkbenchParts" />
+			<property name="CustomIcon" value="resourceChemistryStationParts" />
+		</item>
+		<item name="resourceCementMixerParts">
+			<property name="Extends" value="resourceWorkbenchParts" />
+			<property name="CustomIcon" value="resourceCementMixerParts" />
+		</item>
+		<item name="resourceForgeParts">
+			<property name="Extends" value="resourceWorkbenchParts" />
+			<property name="CustomIcon" value="resourceForgeParts" />
+		</item>
+	</append>
+</WrathmaniacsRepairedWorkstations>

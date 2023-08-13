@@ -1,0 +1,28 @@
+<WrathmaniacsFirearmsExpansionAdditions>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkEnforcerComplete']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,ammobundle45ACPBulletAP,ammobundle45ACPBulletHP,ammoBundle45ACPBulletBall</append>
+
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkSniperComplete']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,ammoBundle556mmBulletAP,ammoBundle556mmBulletHP,ammoBundle556mmBulletBall</append>
+
+	<append xpath="/progression/perks">
+		<perk name="perkSniper556HPAmmo" parent="skillSniper" name_key="bookSniper556HPAmmo" desc_key="perkSniper556HPAmmoDesc" max_level="1" base_skill_point_cost="0" long_desc_key="perkSniper556HPAmmoLongDesc">
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo556mmBulletHP" />
+			</effect_group>
+		</perk>
+		<perk name="perkSniper556APAmmo" parent="skillSniper" name_key="bookSniper556APAmmo" desc_key="perkSniper556APAmmoDesc" max_level="1" base_skill_point_cost="0" long_desc_key="perkSniper556APAmmoLongDesc">
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo556mmBulletAP" />
+			</effect_group>
+		</perk>
+		<perk name="perkEnforcer45ACPHPAmmo" parent="skillEnforcer" name_key="bookEnforcer45ACPHPAmmo" desc_key="perkEnforcer45ACPHPAmmoDesc" max_level="1" base_skill_point_cost="0" long_desc_key="perkEnforcer45ACPHPAmmoLongDesc">
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo45ACPBulletHP" />
+			</effect_group>
+		</perk>
+		<perk name="perkEnforcer45ACPAPAmmo" parent="skillEnforcer" name_key="bookEnforcer45ACPAPAmmo" desc_key="perkEnforcer45ACPAPAmmoDesc" max_level="1" base_skill_point_cost="0" long_desc_key="perkEnforcer45ACPAPAmmoLongDesc">
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="ammo45ACPBulletAP" />
+			</effect_group>
+		</perk>
+	</append>
+</WrathmaniacsFirearmsExpansionAdditions>

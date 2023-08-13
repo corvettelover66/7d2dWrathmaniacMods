@@ -1,0 +1,17 @@
+<WrathmaniacsRandomGameTweaks>
+	<append xpath="/blocks/block[@name='wineBarrel']">
+			<drop event="Destroy"  name="drinkJarBeer"  count="1"  prob=".1" />
+	</append>
+	<append xpath="/blocks/block[@name='concreteMaster']">
+			<property name="Tags"  value="concrete"/>
+	</append>
+	<append xpath="/blocks/block[@name='barbedFence']">
+			<property name="CanPickup"  value="true"/>
+	</append>
+	<!-- Adding in code to allow the user to upgrade to an iron door without building an iron door.  -->
+	<set xpath="/blocks/block[@name='metalReinforcedDoorWooden']/property[@class='UpgradeBlock']/property[@name='UpgradeHitCount']/@value">8</set>
+
+	<set xpath="/blocks/block[@name='metalReinforcedDoorWooden']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">10</set>
+
+	<set xpath="/blocks/block[@name='metalReinforcedDoorWooden']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceForgedIron</set>
+</WrathmaniacsRandomGameTweaks>

@@ -1,0 +1,8 @@
+<WrathmaniacsSpecialPartsCraftable>
+	<append xpath="/doc/tips">
+			<tip key="loadingTipLeadSilverAnode" />
+			<tip key="loadingTipCopper" />
+			<tip key="loadingTipSphalerite" />
+			<tip key="loadingTipZinc" />
+	</append>
+</WrathmaniacsSpecialPartsCraftable>

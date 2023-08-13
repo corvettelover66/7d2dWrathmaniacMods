@@ -1,0 +1,4 @@
+<WrathmaniacsBowModifiers>
+	<append xpath="/items/item[@name='gunBowT3CompoundBow']/property[@name='Tags']/@value">,magazine</append>
+	<append xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@name='Tags']/@value">,magazine</append>
+</WrathmaniacsBowModifiers>

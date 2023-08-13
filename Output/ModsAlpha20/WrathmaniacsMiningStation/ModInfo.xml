@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Wrathmaniacs Mining Station" />
+		<Description value="Adds a new late game workstation to seven days to die. The mining station requires new items (Mining Chips), supports five augers to reduce crafting time and allows the player to mine ores with gasoline, allowing them to focus on late game tasks. Crafting, building, fixing and looting." />
+		<Author value="wrathmanaic" />
+		<Version value="MS-1.2.a.20.e" />
+	</ModInfo>
+</xml>

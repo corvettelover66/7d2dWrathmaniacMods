@@ -1,0 +1,6 @@
+<WrathmaniacsSpecialPartsCraftableMiningStationPatchSMX>
+	<set xpath="/windows/window[@name='windowToolsMiningStationChips']/rect[@name='content']/grid[@name='inventory']/@cols">7</set>
+
+	<set xpath="/windows/window[@name='windowToolsMiningStationChips']/rect[@name='content']/@required_tools">resourceIronOreMinerChip,resourceCoalOreMinerChip,resourcePotassiumNitrateOreMinerChip,resourceLeadOreMinerChip,resourceShaleOreMinerChip,resourceSphaleriteOreMinerChip,resourceRawCopperOreMinerChip,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger,meleeToolPickT3Auger</set>
+
+</WrathmaniacsSpecialPartsCraftableMiningStationPatchSMX>

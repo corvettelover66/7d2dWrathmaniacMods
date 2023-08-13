@@ -1,0 +1,3 @@
+<WrathmaniacsMiningStation>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">,miningstation</append>
+</WrathmaniacsMiningStation>

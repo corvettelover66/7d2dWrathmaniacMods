@@ -1,0 +1,134 @@
+<WrathmaniacsJumpPadAdditions>
+	<append xpath="/buffs">
+		<buff name="SuperJumpTimesEight" hidden="true">
+			<stack_type value="ignore" />
+			<duration value="0.5" />
+			<effect_group>
+				<passive_effect name="JumpStrength" operation="base_set" value="8" />
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="3" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".39" tags="perkParkour"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="5" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".75" tags="perkParkour"/>
+			</effect_group>
+		</buff>
+		<buff name="JumpPadBuffTimesEight" hidden="true">
+			<stack_type value="ignore" />
+			<duration value="0.5" />
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="NoFallDamage" />
+				<triggered_effect trigger="onSelfJump" action="RemoveBuff" buff="NoFallDamage" />
+				<triggered_effect trigger="onSelfJump" action="AddBuff" buff="SuperJumpTimesEight" />
+				<triggered_effect trigger="onSelfJump" action="PlaySound" sound="m136_fire" play_in_head="true" />
+				<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="NoFallDamage" />
+			</effect_group>
+		</buff>
+		<buff name="SuperJumpReallyStrong" hidden="true">
+			<stack_type value="ignore" />
+			<duration value="0.5" />
+			<effect_group>
+				<passive_effect name="JumpStrength" operation="base_set" value="6" />
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="3" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".39" tags="perkParkour"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="5" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".75" tags="perkParkour"/>
+			</effect_group>
+		</buff>
+		<buff name="JumpPadBuffReallyStrong" hidden="true">
+			<stack_type value="ignore" />
+			<duration value="0.5" />
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="NoFallDamage" />
+				<triggered_effect trigger="onSelfJump" action="RemoveBuff" buff="NoFallDamage" />
+				<triggered_effect trigger="onSelfJump" action="AddBuff" buff="SuperJumpReallyStrong" />
+				<triggered_effect trigger="onSelfJump" action="PlaySound" sound="m136_fire" play_in_head="true" />
+				<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="NoFallDamage" />
+			</effect_group>
+		</buff>
+		<buff name="SuperJumpStrong" hidden="true">
+			<stack_type value="ignore" />
+			<duration value="0.5" />
+			<effect_group>
+				<passive_effect name="JumpStrength" operation="base_set" value="4" />
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="3" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".39" tags="perkParkour"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="5" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".75" tags="perkParkour"/>
+			</effect_group>
+		</buff>
+		<buff name="JumpPadBuffStrong" hidden="true">
+			<stack_type value="ignore" />
+			<duration value="0.5" />
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="NoFallDamage" />
+				<triggered_effect trigger="onSelfJump" action="RemoveBuff" buff="NoFallDamage" />
+				<triggered_effect trigger="onSelfJump" action="AddBuff" buff="SuperJumpStrong" />
+				<triggered_effect trigger="onSelfJump" action="PlaySound" sound="m136_fire" play_in_head="true" />
+				<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="NoFallDamage" />
+			</effect_group>
+		</buff>
+		<buff name="SuperJumpNormal" hidden="true">
+			<stack_type value="ignore" />
+			<duration value="0.5" />
+			<effect_group>
+				<passive_effect name="JumpStrength" operation="base_set" value="3" />
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="3" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".39" tags="perkParkour"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="5" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".75" tags="perkParkour"/>
+			</effect_group>
+		</buff>
+		<buff name="JumpPadBuffNormal" hidden="true">
+			<stack_type value="ignore" />
+			<duration value="0.5" />
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="NoFallDamage" />
+				<triggered_effect trigger="onSelfJump" action="RemoveBuff" buff="NoFallDamage" />
+				<triggered_effect trigger="onSelfJump" action="AddBuff" buff="SuperJumpNormal" />
+				<triggered_effect trigger="onSelfJump" action="PlaySound" sound="m136_fire" play_in_head="true" />
+				<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="NoFallDamage" />
+			</effect_group>
+		</buff>
+		<buff name="SuperJumpWeak" hidden="true">
+			<stack_type value="ignore" />
+			<duration value="0.5" />
+			<effect_group>
+				<passive_effect name="JumpStrength" operation="base_set" value="2" />
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="3" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".39" tags="perkParkour"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkParkour" operation="GTE" value="5" />
+				<passive_effect name="JumpStrength"  operation="perc_subtract"  value=".75" tags="perkParkour"/>
+			</effect_group>
+		</buff>
+		<buff name="JumpPadBuffWeak" hidden="true">
+			<stack_type value="ignore" />
+			<duration value="0.5" />
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="NoFallDamage" />
+				<triggered_effect trigger="onSelfJump" action="RemoveBuff" buff="NoFallDamage" />
+				<triggered_effect trigger="onSelfJump" action="AddBuff" buff="SuperJumpWeak" />
+				<triggered_effect trigger="onSelfJump" action="PlaySound" sound="m136_fire" play_in_head="true" />
+				<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="NoFallDamage" />
+			</effect_group>
+		</buff>
+	</append>
+</WrathmaniacsJumpPadAdditions>

@@ -1,0 +1,3 @@
+key,source,context,changes,english
+resourceRawCopperOreMinerChip,items,item,New,Copper Mining Chip,,,,,,,,,,,,,,,,,
+resourceSphaleriteOreMinerChip,items,item,New,Sphalerite Mining Chip,,,,,,,,,,,,,,,,,

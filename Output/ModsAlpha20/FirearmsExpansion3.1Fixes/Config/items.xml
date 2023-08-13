@@ -1,0 +1,8 @@
+<FirearmsExpansion3.1Fixes>
+	<set xpath="/items/item[@name='Thompson']/effect_group[@name='gunHandgunT3SMG5']/passive_effect[@name='MaxRange']/@value">65</set>
+
+	<append xpath="/items/item[@name='Colt1911']/property[@name='Tags']/@value">,smallTopAttachments</append>
+	<!-- 
+	<set xpath="/items/item[@name='Colt1911']/property[@class='Action1']/property[@name='ScopeCameraOffset']/@value">0.0024,0.00212,0</set>
+ 	-->
+</FirearmsExpansion3.1Fixes>

@@ -1,0 +1,78 @@
+<WrathmaniacsFirearmsExpansion4Additions>
+	<set xpath="/lootcontainers/lootgroup[@name='Colt1911']/item[@name='ammo44MagnumBulletBall']/@name">ammo45ACPBulletBall</set>
+	<set xpath="/lootcontainers/lootgroup[@name='Colt38']/item[@name='ammo9mmBulletBall']/@name">ammo45ACPBulletBall</set>
+	<set xpath="/lootcontainers/lootgroup[@name='Thompson']/item[@name='ammo44MagnumBulletBall']/@name">ammo45ACPBulletBall</set>
+	<set xpath="/lootcontainers/lootgroup[@name='HK USP']/item[@name='ammo9mmBulletBall']/@name">ammo45ACPBulletBall</set>
+	<set xpath="/lootcontainers/lootgroup[@name='P226']/item[@name='ammo9mmBulletBall']/@name">ammo45ACPBulletBall</set>
+	<set xpath="/lootcontainers/lootgroup[@name='twitch_marksmanrifle']/item[@name='ammo762mmBulletBall']/@name">ammo45ACPBulletBall</set>
+	<insertBefore xpath ="/lootcontainers/lootgroup[@name='groupScrapCommon']">
+	 	<lootgroup name="group45acpSmall">
+			<item name="ammo45ACPBulletBall" count="6,8" loot_stage_count_mod="0.01"/>
+		</lootgroup>
+	
+		<lootgroup name="group45acpMedium">
+			<item name="ammo45ACPBulletBall" count="10,20" loot_stage_count_mod="0.01"/>
+		</lootgroup>
+		
+		<lootgroup name="group45acpLarge">
+			<item name="ammo45ACPBulletBall" count="25,35" loot_stage_count_mod="0.01"/>
+		</lootgroup>
+	</insertBefore>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoSmall']">
+			<item group="group45acpSmall" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoMedium']">
+			<item group="group45acpMedium" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoSmallNoArrow']">
+			<item group="group45acpSmall" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoSmallNoArrow']">
+			<item group="group45acpMedium" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoLarge']">
+			<item group="group45acpLarge" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_perkBooks']">
+			<item name="bookEnforcer45ACPAPAmmo" />
+			<item name="bookEnforcer45ACPHPAmmo" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='perkBooksT2']">
+			<item name="bookEnforcer45ACPHPAmmo" />
+			<item name="bookEnforcer45ACPAPAmmo" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']">
+			<item name="ammo45ACPBulletBall" loot_prob_template="QuestT1Prob" count="80"  />
+			<item name="ammo45ACPBulletHP" loot_prob_template="QuestT2Prob" count="40"/>
+			<item name="ammo45ACPBulletAP" loot_prob_template="QuestT2Prob" count="40"/>
+	</append>
+
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvancedGunslinger']">
+			<item name="ammo45ACPBulletBall" loot_prob_template="QLTemplateT0" count="15,30"  />
+			<item name="ammo45ACPBulletHP" loot_prob_template="QLTemplateT1" count="10,20"/>
+			<item name="ammo45ACPBulletAP" loot_prob_template="QLTemplateT1" count="12,24"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT0']">
+		<item name="ammo45ACPBulletBall" count="6,14"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularGunslingerT2']">
+			<item name="ammo45ACPBulletBall" loot_prob_template="QLTemplateT0" count="10,20"/>
+			<item name="ammo45ACPBulletBall" loot_prob_template="QLTemplateT1" count="10,20"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularGunslingerT1']">
+			<item name="ammo45ACPBulletBall" loot_prob_template="QLTemplateT0" count="10,20"/>
+			<item name="ammo45ACPBulletBall" loot_prob_template="QLTemplateT1" count="10,20"/>
+	</append>
+</WrathmaniacsFirearmsExpansion4Additions>

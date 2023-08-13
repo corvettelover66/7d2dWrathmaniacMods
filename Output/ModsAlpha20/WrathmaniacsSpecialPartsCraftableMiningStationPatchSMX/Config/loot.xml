@@ -1,0 +1,14 @@
+<WrathmaniacsSpecialPartsCraftableMiningStationPatchSMX>
+	<append xpath="/lootcontainers/lootcontainer[@id='229']">
+			<item name="resourceSphaleriteOreMinerChip" />
+			<item name="resourceRawCopperOreMinerChip" />
+	</append>
+	<append xpath="/lootcontainers/lootcontainer[@id='230']">
+			<item name="resourceSphaleriteOreMinerChip" prob=".25"/>
+			<item name="resourceRawCopperOreMinerChip" prob=".25"/>
+	</append>
+	<append xpath="/lootcontainers/lootcontainer[@id='231']">
+			<item name="resourceSphaleriteOreMinerChip" prob=".25"/>
+			<item name="resourceRawCopperOreMinerChip" prob=".25"/>
+	</append>
+</WrathmaniacsSpecialPartsCraftableMiningStationPatchSMX>

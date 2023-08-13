@@ -1,0 +1,84 @@
+<WrathmaniacsJunkTurretOverhaul>
+	<append xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='UnlockedBy']/@value">,perkTurrets</append>
+
+	<append xpath="/items">
+		<item name="ammoJunkTurretSteel">
+			<property name="Tags" value="ammo" />
+			<property name="CustomIcon" value="ammoJunkTurretSteel" />
+			<property name="UnlockedBy" value="gunBotT2JunkTurretSchematic,perkTurrets" />
+			<property name="DisplayType" value="ammoJunkTurretRegular" />
+			<property name="HoldType" value="45" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="1000" />
+			<property name="EconomicValue" value="9" />
+			<property name="Group" value="Ammo/Weapons" />
+			<effect_group name="ammoJunkTurretSteel" tiered="false">
+				<passive_effect name="MaxRange" operation="base_set" value="15" tags="perkTurrets" />
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="10" tags="perkTurrets" />
+				<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkTurrets" />
+				<passive_effect name="EntityDamage" operation="base_set" value="25" tags="perkTurrets" />
+				<passive_effect name="BlockDamage" operation="base_set" value="1" tags="perkTurrets" />
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="105.6" tags="turretRanged" />
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5" tags="perkTurrets" />
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5" tags="perkTurrets" />
+			</effect_group>
+		</item>
+		<item name="ammoJunkTurretSteelAP">
+			<property name="Extends" value="ammoJunkTurretSteel" />
+			<property name="CustomIcon" value="ammoJunkTurretSteelAP" />
+			<property name="UnlockedBy" value="perkTechJunkie3APAmmo" />
+			<property name="DescriptionKey" value="ammoAPGroupDesc" />
+			<property name="DisplayType" value="ammoJunkTurretAP" />
+			<property name="EconomicValue" value="18" />
+			<effect_group name="ammoJunkTurretSteelAP" tiered="false">
+				<passive_effect name="MaxRange" operation="base_set" value="15" tags="perkTurrets" />
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="11" tags="perkTurrets" />
+				<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkTurrets" />
+				<passive_effect name="EntityDamage" operation="base_set" value="25" tags="perkTurrets" />
+				<passive_effect name="BlockDamage" operation="base_set" value="1" tags="perkTurrets" />
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="105.6" tags="turretRanged" />
+				<passive_effect name="TargetArmor" operation="perc_add" value="-.2" tags="perkTurrets" />
+				<display_value name="dTargetArmor" value="-.2" />
+				<passive_effect name="EntityPenetrationCount" operation="base_set" value="1" tags="perkTurrets" />
+				<display_value name="dTargetPenetration" value="1" />
+				<passive_effect name="BlockPenetrationFactor" operation="base_set" value="1" tags="perkTurrets" />
+				<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkTurrets" />
+				<display_value name="dDegradationPerUse" value=".3" />
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4" tags="perkTurrets" />
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4" tags="perkTurrets" />
+			</effect_group>
+		</item>
+		<item name="ammoBundleSteelJunkTurret">
+			<property name="Extends" value="ammoBundle9mmBulletBall" />
+			<property name="DisplayType" value="ammoBulletFake" />
+			<property name="CustomIcon" value="ammoJunkTurretSteel" />
+			<property name="EconomicValue" value="2500" />
+			<property name="UnlockedBy" value="gunBotT2JunkTurretSchematic,perkTurrets" />
+			<property class="Action0">
+				<property name="Create_item" value="ammoJunkTurretSteel" />
+				<property name="Create_item_count" value="1000" />
+			</property>
+		</item>
+		<item name="ammoBundleSteelAPJunkTurret">
+			<property name="Extends" value="ammoBundle9mmBulletBall" />
+			<property name="DisplayType" value="ammoBulletFake" />
+			<property name="CustomIcon" value="ammoJunkTurretSteelAP" />
+			<property name="EconomicValue" value="2500" />
+			<property name="UnlockedBy" value="perkTechJunkie3APAmmo" />
+			<property class="Action0">
+				<property name="Create_item" value="ammoJunkTurretSteelAP" />
+				<property name="Create_item_count" value="500" />
+			</property>
+		</item>
+	</append>
+	<set xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='MagazineSize' and @operation='base_add']/@value">10,50</set>
+	<set xpath="/items/item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">2000</set>
+	<setattribute xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='DegradationPerUse']" name="tier">1,6</setattribute>
+	<set xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='DegradationPerUse']/@value">0.4,0.3</set>
+	<append xpath="/items/item[@name='gunBotT2JunkTurretSchematic']/property[@name='Unlocks']/@value">ammoJunkTurretSteel,ammoBundleSteelJunkTurret</append>
+	<append xpath="/items/item[@name='gunBotT2JunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoJunkTurretSteel,ammoJunkTurretSteelAP</append>
+	<setattribute xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='DegradationPerUse']" name="tier">1,6</setattribute>
+	<set xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='DegradationPerUse']/@value">0.4,0.3</set>
+</WrathmaniacsJunkTurretOverhaul>

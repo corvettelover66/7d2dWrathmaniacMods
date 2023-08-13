@@ -1,0 +1,34 @@
+<WrathmaniacsFirearmsExpansion4Additions>
+	<append xpath="/recipes">
+		<recipe name="ammoBundle45ACPBulletAP" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="360">
+			<ingredient name="resourceBulletTip" count="80" />
+			<ingredient name="resourceGunPowder" count="160" />
+			<ingredient name="resourceBulletCasing" count="80" />
+		</recipe>
+		<recipe name="ammoBundle45ACPBulletHP" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="360">
+			<ingredient name="resourceBulletTip" count="160" />
+			<ingredient name="resourceGunPowder" count="80" />
+			<ingredient name="resourceBulletCasing" count="80" />
+		</recipe>
+		<recipe name="ammoBundle45ACPBulletBall" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="240">
+			<ingredient name="resourceBulletTip" count="80" />
+			<ingredient name="resourceGunPowder" count="80" />
+			<ingredient name="resourceBulletCasing" count="80" />
+		</recipe>
+		<recipe name="ammo45ACPBulletAP" count="1" tags="learnable,workbenchCrafting" craft_area="workbench">
+			<ingredient name="resourceBulletTip" count="1" />
+			<ingredient name="resourceGunPowder" count="2" />
+			<ingredient name="resourceBulletCasing" count="1" />
+		</recipe>
+		<recipe name="ammo45ACPBulletHP" count="1" tags="learnable,workbenchCrafting" craft_area="workbench">
+			<ingredient name="resourceBulletTip" count="2" />
+			<ingredient name="resourceGunPowder" count="1" />
+			<ingredient name="resourceBulletCasing" count="1" />
+		</recipe>
+		<recipe name="ammo45ACPBulletBall" count="1" tags="workbenchCrafting" craft_area="workbench">
+			<ingredient name="resourceBulletTip" count="1" />
+			<ingredient name="resourceGunPowder" count="1" />
+			<ingredient name="resourceBulletCasing" count="1" />
+		</recipe>
+	</append>
+</WrathmaniacsFirearmsExpansion4Additions>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Wrathmaniacs Zombies Attack Animals" />
+		<Description value="Simple xml edit for zombies to attack anything. Unfriendly animals will also attack prey animals." />
+		<Author value="wrathmaniac" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

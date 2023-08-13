@@ -1,0 +1,131 @@
+<WrathmaniacsImmersiveSchematicsFirearmsPatch>
+	<set xpath="/items/item[@name='ammo50BMGBulletBall']/property[@name='UnlockedBy']/@value">50BMGBulletBallSchematic,perkDeadEye</set>
+
+	<append xpath="/items/item[@name='Beretta M9']">
+			<property name="UnlockedBy"  value="Beretta M9 Schematic,perkGunslinger"/>
+	</append>
+
+	<append xpath="/items/item[@name='Beretta M92']">
+			<property name="UnlockedBy"  value="Beretta M92 Schematic,perkGunslinger"/>
+	</append>
+
+	<append xpath="/items/item[@name='Beretta NANO']">
+			<property name="UnlockedBy"  value="Beretta NANO Schematic,perkGunslinger"/>
+	</append>
+
+	<append xpath="/items/item[@name='Thompson']">
+			<property name="UnlockedBy"  value="Thompson Schematic,perkGunslinger"/>
+	</append>
+
+	<append xpath="/items/item[@name='VZ61 Skorpion']">
+			<property name="UnlockedBy"  value="VZ61 Skorpion Schematic,perkGunslinger"/>
+	</append>
+
+	<append xpath="/items/item[@name='Colt38']">
+			<property name="UnlockedBy"  value="Colt 45 Schematic"/>
+	</append>
+
+	<append xpath="/items/item[@name='AA12']">
+			<property name="UnlockedBy"  value="AA12 Schematic,perkBoomstick"/>
+	</append>
+
+	<append xpath="/items">
+		<item name="AA12 Schematic" >
+			<property name="Extends"  value="schematicMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="7aa12" />
+			<property name="Unlocks"  value="AA12" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="AA12"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+		<item name="VZ61 Skorpion Schematic" >
+			<property name="Extends"  value="schematicMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="7klob" />
+			<property name="Unlocks"  value="VZ61 Skorpion" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="VZ61 Skorpion"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="Colt 45 Schematic" >
+			<property name="Extends"  value="schematicMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="738snub" />
+			<property name="Unlocks"  value="Colt38" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Colt38"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="Beretta NANO Schematic" >
+			<property name="Extends"  value="schematicMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="7nano" />
+			<property name="Unlocks"  value="Beretta NANO" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Beretta NANO"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="Beretta M92 Schematic" >
+			<property name="Extends"  value="schematicMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="7b92" />
+			<property name="Unlocks"  value="Beretta M92" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Beretta M92"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="Beretta M9 Schematic" >
+			<property name="Extends"  value="schematicMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="7m9" />
+			<property name="Unlocks"  value="Beretta M9" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Beretta M9"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="Thompson Schematic" >
+			<property name="Extends"  value="schematicMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="7m1a1" />
+			<property name="Unlocks"  value="Thompson" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Thompson"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="M82 Barrett Schematic" >
+			<property name="Extends"  value="schematicMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="7m82" />
+			<property name="Unlocks"  value="M82 Barrett" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="M82 Barrett"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="Chaingun Schematic" >
+			<property name="Extends"  value="schematicMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="7chaingun" />
+			<property name="Unlocks"  value="Chaingun" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Chaingun"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	</append>
+</WrathmaniacsImmersiveSchematicsFirearmsPatch>

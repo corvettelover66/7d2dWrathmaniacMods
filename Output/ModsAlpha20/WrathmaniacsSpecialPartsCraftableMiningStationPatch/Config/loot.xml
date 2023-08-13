@@ -1,0 +1,6 @@
+<WrathmaniacsSpecialPartsCraftableMiningStationPatch>
+	<append xpath="/lootcontainers/lootgroup[@name='groupMiningChips']">
+			<item name="resourceRawCopperOreMinerChip"  loot_prob_template="ProbChips" />
+			<item name="resourceSphaleriteOreMinerChip"  loot_prob_template="ProbChips" />
+	</append>
+</WrathmaniacsSpecialPartsCraftableMiningStationPatch>

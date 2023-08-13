@@ -1,0 +1,3 @@
+<WrathmaniacsJunkTurretOverhaul>
+	<set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/drop[@name='carBattery']/@prob">.33</set>
+</WrathmaniacsJunkTurretOverhaul>

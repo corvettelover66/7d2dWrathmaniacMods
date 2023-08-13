@@ -1,0 +1,3 @@
+<WrathmaniacsAllPartsCraftableISC>
+	<append xpath="/progression/perks[@min_level='0']/perk[@name='perkBatterUpBaseballBats']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,meleeWpnClubT3SteelClubParts,Disassemble Steel Club Parts</append>
+</WrathmaniacsAllPartsCraftableISC>
