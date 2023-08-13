@@ -5,25 +5,25 @@
 			<ingredient name="resourceElectricParts" count="8" />
 			<ingredient name="resourceScrapPolymers" count="5" />
 			<ingredient name="glassBulletproofBlockVariantHelper" count="6" />
-			<ingredient name="resourceSolarbankParts" count="15" />
+			<ingredient name="resourceSolarbankParts" count="50" />
 		</recipe>
 		<recipe name="solarCell" count="1" tags="perkAdvancedEngineering" craft_area="workbench" craft_time="35">
 			<ingredient name="resourceForgedSteel" count="4" />
 			<ingredient name="resourceElectricParts" count="2" />
 			<ingredient name="resourceScrapPolymers" count="2" />
 			<ingredient name="glassBulletproofBlockVariantHelper" count="1" />
-			<ingredient name="resourceSolarcellParts" count="4" />
+			<ingredient name="resourceSolarcellParts" count="10" />
 		</recipe>
 		<recipe name="repairedCementMixer" count="1" craft_area="workbench" craft_time="75">
 			<ingredient name="resourceForgedIron" count="15" />
 			<ingredient name="resourceSpring" count="2" />
 			<ingredient name="smallEngine" count="1" />
 			<ingredient name="resourceMechanicalParts" count="5" />
-			<ingredient name="resourceCementMixerParts" count="10" />
+			<ingredient name="resourceCementMixerParts" count="50" />
 		</recipe>
 		<recipe name="repairedChemistryStation" count="1" craft_area="workbench" craft_time="90">
 			<ingredient name="repairedChemistryStationItems" count="1" />
-			<ingredient name="resourceChemistryStationParts" count="12" />
+			<ingredient name="resourceChemistryStationParts" count="50" />
 		</recipe>
 		<recipe name="repairedChemistryStationItems" count="1" craft_time="5">
 			<ingredient name="resourceForgedIron" count="40" />
@@ -34,7 +34,7 @@
 		</recipe>
 		<recipe name="repairedWorkbench" count="1" craft_time="60">
 			<ingredient name="repairedWorkbenchItems" count="1" />
-			<ingredient name="resourceWorkbenchParts" count="10" />
+			<ingredient name="resourceWorkbenchParts" count="50" />
 		</recipe>
 		<recipe name="repairedWorkbenchItems" count="1" craft_time="5">
 			<ingredient name="resourceForgedIron" count="20" />
@@ -45,7 +45,7 @@
 		</recipe>
 		<recipe name="repairedForge" count="1" craft_time="20">
 			<ingredient name="repairedForgeItems" count="1" />
-			<ingredient name="resourceForgeParts" count="6" />
+			<ingredient name="resourceForgeParts" count="35" />
 		</recipe>
 		<recipe name="repairedForgeItems" count="1" craft_time="5">
 			<ingredient name="resourceCobblestones" count="50" />
@@ -58,7 +58,7 @@
 			<ingredient name="resourceForgedIron" count="6" />
 			<ingredient name="resourceMechanicalParts" count="6" />
 			<ingredient name="resourceElectricParts" count="7" />
-			<ingredient name="resourceGeneratorbankParts" count="6" />
+			<ingredient name="resourceGeneratorbankParts" count="20" />
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".5,.5,.5,.3,.15" tags="resourceForgedIron,resourceMechanicalParts,resourceElectricParts" />
 			</effect_group>
@@ -67,13 +67,13 @@
 			<ingredient name="resourceForgedIron" count="6" />
 			<ingredient name="resourceElectricParts" count="7" />
 			<ingredient name="resourceScrapPolymers" count="3" />
-			<ingredient name="resourceBatterybankParts" count="8" />
+			<ingredient name="resourceBatterybankParts" count="20" />
 		</recipe>
 		<recipe name="repairedDewCollector"  count="1"  tags="learnable,workbenchCrafting" >
 			<ingredient name="resourceScrapPolymers"  count="40" />
 			<ingredient name="resourceMetalPipe"  count="2" />
 			<ingredient name="resourceDuctTape"  count="2" />
-			<ingredient name="resourceDewCollectorParts"  count="10" />
+			<ingredient name="resourceDewCollectorParts"  count="20" />
 		</recipe>
 	</append>
 </WrathmaniacsRepairedWorkstations>
