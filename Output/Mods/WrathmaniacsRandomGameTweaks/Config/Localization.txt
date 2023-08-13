@@ -1,3 +1,2 @@
-key,source,context,changes,english
-
-
+key,source,context,changes,english,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+foodT4-3,progression,Attribute,New,Tier 4: Grandpa's Learning Elixir & Can of Dog Food,Stufe 4: Großvaters Lernelexir,Nivel 4: Elixir del aprendizaje del abuelo,Échelon 4 : élixir d'apprentissage de papy,Grado 4: Elisir dell'apprendimento del nonno,ティア4：おじいちゃんの学習エリクサー,티어 4: 할아버지의 학습 영약,Poziom 4: Eliksir wiedzy dziadunia,Categoria 4: Elixir da aprendizagem do vovô,Уровень 4: дедушкин эликсир для учебы,4. Kademe: Dedenin Zihin Açan İksiri,第4级：祖父的学习妙药,第 4 層：智慧聖水
