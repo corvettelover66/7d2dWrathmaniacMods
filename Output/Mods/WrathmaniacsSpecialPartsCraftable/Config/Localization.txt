@@ -33,3 +33,7 @@ electricianT3-1,progression,Attribute,New,Tier 3: Mechanical Parts
 electricianT3-2,progression,Attribute,New,Tier 3: Scrap Polymers
 electricianT3-3,progression,Attribute,New,Tier 3: Electric Parts
 electricianT3-4,progression,Attribute,New,Tier 3: Acid
+medicalT3-1,progression,Attribute,New,Tier 3: Painkillers
+medicalT3-2,progression,Attribute,New,Tier 3: First Aid Kit
+medicalT3-3,progression,Attribute,New,Tier 3: Antibiotics
+medicalT3-4,progression,Attribute,New,Tier 3: Steroids
