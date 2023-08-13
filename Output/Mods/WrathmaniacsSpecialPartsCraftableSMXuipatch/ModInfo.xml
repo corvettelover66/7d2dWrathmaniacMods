@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Wrathmaniacs Special Parts Craftable SMXui patch" />
+		<Description value="Small patch to make the new tool appear cleaner on the campfire." />
+		<Author value="wrathmaniac" />
+		<Version value="2.2SMX" />
+	</ModInfo>
+</xml>
