@@ -1,5 +1,0 @@
-Changed the 55.6 ap and hp unlocks to be their own books and add them as perk unlocks.
-
-Kept original maching gunner books that were removed.
-
-Removed the ak47 55.6 set
