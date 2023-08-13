@@ -3,6 +3,34 @@ Alpha 20:
 Notes 5/13/2023
 
 
+TODO:
+
+Add localization IRO dew collectors.
+
+Fix pictures Repaired Worstations
+
+=============================================================
+Better Starting Items
+=============================================================
+
+Increased painkillers from 5 to 6 for Shotgunner, Pistoler, archer and rifleman.
+
+Incresed bandages (5 -> 7) and painkillers (2 -> 3) for Machine Gunner.
+
+=============================================================
+Item Repairing Overhaul
+=============================================================
+Just some cleanup. 
+
+
+=============================================================
+Medical Additions:
+=============================================================
+Removed painkiller schematics.
+
+Added the correct progressions.
+
+
 =============================================================
 ISC:
 =============================================================
@@ -106,20 +134,19 @@ Split into a single file where a player can choose in game.
 All Parts Craftable
 =============================================================
 
-TODO!!!!!!!!!
+Updated for A21
 
-=======
-PATCHES:
+Tied the unlocks to the first appropriate weapon unlock. For example. Unlocking the double barrel shotgun also unlocks the parts. 
 
-	Firearms -
-		Adds the needed parts unlocks to the schematics for the guns added by the mod.
+Modified the localization to put disassembled AFTER the part name so that the disassembled parts are just below their counterpart in the building menu.
 
-=======
-
+Fixed a few disassembled recipe localizations to better match the name of the part.
 
 =============================================================
 Repaired Workstation
 =============================================================
+
+TODO: Update the 'Items' images to match the resources used.
 
 Updated all icons to use new pictures.
 
