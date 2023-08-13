@@ -4,6 +4,6 @@
 		<Name value="Junk Turret Overhaul (A21)" />
 		<Description value="Overhaul of the junk turret. Including a new ammo type. LOG: Moved steel ammo to the advanced ammo lootgroup." />
 		<Author value="Wrathmaniac" />
-		<Version value="JTO-1.0.a.21" />
+		<Version value="JTO-1.1.a.21" />
 	</ModInfo>
 </xml>
