@@ -61,8 +61,8 @@
 			<property name="ItemTypeIcon"  value="bundle" />
 			<property name="CustomIcon"  value="resourceRepairKit" />
 			<property name="DescriptionKey"  value="startingItemPieceDesc" />
-			<property name="Meshfile"  value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile"  value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material"  value="Mpaper" />
 			<property name="Stacknumber"  value="200" />
 			<property name="FuelValue"  value="1" />

@@ -5,8 +5,8 @@
 			<property name="ItemTypeIcon" value="bundle" />
 			<property name="CustomIcon" value="workbench" />
 			<property name="DescriptionKey" value="repairedWorkbenchDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Miron" />
 			<property name="Stacknumber" value="5" />
 			<property name="EconomicValue" value="5000" />
@@ -37,10 +37,10 @@
 			<property name="HoldType" value="45" />
 			<property name="CustomIcon" value="repairedWorkbenchItems" />
 			<property name="DescriptionKey" value="repairedWorkbenchItemsDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
 			<property name="NoScrapping" value="true" />
 			<property name="Material" value="Miron" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Weight" value="1" />
 			<property name="Stacknumber" value="5" />
 			<property name="EconomicValue" value="1000" />
@@ -86,10 +86,10 @@
 			<property name="HoldType" value="45" />
 			<property name="CustomIcon" value="repairedChemistryStationItems" />
 			<property name="DescriptionKey" value="repairedWorkbenchItemsDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
 			<property name="NoScrapping" value="true" />
 			<property name="Material" value="Miron" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Weight" value="1" />
 			<property name="Stacknumber" value="5" />
 			<property name="EconomicValue" value="1500" />
@@ -123,10 +123,10 @@
 			<property name="HoldType" value="45" />
 			<property name="CustomIcon" value="repairedForgeItems" />
 			<property name="DescriptionKey" value="repairedWorkbenchItemsDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
 			<property name="NoScrapping" value="true" />
 			<property name="Material" value="Miron" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Weight" value="1" />
 			<property name="Stacknumber" value="5" />
 			<property name="EconomicValue" value="750" />
@@ -149,8 +149,8 @@
 			<property name="CustomIcon" value="resourceWorkbenchParts" />
 			<property name="DescriptionKey" value="resourceWorkbenchPartsDesc" />
 			<property name="PickupJournalEntry" value="resourceWorkbenchPartsTooltip" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Miron" />
 			<property name="Stacknumber" value="200" />
 			<property name="EconomicValue" value="800" />

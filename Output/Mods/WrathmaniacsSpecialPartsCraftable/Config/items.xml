@@ -8,8 +8,8 @@
 			<property name="ItemTypeIcon" value="bundle" />
 			<property name="DescriptionKey" value="dissassembleItemGroupDesc" />
 			<property name="HoldType" value="45" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Msteel" />
 			<property name="Stacknumber" value="30000" />
 			<property name="Weight" value="0" />
@@ -33,10 +33,10 @@
 			<property name="HoldType" value="45" />
 			<property name="CustomIcon" value="allChemistryStationTools" />
 			<property name="DescriptionKey" value="allChemistryStationToolsDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
 			<property name="NoScrapping" value="true"/>
 			<property name="Material" value="Miron" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Weight" value="1" />
 			<property name="Stacknumber" value="5" />
 			<property name="EconomicValue" value="10" />
@@ -47,8 +47,8 @@
 			<property name="HoldType" value="45" />
 			<property name="CustomIcon" value="resourceRawCopperMix" />
 			<property name="DescriptionKey" value="resourceRawCopperMixDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="MresourceCrushedSand" />
 			<property name="NoScrapping" value="true"/>
 			<property name="Weight" value="1" />
@@ -63,8 +63,8 @@
 			<property name="CustomIcon" value="resourceZinc" />
 			<property name="DescriptionKey" value="resourceZincDesc" />
 			<property name="UnlockedBy" value="craftingElectrician" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Mmetal" />
 			<property name="NoScrapping" value="true"/>
 			<property name="Weight" value="1" />
@@ -76,9 +76,9 @@
 		<item name="toolLeadSilverAnode">
 			<property name="HoldType" value="45" />
 			<property name="Tags" value="junk" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
 			<property name="NoScrapping" value="true"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Mmetal" />
 			<property name="UnlockedBy" value="craftingWorkstations" />
 			<property name="DescriptionKey" value="toolLeadSilverAnodeDesc" />
@@ -91,8 +91,8 @@
 			<property name="HoldType" value="45" />
 			<property name="CustomIcon" value="resourceSphalerite" />
 			<property name="DescriptionKey" value="resourceSphaleriteDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="NoScrapping" value="true"/>
 			<property name="Material" value="Mmetal" />
 			<property name="Weight" value="1" />
@@ -110,8 +110,8 @@
 			<property name="Tags" value="junk"/>
 			<property name="CustomIcon" value="resourceRefinedCopper" />
 			<property name="DescriptionKey" value="resourceRefinedCopperDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="UnlockedBy" value="craftingElectrician" />
 			<property name="Material" value="MresourceScrapCopper" />
 			<property name="NoScrapping" value="true"/>
@@ -126,8 +126,8 @@
 			<property name="HoldType" value="45" />
 			<property name="CustomIcon" value="resourceRawCopper" />
 			<property name="DescriptionKey" value="resourceRawCopperDesc" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="PickupJournalEntry"  value="resourceRawCopperToolTip" />
 			<property name="Material" value="MresourceScrapCopper" />
 			<property name="NoScrapping" value="true"/>

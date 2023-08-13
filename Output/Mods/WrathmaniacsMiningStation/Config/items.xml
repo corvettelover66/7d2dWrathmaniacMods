@@ -6,8 +6,8 @@
 			<property name="DescriptionKey" value="resourceIronOreMinerChipDesc" />
 			<property name="PickupJournalEntry" value="resourceIronOreMinerChipToolTip"/>
 			<property name="Tags" value="junk" />
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab" />
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab" />
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="MelectricParts" />
 			<property name="Weight" value="1" />
 			<property name="Stacknumber" value="1" />
