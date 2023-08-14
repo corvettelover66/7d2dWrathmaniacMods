@@ -4,6 +4,6 @@
 		<Name value="Item Repairing Overhaul" />
 		<Description value="Changes the way special items are repaired, forcing the player to be more mindful of weapon and vehicle use and available parts. Also, forces Junk Turrets to use batteries to be crafted and repaired. " />
 		<Author value="wrathmaniac" />
-		<Version value="IRO-1.4.a.21" />
+		<Version value="IRO-1.4.1.a.21" />
 	</ModInfo>
 </xml>
