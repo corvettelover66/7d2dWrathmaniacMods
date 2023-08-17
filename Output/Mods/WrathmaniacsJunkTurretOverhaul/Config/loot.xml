@@ -1,4 +1,6 @@
 <WrathmaniacsJunkTurretOverhaul>
+	<!-- WARNING: Junk turret repair kit is named differently between this and IRO-->
+
 	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupScrapCommon']">
 		<lootgroup name="groupJunkTurretSteelLarge" >
 			<item name="ammoJunkTurretSteel"  count="20,30"  loot_stage_count_mod="0.01" />
@@ -29,11 +31,11 @@
 	</append>
 
 	<append xpath="/lootcontainers/lootgroup[@name='groupShotgunMessiahCrate04']">
-			<item name="resourceBotPartsRepairKit"  count="1"  loot_prob_template="med" />
+			<item name="resourceJunkTurretRepairKit"  count="1"  loot_prob_template="med" />
 	</append>
 
 	<append xpath="/lootcontainers/lootgroup[@name='groupRobotics']">
-			<item name="resourceBotPartsRepairKit"  count="1"  loot_prob_template="med" />
+			<item name="resourceJunkTurretRepairKit"  count="1"  loot_prob_template="med" />
 	</append>
 <!-- 
 <setattribute xpath="/lootcontainers/lootgroup[@name='automotive']/item[@name='carBattery']" name="prob">0.37</setattribute>
