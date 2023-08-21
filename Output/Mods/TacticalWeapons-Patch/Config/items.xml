@@ -1,0 +1,83 @@
+<TacticalWeapons-Patch>
+	<append xpath="/items/item[@name='MGL140']/property[@name='Tags']/@value">,explosivesSkill</append>
+
+	<append xpath="/items/item[@name='ChinaLake']/property[@name='Tags']/@value">,explosivesSkill</append>
+
+	<append xpath="/items/item[@name='M79']/property[@name='Tags']/@value">,explosivesSkill</append>
+
+	<append xpath="/items/item[@name='M82a1']/property[@name='Tags']/@value">,rifleSkill</append>
+
+	<append xpath="/items/item[@name='MSG90A1']/property[@name='Tags']/@value">,rifleSkill</append>
+
+	<append xpath="/items/item[@name='AWP']/property[@name='Tags']/@value">,rifleSkill</append>
+
+	<append xpath="/items/item[@name='Kar98K']/property[@name='Tags']/@value">,rifleSkill</append>
+
+	<append xpath="/items/item[@name='M14EBR']/property[@name='Tags']/@value">,rifleSkill</append>
+
+	<append xpath="/items/item[@name='M1Garand']/property[@name='Tags']/@value">,rifleSkill</append>
+
+	<append xpath="/items/item[@name='M110']/property[@name='Tags']/@value">,rifleSkill</append>
+
+	<append xpath="/items/item[@name='WinchesterM1894']/property[@name='Tags']/@value">,rifleSkill</append>
+
+	<append xpath="/items/item[@name='gatling']/property[@name='Tags']/@value">,machinegunSkill</append>
+
+	<append xpath="/items/item[@name='M249']/property[@name='Tags']/@value">,machinegunSkill</append>
+
+	<append xpath="/items/item[@name='M60E4']/property[@name='Tags']/@value">,machinegunSkill</append>
+	
+	<append xpath="/items/item[@name='M16A4']/property[@name='Tags']/@value">,machinegunSkill</append>
+
+	<append xpath="/items/item[@name='SA58OSW']/property[@name='Tags']/@value">,machinegunSkill</append>
+
+	<append xpath="/items/item[@name='SCAR_H']/property[@name='Tags']/@value">,machinegunSkill</append>
+
+	<append xpath="/items/item[@name='SCAR_L']/property[@name='Tags']/@value">,machinegunSkill</append>
+
+	<append xpath="/items/item[@name='G36KV']/property[@name='Tags']/@value">,machinegunSkill</append>
+
+	<append xpath="/items/item[@name='AUG_A3']/property[@name='Tags']/@value">,machinegunSkill</append>
+
+	<append xpath="/items/item[@name='HK416']/property[@name='Tags']/@value">,machinegunSkill</append>
+
+	<append xpath="/items/item[@name='M4A1']/property[@name='Tags']/@value">,machinegunSkill</append>
+
+	<append xpath="/items/item[@name='ACR']/property[@name='Tags']/@value">,machinegunSkill</append>
+
+	<append xpath="/items/item[@name='AA12']/property[@name='Tags']/@value">,shotgunSkill</append>
+
+	<append xpath="/items/item[@name='Saiga12K']/property[@name='Tags']/@value">,shotgunSkill</append>
+
+	<append xpath="/items/item[@name='s686']/property[@name='Tags']/@value">,shotgunSkill</append>
+
+	<append xpath="/items/item[@name='SPAS12']/property[@name='Tags']/@value">,shotgunSkill</append>
+
+	<append xpath="/items/item[@name='M4Super90']/property[@name='Tags']/@value">,shotgunSkill</append>
+
+	<append xpath="/items/item[@name='KRISS_Vector']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='UMP']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='MP5SD']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='MP5N']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='Colt_M1873']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='RagingBull']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='DesertEagle']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='Glock18c']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='Beretta93R']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='P99']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='USP9']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='Colt1911']/property[@name='Tags']/@value">,handgunSkill</append>
+
+	<append xpath="/items/item[@name='MK23']/property[@name='Tags']/@value">,handgunSkill</append>
+</TacticalWeapons-Patch>

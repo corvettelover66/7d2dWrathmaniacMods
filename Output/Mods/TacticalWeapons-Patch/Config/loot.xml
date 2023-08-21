@@ -1,0 +1,148 @@
+<TacticalWeapons-Patch>
+	<append xpath="/lootcontainers/lootgroup[@name='groupMilitaryFootlocker02']">
+			<item loot_prob_template="veryLow"  group="TAWeaponsT0_PsT" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToilet02']">
+			<item loot_prob_template="veryLow"  group="TAWeaponsT0_PsT" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupDesks02']">
+			<item loot_prob_template="veryLow"  group="TAWeaponsT0_PsT" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupNightstand02']">
+			<item loot_prob_template="veryLow"  group="TAWeaponsT0_PsT" />
+	</append>
+
+    <insertBefore xpath="/lootcontainers/lootgroup[@name='groupScrapCommon']">
+        <lootgroup name="group45ACPSmall" >
+            <item name="ammo45ACP"  count="4,6"  loot_stage_count_mod="0.01" />
+        </lootgroup>
+        
+        <lootgroup name="group45ACPMedium" >
+            <item name="ammo45ACP"  count="8,12"  loot_stage_count_mod="0.01" />
+        </lootgroup>
+        
+        <lootgroup name="group45ACPLarge" >
+            <item name="ammo45ACP"  count="16,26"  loot_stage_count_mod="0.01" />
+        </lootgroup>
+        
+        <lootgroup name="group556mmSmall" >
+            <item name="ammo556FMJ"  count="5,7"  loot_stage_count_mod="0.01" />
+        </lootgroup>
+        
+        <lootgroup name="group556mmMedium" >
+            <item name="ammo556FMJ"  count="8,15"  loot_stage_count_mod="0.01" />
+        </lootgroup>
+        <lootgroup name="group556mmLarge" >
+            <item name="ammo556FMJ"  count="20,30"  loot_stage_count_mod="0.01" />
+        </lootgroup>
+    </insertBefore>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupAmmoLarge']">
+            <item group="group45ACPLarge" />
+            <item group="group556mmLarge" />
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupAmmoMediumNoArrow']">
+            <item group="group45ACPMedium" />
+            <item group="group556mmMedium" />
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupAmmoSmallNoArrow']">
+            <item group="group556mmSmall" />
+            <item group="group45ACPSmall" />
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupAmmoMedium']">
+            <item group="group45ACPMedium" />
+            <item group="group556mmMedium" />
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupAmmoSmall']">
+            <item group="group556mmSmall" />
+            <item group="group45ACPSmall" />
+    </append>
+
+    <!-- Machine Guns -->
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Machinegunner']">            
+            <item group="TAWeaponsT0_AR" />
+    </append>
+    
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Machinegunner']">            
+            <item group="TAWeaponsT1_AR" />
+    </append>
+    
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Machinegunner']">            
+            <item group="TAWeaponsT2_AR" />
+    </append>
+    
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Machinegunner']">
+            <item group="TAWeaponsT3_AR" />
+    </append>
+    
+    <!-- Shotguns -->
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Boomstick']">
+            <item group="TAWeaponsT0_STG" />
+    </append>
+    
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Boomstick']">
+            <item group="TAWeaponsT1_STG" />
+    </append>
+    
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Boomstick']">
+            <item group="TAWeaponsT2_STG" />
+    </append>    
+    
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Boomstick']">
+            <item group="TAWeaponsT3_STG" />
+    </append>
+    
+    <!-- Rifles -->
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_DeadEye']">
+            <item group="TAWeaponsT0_DMR" />
+    </append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_DeadEye']">
+            <item group="TAWeaponsT1_DMR" />
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_DeadEye']">
+            <item group="TAWeaponsT2_DMR" />
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_DeadEye']">
+            <item group="TAWeaponsT3_DMR" />
+    </append>
+
+    <!-- Pistols -->
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Gunslinger']">
+ 		<item group="TAWeaponsT0_PsT" />
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Gunslinger']">
+ 		<item group="TAWeaponsT1_PsT" />
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Gunslinger']">
+		<item group="TAWeaponsT2_PsT" />
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Gunslinger']">
+		<item group="TAWeaponsT3_PsT" />
+    </append>
+    <!-- Explosives -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Demolitionist']">
+			<item group="TAWeaponsT1_GLA" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Demolitionist']">
+			<item group="TAWeaponsT2_GLA" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Demolitionist01']">
+			<item group="TAWeaponsT3_GLA" />
+	</append>
+
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Demolitionist']" name="loot_quality_template">QLTemplateT1</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Demolitionist']" name="loot_quality_template">QLTemplateT2</setattribute>
+</TacticalWeapons-Patch>
