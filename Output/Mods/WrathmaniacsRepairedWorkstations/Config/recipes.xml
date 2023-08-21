@@ -5,7 +5,7 @@
 			<ingredient name="resourceElectricParts" count="8" />
 			<ingredient name="resourceScrapPolymers" count="5" />
 			<ingredient name="glassBulletproofBlockVariantHelper" count="6" />
-			<ingredient name="resourceSolarbankParts" count="50" />
+			<ingredient name="resourceSolarbankParts" count="40" />
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".5,.5,.5,.3,.15" tags="resourceSolarbankParts" />
 			</effect_group>
@@ -25,14 +25,14 @@
 			<ingredient name="resourceSpring" count="2" />
 			<ingredient name="smallEngine" count="1" />
 			<ingredient name="resourceMechanicalParts" count="5" />
-			<ingredient name="resourceCementMixerParts" count="50" />
+			<ingredient name="resourceCementMixerParts" count="25" />
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".5,.5,.5,.3,.15" tags="resourceCementMixerParts" />
 			</effect_group>
 		</recipe>
 		<recipe name="repairedChemistryStation" count="1" craft_area="workbench" craft_time="90" tags="perkAdvancedEngineering">
 			<ingredient name="repairedChemistryStationItems" count="1" />
-			<ingredient name="resourceChemistryStationParts" count="50" />
+			<ingredient name="resourceChemistryStationParts" count="35" />
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".5,.5,.5,.3,.15" tags="resourceChemistryStationParts" />
 			</effect_group>
@@ -46,7 +46,7 @@
 		</recipe>
 		<recipe name="repairedWorkbench" count="1" craft_time="60" tags="perkAdvancedEngineering">
 			<ingredient name="repairedWorkbenchItems" count="1" />
-			<ingredient name="resourceWorkbenchParts" count="50" />
+			<ingredient name="resourceWorkbenchParts" count="25" />
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".5,.5,.5,.3,.15" tags="resourceWorkbenchParts" />
 			</effect_group>
@@ -60,7 +60,7 @@
 		</recipe>
 		<recipe name="repairedForge" count="1" craft_time="20" tags="perkAdvancedEngineering">
 			<ingredient name="repairedForgeItems" count="1" />
-			<ingredient name="resourceForgeParts" count="35" />
+			<ingredient name="resourceForgeParts" count="20" />
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".5,.5,.5,.3,.15" tags="resourceForgeParts" />
 			</effect_group>
@@ -76,7 +76,7 @@
 			<ingredient name="resourceForgedIron" count="6" />
 			<ingredient name="resourceMechanicalParts" count="6" />
 			<ingredient name="resourceElectricParts" count="7" />
-			<ingredient name="resourceGeneratorbankParts" count="20" />
+			<ingredient name="resourceGeneratorbankParts" count="15" />
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount"  operation="perc_add"  level="0,1,2,3,4"  value=".56,.56,.56,.34,.15"  tags="resourceForgedIron,resourceMechanicalParts,resourceElectricParts,resourceGeneratorbankParts" />
 			</effect_group>
@@ -85,7 +85,7 @@
 			<ingredient name="resourceForgedIron" count="6" />
 			<ingredient name="resourceElectricParts" count="7" />
 			<ingredient name="resourceScrapPolymers" count="3" />
-			<ingredient name="resourceBatterybankParts" count="20" />
+			<ingredient name="resourceBatterybankParts" count="15" />
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".5,.5,.5,.3,.15" tags="resourceBatterybankParts" />
 			</effect_group>
@@ -94,7 +94,7 @@
 			<ingredient name="resourceScrapPolymers"  count="40" />
 			<ingredient name="resourceMetalPipe"  count="2" />
 			<ingredient name="resourceDuctTape"  count="2" />
-			<ingredient name="resourceDewCollectorParts"  count="20" />
+			<ingredient name="resourceDewCollectorParts"  count="15" />
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".5,.5,.5,.3,.15" tags="resourceDewCollectorParts" />
 			</effect_group>

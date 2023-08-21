@@ -1,0 +1,8 @@
+<ZZZWrathmaniacsIROWeaponPatcher>
+	<set xpath="/items/item[not(contains(@name,'T0'))]/property[@name='Tags' and contains(@value,'perkGunslinger')]/../property[@name='RepairTools']/@value">resourceHandgunPartsRepairKit</set>
+	<set xpath="/items/item[not(contains(@name,'T0'))]/property[@name='Tags' and contains(@value,'perkDemolitionsExpert')]/../property[@name='RepairTools']/@value">resourceExplosivesPartsRepairKit</set>
+	<set xpath="/items/item[not(contains(@name,'T0'))]/property[@name='Tags' and contains(@value,'perkArchery')]/../property[@name='RepairTools']/@value">resourceBowPartsRepairKit</set>
+	<set xpath="/items/item[not(contains(@name,'T0'))]/property[@name='Tags' and contains(@value,'perkBoomstick')]/../property[@name='RepairTools']/@value">resourceShotgunPartsRepairKit</set>
+	<set xpath="/items/item[not(contains(@name,'T0'))]/property[@name='Tags' and contains(@value,'perkDeadEye')]/../property[@name='RepairTools']/@value">resourceRiflePartsRepairKit</set>
+	<set xpath="/items/item[not(contains(@name,'T0'))]/property[@name='Tags' and contains(@value,'perkMachineGunner')]/../property[@name='RepairTools']/@value">resourceMGPartsRepairKit</set>
+ </ZZZWrathmaniacsIROWeaponPatcher>
