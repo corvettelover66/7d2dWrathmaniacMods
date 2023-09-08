@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Better Starting Items Archer(A21)" />
-		<Description value="Replaces the starting items with a backpack that contains better starting items for a modded A20. Archer, Pistoler, Shotgunner, MachineGunner, or Rifleman" />
-		<Author value="wrathmaniac" />
-		<Version value="WBSI-1.1.a.21" />
-	</ModInfo>
+	<Name value="Better Starting Items Archer" />
+	<DisplayName value="WrathmaniacsBetterStartingItems" />
+	<Version value="1.1.0.21" />
+	<Description value="Replaces the starting items with a backpack that contains better starting items for a modded A20. Archer, Pistoler, Shotgunner, MachineGunner, or Rifleman" />
+	<Author value="wrathmaniac" />
+	<Website value="" />
 </xml>

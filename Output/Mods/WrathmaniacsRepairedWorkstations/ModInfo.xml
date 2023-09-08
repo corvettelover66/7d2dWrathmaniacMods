@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Repaired Workstations (Alpha 21)" />
-		<Description value="Allows you to craft any workstation using any found broken or working workstation (i.e. workbench, cement mixer, ect.) " />
-		<Author value="wrathmaniac" />
-		<Version value="RW-1.2.a.21" />
-	</ModInfo>
+	<Name value="Repaired Workstations" />
+	<DisplayName value="WrathmaniacsRepairedWorkstations" />
+	<Version value="1.2.0.21" />
+	<Description value="Allows you to craft any workstation using any found broken or working workstation (i.e. workbench, cement mixer, ect.) " />
+	<Author value="wrathmaniac" />
+	<Website value="" />
 </xml>

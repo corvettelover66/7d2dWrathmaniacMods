@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="All Parts Craftable Firearms Patch (A19)(F3.1)" />
-		<Description value="All Parts items can be crafted. Specfically patches Firearm's weapon schematics with parts unlocks. " />
-		<Author value="wrathmaniac" />
-		<Version value="1.1FP" />
-	</ModInfo>
+	<Name value="All Parts Craftable Firearms Patch (A19)(F3.1)" />
+	<DisplayName value="WrathmaniacsAllPartsCraftableZFirearmsPatch" />
+	<Version value="1.1FP" />
+	<Description value="All Parts items can be crafted. Specfically patches Firearm's weapon schematics with parts unlocks. " />
+	<Author value="wrathmaniac" />
+	<Website value="" />
 </xml>
