@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Wrathmaniacs Special Parts Craftable Mining Station Patch" />
-		<Description value="Adds copper and spalerite to the mining station." />
-		<Author value="wrathmaniac" />
-		<Version value="SPCMSP-1.0.a.21" />
-	</ModInfo>
+	<Name value="Wrathmaniacs Special Parts Craftable Mining Station Patch" />
+	<DisplayName value="WrathmaniacsSpecialPartsCraftableMiningStationPatch" />
+	<Version value="1.0.0.21" />
+	<Description value="Adds copper and spalerite to the mining station." />
+	<Author value="wrathmaniac" />
+	<Website value="" />
 </xml>

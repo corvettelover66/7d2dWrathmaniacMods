@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Wrathmaniacs Zombies Attack Animals" />
+	<DisplayName value="WrathmaniacsUnfriendliesAttackAnimals" />
+	<Version value="1.0" />
+	<Description value="Simple xml edit for zombies to attack anything. Unfriendly animals will also attack prey animals." />
+	<Author value="wrathmaniac" />
+	<Website value="" />
+</xml>

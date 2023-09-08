@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Wrathmaniacs Mining Station SMX UI Patch" />
-		<Description value="Small patch to make the mod work with SMX UI." />
-		<Author value="wrathmaniac" />
-		<Version value="1.0" />
-	</ModInfo>
+	<Name value="Wrathmaniacs Mining Station SMX UI Patch" />
+	<DisplayName value="WrathmaniacsMiningStationSMXUIPatch" />
+	<Version value="1.0" />
+	<Description value="Small patch to make the mod work with SMX UI." />
+	<Author value="wrathmaniac" />
+	<Website value="" />
 </xml>
