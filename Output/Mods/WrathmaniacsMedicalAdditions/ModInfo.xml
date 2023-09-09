@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="Medical Additions" />
+	<Name value="Medical Additions (A21)" />
 	<DisplayName value="WrathmaniacsMedicalAdditions" />
-	<Version value="1.2.0.21" />
+	<Version value="1.2.a.21" />
 	<Description value="Some general medical tweaks. See nexus for more details." />
 	<Author value="Wrathmaniac" />
 	<Website value="" />

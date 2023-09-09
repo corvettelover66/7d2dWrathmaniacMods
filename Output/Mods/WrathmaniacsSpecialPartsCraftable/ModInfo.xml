@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="Special Parts Craftable" />
+	<Name value="SpecialPartsCraftable" />
 	<DisplayName value="WrathmaniacsSpecialPartsCraftable" />
 	<Version value="1.2.0.21" />
 	<Description value="Adds a unique way to craft important special parts. Recipes can be unlocked with perks. " />

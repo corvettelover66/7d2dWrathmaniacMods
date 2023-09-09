@@ -1,5 +1,4 @@
 <WrathmaniacsJunkTurretOverhaulIRO>
-<!-- 
 	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupScrapCommon']">
 		<lootgroup name="groupJunkTurretSteelLarge" >
 			<item name="ammoJunkTurretSteel"  count="20,30"  loot_stage_count_mod="0.01" />
@@ -23,7 +22,7 @@
 	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoLarge']">
 			<item group="groupJunkTurretSteelLarge" />
 	</append>
--->
+
 	<append xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']">
 			<item name="ammoJunkTurretSteel"  count="60"  loot_prob_template="QuestT1Prob" />
 			<item name="ammoJunkTurretSteelAP"  count="45"  loot_prob_template="QuestT2Prob" />

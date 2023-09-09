@@ -2,7 +2,7 @@
 	<append xpath="/recipes">
 		<recipe name="medicalFirstAidBandage" count="1" tags="learnable" craft_time="3">
 			<ingredient name="medicalAloeCream" count="1" />
-			<ingredient name="resourceCloth" count="2" />
+			<ingredient name="resourceCloth" count="10" />
 		</recipe>
 		<recipe name="drugPainkillers" count="1" tags="learnable,chemStationCrafting" craft_area="chemistryStation" craft_time="30">
 			<ingredient name="resourceBone" count="1" />
