@@ -37,3 +37,6 @@ medicalT3-1,progression,Attribute,New,Tier 3: Painkillers
 medicalT3-2,progression,Attribute,New,Tier 3: First Aid Kit
 medicalT3-3,progression,Attribute,New,Tier 3: Antibiotics
 medicalT3-4,progression,Attribute,New,Tier 3: Steroids
+workstationsT4-1,progression,Attribute,New,Tier 4: Chemistry Station
+workstationsT4-2,progression,Attribute,New,Tier 4: Beaker
+workstationsT4-3,progression,Attribute,New,Tier 4: Lead and Silver Anode

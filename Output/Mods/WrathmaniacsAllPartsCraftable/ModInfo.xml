@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="All Parts Craftable" />
+	<Name value="AllPartsCraftable" />
 	<DisplayName value="WrathmaniacsAllPartsCraftable" />
 	<Version value="1.3.0.21" />
 	<Description value="All Parts items can be crafted. Though not for free, all are locked behind perks and/or books. " />

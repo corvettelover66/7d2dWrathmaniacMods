@@ -1,16 +1,20 @@
 <WrathmaniacsSpecialPartsCraftable>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']">
-			<unlock_entry item="toolLeadSilverAnode"  unlock_tier="2" />
+			<unlock_entry item="toolBeaker"  unlock_tier="2" />
+			<unlock_entry item="toolLeadSilverAnode"  unlock_tier="3" />
 	</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']">
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="55,100"  value="1"  tags="toolLeadSilverAnode"/>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="52,100"  value="1"  tags="toolBeaker"/>
 			</effect_group>
 	</append>
 
-	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@unlock_level">,55</append>
-	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@icon">,toolLeadSilverAnode</append>
-	
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@unlock_level">,52,55</append>
+	<!-- Must be set before the icon is changed -->
+	<set xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@name_key">workstationsT4-1,workstationsT4-2,workstationsT4-3</set>
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@icon">,toolBeaker,toolLeadSilverAnode</append>
+		
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingElectrician']/display_entry[@icon='motionsensor']">
 		<unlock_entry item="resourceSpring"  unlock_tier="2" />
 		<unlock_entry item="resourceRefinedCopper"  unlock_tier="3" />

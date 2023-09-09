@@ -131,7 +131,7 @@
 	<set xpath="/items/item[@name='armorMilitaryMaster']/property[@name='RepairTools']/@value">resourceMilitarySetPartsRepairKit</set>
 	<!-- covers impact driver, auger, chainsaw -->
 	<set xpath="/items/item[contains(@name,'meleeTool') and contains(@name,'T3') and not(contains(@name,'Nailgun')) ]/property[@name='RepairTools']/@value">resourceToolAxePartsRepairKit</set>
+	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='RepairAmount']/@value">100000</set>
 	<!-- I need to overwrite the repair kits AFTER setting the others, this will ensure only basic items get affected-->
-	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='RepairAmount']/@value">64000</set>
 	<set xpath="/items/item/property[@value='resourceRepairKit']/@value">resourceNormalRepairKit</set>
 </WrathmaniacsItemRepairingOverhaul>

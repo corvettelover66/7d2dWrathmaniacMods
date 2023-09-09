@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="Medical Additions" />
+	<Name value="MedicalAdditions" />
 	<DisplayName value="WrathmaniacsMedicalAdditions" />
 	<Version value="1.2.0.21" />
 	<Description value="Some general medical tweaks. See nexus for more details." />
