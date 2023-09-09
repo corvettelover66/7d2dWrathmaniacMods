@@ -3,7 +3,7 @@
 	<Name value="Wrathmaniacs Lockslots Patch" />
 	<DisplayName value="WrathmaniacsLockSlot" />
 	<Version value="1.0.0.21" />
-	<Description value="Small Patch to add a the locking mechanism" />
+	<Description value="Small Patch to add a locking mechanism to the player inventory." />
 	<Author value="wrathmaniac" />
 	<Website value="" />
 </xml>
