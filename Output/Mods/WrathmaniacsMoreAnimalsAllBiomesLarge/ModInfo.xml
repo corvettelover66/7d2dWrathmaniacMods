@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="More Animals All Biomes Large (A19Experimental)" />
+	<Name value="More Animals All Biomes Large" />
 	<DisplayName value="WrathmaniacsMoreAnimalsAllBiomesLarge" />
-	<Version value="MAAB-1.0" />
+	<Version value="1.0" />
 	<Description value="Adds more animal spawns per biome friendly and enemy! Medium Friendly 5 Enemy 4." />
 	<Author value="Wrathmaniac" />
 	<Website value="" />
