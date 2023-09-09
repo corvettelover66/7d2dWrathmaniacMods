@@ -2,7 +2,7 @@
 <xml>
 	<Name value="Item Repairing Overhaul" />
 	<DisplayName value="WrathmaniacsItemRepairingOverhaul" />
-	<Version value="IRO-1.5.a.21" />
+	<Version value="1.5.0.21" />
 	<Description value="Changes the way special items are repaired, forcing the player to be more mindful of weapon and vehicle use and available parts. Also, forces Junk Turrets to use batteries to be crafted and repaired. " />
 	<Author value="wrathmaniac" />
 	<Website value="" />
