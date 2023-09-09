@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="Random Game Tweaks/Balances (A21)" />
+	<Name value="RandomGameTweaksAndBalances" />
 	<DisplayName value="WrathmaniacsRandomGameTweaks" />
-	<Version value="RGT-1.0.a.21" />
+	<Version value="1.0.0.21" />
 	<Description value="Just a bunch of various tweaks to the game." />
 	<Author value="Wrathmaniac" />
 	<Website value="" />

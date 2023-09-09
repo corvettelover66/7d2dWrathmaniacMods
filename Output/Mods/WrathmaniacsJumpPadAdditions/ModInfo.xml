@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="Wrathmaniac's Jump Pad Additions" />
+	<Name value="WrathmaniacsJumpPadAdditions" />
 	<DisplayName value="WrathmaniacsJumpPadAdditions" />
-	<Version value="JPA-1.1" />
+	<Version value="1.1" />
 	<Description value="Adds multiple strength jump pads to game. WARNING!!! Requires external mod thorfinn's Jump pad found here: https://www.nexusmods.com/7daystodie/mods/697" />
 	<Author value="wrathmaniac" />
 	<Website value="" />
