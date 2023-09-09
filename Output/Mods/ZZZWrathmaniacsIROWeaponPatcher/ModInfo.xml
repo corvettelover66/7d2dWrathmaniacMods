@@ -2,7 +2,7 @@
 <xml>
 	<Name value="Wrathmaniacs IRO Weapon Patcher" />
 	<DisplayName value="ZZZWrathmaniacsIROWeaponPatcher" />
-	<Version value="IROWP-1.5.a.21" />
+	<Version value="1.5.0.21" />
 	<Description value="Small patch file to (hopefully) change any mod added weapons to use IRO mechanics." />
 	<Author value="wrathmaniac" />
 	<Website value="" />

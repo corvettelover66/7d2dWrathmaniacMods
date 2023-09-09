@@ -1,3 +1,11 @@
+Notes:9/9/2023
+
+Increased the repair amount of vehicle repair kit in IRO.
+
+Added beaker recipe to SPC
+
+Fixed medical additions medical bandage cloth amount in recipe.
+
 Alpha 20:
 
 Notes 5/13/2023
