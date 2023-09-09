@@ -1,6 +1,0 @@
-<WrathmaniacsReduceZombieBlockDamage>
-
-<!-- Reduces all Fat Cop explosion damage to 1 -->
-	<set xpath="entity_classes/entity_class[contains(@name, 'FatCop')]/property[@name='Explosion.BlockDamage']/@value">150</set>
-	
-</WrathmaniacsReduceZombieBlockDamage>

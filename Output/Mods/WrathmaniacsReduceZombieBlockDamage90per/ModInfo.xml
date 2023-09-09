@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<Name value="Reduce Zombie Block Damage 90%" />
-	<DisplayName value="WrathmaniacsReduceZombieBlockDamage90per" />
-	<Version value="RZBD-1.0" />
-	<Description value="Reduces all zombie block/vomit damage by 90% (about 6 damage per hit for weak zombies) and the cop explosion damage is set to 150 rather than 500" />
-	<Author value="Wrathmaniac" />
-	<Website value="" />
-</xml>
