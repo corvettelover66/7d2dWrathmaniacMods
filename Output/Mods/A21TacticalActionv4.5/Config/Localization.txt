@@ -1,0 +1,49 @@
+key,french,english,tchinese
+ammo45ACP,ammo45ACP,.45 bullet
+ammo45JHP,ammo45JHP,.45 hollow point
+ammo45LongColt(LFN),ammo45LongColt(LFN),Colt bullet
+ammo556FMJ,ammo556FMJ,5.56 bullets
+ammo556JHP,ammo556JHP,5.56 hollow point
+ammo556AP,ammo556AP,5.56 armor-piercing bullets
+ammo50BMG,ammo50BMG,.50 anti-material bullets
+ammo40mmG,ammo40mmG,40mm grenades
+ammo127HEIAP,ammo127HEIAP,127 hollow point
+ammobench,ammobench,ammo bench
+Winchester M1894,Winchester M1894,Winchester M1894
+ChinaLake,ChinaLake,China Lake
+40mmG,40mmGrenade,40mm grenade
+Box9mmLuger,Box9mmLuger,boxed 9mm (50 rounds)
+MetalBox9mm,MetalBox9mm,iron box 9mm (300 rounds)
+Box9mmHP,Box9mmHP,boxed 9mm hollow point (50 rounds)
+Box9mmAP,Box9mmAP,boxed 9mm steel core bullets (50 rounds)
+Box45LC,Box45LC,boxed Colt bullets (50 rounds)
+Box45ACP,Box45ACP,boxed .45 bullets (50 rounds)
+MetalBox45ACP,MetalBox45ACP,iron box. 45 bullets (300 rounds)
+Box45ACP-ZombieMax,Box45ACP-ZombieMax,boxed .45 hollow point (50 rounds)
+Box44magnum,Box44magnum,boxed .44 Magnum bullets (50 rounds)
+Box44magnumHP,Box44magnumHP,boxed .44 hollow point (50 rounds)
+Box44magnumAP,Box44magnumAP,boxed .44 Ma Steel core bullet (50 rounds)
+BoxM855,BoxM855,boxed 5.56 bullets (30 rounds)
+MetalBoxM855,MetalBoxM855,iron box with 5.56 bullets (200 rounds)
+CrateM855,CrateM855,wooden box with 5.56 bullets (500 rounds)
+Box223ZombieMax,Box223ZombieMax,boxed 5.56 hollow point (30 rounds)
+BoxM995,BoxM995,boxed 5.56 armor-piercing bullets (30 rounds)
+BoxM80,BoxM80,boxed 7.62 bullets (30 rounds)
+MetalBoxM80,MetalBoxM80,iron box with 7.62 bullets (200 rounds)
+CrateM80,CrateM80,wooden box with 7.62 bullets (500 rounds)
+Box308Winchester,Box308Winchester,boxed 7.62 hollow point (30 rounds)
+BoxM993,BoxM993,boxed 7.62 armor-piercing bullets (30 rounds)
+Box50BMG,Box50BMG,boxed .50 anti-material bullets (10 rounds)
+Box12gaBuckshot,Box12gaBuckshot,boxed No. 12 buckshot (20 rounds)
+Box12gaSlug,Box12gaSlug,boxed 12 gauge slug (20 rounds)
+AmmoBoxMetalBlock,AmmoBoxMetal,Iron Ammo Box
+AmmoCrateBlock,AmmoCrate,Ammo Box
+TAFlashLight(pistol),TAFlashLight(pistol),Tactical flashlight(pistol)
+TALaserSight (pistol),TALaserSight (pistol),laser sight (pistol)
+TAFlashLight(barrel),TAFlashLight(barrel),Tactical flashlight(barrel)
+TALaserSight (barrel),TALaserSight (barrel),laser sight (barrel)
+TacticalForegrip,TacticalForegrip,Tactical Foregrip
+TacticalBipod,TacticalBipod,Tactical Bipod
+pistolSuppressor,pistolSuppressor,pistol silencer
+rifleSuppressor,rifleSuppressor,rifle silencer
+ZeroingPart,ZeroingPart,Zeroing Tool

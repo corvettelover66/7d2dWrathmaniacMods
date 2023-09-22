@@ -1,0 +1,558 @@
+
+<configs>
+<!--原版步枪组
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_DeadEye']">
+	<item name="WinchesterM1894"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_DeadEye']">
+	<item name="Kar98K"/>
+	<item name="M1Garand"/>
+	<item name="AWP"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_DeadEye']">
+	<item name="M14EBR"/>
+	<item name="MSG90A1"/>
+	<item name="M110" prob="0.6"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_DeadEye']">
+	<item name="M110"/>
+	<item name="M82a1" prob="0.6"/>
+</append>-->
+<!--原版火箭组
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Demolitionist']">
+	<item name="M79" prob="0.6"/>
+	<item name="ammo40mmG" count="2,4"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Demolitionist']">
+	<item name="ChinaLake" prob="0.6"/>
+	<item name="ammo40mmG" count="3,6"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Demolitionist01']">
+	<item name="MGL140" prob="0.6"/>
+	<item name="ammo40mmG" count="4,8"/>
+</append>-->
+<!--原版霰弹组
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Boomstick']">
+	<item name="s686"/>
+	<item name="SPAS12"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Boomstick']">
+	<item name="M4Super90"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Boomstick']">
+	<item name="Saiga12K"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Boomstick']">
+	<item name="AA12" prob="0.6"/>
+</append>-->
+<!--原版机枪组
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Machinegunner']">
+	<item name="M4A1"/>
+	<item name="M16A4"/>
+	<item name="SCAR_L" prob="0.6"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Machinegunner']">
+	<item name="ACR"/>
+	<item name="HK416"/>
+	<item name="AUG_A3"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Machinegunner']">
+	<item name="G36KV"/>
+	<item name="SCAR_H" prob="0.8"/>
+	<item name="M60E4" prob="0.6"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Machinegunner']">
+	<item name="SA58OSW"/>
+	<item name="M249"/>
+	<item name="gatling" prob="0.5"/>
+</append>-->
+<!--原版手枪组
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Gunslinger']">
+	<item name="P99"/>
+	<item name="Colt_M1873"/>
+	<item name="Colt1911"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Gunslinger']">
+	<item name="USP9" />
+	<item name="Beretta93R"/>
+	<item name="RagingBull" prob="0.7"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Gunslinger']">
+	<item name="MK23"/>
+	<item name="Glock18c" prob="0.8"/>
+	<item name="UMP"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Gunslinger01']">
+	<item name="MP5N"/>
+	<item name="MP5SD"/>
+	<item name="KRISS_Vector"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Gunslinger02']">
+	<item name="DesertEagle"/>
+</append>-->
+
+<!--原版搜刮组-->
+<!-- 
+<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1_01']">
+	<item name="BeaconD" count="1, 2" prob="0.15"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT2_01']">
+	<item name="BeaconD" count="2, 3" prob="0.2"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT3_01']">
+	<item name="BeaconD" count="2, 4" prob="0.25"/>
+	<item name="BeaconS" count="1" prob="0.05"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4_02']">
+	<item name="BeaconD" count="3, 4" prob="0.3"/>
+	<item name="BeaconS" count="1" prob="0.06"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4_03']">
+	<item name="BeaconD" count="3, 4" prob="0.3"/>
+	<item name="BeaconS" count="1" prob="0.06"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_01']">
+	<item name="BeaconD" count="4, 6" prob="0.3"/>
+	<item name="BeaconS" count="1, 2" prob="0.08"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot']">
+	<item name="BeaconD" count="1, 2" prob="0.2"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']">
+	<item name="BeaconS" count="2, 4" prob="0.3"/>
+	<item name="BeaconS" count="1" prob="0.05"/>
+</append>
+ -->
+ <!-- 
+
+ 
+	<append xpath="/lootcontainers/lootgroup[@name='groupDrinksRare']">
+		<item name="Vodka" count="1,2" prob="0.5"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupCupboard01']">
+		<item name="Vodka" count="1" prob="0.1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupCupboard02']">
+		<item name="Vodka" count="1" prob="0.1"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='seeds']">
+		<item name="sunflowerseeds"/>
+		<item name="plantedCabbage"/>
+		<item name="plantedwheat"/>
+		<item name="CerasusBranch"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='seedsNoFlowers']">
+		<item name="sunflowerseeds"/>
+		<item name="plantedCabbage"/>
+		<item name="plantedwheat"/>
+		<item name="CerasusBranch"/>
+	</append>
+-->
+
+<!--===================================================================================-->
+<insertBefore xpath="/lootcontainers/lootgroup[@name='groupScrapCommon']">
+<!--信标-->
+<!-- 
+
+<lootgroup name="TABeacon">
+	<item name="BeaconD" prob="0.2"/>
+	<item name="BeaconS" prob="0.05"/>
+</lootgroup>
+-->
+<!--战术子弹组-->
+<lootgroup name="ammo45group">
+	<item name="ammo45ACP" count="30, 50" />
+	<item name="ammo45JHP" count="20, 40" prob="0.3"/>
+</lootgroup>
+<lootgroup name="ammo556group">
+	<item name="ammo556FMJ" count="30, 60" />
+	<item name="ammo556JHP" count="20, 40" prob="0.3"/>
+	<item name="ammo556JHP" count="20, 40" prob="0.3"/>
+</lootgroup>
+<lootgroup name="ammoB50group">
+	<item name="ammo50BMG" count="10, 20" />
+	<item name="ammo127HEIAP" count="5, 15" prob="0.3"/>
+</lootgroup>
+<!--原版子弹组-->
+<lootgroup name="ammo9group">
+	<item name="ammo9mmBulletBall" count="30, 50" />
+	<item name="ammo9mmBulletHP" count="20, 40" prob="0.3"/>
+	<item name="ammo9mmBulletAP" count="20, 40" prob="0.3"/>
+</lootgroup>
+<lootgroup name="ammo762group">
+	<item name="ammo762mmBulletBall" count="30, 60" />
+	<item name="ammo762mmBulletHP" count="20, 40" prob="0.3"/>
+	<item name="ammo762mmBulletAP" count="20, 40" prob="0.3"/>
+</lootgroup>
+<lootgroup name="ammo44group">
+	<item name="ammo44MagnumBulletBall" count="20, 40" />
+	<item name="ammo44MagnumBulletHP" count="10, 15" prob="0.3"/>
+	<item name="ammo44MagnumBulletAP" count="10, 15" prob="0.3"/>
+</lootgroup>
+<lootgroup name="ammo12Ggroup">
+	<item name="ammoShotgunShell" count="30, 50" />
+	<item name="ammoShotgunSlug" count="15, 25" prob="0.3"/>
+	<item name="ammoShotgunBreachingSlug" count="15, 25" prob="0.3"/>
+</lootgroup>
+
+<!--战术武器配套子弹-->
+<lootgroup name="MK23andAMMO" count="all">
+	<item name="MK23"/>
+	<item group="ammo45group" count="1"/>
+</lootgroup>
+<lootgroup name="Colt1911andAMMO" count="all">
+	<item name="Colt1911"/>
+	<item group="ammo45group" count="1"/>
+</lootgroup>
+<lootgroup name="USP9andAMMO" count="all">
+	<item name="USP9"/>
+	<item group="ammo9group" count="1"/>
+</lootgroup>
+<lootgroup name="P99andAMMO" count="all">
+	<item name="P99"/>
+	<item group="ammo9group" count="1"/>
+</lootgroup>
+<lootgroup name="Beretta93RandAMMO" count="all">
+	<item name="Beretta93R"/>
+	<item group="ammo9group" count="1"/>
+</lootgroup>
+<lootgroup name="Glock18candAMMO" count="all">
+	<item name="Glock18c"/>
+	<item group="ammo9group" count="1"/>
+</lootgroup>
+<lootgroup name="DesertEagleandAMMO" count="all">
+	<item name="DesertEagle"/>
+	<item group="ammo44group" count="1"/>
+</lootgroup>
+<lootgroup name="RagingBullandAMMO" count="all">
+	<item name="RagingBull"/>
+	<item group="ammo44group" count="1"/>
+</lootgroup>
+<lootgroup name="Colt_M1873andAMMO" count="all">
+	<item name="Colt_M1873"/>
+	<item name="ammo45LongColt(LFN)" count="20, 40"/>
+</lootgroup>
+<lootgroup name="MP5NandAMMO" count="all">
+	<item name="MP5N"/>
+	<item group="ammo9group" count="1"/>
+</lootgroup>
+<lootgroup name="MP5SDandAMMO" count="all">
+	<item name="MP5SD"/>
+	<item group="ammo9group" count="1"/>
+</lootgroup>
+<lootgroup name="UMPandAMMO" count="all">
+	<item name="UMP"/>
+	<item group="ammo45group" count="1"/>
+</lootgroup>
+<lootgroup name="KRISS_VectorandAMMO" count="all">
+	<item name="KRISS_Vector"/>
+	<item group="ammo45group" count="1"/>
+</lootgroup>
+<lootgroup name="M4Super90andAMMO" count="all">
+	<item name="M4Super90"/>
+	<item group="ammo12Ggroup" count="1"/>
+</lootgroup>
+<lootgroup name="SPAS12andAMMO" count="all">
+	<item name="SPAS12"/>
+	<item group="ammo12Ggroup" count="1"/>
+</lootgroup>
+<lootgroup name="s686andAMMO" count="all">
+	<item name="s686"/>
+	<item name="ammoShotgunShell" count="10, 20" />
+</lootgroup>
+<lootgroup name="Saiga12KandAMMO" count="all">
+	<item name="Saiga12K"/>
+	<item group="ammo12Ggroup" count="1"/>
+</lootgroup>
+<lootgroup name="AA12andAMMO" count="all">
+	<item name="AA12"/>
+	<item group="ammo12Ggroup" count="1"/>
+</lootgroup>
+<lootgroup name="ACRandAMMO" count="all">
+	<item name="ACR"/>
+	<item group="ammo556group" count="2"/>
+</lootgroup>
+<lootgroup name="M4A1andAMMO" count="all">
+	<item name="M4A1"/>
+	<item group="ammo556group" count="2"/>
+</lootgroup>
+<lootgroup name="HK416andAMMO" count="all">
+	<item name="HK416"/>
+	<item group="ammo556group" count="2"/>
+</lootgroup>
+<lootgroup name="AUG_A3andAMMO" count="all">
+	<item name="AUG_A3"/>
+	<item group="ammo556group" count="2"/>
+</lootgroup>
+<lootgroup name="G36KVandAMMO" count="all">
+	<item name="G36KV"/>
+	<item group="ammo556group" count="2"/>
+</lootgroup>
+<lootgroup name="SCAR_LandAMMO" count="all">
+	<item name="SCAR_L"/>
+	<item group="ammo556group" count="2"/>
+</lootgroup>
+<lootgroup name="M16A4andAMMO" count="all">
+	<item name="M16A4"/>
+	<item group="ammo556group" count="2"/>
+</lootgroup>
+<lootgroup name="SCAR_HandAMMO" count="all">
+	<item name="SCAR_H"/>
+	<item group="ammo762group" count="2"/>
+</lootgroup>
+<lootgroup name="SA58OSWandAMMO" count="all">
+	<item name="SA58OSW"/>
+	<item group="ammo762group" count="2"/>
+</lootgroup>
+<lootgroup name="M1894andAMMO" count="all">
+	<item name="WinchesterM1894"/>
+	<item name="ammo45LongColt(LFN)" count="20, 40"/>
+</lootgroup>
+<lootgroup name="M110andAMMO" count="all">
+	<item name="M110"/>
+	<item group="ammo762group" count="1"/>
+</lootgroup>
+<lootgroup name="M1GarandandAMMO" count="all">
+	<item name="M1Garand"/>
+	<item group="ammo762group" count="1"/>
+</lootgroup>
+<lootgroup name="M14EBRandAMMO" count="all">
+	<item name="M14EBR"/>
+	<item group="ammo762group" count="1"/>
+</lootgroup>
+<lootgroup name="Kar98KandAMMO" count="all">
+	<item name="Kar98K"/>
+	<item group="ammo762group" count="1"/>
+</lootgroup>
+<lootgroup name="AWPandAMMO" count="all">
+	<item name="AWP"/>
+	<item group="ammo762group" count="1"/>
+</lootgroup>
+<lootgroup name="MSG90A1andAMMO" count="all">
+	<item name="MSG90A1"/>
+	<item group="ammo762group" count="1"/>
+</lootgroup>
+<lootgroup name="M82a1andAMMO" count="all">
+	<item name="M82a1"/>
+	<item group="ammoB50group" count="1"/>
+</lootgroup>
+<lootgroup name="M60E4andAMMO" count="all">
+	<item name="M60E4"/>
+	<item name="ammo762mmBulletBall" count="50, 80" />
+	<item group="ammo762group" count="2, 3"/>
+</lootgroup>
+<lootgroup name="M249andAMMO" count="all">
+	<item name="M249"/>
+	<item name="ammo556FMJ" count="80, 100" />
+	<item group="ammo556group" count="2, 3"/>
+</lootgroup>
+<lootgroup name="gatlingandAMMO" count="all">
+	<item name="gatling"/>
+	<item name="ammo556FMJ" count="100, 120" />
+	<item group="ammo556group" count="3, 4"/>
+</lootgroup>
+<lootgroup name="M79andAMMO" count="all">
+	<item name="M79"/>
+	<item name="ammo40mmG" count="4, 8"/>
+</lootgroup>
+<lootgroup name="ChinaLakeandAMMO" count="all">
+	<item name="ChinaLake"/>
+	<item name="ammo40mmG" count="8, 16"/>
+</lootgroup>
+<lootgroup name="MGL140andAMMO" count="all">
+	<item name="MGL140"/>
+	<item name="ammo40mmG" count="12, 24"/>
+</lootgroup>
+
+<!--战术狙击-->
+<lootgroup name="TAWeaponsT0_DMR">
+	<item group="M1894andAMMO"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT1_DMR">
+	<item group="Kar98KandAMMO"/>
+	<item group="M1GarandandAMMO"/>
+	<item group="AWPandAMMO"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT2_DMR">
+	<item group="M14EBRandAMMO"/>
+	<item group="MSG90A1andAMMO"/>
+	<item group="M110andAMMO" prob="0.6"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT3_DMR">
+	<item group="M110andAMMO"/>
+	<item group="M82a1andAMMO" prob="0.6"/>
+</lootgroup>
+<!--战术发射器-->
+<lootgroup name="TAWeaponsT1_GLA">
+	<item group="M79andAMMO" prob="0.6"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT2_GLA">
+	<item group="ChinaLakeandAMMO" prob="0.6"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT3_GLA">
+	<item group="MGL140andAMMO" prob="0.6"/>
+</lootgroup>
+<!--战术霰弹-->
+<lootgroup name="TAWeaponsT0_STG">
+	<item group="s686andAMMO"/>
+	<item group="SPAS12andAMMO"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT1_STG">
+	<item group="M4Super90andAMMO"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT2_STG">
+	<item group="Saiga12KandAMMO"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT3_STG">
+	<item group="AA12andAMMO" prob="0.6"/>
+</lootgroup>
+<!--战术步枪-->
+<lootgroup name="TAWeaponsT0_AR">
+	<item group="M4A1andAMMO"/>
+	<item group="M16A4andAMMO"/>
+	<item group="SCAR_LandAMMO" prob="0.6"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT1_AR">
+	<item group="ACRandAMMO"/>
+	<item group="HK416andAMMO"/>
+	<item group="AUG_A3andAMMO"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT2_AR">
+	<item group="G36KVandAMMO"/>
+	<item group="SCAR_HandAMMO" prob="0.8"/>
+	<item group="M60E4andAMMO" prob="0.6"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT3_AR">
+	<item group="SA58OSWandAMMO"/>
+	<item group="M249andAMMO"/>
+	<item group="gatlingandAMMO" prob="0.5"/>
+</lootgroup>
+<!--战术手枪-->
+<lootgroup name="TAWeaponsT0_PsT">
+	<item group="P99andAMMO"/>
+	<item group="Colt_M1873andAMMO"/>
+	<item group="Colt1911andAMMO"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT1_PsT">
+	<item group="USP9andAMMO" />
+	<item group="Beretta93RandAMMO"/>
+	<item group="RagingBullandAMMO" prob="0.7"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT2_PsT">
+	<item group="MK23andAMMO"/>
+	<item group="Glock18candAMMO" prob="0.8"/>
+	<item group="UMPandAMMO"/>
+</lootgroup>
+<lootgroup name="TAWeaponsT3_PsT">
+	<item group="MP5NandAMMO"/>
+	<item group="MP5SDandAMMO"/>
+	<item group="KRISS_VectorandAMMO"/>
+	<item group="DesertEagleandAMMO"/>
+</lootgroup>
+
+
+<!--战术配件-->
+<lootgroup name="TAGunModT1" count="1,2">
+	<item name="TacticalForegrip"/>
+	<item name="TacticalBipod"/>
+	<item name="TAFlashLight(pistol)"/>
+	<item name="TALaserSight(pistol)"/>
+	<item name="LAM"/>
+	<item name="pistolSuppressor"/>
+	<item name="Aimpoint_ACRO"/>
+	<item name="RMRSight"/>
+</lootgroup>
+<lootgroup name="TAGunModT2" count="1,2">
+	<item name="ANPEQ15" prob=".4"/>
+	<item name="ANPEQ2"/>
+	<item name="modTApad" prob=".4"/>
+	<item name="rifleSuppressor" />
+	<item name="Aimpoint_CompM3"/>
+	<item name="Aimpoint_MicroT1"/>
+	<item name="EOTech_EXPS3"/>
+	<item name="AN/PVS22"/>
+	<item name="EOTech_G33"/>
+	<item name="ACOG_TA31" prob=".7"/>
+	<item name="ACOG_TA01"/>
+	<item name="Leupold_CQBSS" prob=".3"/>
+</lootgroup>
+<lootgroup name="TAGunModT3" count="1,2">
+	<item name="ANPEQ15"/>
+	<item name="ACOG_TA31" />
+	<item name="Leupold_CQBSS"/>
+	<item name="modTApad"/>
+</lootgroup>
+
+
+<!--战术武器等级组-->
+<lootgroup name="TAWeaponsT0_RangeAll">
+	<item group="TAWeaponsT0_DMR" />
+	<item group="TAWeaponsT0_STG" />
+	<item group="TAWeaponsT0_AR" />
+	<item group="TAWeaponsT0_PsT" />
+	<item group="TAGunModT1" />
+</lootgroup>
+<lootgroup name="TAWeaponsT1_RangeAll">
+	<item group="TAWeaponsT1_DMR" />
+	<item group="TAWeaponsT1_GLA" />
+	<item group="TAWeaponsT1_STG" />
+	<item group="TAWeaponsT1_AR" />
+	<item group="TAWeaponsT1_PsT" />
+	<item group="TAGunModT1" />
+	<item group="TAGunModT2" />
+</lootgroup>
+<lootgroup name="TAWeaponsT2_RangeAll">
+	<item group="TAWeaponsT2_DMR" />
+	<item group="TAWeaponsT2_GLA" />
+	<item group="TAWeaponsT2_STG" />
+	<item group="TAWeaponsT2_AR" />
+	<item group="TAWeaponsT2_PsT" />
+	<item group="TAGunModT2" />
+	<item group="TAGunModT3" />
+</lootgroup>
+<lootgroup name="TAWeaponsT3_RangeAll">
+	<item group="TAWeaponsT3_DMR" />
+	<item group="TAWeaponsT3_GLA" />
+	<item group="TAWeaponsT3_STG" />
+	<item group="TAWeaponsT3_AR" />
+	<item group="TAWeaponsT3_PsT" />
+	<item group="TAGunModT1" />
+	<item group="TAGunModT2" />
+	<item group="TAGunModT3" />
+</lootgroup>
+
+
+
+
+<!--空投仓-->
+	<lootcontainer id="252" name="TA252" count="2,4" size="5,6" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" destroy_on_close="true" loot_quality_template="qualBaseTemplate">
+		<item group="TAWeaponsT0_RangeAll" loot_prob_template="ProbT0"/>
+		<item group="TAWeaponsT1_RangeAll" loot_prob_template="ProbT1"/>
+		<item group="TAWeaponsT2_RangeAll" loot_prob_template="ProbT2"/>
+		<item group="TAWeaponsT3_RangeAll" loot_prob_template="ProbT3"/>
+		
+		<!--item group="TAGunModT1" loot_prob_template="ProbT0"/-->
+		<!--item group="TAGunModT2" loot_prob_template="ProbT1"/-->
+		<!--item group="TAGunModT3" loot_prob_template="ProbT2"/-->
+		<!-- <item name="DrugAntizin" count="1" prob="0.2"/> -->
+	</lootcontainer>
+<!--石磨-->
+<!-- 
+	<lootcontainer id="250" name="TA250" count="1" size="5,6" destroy_on_close="true" sound_open="" sound_close="" loot_quality_template="qualBaseTemplate">
+		<item name="Flour" count="10"/>
+	</lootcontainer>
+	<lootcontainer id="251" name="TA251" count="1" size="5,6" sound_open="" sound_close="" destroy_on_close="true" loot_quality_template="qualBaseTemplate">
+		<item name="SaladOil" count="10"/>
+	</lootcontainer>
+-->
+</insertBefore>
+
+
+
+
+
+
+
+
+</configs>

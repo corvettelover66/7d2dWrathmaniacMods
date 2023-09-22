@@ -1,0 +1,59 @@
+key,source,context,changes,english
+handgunT0-1,progression,Attribute,New,Tier 0: Pipe Pistol
+handgunT0-2,progression,Attribute,New,Tier 0: P99
+handgunT0-3,progression,Attribute,New,Tier 0: Colt M1873
+handgunT0-4,progression,Attribute,New,Tier 0: Colt 1911
+handgunT1-1,progression,Attribute,New,Tier 1: Pistol
+handgunT1-2,progression,Attribute,New,Tier 1: USP-9
+handgunT1-3,progression,Attribute,New,Tier 1: Beretta93R
+handgunT1-4,progression,Attribute,New,Tier 1: Raging Bull
+handgunT2-1,progression,Attribute,New,Tier 2: .44 Magnum
+handgunT2-2,progression,Attribute,New,Tier 2: MK23
+handgunT2-3,progression,Attribute,New,Tier 2: Glock18c
+handgunT2-4,progression,Attribute,New,Tier 2: UMP
+handgunT3-1,progression,Attribute,New,Tier 3: SMG-5
+handgunT3-2,progression,Attribute,New,Tier 3: MP5N
+handgunT3-3,progression,Attribute,New,Tier 3: MP5SD
+handgunT3-4,progression,Attribute,New,Tier 3: KRISS Vector
+handgunT4-1,progression,Attribute,New,Tier 4: .44 Desert Vulture
+handgunT4-2,progression,Attribute,New,Tier 4: Desert Eagle
+rifleT0-1,progression,Attribute,New,Tier 0: Pipe Rifle
+rifleT0-2,progression,Attribute,New,Tier 0: M1894
+rifleT1-1,progression,Attribute,New,Tier 1: Hunting Rifle
+rifleT1-2,progression,Attribute,New,Tier 1: Kar98K
+rifleT1-3,progression,Attribute,New,Tier 1: M1Garand
+rifleT1-4,progression,Attribute,New,Tier 1: AWP
+rifleT2-1,progression,Attribute,New,Tier 2: Lever Action Rifle
+rifleT2-2,progression,Attribute,New,Tier 2: M14EBR
+rifleT2-3,progression,Attribute,New,Tier 2: MSG90A1
+rifleT3-1,progression,Attribute,New,Tier 3: Sniper Rifle
+rifleT3-2,progression,Attribute,New,Tier 3: M110
+rifleT3-3,progression,Attribute,New,Tier 3: M82a1
+shotgunT0-1,progression,Attribute,New,Tier 0: Pipe Shotgun
+shotgunT0-2,progression,Attribute,New,Tier 0: s686
+shotgunT0-3,progression,Attribute,New,Tier 0: SPAS12
+shotgunT1-1,progression,Attribute,New,Tier 1: Double Barrel Shotgun
+shotgunT1-2,progression,Attribute,New,Tier 1: M4Super90
+shotgunT2-1,progression,Attribute,New,Tier 2: Pump Shotgun
+shotgunT2-2,progression,Attribute,New,Tier 2: Saiga12K
+shotgunT3-1,progression,Attribute,New,Tier 3: Auto Shotgun
+shotgunT3-2,progression,Attribute,New,Tier 3: AA12
+machinegunT0-1,progression,Attribute,New,Tier 0: Pipe Machine Gun
+machinegunT0-2,progression,Attribute,New,Tier 0: M4A1
+machinegunT0-3,progression,Attribute,New,Tier 0: M16A4
+machinegunT0-4,progression,Attribute,New,Tier 0: SCAR_L
+machinegunT1-1,progression,Attribute,New,Tier 1: AK-47 Machine Gun
+machinegunT1-2,progression,Attribute,New,Tier 1: ACR
+machinegunT1-3,progression,Attribute,New,Tier 1: HK416
+machinegunT1-4,progression,Attribute,New,Tier 1: AUG_A3
+machinegunT2-1,progression,Attribute,New,Tier 2: Tactical Assault Rifle
+machinegunT2-2,progression,Attribute,New,Tier 2: G36KV
+machinegunT2-3,progression,Attribute,New,Tier 2: SCAR_H
+machinegunT2-4,progression,Attribute,New,Tier 2: M60E4
+machinegunT3-1,progression,Attribute,New,Tier 3: M60 Machine Gun
+machinegunT3-2,progression,Attribute,New,Tier 3: SA58OSW
+machinegunT3-3,progression,Attribute,New,Tier 3: M249
+machinegunT4-1,progression,Attribute,New,Tier 4: Gatling
+explosivesT1-4,progression,Attribute,New,Tier 1: M79
+explosivesT2-4,progression,Attribute,New,Tier 2: ChinaLake
+explosivesT3-4,progression,Attribute,New,Tier 3: MGL140

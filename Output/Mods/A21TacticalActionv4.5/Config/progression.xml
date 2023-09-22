@@ -1,0 +1,175 @@
+<configs>
+
+<!--手枪 冲锋枪-->
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']">
+		<display_entry item="Colt_M1873" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="P99" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="USP9" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="Colt1911" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="Beretta93R" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="Glock18c" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="MK23" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="RagingBull" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="DesertEagle" unlock_level="30,40,50,60,75,90" />
+		
+		<display_entry item="MP5N" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="MP5SD" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="UMP" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="KRISS_Vector" unlock_level="30,40,50,60,75,90" />
+	</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,100" value="1" tags="P99"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,100" value="1" tags="Colt_M1873"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="Colt1911"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="18,100" value="1" tags="USP9"/>		
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="21,100" value="1" tags="Beretta93R"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="18,100" value="1" tags="Glock18c"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="21,100" value="1" tags="MK23"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="24,100" value="1" tags="RagingBull"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="27,100" value="1" tags="DesertEagle"/>
+		
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="33,100" value="1" tags="MP5N"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="36,100" value="1" tags="MP5SD"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="39,100" value="1" tags="UMP"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="42,100" value="1" tags="KRISS_Vector"/>
+		
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="Colt_M1873"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="P99"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="USP9"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="Colt1911"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="Beretta93R"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="Glock18c"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="MK23"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="RagingBull"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="DesertEagle"/>
+		
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="MP5N"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="MP5SD"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="UMP"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="KRISS_Vector"/>
+	</append>
+	
+<!--霰弹枪-->	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']">
+		<display_entry item="s686" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="SPAS12" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="M4Super90" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="Saiga12K" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="AA12" unlock_level="30,40,50,60,75,90" />
+
+	</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="s686"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="SPAS12"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="M4Super90"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="Saiga12K"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="AA12"/>
+		
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="s686"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="SPAS12"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="M4Super90"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="Saiga12K"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="AA12"/>
+	</append>
+
+<!--狙击枪-->	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']">
+		<display_entry item="WinchesterM1894" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="Kar98K" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="M1Garand" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="AWP" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="M14EBR" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="M110" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="MSG90A1" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="M82a1" unlock_level="30,40,50,60,75,90" />
+
+	</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="WinchesterM1894"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="Kar98K"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="M1Garand"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="AWP"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="M14EBR"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="M110"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="MSG90A1"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="M82a1"/>
+		
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="WinchesterM1894"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="Kar98K"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="M1Garand"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="AWP"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="M14EBR"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="M110"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="MSG90A1"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="M82a1"/>
+	</append>
+	
+<!--自动步枪-->	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']">
+		<display_entry item="M16A4" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="M4A1" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="HK416" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="AUG_A3" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="G36KV" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="SCAR_L" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="ACR" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="SCAR_H" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="SA58OSW" unlock_level="30,40,50,60,75,90" />
+		
+		<display_entry item="M60E4" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="M249" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="gatling" unlock_level="30,40,50,60,75,90" />
+	</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="M16A4"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="M4A1"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="HK416"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="AUG_A3"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="G36KV"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="SCAR_L"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="ACR"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="SCAR_H"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="SA58OSW"/>
+		
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="M60E4"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="M249"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="gatling"/>
+		
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="M16A4"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="M4A1"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="HK416"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="AUG_A3"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="G36KV"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="SCAR_L"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="ACR"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="SCAR_H"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="SA58OSW"/>
+		
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="M60E4"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="M249"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="gatling"/>
+	</append>
+	
+<!--发射器-->	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']">
+		<display_entry item="M79" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="ChinaLake" unlock_level="30,40,50,60,75,90" />
+		<display_entry item="MGL140" unlock_level="30,40,50,60,75,90" />
+	</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="M79"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="ChinaLake"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="MGL140"/>
+
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="M79"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="ChinaLake"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="40,50,60,75,90,100" value="1,2,3,4,5,5" tags="MGL140"/>
+	</append>
+		
+	
+	
+	
+	
+	
+	
+</configs>

@@ -1,0 +1,494 @@
+<configs>
+		<append xpath="/buffs">
+		
+	<buff name="buffAntizin" name_key="buffAntizin" description_key="buffAntizinDesc" icon="ui_game_symbol_pills" showonhud="false">
+		<stack_type value="replace"/>
+		<duration value="0"/>
+		<display_value value="$AntZ"/><display_value_format value="time"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$AntZ" operation="set" value="3600"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$AntZ" operation="add" value="-1"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffAntizin">
+				<requirement name="CVarCompare" cvar="$AntZ" operation="LTE" value="0"/>
+			</triggered_effect>
+				
+		</effect_group>
+	</buff>
+	
+	<buff name="nightamb" hidden="true" >
+		<stack_type value="ignore"/>
+		<duration value="20"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound"  sound="nighthowling" play_in_head="true"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="StopSound"  sound="nighthowling" />
+		</effect_group>
+	</buff>
+		
+	<buff name="buffDrunkVodka" name_key="DrunkVodka" icon="ui_game_symbol_beer">
+		<damage_type value="disease"/>
+		<stack_type value="duration"/>
+		<display_value_key value="Vodka"/>
+		<duration value="120"/>
+		<update_rate value="2"/>
+		<effect_group>
+			<passive_effect name="EntityDamage" operation="perc_add" value="1">
+				<requirement name="HoldingItemHasTags" tags="melee"/>
+			</passive_effect>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.6"/>
+			<passive_effect name="BuffResistance" operation="base_add" value=".5" tags="buffInjuryStunned00,buffInjuryStunned01,buffInjuryStunned01Shotgun,buffInjuryStunned02,buffInjuryStunned02Shotgun,buffInjuryStunned03,buffInjuryStunned03Shotgun"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".3" fade="4" effect_name="Blur"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Blur"/>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="PsyHitEF"/>
+		</effect_group>
+	</buff>
+		
+		
+	<buff name="PsyHit" hidden="true">
+		<damage_type value="Concuss"/>
+		<stack_type value="replace"/>
+		<duration value="10"/>
+		<update_rate value="1"/>
+		<effect_group>
+			<requirements compare_type="or">
+				<requirement name="NotHasBuff" buff="PsyFieldEF"/>
+				<requirement name="NotHasBuff" buff="buffDrunkVodka"/>
+			</requirements>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="PsyHitEF"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="PsyHitEF"/>
+		</effect_group>
+	</buff>
+	<buff name="PsyHitEF" name_key="PsyHitEF" icon="ui_game_symbol_intellect" icon_blink="true">
+		<damage_type value="Concuss"/>
+		<stack_type value="replace"/><duration value="0"/>
+		<display_value_key value="PsyDmg"/><display_value value="xxx"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="psyhorror" play_in_head="true"/>
+			<triggered_effect trigger="onSelfDied" action="StopSound" sound="psyhorror"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="psyhorror" play_in_head="true">
+				<requirement name="NotHasBuff" buff="PsyFieldEF"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".2" fade="4" effect_name="Drunk" compare_type="or">
+				<requirement name="NotHasBuff" buff="buffafStoneflower"/>
+				<requirement name="NotHasBuff" buff="buffafMoonlight"/></triggered_effect>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Drunk"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="2" effect_name="Drunk">
+				<requirement name="NotHasBuff" buff="PsyFieldEF"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".3" fade="2" effect_name="Blur" compare_type="or">
+				<requirement name="NotHasBuff" buff="buffafStoneflower"/>
+				<requirement name="NotHasBuff" buff="buffafMoonlight"/></triggered_effect>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Blur"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="2" effect_name="Blur">
+				<requirement name="NotHasBuff" buff="PsyFieldEF"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ShakeCamera" shake_speed=".3" shake_amplitude="80" shake_time="0.9" >
+				<requirement name="NotHasBuff" buff="buffafMoonlight"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ShakeCamera" shake_speed=".3" shake_amplitude="80" shake_time="0.9" >
+				<requirement name="NotHasBuff" buff="buffafMoonlight"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ShakeCamera" shake_speed="0" shake_amplitude="0" shake_time="0">
+				<requirement name="NotHasBuff" buff="PsyFieldEF"/></triggered_effect>
+		</effect_group>
+	</buff>
+	
+	<buff name="PsyField" hidden="true">
+		<damage_type value="Concuss"/>
+		<stack_type value="replace"/>
+		<duration value="0"/>
+		<update_rate value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="PsyFieldTrig">
+				<requirement name="EntityTagCompare" target="other" tags="player"/>
+			</triggered_effect>
+		</effect_group>
+	</buff>
+	<buff name="PsyFieldTrig" hidden="true">
+		<damage_type value="Concuss"/>
+		<stack_type value="replace"/>
+		<duration value="3"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="PsyFieldEF"/>
+			<triggered_effect trigger="onSelfBuffFinish" action="RemoveBuff" buff="PsyFieldEF"/>
+			<triggered_effect trigger="onSelfBuffStack" action="RemoveBuff" buff="PsyHit"/>
+			<triggered_effect trigger="onSelfBuffStack" action="RemoveBuff" buff="PsyHitEF"/>
+		</effect_group>
+	</buff>
+	<buff name="PsyFieldEF" name_key="PsyFieldEF" icon="ui_game_symbol_intellect" icon_color="255,0,0" icon_blink="true">
+		<damage_type value="Concuss"/>
+		<display_value_key value="PsyField"/><display_value value="xxx"/>
+		<stack_type value="replace"/><duration value="0"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="psyhorror" play_in_head="true"/>
+			<triggered_effect trigger="onSelfDied" action="StopSound" sound="psyhorror"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="psyhorror" play_in_head="true">
+				<requirement name="!HasBuff" buff="PsyHitEF"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".8" fade="1" effect_name="Drunk" compare_type="or">
+				<requirement name="!HasBuff" buff="buffafStoneflower"/>
+				<requirement name="!HasBuff" buff="buffafMoonlight"/></triggered_effect>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Drunk"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Drunk">
+				<requirement name="!HasBuff" buff="PsyHitEF"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".8" fade="1" effect_name="Blur" compare_type="or">
+				<requirement name="!HasBuff" buff="buffafStoneflower"/>
+				<requirement name="!HasBuff" buff="buffafMoonlight"/></triggered_effect>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Blur"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="2" effect_name="Blur">
+				<requirement name="!HasBuff" buff="PsyHitEF"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".8" fade="1" effect_name="Cold" />
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Cold"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="2" effect_name="Cold"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ShakeCamera" shake_speed=".5" shake_amplitude="100" shake_time="0.9">
+				<requirement name="NotHasBuff" buff="buffafMoonlight"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ShakeCamera" shake_speed=".5" shake_amplitude="100" shake_time="0.9">
+				<requirement name="NotHasBuff" buff="buffafMoonlight"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffRemove" action="ShakeCamera" shake_speed="0" shake_amplitude="0" shake_time="0"/>
+		</effect_group>
+	</buff>
+		
+		
+	<buff name="Boomer" hidden="true">
+		<damage_type value="Suffocation"/>
+		<stack_type value="effect"/>
+		<duration value="10"/>
+		<effect_group>
+			<passive_effect name="WalkSpeed" operation="perc_add"  value="-.5,-.3,0" duration="0,3,10"/>
+			<passive_effect name="RunSpeed" operation="perc_add"  value="-.5,-.3,0" duration="0,3,10"/>
+			<passive_effect name="CrouchSpeed" operation="perc_add"  value="-.5,-.3,0" duration="0,3,10"/>
+			<passive_effect name="JumpStrength" operation="perc_add"  value="-.5,-.3,0" duration="0,3,10"/>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" value="2,1,0" duration="0,3,8"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" target="self" particle="#@modfolder:Resources/alt.unity3d?p_boomsmook" parent_transform="Hips" />
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" target="self" particle="p_boomsmook"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" target="self" particle="p_boomsmook"/>
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="player#cough"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="StopSound" sound="player#cough"/>
+		</effect_group>
+	</buff>
+	<buff name="BoomerBomb" hidden="true">
+		<damage_type value="Suffocation"/>
+		<stack_type value="ignore"/>
+		<duration value="5"/>
+		<effect_group>
+			<passive_effect name="WalkSpeed" operation="perc_add"  value="-.5,0" duration="0,5"/>
+			<passive_effect name="RunSpeed" operation="perc_add"  value="-.5,0" duration="0,5"/>
+			<passive_effect name="CrouchSpeed" operation="perc_add"  value="-.5,0" duration="0,5"/>
+			<passive_effect name="JumpStrength" operation="perc_add"  value="-.5,0" duration="0,5"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" target="self" stat="health" operation="add" value="-25" />
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="player#cough"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="StopSound" sound="player#cough"/>
+		</effect_group>
+	</buff>
+	
+	
+	
+	<buff name="TAvirusInfection" name_key="TαVirusInfection" description_key="TαVirusInfectionDesc" icon="ui_game_symbol_infection" showonhud="true" icon_color="255,0,0" icon_blink="true">
+		<damage_type value="Infection"/>
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<update_rate value="60"/>
+		
+		<effect_group>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" fireOneBuff="true" buff="TAVInfEffA,TAVInfEffB" weights=".6,.4">
+				<requirement name="NotHasBuff" buff="buffAntizin"/>
+				<requirement name="NotHasBuff" buff="TAVInfEffCooldown"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="20"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="TAvirusInfection"/>
+		</triggered_effect>
+		</effect_group>
+		
+	</buff>
+	
+	<buff name="TAVInfEffA" hidden="true">
+		<damage_type value="Suffocation"/>
+		<stack_type value="ignore"/>
+		<duration value="3"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="TAVI" operation="add" value="randomint(1,2)"/>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="Player$Hot"/>
+			<triggered_effect trigger="onSelfDied" action="StopSound" sound="Player$Hot"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="Player$Hot"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.3" fade="1" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="self" buff="TAVInfEffCooldown"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="TAVInfEffB" hidden="true">
+		<damage_type value="Suffocation"/>
+		<stack_type value="ignore"/>
+		<duration value="3"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="TAVI" operation="add" value="randomint(1,2)"/>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="Player$Cold"/>
+			<triggered_effect trigger="onSelfDied" action="StopSound" sound="Player$Cold"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="Player$Cold"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.5" fade="1" effect_name="Cold"/>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Cold"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Cold"/>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="self" buff="TAVInfEffCooldown"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="TAVInfEffCooldown" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="240"/>
+	</buff>
+	
+	
+	<buff name="TAvirus" name_key="TαVirus" description_key="TαVirusDesc" icon="ui_game_symbol_infection" showonhud="false" icon_color="255,0,0" icon_blink="true">
+		<damage_type value="Infection"/>
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<update_rate value="40"/>
+		
+		<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="TAVEffA">
+					<requirement name="NotHasBuff" buff="buffAntizin"/>
+					<requirement name="NotHasBuff" buff="TAVEffCooldown"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="25"/>
+				</triggered_effect>
+		</effect_group>
+	</buff>
+	
+	<buff name="TAVEffA" hidden="true">
+		<damage_type value="Suffocation"/>
+		<stack_type value="ignore"/>
+		<duration value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="TAVI" operation="add" value="randomint(1,3)"/>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombie$sense"/>
+			<triggered_effect trigger="onSelfDied" action="StopSound" sound="zombie$sense"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="zombie$sense"/>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".3" fade="2" effect_name="Blur"/>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Blur"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="2" effect_name="Blur"/>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="3" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="3" effect_name="Hot"/>
+			
+			<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" target="self" buff="TAVEffCooldown"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="WalkSpeed" operation="perc_subtract" value=".3"/>
+			<passive_effect name="RunSpeed" operation="perc_subtract" value=".3"/>
+			<passive_effect name="JumpStrength" operation="perc_subtract" value=".3"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="TAVEffCooldown" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="300"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="player#heartbeat1"/>
+			<triggered_effect trigger="onSelfDied" action="StopSound" sound="player#heartbeat1"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="player#heartbeat1"/>
+		</effect_group>
+	</buff>
+	
+	
+	<buff name="TAvirusZ" name_key="TαVirus" description_key="TαVirusZDesc" icon="ui_game_symbol_infection" icon_color="255,0,0" icon_blink="true">
+		<damage_type value="Infection"/>
+		<display_value_key value="TαVirus"/><display_value value="xxx"/>
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<update_rate value="20"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="TAVZEffA">
+				<requirement name="NotHasBuff" buff="buffAntizin"/>
+				<requirement name="!HasBuff" buff="TAVZEffCooldown"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="30"/>
+			</triggered_effect>
+		</effect_group>
+	</buff>
+	
+	<buff name="TAVZEffA" hidden="true">
+		<damage_type value="Suffocation"/>
+		<stack_type value="ignore"/>
+		<duration value="7"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="TAVI" operation="add" value="randomint(2,5)"/>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombie$alert"/>
+			<triggered_effect trigger="onSelfDied" action="StopSound" sound="zombie$alert"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="zombie$alert"/>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".3" fade="2" effect_name="Posterize"/>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Posterize"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="2" effect_name="Posterize"/>
+			
+			<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" target="self" buff="TAVZEffCooldown"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyStats" stat="stamina" operation="add" value="-999"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="WalkSpeed" operation="perc_add" value="1"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="1"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value="1"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="TAVZEffCooldown" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="240"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="player#heartbeat2"/>
+			<triggered_effect trigger="onSelfDied" action="StopSound" sound="player#heartbeat2"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="player#heartbeat2"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.3"/>
+			<passive_effect name="RunSpeed" operation="perc_subtract" value="0.3"/>
+			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.3"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="TAVTurning" name_key="Turning" description_key="TurningDesc" icon="ui_game_symbol_infection" icon_color="255,0,0" icon_blink="true">
+		<damage_type value="Infection"/>
+		<display_value_key value="Turning"/><display_value value="xxx"/>
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<update_rate value="10"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="zombie$sense"/>
+			<triggered_effect trigger="onSelfDied" action="StopSound" sound="zombie$sense"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="zombie$sense"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="zombie$alert"/>
+			<triggered_effect trigger="onSelfDied" action="StopSound" sound="zombie$alert"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="StopSound" sound="zombie$alert"/>
+			
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="1" fade="3" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="3" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity=".3" fade="2" effect_name="Posterize"/>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Posterize"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="2" effect_name="Posterize"/>
+			
+			<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.7"/>
+			<passive_effect name="RunSpeed" operation="perc_subtract" value="0.7"/>
+			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.7"/>
+			
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="add" value="-20"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="APower" name_key="αPower" description_key="αPowerDesc" icon="ui_game_symbol_muscle" showonhud="true">
+		<stack_type value="ignore"/>
+		<duration value="30"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Stamina" operation="add" value="20"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="1">
+				<requirement name="HoldingItemHasTags" tags="melee"/>
+			</passive_effect>
+		</effect_group>
+	</buff>
+	<buff name="ARegenerate" name_key="αRegenerate" description_key="αRegenerateDesc" icon="ui_game_symbol_critical" showonhud="true">
+		<stack_type value="ignore"/>
+		<duration value="20"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Stamina" operation="add" value="2"/>
+		</effect_group>
+	</buff>
+		
+		</append>
+		
+		
+		
+	<append xpath="/buffs/buff[@name='buffInjuryBleeding']">
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="TAVI" operation="add" value="1">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="20"/>
+			</triggered_effect>
+		</effect_group>
+	</append>
+	<append xpath="/buffs/buff[@name='buffInfectionCatch']">
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="TAVI" operation="add" value="1">
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="60"/>
+			</triggered_effect>
+		</effect_group>
+	</append>
+	
+	<append xpath="/buffs/buff[@name='buffStatusCheck01']">
+		
+		<effect_group>
+			<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="4"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff"  buff="nightamb" >
+				<requirement name="IsNight"/>
+			</triggered_effect>
+		</effect_group>
+		
+		<effect_group>
+			<requirements>
+				<requirement name="CVarCompare" cvar="TAVI" operation="GTE" value="1"/>
+				<requirement name="CVarCompare" cvar="TAVI" operation="LT" value="20"/>
+			</requirements>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirusInfection"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirus"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirusZ"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAVTurning"/>
+		</effect_group>
+		<effect_group>
+			<requirements>
+				<requirement name="CVarCompare" cvar="TAVI" operation="GTE" value="20"/>
+				<requirement name="CVarCompare" cvar="TAVI" operation="LT" value="40"/>
+			</requirements>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirus"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirusInfection"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirusZ"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAVTurning"/>
+		</effect_group>
+		<effect_group>
+			<requirements>
+				<requirement name="CVarCompare" cvar="TAVI" operation="GTE" value="40"/>
+				<requirement name="CVarCompare" cvar="TAVI" operation="LT" value="60"/>
+			</requirements>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirusZ"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirusInfection"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirus"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAVTurning"/>
+		</effect_group>
+		<effect_group>
+			<requirements>
+				<requirement name="CVarCompare" cvar="TAVI" operation="GTE" value="60"/>
+			</requirements>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAVTurning"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirusInfection"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirus"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="TAvirusZ"/>
+		</effect_group>
+		
+		<effect_group>
+			<requirements compare_type="or">
+				<requirement name="HasBuff" buff="TAvirus"/>
+			</requirements>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="EvilPower">
+					<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="ARegenerate">
+					<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="1"/>
+				</triggered_effect>
+		</effect_group>
+		<effect_group>
+			<requirements compare_type="or">
+				<requirement name="HasBuff" buff="TAvirusZ"/>
+			</requirements>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="EvilPower">
+					<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="6"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="ARegenerate">
+					<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="2"/>
+				</triggered_effect>
+		</effect_group>
+		
+		<effect_group>
+			<triggered_effect trigger="onSelfDied" action="ModifyCVar" cvar="TAVI" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="TAVI" operation="set" value="0">
+				<requirement name="CVarCompare" cvar="TAVI" operation="LT" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="TAVI" operation="set" value="65">
+				<requirement name="CVarCompare" cvar="TAVI" operation="GT" value="65"/>
+			</triggered_effect>
+		</effect_group>
+	</append>
+		
+</configs>

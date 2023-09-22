@@ -1,0 +1,63 @@
+
+
+<configs>
+
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='generalResources']">
+		<item name="TacticalForegrip"/>
+		<item name="TacticalBipod"/>
+		<item name="modTApad" prob=".4"/>
+		<item name="TAFlashLight(pistol)"/>
+		<item name="TALaserSight(pistol)"/>
+		<item name="LAM"/>
+		<item name="pistolSuppressor"/>
+		<item name="Aimpoint_ACRO"/>
+		<item name="RMRSight"/>
+		<item name="ANPEQ15"/>
+		<item name="ANPEQ2"/>
+		<item name="rifleSuppressor" prob=".4"/>
+		<item name="Aimpoint_CompM3"/>
+		<item name="Aimpoint_MicroT1"/>
+		<item name="EOTech_EXPS3"/>
+		<item name="AN/PVS22" prob=".4"/>
+		<item name="EOTech_G33"/>
+		<item name="ACOG_TA31" prob=".4"/>
+		<item name="ACOG_TA01"/>
+		<item name="Leupold_CQBSS" prob=".4"/>
+		
+		<item name="Box9mmLuger"/>
+		<item name="MetalBox9mm" prob=".3"/>
+		<item name="Box9mmHP" prob=".5"/>
+		<item name="Box9mmAP" prob=".5"/>
+		
+		<item name="Box45LC"/>
+		
+		<item name="Box45ACP"/>
+		<item name="MetalBox45ACP" prob=".3"/>
+		<item name="Box45ACP-ZombieMax" prob=".5"/>
+		
+		<item name="Box44magnum"/>
+		<item name="Box44magnumHP" prob=".5"/>
+		<item name="Box44magnumAP" prob=".5"/>
+		
+		<item name="BoxM855"/>
+		<item name="MetalBoxM855" prob=".3"/>
+		<item name="CrateM855" prob=".1"/>
+		<item name="Box223ZombieMax" prob=".5"/>
+		<item name="BoxM995" prob=".5"/>
+		
+		<item name="BoxM80"/>
+		<item name="MetalBoxM80" prob=".3"/>
+		<item name="CrateM80" prob=".1"/>
+		<item name="Box308Winchester" prob=".5"/>
+		<item name="BoxM993" prob=".5"/>
+		
+		<item name="Box50BMG" prob=".3"/>
+		
+		<item name="Box12gaBuckshot"/>
+		<item name="Box12gaSlug"/>
+	</append>
+
+
+
+</configs>
