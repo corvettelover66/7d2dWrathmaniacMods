@@ -1,4 +1,4 @@
-<TacticalWeapons-Patch>
+<ZZZ-TacticalWeapons-Patch>
 	<!-- Pistols -->
 	<insertBefore xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingHandguns']/display_entry[@item='gunHandgunT0PipePistol']">
 		<display_entry icon="gunHandgunT0PipePistol,P99,Colt_M1873,Colt1911"  name_key="handgunT0-1,handgunT0-2,handgunT0-3,handgunT0-4"  has_quality="true"  unlock_level="1,4,7,10" >
@@ -249,26 +249,30 @@
 	<remove xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMachineGuns']/display_entry[@item='gunMGT3M60']"/>
 
 	<!-- Explosives -->
-	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='thrownAmmoPipeBomb,thrownGrenade,mineCookingPot']/@icon">,M79</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='thrownAmmoPipeBomb,thrownGrenade,mineCookingPot']/@name_key">,explosivesT1-4</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='thrownAmmoPipeBomb,thrownGrenade,mineCookingPot']/@unlock_level">,15</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='thrownAmmoPipeBomb,thrownGrenade,mineCookingPot']">
 		<unlock_entry item="M79"  unlock_tier="4" />
 	</append>
+	<!-- The icon must be appended after the other changes -->
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='thrownAmmoPipeBomb,thrownGrenade,mineCookingPot']/@icon">,M79</append>
 	
-	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='thrownDynamite,thrownGrenadeContact,mineHubcap']/@icon">,ChinaLake</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='thrownDynamite,thrownGrenadeContact,mineHubcap']/@name_key">,explosivesT2-4</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='thrownDynamite,thrownGrenadeContact,mineHubcap']/@unlock_level">,25</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='thrownDynamite,thrownGrenadeContact,mineHubcap']">
 			<unlock_entry item="ChinaLake"  unlock_tier="4" />
 	</append>
-	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='mineAirFilter,resourceGunPowder,thrownTimedCharge']/@icon">,MGL140</append>
+	<!-- The icon must be appended after the other changes -->
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='thrownDynamite,thrownGrenadeContact,mineHubcap']/@icon">,ChinaLake</append>
+	
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='mineAirFilter,resourceGunPowder,thrownTimedCharge']/@name_key">,explosivesT3-4</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='mineAirFilter,resourceGunPowder,thrownTimedCharge']/@unlock_level">,40</append>
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='mineAirFilter,resourceGunPowder,thrownTimedCharge']">
 			<unlock_entry item="MGL140"  unlock_tier="4" />
 	</append>
-	
+	<!-- The icon must be appended after the other changes -->
+	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='mineAirFilter,resourceGunPowder,thrownTimedCharge']/@icon">,MGL140</append>
+		
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/effect_group">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="M79"/>
 		
@@ -284,4 +288,4 @@
 
 	</append>
 
-</TacticalWeapons-Patch>
+</ZZZ-TacticalWeapons-Patch>

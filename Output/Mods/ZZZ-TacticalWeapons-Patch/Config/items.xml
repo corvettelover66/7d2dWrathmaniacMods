@@ -1,4 +1,4 @@
-<TacticalWeapons-Patch>
+<ZZZ-TacticalWeapons-Patch>
 	<append xpath="/items/item[@name='MGL140']/property[@name='Tags']/@value">,explosivesSkill</append>
 
 	<append xpath="/items/item[@name='ChinaLake']/property[@name='Tags']/@value">,explosivesSkill</append>
@@ -80,4 +80,4 @@
 	<append xpath="/items/item[@name='Colt1911']/property[@name='Tags']/@value">,handgunSkill</append>
 
 	<append xpath="/items/item[@name='MK23']/property[@name='Tags']/@value">,handgunSkill</append>
-</TacticalWeapons-Patch>
+</ZZZ-TacticalWeapons-Patch>

@@ -1,4 +1,4 @@
-<TacticalWeapons-Patch>
+<ZZZ-TacticalWeapons-Patch>
 	<append xpath="/lootcontainers/lootgroup[@name='groupMilitaryFootlocker02']">
 			<item loot_prob_template="veryLow"  group="TAWeaponsT0_PsT" />
 	</append>
@@ -145,4 +145,4 @@
 
 	<setattribute xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Demolitionist']" name="loot_quality_template">QLTemplateT1</setattribute>
 	<setattribute xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Demolitionist']" name="loot_quality_template">QLTemplateT2</setattribute>
-</TacticalWeapons-Patch>
+</ZZZ-TacticalWeapons-Patch>
