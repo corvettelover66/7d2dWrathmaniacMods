@@ -1,91 +1,179 @@
-<Pantstain>
+<PantsRangedPack>
+	<!-- All of these groups rely on groups added in tactical weapons A21 --> 
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupScrapCommon']">
+		<lootgroup name="gunHandgunT0junkpistolandAMMO"  count="all" >
+			<item name="gunHandgunT0junkpistol" />
+			<item count="1"  group="ammo9group" />
+		</lootgroup>
+		
+		<lootgroup name="gunSmgT3heavysmgandAMMO"  count="all" >
+			<item name="gunSmgT3heavysmg" />
+			<item count="1"  group="ammo9group" />
+		</lootgroup>
+
+		<lootgroup name="gunHandgunT3AceofSpadesandAMMO"  count="all" >
+			<item name="gunHandgunT3AceofSpades" />
+			<item count="1"  group="ammo9group" />
+		</lootgroup>
+
+		<lootgroup name="gunHandgunT2SIGp320andAMMO"  count="all" >
+			<item name="gunHandgunT2SIGp320" />
+			<item count="1"  group="ammo9group" />
+		</lootgroup>
+
+		<lootgroup name="gunSmgT1kiparissmgandAMMO"  count="all" >
+			<item name="gunSmgT1kiparissmg" />
+			<item count="1"  group="ammo9group" />
+		</lootgroup>
+		
+		<lootgroup name="gunHandgunT1fivesevenandAMMO"  count="all" >
+			<item name="gunHandgunT1fiveseven" />
+			<item count="1"  group="ammo9group" />
+		</lootgroup>
+		
+		<lootgroup name="gunHandgunT1USP9andAMMO"  count="all" >
+			<item name="gunHandgunT1USP9" />
+			<item count="1"  group="ammo9group" />
+		</lootgroup>
+		
+		<lootgroup name="gunShotgunT2M590andAMMO"  count="all" >
+			<item name="gunShotgunT2M590" />
+			<item count="1"  group="ammo12Ggroup" />
+		</lootgroup>
+		<lootgroup name="gunHandgunT1USP9andAMMO"  count="all" >
+			<item name="gunHandgunT1USP9" />
+			<item count="1"  group="ammo12Ggroup" />
+		</lootgroup>
+		<lootgroup name="gunShotgunT1TripleBarrelandAMMO"  count="all" >
+			<item name="gunShotgunT1TripleBarrel" />
+			<item count="1"  group="ammo12Ggroup" />
+		</lootgroup>
+		<lootgroup name="gunShotgunT0IZh-18andAMMO"  count="all" >
+			<item name="gunShotgunT0IZh-18" />
+			<item count="1"  group="ammo12Ggroup" />
+		</lootgroup>
+		
+				<lootgroup name="gunMGT3RPK16andAMMO"  count="all" >
+			<item name="gunMGT3RPK16" />
+			<item count="1"  group="ammo762group" />
+		</lootgroup>
+		<lootgroup name="gunMGT2NV4andAMMO"  count="all" >
+			<item name="gunMGT2NV4" />
+			<item count="1"  group="ammo762group" />
+		</lootgroup>
+		<lootgroup name="gunMGT1ak47apocandAMMO"  count="all" >
+			<item name="gunMGT1ak47apoc" />
+			<item count="1"  group="ammo762group" />
+		</lootgroup>
+		<lootgroup name="gunMGT0junkmgandAMMO"  count="all" >
+			<item name="gunMGT0junkmg" />
+			<item count="1"  group="ammo762group" />
+		</lootgroup>
+		<lootgroup name="gunRifleT3M200andAMMO"  count="all" >
+			<item name="gunRifleT3M200" />
+			<item count="1"  group="ammo762group" />
+		</lootgroup>
+		<lootgroup name="gunRifleT2myM1garandandAMMO"  count="all" >
+			<item name="gunRifleT2myM1garand" />
+			<item count="1"  group="ammo762group" />
+		</lootgroup>
+		<lootgroup name="gunRifleT1ScraprifleandAMMO"  count="all" >
+			<item name="gunRifleT1Scraprifle" />
+			<item count="1"  group="ammo762group" />
+		</lootgroup>
+		<lootgroup name="gunRifleT0JunkrifleandAMMO"  count="all" >
+			<item name="gunRifleT0Junkrifle" />
+			<item count="1"  group="ammo762group" />
+		</lootgroup>
+	</insertBefore>
+
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_Gunslinger']">
-	<item name="gunHandgunT0junkpistol"/>
+	<item group="gunHandgunT0junkpistolandAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_Gunslinger']">
-	<item name="gunHandgunT1USP9"/>
-	<item name="gunHandgunT1fiveseven"/>
-	<item name="gunSmgT1kiparissmg"/>
+	<item group="gunHandgunT1USP9andAMMO"/>
+	<item group="gunHandgunT1fivesevenandAMMO"/>
+	<item group="gunSmgT1kiparissmgandAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Gunslinger']">
-	<item name="gunHandgunT2SIGp320"/>
+	<item group="gunHandgunT2SIGp320andAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT3_Gunslinger']">
-	<item name="gunHandgunT3AceofSpades"/> 
-	<item name="gunSmgT3heavysmg"/>
+	<item group="gunHandgunT3AceofSpadesandAMMO"/> 
+	<item group="gunSmgT3heavysmgandAMMO"/>
 </append>
 
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_Boomstick']">
-	<item name="gunShotgunT0IZh-18"/>
+	<item group="gunShotgunT0IZh-18andAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_Boomstick']">
-	<item name="gunShotgunT1TripleBarrel"/>
+	<item group="gunShotgunT1TripleBarrelandAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Boomstick']">
-	<item name="gunShotgunT2M590"/>
+	<item group="gunShotgunT2M590andAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT3_Boomstick']">
-	<item name="gunShotgunT3Spas12Apoc"/>
+	<item group="gunShotgunT3Spas12ApocandAMMO"/>
 </append>
 
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_DeadEye']">
-	<item name="gunRifleT0Junkrifle"/>
+	<item group="gunRifleT0JunkrifleandAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_DeadEye']">
-	<item name="gunRifleT1Scraprifle"/>
+	<item group="gunRifleT1ScraprifleandAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_DeadEye']">
-	<item name="gunRifleT2myM1garand"/>
+	<item group="gunRifleT2myM1garandandAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT3_DeadEye']">
-	<item name="gunRifleT3M200"/>
+	<item group="gunRifleT3M200andAMMO"/>
 </append>
 
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_Machinegunner']">
-	<item name="gunMGT0junkmg"/>
+	<item group="gunMGT0junkmgandAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_Machinegunner']">
-	<item name="gunMGT1ak47apoc"/>
+	<item group="gunMGT1ak47apocandAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Machinegunner']">
-	<item name="gunMGT2NV4"/>
+	<item group="gunMGT2NV4andAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupWeaponsT3_Machinegunner']">
-	<item name="gunMGT3RPK16"/> 
+	<item group="gunMGT3RPK16andAMMO"/> 
 </append>
 
 <append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT1']">
-	<item name="gunHandgunT1USP9"/>
-	<item name="gunHandgunT1fiveseven"/>
-	<item name="gunSmgT1kiparissmg"/>
-	<item name="gunShotgunT1TripleBarrel"/>
-	<item name="gunRifleT1Scraprifle"/>
-	<item name="gunMGT1ak47apoc"/>
+	<item group="gunHandgunT1USP9andAMMO"/>
+	<item group="gunHandgunT1fivesevenandAMMO"/>
+	<item group="gunSmgT1kiparissmgandAMMO"/>
+	<item group="gunShotgunT1TripleBarrelandAMMO"/>
+	<item group="gunRifleT1ScraprifleandAMMO"/>
+	<item group="gunMGT1ak47apocandAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT2']">
-	<item name="gunHandgunT2SIGp320"/>
-	<item name="gunShotgunT2M590"/>
-	<item name="gunRifleT2myM1garand"/>
-	<item name="gunMGT2NV4"/>
+	<item group="gunHandgunT2SIGp320andAMMO"/>
+	<item group="gunShotgunT2M590andAMMO"/>
+	<item group="gunRifleT2myM1garandandAMMO"/>
+	<item group="gunMGT2NV4andAMMO"/>
 </append>
 <append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT3']">
-	<item name="gunHandgunT3AceofSpades"/>
-	<item name="gunSmgT3heavysmg"/>
-	<item name="gunShotgunT3Spas12Apoc"/>
-	<item name="gunRifleT3M200"/>
-	<item name="gunMGT3RPK16"/> 
+	<item group="gunHandgunT3AceofSpadesandAMMO"/>
+	<item group="gunSmgT3heavysmgandAMMO"/>
+	<item group="gunShotgunT3Spas12ApocandAMMO"/>
+	<item group="gunRifleT3M200andAMMO"/>
+	<item group="gunMGT3RPK16andAMMO"/> 
 </append>
 
 <append xpath="lootcontainers/lootgroup[@name='groupInfestedT5MeleeRanged']">
-	<item name="gunHandgunT2SIGp320"/>
-	<item name="gunHandgunT3AceofSpades"/>
-	<item name="gunSmgT3heavysmg"/>
-	<item name="gunShotgunT2M590"/>
-	<item name="gunShotgunT3Spas12Apoc"/>
-	<item name="gunRifleT2myM1garand"/>
-	<item name="gunRifleT3M200"/>
-	<item name="gunMGT2NV4"/>
-	<item name="gunMGT3RPK16"/> 
+	<item group="gunHandgunT2SIGp320andAMMO"/>
+	<item group="gunHandgunT3AceofSpadesandAMMO"/>
+	<item group="gunSmgT3heavysmgandAMMO"/>
+	<item group="gunShotgunT2M590andAMMO"/>
+	<item group="gunShotgunT3Spas12ApocandAMMO"/>
+	<item group="gunRifleT2myM1garandandAMMO"/>
+	<item group="gunRifleT3M200andAMMO"/>
+	<item group="gunMGT2NV4andAMMO"/>
+	<item group="gunMGT3RPK16andAMMO"/> 
 	<item name="meleeWpnBladeT2BallisticKnife"/>
 	<item name="meleeWpnBladeT3ThermalKatana"/>
 	<item name="meleeWpnClubT3Warmace"/>
@@ -139,8 +227,4 @@
 <append xpath="lootcontainers/lootgroup[@name='groupRollingToolbox02']">
 	<item name="meleeWpnBladeT1WrenchKnife"/>
 </append>
-
-
-
-
-</Pantstain>
+</PantsRangedPack>
