@@ -40,10 +40,7 @@
 			<item name="gunShotgunT2M590" />
 			<item count="1"  group="ammo12Ggroup" />
 		</lootgroup>
-		<lootgroup name="gunHandgunT1USP9andAMMO"  count="all" >
-			<item name="gunHandgunT1USP9" />
-			<item count="1"  group="ammo12Ggroup" />
-		</lootgroup>
+
 		<lootgroup name="gunShotgunT1TripleBarrelandAMMO"  count="all" >
 			<item name="gunShotgunT1TripleBarrel" />
 			<item count="1"  group="ammo12Ggroup" />
