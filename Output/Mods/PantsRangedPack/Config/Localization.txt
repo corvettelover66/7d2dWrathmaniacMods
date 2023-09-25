@@ -1,0 +1,72 @@
+Key,Source,Context,Changes,English
+
+
+gunHandgunT0junkpistol,items,Gun,New,Junk pistol
+gunHandgunT0junkpistolDesc,items,Gun,New,"The Junk pistol is a T0 pistol chambered in 9mm, cobbled together from various parts."
+gunSmgT0junksmg,items,Gun,New,Junk Smg
+gunSmgT0junksmgDesc,items,Gun,New,"The Junk smg is a T0 pistol chambered in 9mm, cobbled together from various parts."
+gunHandgunT1USP9,items,Gun,New,H&K USP9
+gunHandgunT1USP9Desc,items,Gun,New,"The H&K USP 9 is a T1 pistol chambered in 9mm."
+gunHandgunT1fiveseven,items,Gun,New,FN Five Seven
+gunHandgunT1fivesevenDesc,items,Gun,New,"Looks a bit rusty, but still seems to work fine."
+gunHandgunT2SIGp320,items,Gun,New,SIG p320
+gunHandgunT2SIGp320Desc,items,Gun,New,"The SIG p320 is a T2 pistol chambered in 9mm."
+gunHandgunT3AceofSpades,items,Gun,New,Ace of Spades
+gunHandgunT3AceofSpadesDesc,items,Gun,New,"The Ace of Spades is a T3 pistol chambered in .44 magnum.\nLong live Cayde-6."
+gunShotgunT0IZh-18,items,Gun,New,"IZh-18 Single Barrel Shotgun"
+gunShotgunT0IZh-18Desc,items,Gun,New,"The IZh-18 is a T0 shotgun, probably found in some farmers house."
+gunShotgunT1TripleBarrel,items,Gun,New,Triple Barrel Shotgun
+gunShotgunT1TripleBarrelDesc,items,Gun,New,"The Triple Barrel is a T1 shotgun. Due to its non-standard configuration it isn't compatible with many barrel mods."
+gunShotgunT2M590,items,Gun,New,M590 Shotgun
+gunShotgunT2M590Desc,items,Gun,New,"The M590 is a T2 shotgun. Military grade hardware."
+gunShotgunT3Spas12Apoc,items,Gun,New,Spas-12 Apocalypse Shotgun
+gunShotgunT3Spas12ApocDesc,items,Gun,New,"The Spas-12 Apocalypse is a T3 shotgun. It makes up for its smaller magazine size, as compared to other T3 shotguns, with a faster reload."
+gunSmgT1kiparissmg,items,Gun,New,Kiparis
+gunSmgT1kiparissmgDesc,items,Gun,New,"The ever popular Black Ops Kiparis."
+gunSmgT3heavysmg,items,Gun,New,Heavy SMG
+gunSmgT3heavysmgDesc,items,Gun,New,"Where's the beef"
+gunRifleT0Junkrifle,items,Gun,New,Junk Rifle
+gunRifleT0JunkrifleDesc,items,Gun,New,"Looks very steampunk. Still deadly though."
+gunRifleT0SLF76rifle,items,Gun,New,SLF 76
+gunRifleT0SLF76rifleDesc,items,Gun,New,"The Striker Locket Firearm is a simple, yet effective, break-action rifle"
+gunRifleT1Scraprifle,items,Gun,New,Scrap Rifle
+gunRifleT1ScraprifleDesc,items,Gun,New,"This gun looks like it was cobbled together by an amateur. Let's hope it works better than it looks."
+gunRifleT2myM1garand,items,Gun,New,M1 Garand
+gunRifleT2myM1garandDesc,items,Gun,New,"The infamous M1 Garand"
+gunRifleT3M200,items,Gun,New,CheyTac M200 Intervention
+gunRifleT3M200Desc,items,Gun,New,"The M200 Intervention® is a truly remarkable rifle that has earned its place in history as the Best of the Best."
+gunMGT0junkmg,items,Gun,New,Junk Machine Gun
+gunMGT0junkmgDesc,items,Gun,New,"This gun looks like it was cobbled together by an amateur. Let's hope it works better than it looks."
+gunMGT1ak47apoc,items,Gun,New,"AK-47 Apocalypse Edition"
+gunMGT1ak47apocDesc,items,Gun,New,"An AK-47 that still works in the apocalypse. Imagine that. Additional flair added!"
+gunMGT2NV4,items,Gun,New,NV4
+gunMGT2NV4Desc,items,Gun,New,"The NV4 is a Kendall Ballistics assault rifle featured in Call of Duty: Infinite Warfare."
+gunMGT3RPK16,items,Gun,New,"RPK-16"
+gunMGT3RPK16Desc,items,Gun,New,"Anyone packing the RPK-16 is ready to throw some serious lead at some zombies."
+meleeWpnBladeT1WrenchKnife,items,Melee,New,Wrench Knife
+meleeWpnBladeT1WrenchKnifeDesc,items,Melee,New,"A knife made from an old wrench."
+meleeWpnBladeT2BallisticKnife,items,Melee,New,Ballistic Knife
+meleeWpnBladeT2BallisticKnifeDesc,items,Melee,New,"The ever popular Black Ops Ballistic Knife."
+meleeWpnBladeT3ThermalKatana,items,Melee,New,Thermal Katana
+meleeWpnBladeT3ThermalKatanaDesc,items,Melee,New,"Time to slice and dice."
+meleeWpnClubT0Truncheon,items,Melee,New,Truncheon
+meleeWpnClubT0TruncheonDesc,items,Melee,New,"Stay awhile and listen..."
+meleeWpnClubT1Kanabo,items,Melee,New,Kanabo
+meleeWpnClubT1KanaboDesc,items,Melee,New,"Time to smash some skulls."
+meleeWpnClubT3Warmace,items,Melee,New,War Mace
+meleeWpnClubT3WarmaceDesc,items,Melee,New,"War is hell."
+meleeWpnSledgeT0Warsledge,items,Melee,New,War Sledge
+meleeWpnSledgeT0WarsledgeDesc,items,Melee,New,"When a big hammer just isn't enough."
+meleeWpnSledgeT1Thermalsledge,items,Melee,New,Thermal Sledge
+meleeWpnSledgeT1ThermalsledgeDesc,items,Melee,New,"Hot! Don't Touch!"
+meleeWpnSledgeT3Demonsledge,items,Melee,New,Demon Sledge
+meleeWpnSledgeT3DemonsledgeDesc,items,Melee,New,"Looks kinda demonic."
+meleeWpnSpearT0Rockspear,items,Melee,New,Rock Spear
+meleeWpnSpearT0RockspearDesc,items,Melee,New,"As basic as it gets."
+meleeWpnSpearT1Tribalspear,items,Melee,New,Tribal Spear
+meleeWpnSpearT1TribalspearDesc,items,Melee,New,"Looks like it came out of a museum."
+meleeWpnSpearT3Ceremonialspear,items,Melee,New,Ceremonial Spear
+meleeWpnSpearT3CeremonialspearDesc,items,Melee,New,"3 points for extra stabbines!"
+
+
+

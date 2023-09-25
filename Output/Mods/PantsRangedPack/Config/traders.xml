@@ -1,0 +1,43 @@
+<Pantstain>
+
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupRangedAll']">
+			<item name="gunHandgunT0junkpistol" quality="3,5"/>
+			<item name="gunHandgunT1USP9" quality="2,5"/>
+			<item name="gunHandgunT1fiveseven" quality="2,5"/>
+			<item name="gunHandgunT2SIGp320" quality="2,5"/>
+			<item name="gunHandgunT3AceofSpades" quality="2,5"/>
+			<item name="gunSmgT1kiparissmg" quality="2,5"/>
+			<item name="gunSmgT3heavysmg" quality="2,5"/>
+			<item name="gunShotgunT0IZh-18" quality="3,5"/>
+			<item name="gunShotgunT1TripleBarrel" quality="2,5"/>
+			<item name="gunShotgunT2M590" quality="2,5"/>
+			<item name="gunShotgunT3Spas12Apoc" quality="2,5"/>
+			<item name="gunRifleT0Junkrifle" quality="3,5"/>
+			<item name="gunRifleT1Scraprifle" quality="2,5"/>
+			<item name="gunRifleT2myM1garand" quality="2,5"/>
+			<item name="gunRifleT3M200" quality="2,5"/>
+			<item name="gunMGT0junkmg" quality="3,5"/>
+			<item name="gunMGT1ak47apoc" quality="2,5"/>
+			<item name="gunMGT2NV4" quality="2,5"/>
+			<item name="gunMGT3RPK16" quality="2,5"/>
+	</append>
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupMeleeAll']">
+			<item name="meleeWpnBladeT1WrenchKnife" quality="2,5"/>
+			<item name="meleeWpnBladeT2BallisticKnife" quality="2,5"/>
+			<item name="meleeWpnBladeT3ThermalKatana" quality="2,5"/>
+			<item name="meleeWpnClubT0Truncheon" quality="3,5"/>
+			<item name="meleeWpnClubT1Kanabo" quality="2,5"/>
+			<item name="meleeWpnClubT3Warmace" quality="2,5"/>
+			<item name="meleeWpnSledgeT0Warsledge" quality="3,5"/>
+			<item name="meleeWpnSledgeT1Thermalsledge" quality="2,5"/>
+			<item name="meleeWpnSledgeT3Demonsledge" quality="2,5"/>
+			<item name="meleeWpnSpearT0Rockspear" quality="3,5"/>
+			<item name="meleeWpnSpearT1Tribalspear" quality="2,5"/>
+			<item name="meleeWpnSpearT3Ceremonialspear" quality="2,5"/>
+	</append>
+
+
+
+</Pantstain>	

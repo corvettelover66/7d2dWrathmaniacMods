@@ -1,0 +1,146 @@
+<Pantstain>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_Gunslinger']">
+	<item name="gunHandgunT0junkpistol"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_Gunslinger']">
+	<item name="gunHandgunT1USP9"/>
+	<item name="gunHandgunT1fiveseven"/>
+	<item name="gunSmgT1kiparissmg"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Gunslinger']">
+	<item name="gunHandgunT2SIGp320"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT3_Gunslinger']">
+	<item name="gunHandgunT3AceofSpades"/> 
+	<item name="gunSmgT3heavysmg"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_Boomstick']">
+	<item name="gunShotgunT0IZh-18"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_Boomstick']">
+	<item name="gunShotgunT1TripleBarrel"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Boomstick']">
+	<item name="gunShotgunT2M590"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT3_Boomstick']">
+	<item name="gunShotgunT3Spas12Apoc"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_DeadEye']">
+	<item name="gunRifleT0Junkrifle"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_DeadEye']">
+	<item name="gunRifleT1Scraprifle"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_DeadEye']">
+	<item name="gunRifleT2myM1garand"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT3_DeadEye']">
+	<item name="gunRifleT3M200"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_Machinegunner']">
+	<item name="gunMGT0junkmg"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_Machinegunner']">
+	<item name="gunMGT1ak47apoc"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Machinegunner']">
+	<item name="gunMGT2NV4"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT3_Machinegunner']">
+	<item name="gunMGT3RPK16"/> 
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT1']">
+	<item name="gunHandgunT1USP9"/>
+	<item name="gunHandgunT1fiveseven"/>
+	<item name="gunSmgT1kiparissmg"/>
+	<item name="gunShotgunT1TripleBarrel"/>
+	<item name="gunRifleT1Scraprifle"/>
+	<item name="gunMGT1ak47apoc"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT2']">
+	<item name="gunHandgunT2SIGp320"/>
+	<item name="gunShotgunT2M590"/>
+	<item name="gunRifleT2myM1garand"/>
+	<item name="gunMGT2NV4"/>
+</append>
+<append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT3']">
+	<item name="gunHandgunT3AceofSpades"/>
+	<item name="gunSmgT3heavysmg"/>
+	<item name="gunShotgunT3Spas12Apoc"/>
+	<item name="gunRifleT3M200"/>
+	<item name="gunMGT3RPK16"/> 
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupInfestedT5MeleeRanged']">
+	<item name="gunHandgunT2SIGp320"/>
+	<item name="gunHandgunT3AceofSpades"/>
+	<item name="gunSmgT3heavysmg"/>
+	<item name="gunShotgunT2M590"/>
+	<item name="gunShotgunT3Spas12Apoc"/>
+	<item name="gunRifleT2myM1garand"/>
+	<item name="gunRifleT3M200"/>
+	<item name="gunMGT2NV4"/>
+	<item name="gunMGT3RPK16"/> 
+	<item name="meleeWpnBladeT2BallisticKnife"/>
+	<item name="meleeWpnBladeT3ThermalKatana"/>
+	<item name="meleeWpnClubT3Warmace"/>
+	<item name="meleeWpnSledgeT3Demonsledge"/>
+	<item name="meleeWpnSpearT3Ceremonialspear"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT0_Melee']"> <!-- T0_Melee_Weapons -->
+	<item name="meleeWpnClubT0Truncheon"/>
+	<item name="meleeWpnSledgeT0Warsledge"/>
+	<item name="meleeWpnSpearT0Rockspear"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']"> <!-- T1_Melee_Weapons -->
+	<item name="meleeWpnBladeT1WrenchKnife"/>
+	<item name="meleeWpnClubT1Kanabo"/>
+	<item name="meleeWpnSledgeT1Thermalsledge"/>
+	<item name="meleeWpnSpearT1Tribalspear"/>
+	
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']"> <!-- T2&T3_Melee_Weapons -->
+	<item name="meleeWpnBladeT2BallisticKnife"/>
+	<item name="meleeWpnBladeT3ThermalKatana"/>
+	<item name="meleeWpnClubT3Warmace"/>
+	<item name="meleeWpnSledgeT3Demonsledge"/>
+	<item name="meleeWpnSpearT3Ceremonialspear"/>
+</append>
+
+
+<append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT1']">
+	<item name="meleeWpnBladeT1WrenchKnife"/>
+	<item name="meleeWpnClubT1Kanabo"/>
+	<item name="meleeWpnSledgeT1Thermalsledge"/>
+	<item name="meleeWpnSpearT1Tribalspear"/>
+	
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']"> <!-- Some T3 items get treated as T2 -->
+	<item name="meleeWpnBladeT2BallisticKnife"/>
+	<item name="meleeWpnBladeT3ThermalKatana"/>
+	<item name="meleeWpnClubT3Warmace"/>
+	<item name="meleeWpnSledgeT3Demonsledge"/>
+	<item name="meleeWpnSpearT3Ceremonialspear"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupMilitaryFootlocker02']">
+	<item name="meleeWpnBladeT2BallisticKnife"/>
+</append>
+
+<append xpath="lootcontainers/lootgroup[@name='groupRollingToolbox02']">
+	<item name="meleeWpnBladeT1WrenchKnife"/>
+</append>
+
+
+
+
+</Pantstain>

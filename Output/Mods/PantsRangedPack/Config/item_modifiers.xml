@@ -1,0 +1,543 @@
+<Pantstain>
+
+	<set xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']/item_property_overrides[@name='*']/property[@name='Zoom_max_in']/@value">40</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']/item_property_overrides[@name='*']/property[@name='Zoom_max_out']/@value">40</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunScopeMedium']/item_property_overrides[@name='*']/property[@name='Zoom_max_in']/@value">30</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunScopeMedium']/item_property_overrides[@name='*']/property[@name='Zoom_max_out']/@value">30</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']/item_property_overrides[@name='*']/property[@name='Zoom_max_in']/@value">20</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']/item_property_overrides[@name='*']/property[@name='Zoom_max_out']/@value">20</set>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']"> 
+		<item_property_overrides name="gunHandgunT0junkpistol">
+			<property name="Sound_start" value="junkpistol_fire_sil"/>
+			<property name="Sound_loop" value="junkpistol_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunHandgunT1USP9">
+			<property name="Sound_start" value="usp_fire2_sil"/>
+			<property name="Sound_loop" value="usp_fire2_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunHandgunT1fiveseven">
+			<property name="Sound_start" value="fiveseven_fire_sil"/>
+			<property name="Sound_loop" value="fiveseven_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunHandgunT2SIGp320">
+			<property name="Sound_start" value="SIGp320_fire_sil"/>
+			<property name="Sound_loop" value="SIGp320_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunHandgunT3AceofSpades">
+			<property name="Sound_start" value="AceofSpades_fire_sil"/>
+			<property name="Sound_loop" value="AceofSpades_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunSmgT1kiparissmg">
+			<property name="Sound_start" value="kiparis_fire_sil"/>
+			<property name="Sound_loop" value="kiparis_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunSmgT3heavysmg">
+			<property name="Sound_start" value="heavysmg_fire_sil"/>
+			<property name="Sound_loop" value="heavysmg_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunShotgunT0IZh-18">
+			<property name="Sound_start" value="IZh18_fire_sil"/>
+			<property name="Sound_loop" value="IZh18_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunShotgunT2M590">
+			<property name="Sound_start" value="IZh18_fire_sil"/>
+			<property name="Sound_loop" value="IZh18_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunShotgunT3Spas12Apoc">
+			<property name="Sound_start" value="IZh18_fire_sil"/>
+			<property name="Sound_loop" value="IZh18_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunRifleT0SLF76rifle">
+			<property name="Sound_start" value="SLF76rifle_fire_sil"/>
+			<property name="Sound_loop" value="SLF76rifle_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunRifleT0Junkrifle">
+			<property name="Sound_start" value="SLF76rifle_fire_sil"/>
+			<property name="Sound_loop" value="SLF76rifle_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunRifleT1Scraprifle">
+			<property name="Sound_start" value="scraprifle_fire_sil"/>
+			<property name="Sound_loop" value="scraprifle_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunRifleT2myM1garand">
+			<property name="Sound_start" value="mym1_fire_sil"/>
+			<property name="Sound_loop" value="mym1_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunRifleT3M200">
+			<property name="Sound_start" value="M200_fire_sil"/>
+			<property name="Sound_loop" value="M200_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunMGT0junkmg">
+			<property name="Sound_start" value="junkmg_fire_sil"/>
+			<property name="Sound_loop" value="junkmg_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunMGT1ak47apoc">
+			<property name="Sound_start" value="ak47apoc_fire_sil"/>
+			<property name="Sound_loop" value="ak47apoc_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunMGT2NV4">
+			<property name="Sound_start" value="nv4_fire_sil"/>
+			<property name="Sound_loop" value="nv4_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+		<item_property_overrides name="gunMGT3RPK16">
+			<property name="Sound_start" value="rpk16_fire_sil"/>
+			<property name="Sound_loop" value="rpk16_fire_sil"/>
+			<property name="Sound_end" value="silencefiller"/>
+		</item_property_overrides> 
+
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']"> <!-- +cam left/-right, +cam down/-up, +cam backwards/-forwards -->
+		<item_property_overrides name="gunHandgunT0junkpistol">
+			<property name="ScopeCameraOffset" value="-0.0005,-0.0056,0"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunHandgunT1USP9"> 
+			<property name="ScopeCameraOffset" value="-0.0005,-0.01425,0"/> 
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunHandgunT1fiveseven"> 
+			<property name="ScopeCameraOffset" value="-0.0005,-0.01325,0"/> 
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunHandgunT2SIGp320"> 
+			<property name="ScopeCameraOffset" value="-0.0004,-0.0195,0"/> 
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunHandgunT3AceofSpades"> 
+			<property name="ScopeCameraOffset" value="-0.0045,-0.01975,0.0275"/> 
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunSmgT1kiparissmg">
+			<property name="ScopeCameraOffset" value="0,-0.0178,.25"/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunSmgT3heavysmg">
+			<property name="ScopeCameraOffset" value="0,-0.03785,0"/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunShotgunT0IZh-18">
+			<property name="ScopeCameraOffset" value="0.0575,-0.01625,0.00"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunShotgunT1TripleBarrel">
+			<property name="ScopeCameraOffset" value="0.0001,-.0515,-0.04"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunShotgunT2M590">
+			<property name="ScopeCameraOffset" value="0.0035,-0.01195,0"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunShotgunT3Spas12Apoc">
+			<property name="ScopeCameraOffset" value="-0.008,-0.03315,-0.14"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT0SLF76rifle">
+			<property name="ScopeCameraOffset" value="-0.0145,-0.0655,0"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT0Junkrifle">
+			<property name="ScopeCameraOffset" value="0.0405,-0.0095,0"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT1Scraprifle">
+			<property name="ScopeCameraOffset" value="-0.00365,0.04775,0"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT2myM1garand">
+			<property name="ScopeCameraOffset" value="-0.0003,-0.0044,0"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT3M200">
+			<property name="ScopeCameraOffset" value="-0.00585,0.0071,-.05"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT0junkmg">
+			<property name="ScopeCameraOffset" value="-0.0092,0.0082,0.2"/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT1ak47apoc">
+			<property name="ScopeCameraOffset" value=".00172,-0.0115,.18"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT2NV4">
+			<property name="ScopeCameraOffset" value="-.0032,-.02675,.055"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT3RPK16">
+			<property name="ScopeCameraOffset" value="-.0025,-0.0064,.3"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="false" parent_transform="#HeldItemRoot" transform_path="ironsight_up"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="ironsight_down"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="model/Slide" transform_path="holosight"/>
+		</effect_group>		
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']"> <!-- +cam left/-right, +cam down/-up, +cam backwards/-forwards -->
+
+
+		<item_property_overrides name="gunHandgunT0junkpistol">
+			<property name="ScopeCameraOffset" value="-0.0005,-0.003775,-0.1925"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunHandgunT1USP9">
+			<property name="ScopeCameraOffset" value="-0.00125,-0.028125,-0.0825"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunHandgunT1fiveseven">
+			<property name="ScopeCameraOffset" value="-0.0006,-0.02815,-0.0825"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunHandgunT2SIGp320">
+			<property name="ScopeCameraOffset" value="-0.001575,-0.02642,-0.08"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunHandgunT3AceofSpades">
+			<property name="ScopeCameraOffset" value="-0.0053,-0.015,-0.09"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunSmgT1kiparissmg">
+			<property name="ScopeCameraOffset" value="-0.00079,-.00183,0.140"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunSmgT3heavysmg">
+			<property name="ScopeCameraOffset" value="-0.00086,-0.03095,0.01"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunShotgunT0IZh-18">
+			<property name="ScopeCameraOffset" value="-0.0125,-0.0424,-0.028"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunShotgunT1TripleBarrel">
+			<property name="ScopeCameraOffset" value="-0.000375,-0.0401925,-0.1585"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunShotgunT2M590">
+			<property name="ScopeCameraOffset" value="0.0019,-0.02394,0.046"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunShotgunT3Spas12Apoc">
+			<property name="ScopeCameraOffset" value="-0.0087,-0.0275,-0.1255"/> 
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT0SLF76rifle">
+			<property name="ScopeCameraOffset" value="-0.0132,-0.07525,-0.169"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT0Junkrifle">
+			<property name="ScopeCameraOffset" value="0.04325,-0.01625,-0.08"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT1Scraprifle">
+			<property name="ScopeCameraOffset" value="-0.0037,0.039725,-0.013"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT2myM1garand">
+			<property name="ScopeCameraOffset" value="-0.0003,-0.005,-.229"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_overlay" value=""/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT3M200">
+			<property name="ScopeCameraOffset" value="-0.0095,0.0198,-.03"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT0junkmg">
+			<property name="ScopeCameraOffset" value="-0.00825,0.0072,0.185"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT1ak47apoc">
+			<property name="ScopeCameraOffset" value=".0011,-0.01629,.229"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT2NV4">
+			<property name="ScopeCameraOffset" value="-.00425,-.009175,-.05775"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT3RPK16">
+			<property name="ScopeCameraOffset" value="-.0036,-0.00559,.3175"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+
+
+
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="scope_2x"/>
+			<triggered_effect trigger="onSelfAimingGunStart" action="SetTransformActive" active="false" parent_transform="scope_2x" transform_path="coverlens"/>
+			<triggered_effect trigger="onSelfAimingGunStop" action="SetTransformActive" active="true" parent_transform="scope_2x" transform_path="coverlens"/>
+			<triggered_effect trigger="onSelfAimingGunStart" action="SetTransformActive" active="true" parent_transform="scope_2x" transform_path="scopecamera2x"/>
+			<triggered_effect trigger="onSelfAimingGunStop" action="SetTransformActive" active="false" parent_transform="scope_2x" transform_path="scopecamera2x"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="false" parent_transform="#HeldItemRoot" transform_path="ironsight_up"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="ironsight_down"/>
+		</effect_group>
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeMedium']"> <!-- +cam left/-right, +cam down/-up, +cam backwards/-forwards -->
+
+
+		<item_property_overrides name="gunRifleT0SLF76rifle">
+			<property name="ScopeCameraOffset" value="-0.01505,-0.0863,-0.1213"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT0Junkrifle">
+			<property name="ScopeCameraOffset" value="0.04435,-0.0178,-0.11"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT1Scraprifle">
+			<property name="ScopeCameraOffset" value="-0.0052,0.01995,0.013"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_overlay" value=""/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT2myM1garand">
+			<property name="ScopeCameraOffset" value="0.00075,-0.027,-.20"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_overlay" value=""/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT3M200">
+			<property name="ScopeCameraOffset" value="-0.0096,0.01985,-.03"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT0junkmg">
+			<property name="ScopeCameraOffset" value="-0.0097,0.0021,0.215"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT1ak47apoc">
+			<property name="ScopeCameraOffset" value=".00115,-0.0317,.232"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT2NV4">
+			<property name="ScopeCameraOffset" value="-.00471,-.01575,-.08"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunMGT3RPK16">
+			<property name="ScopeCameraOffset" value="-.0047,-0.01265,.305"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="scope_4x"/>
+			<triggered_effect trigger="onSelfAimingGunStart" action="SetTransformActive" active="false" parent_transform="scope_4x" transform_path="coverlens"/>
+			<triggered_effect trigger="onSelfAimingGunStop" action="SetTransformActive" active="true" parent_transform="scope_4x" transform_path="coverlens"/>
+			<triggered_effect trigger="onSelfAimingGunStart" action="SetTransformActive" active="true" parent_transform="scope_4x" transform_path="scopecamera4x"/>
+			<triggered_effect trigger="onSelfAimingGunStop" action="SetTransformActive" active="false" parent_transform="scope_4x" transform_path="scopecamera4x"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="false" parent_transform="#HeldItemRoot" transform_path="ironsight_up"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="ironsight_down"/>
+		</effect_group>
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']"> <!-- +cam left/-right, +cam down/-up, +cam backwards/-forwards -->
+
+
+		<item_property_overrides name="gunRifleT0SLF76rifle">
+			<property name="ScopeCameraOffset" value="-0.01478,-0.073,-0.0975"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT0Junkrifle">
+			<property name="ScopeCameraOffset" value="0.04425,-0.0161,-0.035"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT1Scraprifle">
+			<property name="ScopeCameraOffset" value="-0.0047,0.0194,0.08"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT2myM1garand">
+			<property name="ScopeCameraOffset" value="0.00025,-0.00735,-.194"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_overlay" value=""/>
+		</item_property_overrides>
+		<item_property_overrides name="gunRifleT3M200">
+			<property name="ScopeCameraOffset" value="-0.00962,0.01985,-.03"/>
+			<property name="Zoom_overlay" value=""/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+
+
+
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="scope_8x"/>
+			<triggered_effect trigger="onSelfAimingGunStart" action="SetTransformActive" active="false" parent_transform="scope_8x" transform_path="coverlens"/>
+			<triggered_effect trigger="onSelfAimingGunStop" action="SetTransformActive" active="true" parent_transform="scope_8x" transform_path="coverlens"/>
+			<triggered_effect trigger="onSelfAimingGunStart" action="SetTransformActive" active="true" parent_transform="scope_8x" transform_path="scopecamera8x"/>
+			<triggered_effect trigger="onSelfAimingGunStop" action="SetTransformActive" active="false" parent_transform="scope_8x" transform_path="scopecamera8x"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="false" parent_transform="#HeldItemRoot" transform_path="ironsight_up"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="ironsight_down"/>
+		</effect_group>	
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunBipod']"> 
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="bipod"/>
+		</effect_group>		
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunForegrip']"> 
+		<effect_group tiered="false">
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="fgrip"/>
+		</effect_group>		
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunBarrelExtender']"> 
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="BarrelExtender"/>
+		</effect_group>		
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']"> 
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="MuzzleBrake"/>
+		</effect_group>		
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMagazineExtender']"> 
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="Extendedmagazine"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="false" parent_transform="#HeldItemRoot" transform_path="magazine"/>
+		</effect_group>		
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunChoke']"> 
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="Choke"/>
+		</effect_group>
+
+
+
+
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunDrumMagazineExtender']"> 
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="true" parent_transform="#HeldItemRoot" transform_path="drum"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="false" parent_transform="#HeldItemRoot" transform_path="magazine"/>
+		</effect_group>
+
+
+
+
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']"> 
+		<item_property_overrides name="meleeWpnClubT0Truncheon">
+			<property name="Meshfile" value="#@modfolder:Assets/pantsguns.unity3d?Truncheonspike.prefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="meleeWpnClubT1Kanabo">
+			<property name="Meshfile" value="#@modfolder:Assets/pantsguns.unity3d?Kanabospike.prefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="meleeWpnClubT3Warmace">
+			<property name="Meshfile" value="#@modfolder:Assets/pantsguns.unity3d?Warmacespike.prefab"/>
+		</item_property_overrides>
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']"> 
+		<item_property_overrides name="meleeWpnClubT0Truncheon">
+			<property name="Meshfile" value="#@modfolder:Assets/pantsguns.unity3d?Truncheonwire.prefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="meleeWpnClubT1Kanabo">
+			<property name="Meshfile" value="#@modfolder:Assets/pantsguns.unity3d?Kanabowire.prefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="meleeWpnClubT3Warmace">
+			<property name="Meshfile" value="#@modfolder:Assets/pantsguns.unity3d?Warmacewire.prefab"/>
+		</item_property_overrides>
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']"> 
+		<item_property_overrides name="meleeWpnClubT0Truncheon">
+			<property name="Meshfile" value="#@modfolder:Assets/pantsguns.unity3d?Truncheonchain.prefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="meleeWpnClubT1Kanabo">
+			<property name="Meshfile" value="#@modfolder:Assets/pantsguns.unity3d?Kanabochain.prefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="meleeWpnClubT3Warmace">
+			<property name="Meshfile" value="#@modfolder:Assets/pantsguns.unity3d?Warmacechain.prefab"/>
+		</item_property_overrides>
+
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']"> 
+		<item_property_overrides name="meleeWpnClubT1Kanabo">
+			<property name="FlameEffect" value="ItemModEffects/mod_bat_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="meleeWpnBladeT3ThermalKatana">
+			<property name="Meshfile" value="#@modfolder:Assets/pantsguns.unity3d?katanathermal.prefab"/>
+			<property name="FlameEffect" value="ItemModEffects/mod_machete_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="meleeWpnSledgeT0Warsledge">
+			<property name="FlameEffect" value="ItemModEffects/mod_sledge_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="meleeWpnSpearT0Rockspear">
+			<property name="FlameEffect" value="ItemModEffects/mod_spear_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="meleeWpnSpearT1Tribalspear">
+			<property name="FlameEffect" value="ItemModEffects/mod_spear_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="meleeWpnSpearT3Ceremonialspear">
+			<property name="FlameEffect" value="ItemModEffects/mod_spear_flamePrefab"/>
+		</item_property_overrides>
+	</append>
+
+</Pantstain>

@@ -1,0 +1,163 @@
+<Pantstain>
+
+	<!--Ranged Weapons-->
+	<insertAfter xpath="//crafting_skill[@name='craftingHandguns']/display_entry[@item='gunHandgunT2Magnum44']">
+			<display_entry item="gunHandgunT0junkpistol" unlock_level="1,3,5,7,10" />
+			<display_entry item="gunHandgunT1USP9" unlock_level="11,13,16,19,22" />
+			<display_entry item="gunHandgunT1fiveseven" unlock_level="11,13,16,19,22" />
+			<display_entry item="gunSmgT1kiparissmg" unlock_level="11,13,16,19,22" />
+			<display_entry item="gunHandgunT2SIGp320" unlock_level="23,26,30,34,38" />
+			<display_entry item="gunHandgunT3AceofSpades" unlock_level="68,76,84,92,100" />
+			<display_entry item="gunSmgT3heavysmg" unlock_level="39,46,53,60,67" />
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingShotguns']/display_entry[@item='gunShotgunT3AutoShotgun']">
+		<display_entry item="gunShotgunT0IZh-18" unlock_level="1,3,5,7,10" />
+		<display_entry item="gunShotgunT1TripleBarrel" unlock_level="11,14,18,22,26" />	
+		<display_entry item="gunShotgunT2M590" unlock_level="27,35,43,51,59" />
+		<display_entry item="gunShotgunT3Spas12Apoc" unlock_level="60,70,80,90,100" />
+	</insertAfter>
+	<insertBefore xpath="//crafting_skill[@name='craftingRifles']/effect_group">
+			<display_entry item="gunRifleT0Junkrifle" unlock_level="1,3,5,7,10" />
+			<display_entry item="gunRifleT1Scraprifle" unlock_level="11,14,18,22,26" />
+			<display_entry item="gunRifleT2myM1garand" unlock_level="27,35,43,51,59" />
+			<display_entry item="gunRifleT3M200" unlock_level="60,70,80,90,100" />
+	</insertBefore>
+	<insertAfter xpath="//crafting_skill[@name='craftingMachineGuns']/display_entry[@item='gunMGT3M60']">
+		<display_entry item="gunMGT0junkmg" unlock_level="1,3,5,7,10" />
+		<display_entry item="gunMGT1ak47apoc" unlock_level="11,14,18,22,26" />
+		<display_entry item="gunMGT2NV4" unlock_level="27,35,43,51,59" />
+		<display_entry item="gunMGT3RPK16" unlock_level="60,70,80,90,100" />
+	</insertAfter>
+	
+	<insertAfter xpath="//crafting_skill[@name='craftingHandguns']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @tags='gunHandgunT2Magnum44']">	
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,100" value="1" tags="gunHandgunT0junkpistol"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,100" value="1" tags="gunHandgunT1USP9"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,100" value="1" tags="gunHandgunT1fiveseven"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,100" value="1" tags="gunSmgT1kiparissmg"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="23,100" value="1" tags="gunHandgunT2SIGp320"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="68,100" value="1" tags="gunHandgunT3AceofSpades"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="39,100" value="1" tags="gunSmgT3heavysmg"/>
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingShotguns']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @tags='gunShotgunT3AutoShotgun']">	
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,100" value="1" tags="gunShotgunT0IZh-18"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,100" value="1" tags="gunShotgunT1TripleBarrel"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="27,100" value="1" tags="gunShotgunT2M590"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="gunShotgunT3Spas12Apoc"/>
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingRifles']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @tags='gunRifleT3SniperRifle']">	
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,100" value="1" tags="gunRifleT0Junkrifle"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,100" value="1" tags="gunRifleT1Scraprifle"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="27,100" value="1" tags="gunRifleT2myM1garand"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="gunRifleT3M200"/>
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingMachineGuns']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @tags='gunMGT3M60']">	
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,100" value="1" tags="gunMGT0junkmg"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,100" value="1" tags="gunMGT1ak47apoc"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="27,100" value="1" tags="gunMGT2NV4"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="gunMGT3RPK16"/>
+	</insertAfter>
+	
+	<insertAfter xpath="//crafting_skill[@name='craftingHandguns']/effect_group/passive_effect[@name='CraftingTier' and @tags='gunHandgunT2Magnum44']">	
+			<passive_effect name="CraftingTier" operation="base_add" level="3,5,7,10,100" value="1,2,3,4,4" tags="gunHandgunT0junkpistol"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="13,16,19,22,100" value="1,2,3,4,4" tags="gunHandgunT1USP9"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="13,16,19,22,100" value="1,2,3,4,4" tags="gunHandgunT1fiveseven"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="13,16,19,22,100" value="1,2,3,4,4" tags="gunSmgT1kiparissmg"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="26,30,34,38,100" value="1,2,3,4,4" tags="gunHandgunT2SIGp320"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="76,84,92,100" value="1,2,3,4" tags="gunHandgunT3AceofSpades"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="46,53,60,67,100" value="1,2,3,4,4" tags="gunSmgT3heavysmg"/>
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingShotguns']/effect_group/passive_effect[@name='CraftingTier' and @tags='gunShotgunT3AutoShotgun']">	
+			<passive_effect name="CraftingTier" operation="base_add" level="3,5,7,10,100" value="1,2,3,4,4" tags="gunShotgunT0IZh-18"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="14,18,22,26,100" value="1,2,3,4,4" tags="gunShotgunT1TripleBarrel"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="35,43,51,59,100" value="1,2,3,4,4" tags="gunShotgunT2M590"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="70,80,90,100" value="1,2,3,4" tags="gunShotgunT3Spas12Apoc"/>
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingRifles']/effect_group/passive_effect[@name='CraftingTier' and @tags='gunRifleT3SniperRifle']">	
+			<passive_effect name="CraftingTier" operation="base_add" level="3,5,7,10,100" value="1,2,3,4,4" tags="gunRifleT0Junkrifle"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="14,18,22,26,100" value="1,2,3,4,4" tags="gunRifleT1Scraprifle"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="35,43,51,59,100" value="1,2,3,4,4" tags="gunRifleT2myM1garand"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="70,80,90,100" value="1,2,3,4" tags="gunRifleT3M200"/>
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingMachineGuns']/effect_group/passive_effect[@name='CraftingTier' and @tags='gunMGT3M60']">	
+			<passive_effect name="CraftingTier" operation="base_add" level="3,5,7,10,100" value="1,2,3,4,4" tags="gunMGT0junkmg"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="14,18,22,26,100" value="1,2,3,4,4" tags="gunMGT1ak47apoc"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="35,43,51,59,100" value="1,2,3,4,4" tags="gunMGT2NV4"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="70,80,90,100" value="1,2,3,4" tags="gunMGT3RPK16"/>
+	</insertAfter>
+
+	<!--Melee Weapons-->
+	<insertAfter xpath="//crafting_skill[@name='craftingBlades']/display_entry[@item='meleeWpnBladeT3Machete']">
+			<display_entry item="meleeWpnBladeT1WrenchKnife" unlock_level="11,17,24,31,38" />
+			<display_entry item="meleeWpnBladeT2BallisticKnife" unlock_level="39,48,57,66,75" />
+			<display_entry item="meleeWpnBladeT3ThermalKatana" unlock_level="39,48,57,66,75" />
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingClubs']/display_entry[@item='meleeWpnClubT3SteelClub']">
+			<display_entry item="meleeWpnClubT0Truncheon" unlock_level="1,3,5,7,10" />
+			<display_entry item="meleeWpnClubT1Kanabo" unlock_level="39,48,57,66,75" />
+			<display_entry item="meleeWpnClubT3Warmace" unlock_level="39,48,57,66,75" />
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingSpears']/display_entry[@item='meleeWpnSpearT3SteelSpear']">
+			<display_entry item="meleeWpnSpearT0Rockspear" unlock_level="1,3,5,7,10" />
+			<display_entry item="meleeWpnSpearT1Tribalspear" unlock_level="11,17,24,31,38" />
+			<display_entry item="meleeWpnSpearT3Ceremonialspear" unlock_level="39,48,57,66,75" />
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingSledgehammers']/display_entry[@item='meleeWpnSledgeT3SteelSledgehammer']">
+			<display_entry item="meleeWpnSledgeT0Warsledge" unlock_level="1,3,5,7,10" />
+			<display_entry item="meleeWpnSledgeT1Thermalsledge" unlock_level="11,17,24,31,38" />
+			<display_entry item="meleeWpnSledgeT3Demonsledge" unlock_level="39,48,57,66,75" />
+	</insertAfter>
+
+	<insertAfter xpath="//crafting_skill[@name='craftingBlades']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @tags='meleeWpnBladeT3Machete']">	
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,75" value="1" tags="meleeWpnBladeT1WrenchKnife"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="39,75" value="1" tags="meleeWpnBladeT2BallisticKnife"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="39,75" value="1" tags="meleeWpnBladeT3ThermalKatana"/>
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingClubs']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @tags='meleeWpnClubT3SteelClub']">	
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,75" value="1" tags="meleeWpnClubT0Truncheon"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="39,75" value="1" tags="meleeWpnClubT1Kanabo"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="39,75" value="1" tags="meleeWpnClubT3Warmace"/>
+			
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingSpears']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @tags='meleeWpnSpearT3SteelSpear']">	
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,75" value="1" tags="meleeWpnSpearT0Rockspear"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,75" value="1" tags="meleeWpnSpearT1Tribalspear"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="39,75" value="1" tags="meleeWpnSpearT3Ceremonialspear"/>
+			
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingSledgehammers']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @tags='meleeWpnSledgeT3SteelSledgehammer']">	
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,75" value="1" tags="meleeWpnSledgeT0Warsledge"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="11,75" value="1" tags="meleeWpnSledgeT1Thermalsledge"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="39,75" value="1" tags="meleeWpnSledgeT3Demonsledge"/>
+			
+	</insertAfter>
+
+	<insertAfter xpath="//crafting_skill[@name='craftingBlades']/effect_group/passive_effect[@name='CraftingTier' and @tags='meleeWpnBladeT3Machete']">	
+			<passive_effect name="CraftingTier" operation="base_add" level="17,24,31,38,75" value="1,2,3,4,4" tags="meleeWpnBladeT1WrenchKnife"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="48,57,66,75" value="1,2,3,4" tags="meleeWpnBladeT2BallisticKnife"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="48,57,66,75" value="1,2,3,4" tags="meleeWpnBladeT3ThermalKatana"/>
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingClubs']/effect_group/passive_effect[@name='CraftingTier' and @tags='meleeWpnClubT3SteelClub']">	
+			<passive_effect name="CraftingTier" operation="base_add" level="3,5,7,10,75" value="1,2,3,4,4" tags="meleeWpnClubT0Truncheon"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="48,57,66,75" value="1,2,3,4" tags="meleeWpnClubT1Kanabo"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="48,57,66,75" value="1,2,3,4" tags="meleeWpnClubT3Warmace"/>
+			
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingSpears']/effect_group/passive_effect[@name='CraftingTier' and @tags='meleeWpnSpearT3SteelSpear']">	
+			<passive_effect name="CraftingTier" operation="base_add" level="3,5,7,10,75" value="1,2,3,4,4" tags="meleeWpnSpearT0Rockspear"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="17,24,31,38,75" value="1,2,3,4" tags="meleeWpnSpearT1Tribalspear"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="48,57,66,75" value="1,2,3,4" tags="meleeWpnSpearT3Ceremonialspear"/>
+			
+	</insertAfter>
+	<insertAfter xpath="//crafting_skill[@name='craftingSledgehammers']/effect_group/passive_effect[@name='CraftingTier' and @tags='meleeWpnSledgeT3SteelSledgehammer']">	
+			<passive_effect name="CraftingTier" operation="base_add" level="3,5,7,10,75" value="1,2,3,4,4" tags="meleeWpnSledgeT0Warsledge"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="17,24,31,38,75" value="1,2,3,4,4" tags="meleeWpnSledgeT1Thermalsledge"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="48,57,66,75" value="1,2,3,4" tags="meleeWpnSledgeT3Demonsledge"/>
+			
+	</insertAfter>
+
+
+
+
+
+
+</Pantstain>
