@@ -36,6 +36,11 @@
 			<item count="1"  group="ammo9group" />
 		</lootgroup>
 		
+		<lootgroup name="gunShotgunT3Spas12andAMMO"  count="all" >
+			<item name="gunShotgunT3Spas12" />
+			<item count="1"  group="ammo12Ggroup" />
+		</lootgroup>
+		
 		<lootgroup name="gunShotgunT2M590andAMMO"  count="all" >
 			<item name="gunShotgunT2M590" />
 			<item count="1"  group="ammo12Ggroup" />
