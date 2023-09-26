@@ -1,4 +1,8 @@
 <ZZZ-TacticalWeapons-Patch>
+	<set xpath="/lootcontainers/lootgroup[contains(@name,'groupWeaponsT') and  contains(@name, 'DeadEye')]/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[contains(@name,'groupWeaponsT') and  contains(@name, 'Gunslinger')]/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[contains(@name,'groupWeaponsT') and  contains(@name, 'Boomstick')]/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[contains(@name,'groupWeaponsT') and  contains(@name, 'Machinegunner')]/@count">1</set>
 	<append xpath="/lootcontainers/lootgroup[@name='groupMilitaryFootlocker02']">
 			<item loot_prob_template="veryLow"  group="TAWeaponsT0_PsT" />
 	</append>
