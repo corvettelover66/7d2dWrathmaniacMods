@@ -1,0 +1,12 @@
+<gupA21ZombiesPatch>
+	<insertBefore xpath="/entity_classes/entity_class[@name='zombieGuppyMeaty']/property[@name='HandItem']">
+			<property name="ExperienceGain"  value="4000"/>
+	</insertBefore>
+	<set xpath="/entity_classes/entity_class[@name='zombieGuppyMeaty']/property[@name='LootDropProb']/@value">.8</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieGuppyClot']/property[@name='ExperienceGain']/@value">1200</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieGuppyClot']/property[@name='LootDropProb']/@value">.3</set>
+
+	<set xpath="/entity_classes/entity_class[@name='zombieGuppyKennethClown']/property[@name='ExperienceGain']/@value">1500</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieGuppyKennethClown']/property[@name='LootDropProb']/@value">.4</set>
+</gupA21ZombiesPatch>
