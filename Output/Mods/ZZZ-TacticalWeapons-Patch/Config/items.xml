@@ -1,4 +1,14 @@
 <ZZZ-TacticalWeapons-Patch>
+	<set xpath="/items/item[@name='ammo40mmG']/property[@name='Stacknumber']/@value">50</set>
+
+	<set xpath="/items/item[@name='ammo45LongColt(LFN)']/property[@name='Stacknumber']/@value">400</set>
+
+	<set xpath="/items/item[@name='ammo50BMG']/property[@name='Stacknumber']/@value">150</set>
+
+	<set xpath="/items/item[@name='ammo556FMJ']/property[@name='Stacknumber']/@value">300</set>
+
+	<set xpath="/items/item[@name='ammo45ACP']/property[@name='Stacknumber']/@value">400</set>
+
 	<append xpath="/items/item[@name='MGL140']/property[@name='Tags']/@value">,explosivesSkill</append>
 
 	<append xpath="/items/item[@name='ChinaLake']/property[@name='Tags']/@value">,explosivesSkill</append>
