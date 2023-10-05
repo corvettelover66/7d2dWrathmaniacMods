@@ -1,4 +1,272 @@
 <ZZZ-TacticalWeapons-Patch>
+	<append xpath="/items">
+		<item name="rifleSuppressorSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="rifleSilencer" />
+			<property name="Unlocks"  value="rifleSuppressor" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="rifleSuppressor"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="pistolSuppressorSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="pistolSilencer" />
+			<property name="Unlocks"  value="pistolSuppressor" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="pistolSuppressor"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<item name="TacticalBipodSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="TacticalBipod" />
+			<property name="Unlocks"  value="TacticalBipod" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="TacticalBipod"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<item name="TacticalForegripSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="TacticalForegrip" />
+			<property name="Unlocks"  value="TacticalForegrip" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="TacticalForegrip"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<!-- MG Laser Sights-->
+		<item name="ANPEQ2Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="ANPEQ2" />
+			<property name="Unlocks"  value="ANPEQ2" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="ANPEQ2"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+		<!-- MG Laser Sights-->
+		<item name="ANPEQ15Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="ANPEQ15" />
+			<property name="Unlocks"  value="ANPEQ15" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="ANPEQ15"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<!-- Small Holographic-->
+		<item name="RMRSightSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="RMRSight" />
+			<property name="Unlocks"  value="RMRSight" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="RMRSight"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<item name="TALaserSight(barrel)Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="TALaserSight" />
+			<property name="Unlocks"  value="TALaserSight(barrel)" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="TALaserSight(barrel)"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<item name="TAFlashLight(barrel)Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="TAFlashLight" />
+			<property name="Unlocks"  value="TAFlashLight(barrel)" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="TAFlashLight(barrel)"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<item name="TALaserSight(pistol)Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="TALaserSight" />
+			<property name="Unlocks"  value="TALaserSight(pistol)" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="TALaserSight(pistol)"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="TAFlashLight(pistol)Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="TAFlashLight" />
+			<property name="Unlocks"  value="TAFlashLight(pistol)" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="TAFlashLight(pistol)"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+
+		<!-- Laser Sight and Light-->
+		<item name="LAMSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="LAM" />
+			<property name="Unlocks"  value="LAM" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="LAM"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+		<!-- 4x Dot Rifle Scope -->	
+		<item name="CQBSS_ECOSSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="CQBSS_ECOS" />
+			<property name="Unlocks"  value="CQBSS_ECOS" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="CQBSS_ECOS"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<!-- 8x Rifle Scope -->	
+		<item name="Leupold_CQBSSSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="Leupold_CQBSS" />
+			<property name="Unlocks"  value="Leupold_CQBSS" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Leupold_CQBSS"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+
+		<!-- 4x Cross Rifle/MG Scope -->	
+		<item name="ACOG_ECOSSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="ACOG_ECOS" />
+			<property name="Unlocks"  value="ACOG_ECOS" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="ACOG_ECOS"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<!--  M4 m16 4x Dot Scope-->
+		<item name="ACOG_TA01Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="ACOG_TA01" />
+			<property name="Unlocks"  value="ACOG_TA01" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="ACOG_TA01"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<!--  SMG/MG 4x Carrot Scope-->
+		<item name="ACOG_TA31Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="ACOG_TA31" />
+			<property name="Unlocks"  value="ACOG_TA31" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="ACOG_TA31"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<!-- 4x Cross Rifle Scope -->	
+		<item name="AN/PVS22Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="PVS22" />
+			<property name="Unlocks"  value="AN/PVS22" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="AN/PVS22"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+		<!-- Some side scope that can't be activated -->	
+		<!-- 
+		<item name="EOTech_G33Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="EOTech_G33" />
+			<property name="Unlocks"  value="EOTech_G33" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="EOTech_G33"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+		-->
+		<!-- Standard size Holographic -->
+		<item name="EOTech_EXPS3Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="EOTech_EXPS3" />
+			<property name="Unlocks"  value="EOTech_EXPS3" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="EOTech_EXPS3"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<!-- Standard size 2X cIRCLE-->
+		<item name="Aimpoint_CompM3Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="Aimpoint_MicroT1" />
+			<property name="Unlocks"  value="Aimpoint_CompM3" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Aimpoint_CompM3"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+
+		<!-- Trimmed 2X Circle-->
+		<item name="Aimpoint_MicroT1Schematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="Aimpoint_MicroT1" />
+			<property name="Unlocks"  value="Aimpoint_MicroT1" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Aimpoint_MicroT1"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	
+		<!-- Small red dot-->
+		<item name="Aimpoint_ACROSchematic" >
+			<property name="Extends"  value="schematicNoQualityMaster"/>
+			<property name="CreativeMode"  value="Player" />
+			<property name="CustomIcon"  value="Aimpoint_ACRO" />
+			<property name="Unlocks"  value="Aimpoint_ACRO" />
+			<effect_group tiered="false" >
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="ModifyCVar"  cvar="Aimpoint_ACRO"  operation="set"  value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd"  action="GiveExp"  exp="50" />
+			</effect_group>
+		</item>
+	</append>
+
 	<set xpath="/items/item[@name='ammo40mmG']/property[@name='Stacknumber']/@value">50</set>
 
 	<set xpath="/items/item[@name='ammo45LongColt(LFN)']/property[@name='Stacknumber']/@value">400</set>

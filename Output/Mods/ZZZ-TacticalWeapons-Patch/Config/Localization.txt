@@ -57,3 +57,47 @@ machinegunT4-1,progression,Attribute,New,Tier 4: Gatling
 explosivesT1-4,progression,Attribute,New,Tier 1: M79
 explosivesT2-4,progression,Attribute,New,Tier 2: ChinaLake
 explosivesT3-4,progression,Attribute,New,Tier 3: MGL140
+rifleSuppressorSchematic,items,Attribute,New,TA Rifle Suppressor Schematic
+pistolSuppressorSchematic,items,Attribute,New,TA Pistol Suppressor Schematic
+TacticalBipodSchematic,items,Attribute,New,TA Bipod Schematic
+TacticalForegripSchematic,items,Attribute,New,TA Foregrip Schematic
+ANPEQ2Schematic,items,Attribute,New,TA MG Laser Sight Side Schematic
+ANPEQ15Schematic,items,Attribute,New,TA MG Laser Sight Top Schematic
+RMRSightSchematic,items,Attribute,New,TA Small Holographic Schematic
+TALaserSight(barrel)Schematic,items,Attribute,New,TA MG Laser Sight Barrel Schematic
+TAFlashLight(barrel)Schematic,items,Attribute,New,TA MG Flashlight Barrel Schematic
+TALaserSight(pistol)Schematic,items,Attribute,New,TA Pistol Laser Sight Barrel Schematic
+TAFlashLight(pistol)Schematic,items,Attribute,New,TA Pistol Flashlight Barrel Schematic
+LAMSchematic,items,Attribute,New,TA Laser Sight & Flashlight Schematic
+CQBSS_ECOSSchematic,items,Attribute,New,TA Rifle 4x Scope(Dot) Schematic
+Leupold_CQBSSSchematic,items,Attribute,New,TA Rifle/MG 8x Scope Schematic
+ACOG_ECOSSchematic,items,Attribute,New,TA MG 4x Scope(Cross) Schematic
+ACOG_TA01Schematic,items,Attribute,New,TA M4/M16 4x Scope(Dot) Schematic
+ACOG_TA31Schematic,items,Attribute,New,TA SMG/MG 4x Scope(Carrot) Schematic
+AN/PVS22Schematic,items,Attribute,New,TA Rifle/MG 4x Scope(Cross) Schematic
+EOTech_EXPS3Schematic,items,Attribute,New,TA Standard Holographic Schematic
+Aimpoint_CompM3Schematic,items,Attribute,New,TA Standard 2x Scope(Circle) Schematic
+Aimpoint_MicroT1Schematic,items,Attribute,New,TA Trimmed 2x Scope(Circle) Schematic
+Aimpoint_ACROSchematic,items,Attribute,New,TA Small Red Dot Schematic
+rifleSuppressor,item_modifiers,Attribute,New,TA Rifle Suppressor
+pistolSuppressor,item_modifiers,Attribute,New,TA Pistol Suppressor
+TacticalBipod,item_modifiers,Attribute,New,TA Bipod
+TacticalForegrip,item_modifiers,Attribute,New,TA Foregrip
+ANPEQ2,item_modifiers,Attribute,New,TA MG Laser Sight Side
+ANPEQ15,item_modifiers,Attribute,New,TA MG Laser Sight Top
+RMRSight,item_modifiers,Attribute,New,TA Small Holographic
+TALaserSight(barrel),item_modifiers,Attribute,New,TA MG Laser Sight Barrel
+TAFlashLight(barrel),item_modifiers,Attribute,New,TA MG Flashlight Barrel
+TALaserSight(pistol),item_modifiers,Attribute,New,TA Pistol Laser Sight Barrel
+TAFlashLight(pistol),item_modifiers,Attribute,New,TA Pistol Flashlight Barrel
+LAM,item_modifiers,Attribute,New,TA Laser Sight & Flashlight
+CQBSS_ECOS,item_modifiers,Attribute,New,TA Rifle 4x Scope(Dot)
+Leupold_CQBSS,item_modifiers,Attribute,New,TA Rifle/MG 8x Scope
+ACOG_ECOS,item_modifiers,Attribute,New,TA MG 4x Scope(Cross)
+ACOG_TA01,item_modifiers,Attribute,New,TA M4/M16 4x Scope(Dot)
+ACOG_TA31,item_modifiers,Attribute,New,TA SMG/MG 4x Scope(Carrot)
+AN/PVS22,item_modifiers,Attribute,New,TA Rifle 4x Scope(Cross)
+EOTech_EXPS3,item_modifiers,Attribute,New,TA Standard Holographic
+Aimpoint_CompM3,item_modifiers,Attribute,New,TA Standard 2x Scope(Circle)
+Aimpoint_MicroT1,item_modifiers,Attribute,New,TA Trimmed 2x Scope(Circle)
+Aimpoint_ACRO,item_modifiers,Attribute,New,TA Small Red Dot

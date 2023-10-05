@@ -1,4 +1,66 @@
 <ZZZ-TacticalWeapons-Patch>
+	<append xpath="/lootcontainers/lootgroup[@name='modGunT1']">
+			<item name="rifleSuppressor" />
+			<item name="pistolSuppressor" />
+			<item name="TacticalBipod" />
+			<item name="TacticalForegrip" />
+			<item name="ANPEQ2" />
+			<item name="ANPEQ15" />
+			<item name="TALaserSight(barrel)" />
+			<item name="TAFlashLight(barrel)" />
+			<item name="TALaserSight(pistol)" />
+			<item name="TAFlashLight(pistol)" />
+			<item name="Aimpoint_ACRO" />
+			<item name="RMRSight" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='modGunT2']">
+			<item name="LAM" />
+			<item name="CQBSS_ECOS" />
+			<item name="ACOG_ECOS" />
+			<item name="ACOG_TA01" />
+			<item name="ACOG_TA31" />
+			<item name="AN/PVS22" />
+			<item name="EOTech_EXPS3" />
+			<item name="Aimpoint_CompM3" />
+			<item name="Aimpoint_MicroT1" />	
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='modGunT3']">
+			<item name="Leupold_CQBSS" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']">
+			<item name="rifleSuppressorSchematic" />
+			<item name="pistolSuppressorSchematic" />
+			<item name="TacticalBipodSchematic" />
+			<item name="TacticalForegripSchematic" />
+			<item name="ANPEQ2Schematic" />
+			<item name="ANPEQ15Schematic" />
+			<item name="TALaserSight(barrel)Schematic" />
+			<item name="TAFlashLight(barrel)Schematic" />
+			<item name="TALaserSight(pistol)Schematic" />
+			<item name="TAFlashLight(pistol)Schematic" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT1']">
+			<item name="Aimpoint_ACROSchematic" />
+			<item name="RMRSightSchematic" />
+			<item name="LAMSchematic" />
+			<item name="CQBSS_ECOSSchematic" />
+			<item name="ACOG_ECOSSchematic" />
+			<item name="ACOG_TA01Schematic" />
+			<item name="ACOG_TA31Schematic" />
+			<item name="AN/PVS22Schematic" />
+			<item name="EOTech_EXPS3Schematic" />
+			<item name="Aimpoint_CompM3Schematic" />
+			<item name="Aimpoint_MicroT1Schematic" />	
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+			<item name="Leupold_CQBSSSchematic" />
+	</append>
+
 	<set xpath="/lootcontainers/lootgroup[contains(@name,'groupWeaponsT') and  contains(@name, 'DeadEye')]/@count">1</set>
 	<set xpath="/lootcontainers/lootgroup[contains(@name,'groupWeaponsT') and  contains(@name, 'Gunslinger')]/@count">1</set>
 	<set xpath="/lootcontainers/lootgroup[contains(@name,'groupWeaponsT') and  contains(@name, 'Boomstick')]/@count">1</set>
