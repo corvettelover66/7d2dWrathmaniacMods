@@ -267,6 +267,18 @@
 		</item>
 	</append>
 
+	<append xpath="/items/item[@name='questRewardT1RangedModsBundle']/property[@class='Action0']/property[@name='Random_item_count']/@value">,1,1,1,1,1,1,1,1,1,1</append>
+
+	<append xpath="/items/item[@name='questRewardT1RangedModsBundle']/property[@class='Action0']/property[@name='Random_item']/@value">TacticalBipod,TacticalForegrip,ANPEQ2,ANPEQ15,TALaserSight(barrel),TAFlashLight(barrel),TALaserSight(pistol),TAFlashLight(pistol),Aimpoint_ACRO,RMRSight</append>
+
+	<append xpath="/items/item[@name='questRewardT2RangedModsBundle']/property[@class='Action0']/property[@name='Random_item_count']/@value">,1,1,1,1,1,1,1,1,1,1,1</append>
+
+	<append xpath="/items/item[@name='questRewardT2RangedModsBundle']/property[@class='Action0']/property[@name='Random_item']/@value">,rifleSuppressor,pistolSuppressor,LAM,CQBSS_ECOS,ACOG_ECOS,ACOG_TA01,ACOG_TA31,AN/PVS22,EOTech_EXPS3,Aimpoint_CompM3,Aimpoint_MicroT1</append>
+
+	<append xpath="/items/item[@name='questRewardT3RangedModsBundle']/property[@class='Action0']/property[@name='Random_item_count']/@value">,1</append>
+
+	<append xpath="/items/item[@name='questRewardT3RangedModsBundle']/property[@class='Action0']/property[@name='Random_item']/@value">,Leupold_CQBSS</append>
+
 	<set xpath="/items/item[@name='ammo40mmG']/property[@name='Stacknumber']/@value">50</set>
 
 	<set xpath="/items/item[@name='ammo45LongColt(LFN)']/property[@name='Stacknumber']/@value">400</set>
