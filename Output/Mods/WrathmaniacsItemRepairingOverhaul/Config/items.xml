@@ -124,13 +124,17 @@
 	<append xpath="/items/item[@name='meleeToolAxeT2SteelAxe']">
 		<property name="RepairTools" value="resourceToolAllSteelPartsRepairKit" />
 	</append>
+	
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='RepairTools']/@value">resourceToolAllSteelPartsRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/property[@name='RepairTools']/@value">resourceToolAllSteelPartsRepairKit</set>
+	
+	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='RepairTools']/@value">resourceToolAxePartsRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='RepairTools']/@value">resourceToolAxePartsRepairKit</set>
+
 	<!-- steel armor -->
 	<set xpath="/items/item[@name='armorSteelMaster']/property[@name='RepairTools']/@value">resourceSteelSetPartsRepairKit</set>
 	<!-- military armor -->
 	<set xpath="/items/item[@name='armorMilitaryMaster']/property[@name='RepairTools']/@value">resourceMilitarySetPartsRepairKit</set>
-	<!-- covers impact driver, auger, chainsaw -->
-	<set xpath="/items/item[contains(@name,'meleeTool') and contains(@name,'T3') and not(contains(@name,'Nailgun')) ]/property[@name='RepairTools']/@value">resourceToolAxePartsRepairKit</set>
 	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='RepairAmount']/@value">100000</set>
 	<!-- I need to overwrite the repair kits AFTER setting the others, this will ensure only basic items get affected-->
 	<set xpath="/items/item/property[@value='resourceRepairKit']/@value">resourceNormalRepairKit</set>
