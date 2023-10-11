@@ -29,6 +29,11 @@
 		<recipe name="resourceToolAxePartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
 			<ingredient name="resourceForgedSteel" count="1" />
+			<ingredient name="meleeToolAxeT3ChainsawParts" count="1" />
+		</recipe>
+		<recipe name="resourceMotorToolRepairKit" count="1">
+			<ingredient name="resourceNormalRepairKit" count="1" />
+			<ingredient name="resourceForgedSteel" count="1" />
 			<ingredient name="meleeToolAxeT3ChainsawParts" count="2" />
 			<ingredient name="smallEngine"  count="1" />
 		</recipe>

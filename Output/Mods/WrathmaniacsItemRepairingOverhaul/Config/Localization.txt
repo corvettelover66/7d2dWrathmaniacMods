@@ -1,29 +1,30 @@
 key,source,context,changes,english,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
-resourceBotPartsRepairKit,items,item,New,Bot Repair Kit,,,,,,,,,,,,,,,,,
-resourceBowPartsRepairKit,items,item,New,Bow Repair Kit,,,,,,,,,,,,,,,,,
-resourceExplosivesPartsRepairKit,items,item,New,Rocket Launcher Repair Kit,,,,,,,,,,,,,,,,
-resourceHandgunPartsRepairKit,items,item,New,Handgun Repair Kit,,,,,,,,,,,,,,,,,
-resourceMGPartsRepairKit,items,item,New,Machine Gun Repair Kit,,,,,,,,,,,,,,,,,
-resourceMGPartsRepairKitDesc,items,item,New,To repair more advanced items you will need the item's parts and a repair kit to repair them.,,,,,,,,,,,,,,,,
-resourceMilitarySetPartsRepairKit,items,item,New,Military Armor Repair Kit,,,,,,,,,,,,,,,,,
-resourceRiflePartsRepairKit,items,item,New,Rifle Repair Kit,,,,,,,,,,,,,,,,,
-resourceShotgunPartsRepairKit,items,item,New,Shotgun Repair Kit,,,,,,,,,,,,,,,,,
-resourceSteelSetPartsRepairKit,items,item,New,Steel Armor Repair Kit,,,,,,,,,,,,,,,,,
-resourceToolAllSteelPartsRepairKit,items,item,New,Steel Tool Repair Kit,,,,,,,,,,,,,,,,,
-resourceToolAxePartsRepairKit,items,item,New,Motor Tool Repair Kit,,,,,,,,,,,,,,,,,
-resourceWpnBatonPartsRepairKit,items,item,New,Stun Baton Repair Kit,,,,,,,,,,,,,,,,,
-resourceWpnBladePartsRepairKit,items,item,New,Machete Repair Kit,,,,,,,,,,,,,,,,,
-resourceWpnKnucklesPartsRepairKit,items,item,New,Steel Knuckles Repair Kit,,,,,,,,,,,,,,,,,
-resourceWpnSledgePartsRepairKit,items,item,New,Steel Sledgehammer Repair Kit,,,,,,,,,,,,,,,,,
-resourceWpnSpearPartsRepairKit,items,item,New,Steel Spear Repair Kit,,,,,,,,,,,,,,,,,
-resourceWpnClubPartsRepairKit,items,item,New,Steel Club Repair Kit,,,,,,,,,,,,,,,,,
-resourceRepairKitToolTip,Journal Tip,,New,"Any advanced item that scraps to parts will need to be repaired with those parts and a repair kit. For instance, to repair a pistol you will need 2 handgun parts and a repair kit. Then you simply need to make the handgun repair kit and repair the item as you would with a normal repair kit. For vehicles, you will need to assemble the vehicle parts i.e. the motor, battery, headlights, and tires, then you will need to craft the Assembled Vehicle Parts needed to craft a vehicle repair kit.\n If you do not know what repair kit is needed, try to repair the item and look at the icon that pops up indicating the needed kit. Alternatively, select the item in your inventory and look at the description for the item, if an item scraps to specfic parts those will be needed to repair it.",
-resourceRepairKitToolTip_title,Journal Tip,,New,Repair Kits and Advanced Items,,,,,
+resourceBotPartsRepairKit,items,item,New,Bot Repair Kit
+resourceBowPartsRepairKit,items,item,New,Bow Repair Kit
+resourceExplosivesPartsRepairKit,items,item,New,Rocket Launcher Repair Kit
+resourceHandgunPartsRepairKit,items,item,New,Handgun Repair Kit
+resourceMGPartsRepairKit,items,item,New,Machine Gun Repair Kit
+resourceMGPartsRepairKitDesc,items,item,New,To repair more advanced items you will need the item's parts and a repair kit to repair them.
+resourceMilitarySetPartsRepairKit,items,item,New,Military Armor Repair Kit
+resourceRiflePartsRepairKit,items,item,New,Rifle Repair Kit
+resourceShotgunPartsRepairKit,items,item,New,Shotgun Repair Kit
+resourceSteelSetPartsRepairKit,items,item,New,Steel Armor Repair Kit
+resourceToolAllSteelPartsRepairKit,items,item,New,Steel Tool Repair Kit
+resourceToolAxePartsRepairKit,items,item,New,Power Tool Repair Kit
+resourceMotorToolRepairKit,items,item,New,Motor Tool Repair Kit
+resourceWpnBatonPartsRepairKit,items,item,New,Stun Baton Repair Kit
+resourceWpnBladePartsRepairKit,items,item,New,Machete Repair Kit
+resourceWpnKnucklesPartsRepairKit,items,item,New,Steel Knuckles Repair Kit
+resourceWpnSledgePartsRepairKit,items,item,New,Steel Sledgehammer Repair Kit
+resourceWpnSpearPartsRepairKit,items,item,New,Steel Spear Repair Kit
+resourceWpnClubPartsRepairKit,items,item,New,Steel Club Repair Kit
+resourceRepairKitToolTip,Journal Tip,,New,"Any advanced item that scraps to parts will need to be repaired with those parts and a repair kit. For instance, to repair a pistol you will need 2 handgun parts and a repair kit. Then you simply need to make the handgun repair kit and repair the item as you would with a normal repair kit. For vehicles, you will need to assemble the vehicle parts i.e. the motor, battery, headlights, and tires, then you will need to craft the Assembled Vehicle Parts needed to craft a vehicle repair kit.\n If you do not know what repair kit is needed, try to repair the item and look at the icon that pops up indicating the needed kit. Alternatively, select the item in your inventory and look at the description for the item, if an item scraps to specfic parts those will be needed to repair it."
+resourceRepairKitToolTip_title,Journal Tip,,New,Repair Kits and Advanced Items
 resourceRepairKit,items,item,New,Vehicle Repair Kit,Reparaturkit,Kit de reparación,Kit de réparation,Cassetta degli attrezzi,修理キット,수리 키트,Zestaw naprawczy,Kit de reparos,Ремонтный набор,Onarım Kiti,维修工具,維修工具包,Kit de reparación
 resourceRepairKitDesc,items,item,New,Vehicle Repair Kits are used to repair vehicles.,"Mit Reparaturkits kann man alle gehaltenen und beschädigten Gegenstände, Fahrzeuge und mehr reparieren.","Los kits de reparación se utilizan para reparar objetos y vehículos desgastados, entre otros.","Les kits de réparation sont utilisés pour réparer tous les objets abîmés, les véhicules, etc.",Le cassette degli attrezzi servono a riparare tutti gli oggetti e i veicoli danneggiati e altro.,修理キットはすべての装備アイテム、車両などの修復に使用されます。,"수리 키트는 소지하거나 착용하는 모든 아이템, 차량 등을 수리할 수 있습니다.","Skorzystaj z niego, aby naprawić wyposażone i zużyte przedmioty, pojazdy lub inne obiekty.","Os kits de reparos são usados no conserto de itens desgastados, veículos e muito mais.","Ремонтный набор можно использовать, чтобы починить поврежденные или изношенные предметы, транспорт и прочее.","Onarım Kitleri, takılan ve giyilen tüm öğeleri, araçları ve başka şeyleri onarmak için kullanılır.",维修工具可用于修理所有手持和穿着物品、载具等。,維修工具包用於維修所有手持的物品或衣物、車輛等。,"Los kits de reparación se utilizan para reparar objetos y vehículos desgastados, entre otros."
 resourceNormalRepairKit,items,item,New,Repair Kit,Reparaturkit,Kit de reparación,Kit de réparation,Cassetta degli attrezzi,修理キット,수리 키트,Zestaw naprawczy,Kit de reparos,Ремонтный набор,Onarım Kiti,维修工具,維修工具包,Kit de reparación
 resourceNormalRepairKitDesc,items,item,New,"Repair Kits are used to repair all held and worn items, vehicles, and more.","Mit Reparaturkits kann man alle gehaltenen und beschädigten Gegenstände, Fahrzeuge und mehr reparieren.","Los kits de reparación se utilizan para reparar objetos y vehículos desgastados, entre otros.","Les kits de réparation sont utilisés pour réparer tous les objets abîmés, les véhicules, etc.",Le cassette degli attrezzi servono a riparare tutti gli oggetti e i veicoli danneggiati e altro.,修理キットはすべての装備アイテム、車両などの修復に使用されます。,"수리 키트는 소지하거나 착용하는 모든 아이템, 차량 등을 수리할 수 있습니다.","Skorzystaj z niego, aby naprawić wyposażone i zużyte przedmioty, pojazdy lub inne obiekty.","Os kits de reparos são usados no conserto de itens desgastados, veículos e muito mais.","Ремонтный набор можно использовать, чтобы починить поврежденные или изношенные предметы, транспорт и прочее.","Onarım Kitleri, takılan ve giyilen tüm öğeleri, araçları ve başka şeyleri onarmak için kullanılır.",维修工具可用于修理所有手持和穿着物品、载具等。,維修工具包用於維修所有手持的物品或衣物、車輛等。,"Los kits de reparación se utilizan para reparar objetos y vehículos desgastados, entre otros."
-vehicleAllParts,items,item,New,Assembled Vehicle Parts,,,,,,,,,,,,,,,,,
-vehicleAllPartsDesc,items,item,New,All vehicle parts assembled together needed to build a vehicle repair kit.,,,,,,,,,,,,,,,,,
-gunBotTurretBatteryAndParts,items,item,New,Assembled Bot Turret Parts,,,,,,,,,,,,,,,,,
-gunBotTurretBatteryAndPartsDesc,items,item,New,"A car battery and robotic parts assembled, needed to build a Bot Turret.",,,,,,,,,,,,,,,,,
+vehicleAllParts,items,item,New,Assembled Vehicle Parts
+vehicleAllPartsDesc,items,item,New,All vehicle parts assembled together needed to build a vehicle repair kit.
+gunBotTurretBatteryAndParts,items,item,New,Assembled Bot Turret Parts
+gunBotTurretBatteryAndPartsDesc,items,item,New,"A car battery and robotic parts assembled, needed to build a Bot Turret."

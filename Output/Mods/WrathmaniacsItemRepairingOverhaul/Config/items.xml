@@ -89,6 +89,10 @@
 			<property name="Extends" value="resourceMGPartsRepairKit" />
 			<property name="CustomIcon" value="resourceSteelSetPartsRepairKit" />
 		</item>
+		<item name="resourceMotorToolRepairKit">
+			<property name="Extends" value="resourceMGPartsRepairKit" />
+			<property name="CustomIcon" value="resourceMotorToolRepairKit" />
+		</item>
 		<item name="resourceToolAxePartsRepairKit">
 			<property name="Extends" value="resourceMGPartsRepairKit" />
 			<property name="CustomIcon" value="resourceToolAxePartsRepairKit" />
@@ -101,6 +105,8 @@
 	<append xpath="/items/item[@name='resourceRepairKit']">
 		<property name="PickupJournalEntry" value="resourceRepairKitToolTip" />
 	</append>
+	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='RepairAmount']/@value">120000</set>
+	
 	<set xpath="/items/item[contains(@name,'gunMG') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceMGPartsRepairKit</set>
 	<set xpath="/items/item[contains(@name,'gunHandgun') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceHandgunPartsRepairKit</set>
 	<set xpath="/items/item[contains(@name,'gunRifle') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceRiflePartsRepairKit</set>
@@ -125,11 +131,11 @@
 		<property name="RepairTools" value="resourceToolAllSteelPartsRepairKit" />
 	</append>
 	
-	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='RepairTools']/@value">resourceToolAllSteelPartsRepairKit</set>
-	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/property[@name='RepairTools']/@value">resourceToolAllSteelPartsRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='RepairTools']/@value">resourceToolAxePartsRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/property[@name='RepairTools']/@value">resourceToolAxePartsRepairKit</set>
 	
-	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='RepairTools']/@value">resourceToolAxePartsRepairKit</set>
-	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='RepairTools']/@value">resourceToolAxePartsRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='RepairTools']/@value">resourceMotorToolRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='RepairTools']/@value">resourceMotorToolRepairKit</set>
 
 	<!-- steel armor -->
 	<set xpath="/items/item[@name='armorSteelMaster']/property[@name='RepairTools']/@value">resourceSteelSetPartsRepairKit</set>
