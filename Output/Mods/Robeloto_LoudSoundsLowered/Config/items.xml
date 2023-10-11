@@ -1,0 +1,11 @@
+<Robeloto_LoudSoundsLowered>
+	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@class='Action0']/property[@name='Sound_end']/@value">Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_end1</set>
+	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@class='Action0']/property[@name='Sound_repeat']/@value">Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_lp1</set>
+	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@class='Action0']/property[@name='Sound_start']/@value">chainsaw_fire_start1</set>
+	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='SoundIdle']/@value">chainsaw_idle1</set>
+
+	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@class='Action0']/property[@name='Sound_end']/@value">auger_fire_end1</set>
+	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@class='Action0']/property[@name='Sound_repeat']/@value">auger_fire_lp1</set>
+	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@class='Action0']/property[@name='Sound_start']/@value">Auger_Fire_Start1</set>
+	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='SoundIdle']/@value">Auger_Idle1</set>
+</Robeloto_LoudSoundsLowered>
