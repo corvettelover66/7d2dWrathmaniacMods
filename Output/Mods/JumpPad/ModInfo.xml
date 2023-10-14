@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Jumppad (Alpha 21)" />
-		<Description value="adds jump pad to game" />
-		<Author value="thorfinn aka GothicShadow" />
-		<Version value="1.0.a.21" />
-	</ModInfo>
+	<Name value="Jumppad (Alpha 21)" />
+	<DisplayName value="JumpPad" />
+	<Version value="1.0.a.21" />
+	<Description value="adds jump pad to game" />
+	<Author value="thorfinn aka GothicShadow" />
+	<Website value="" />
 </xml>

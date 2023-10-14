@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Tatical Weapons Patch" />
-		<Description value="Small patch" />
-		<Author value="wrathmaniac" />
-		<Version value="1.0" />
-	</ModInfo>
+	<Name value="Tatical Weapons Patch" />
+	<DisplayName value="TacticalWeapons-Patch" />
+	<Version value="1.0" />
+	<Description value="Small patch" />
+	<Author value="wrathmaniac" />
+	<Website value="" />
 </xml>
