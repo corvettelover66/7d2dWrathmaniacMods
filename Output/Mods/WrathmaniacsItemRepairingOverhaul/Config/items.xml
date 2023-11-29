@@ -105,7 +105,7 @@
 	<append xpath="/items/item[@name='resourceRepairKit']">
 		<property name="PickupJournalEntry" value="resourceRepairKitToolTip" />
 	</append>
-	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='RepairAmount']/@value">120000</set>
+	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='RepairAmount']/@value">240000</set>
 	
 	<set xpath="/items/item[contains(@name,'gunMG') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceMGPartsRepairKit</set>
 	<set xpath="/items/item[contains(@name,'gunHandgun') and not(contains(@name,'T0'))]/property[@name='RepairTools']/@value">resourceHandgunPartsRepairKit</set>

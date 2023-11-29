@@ -1,6 +1,6 @@
 <Robeloto_LoudSoundsLowered>
-	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@class='Action0']/property[@name='Sound_end']/@value">Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_end1</set>
-	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@class='Action0']/property[@name='Sound_repeat']/@value">Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_lp1</set>
+	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@class='Action0']/property[@name='Sound_end']/@value">chainsaw_fire_end1</set>
+	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@class='Action0']/property[@name='Sound_repeat']/@value">chainsaw_fire_lp1</set>
 	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@class='Action0']/property[@name='Sound_start']/@value">chainsaw_fire_start1</set>
 	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='SoundIdle']/@value">chainsaw_idle1</set>
 

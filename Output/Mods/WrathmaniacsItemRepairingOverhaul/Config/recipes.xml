@@ -9,7 +9,7 @@
 			OR 
 			less balanced for the bike, 
 			I'm choosing the latter-->
-		<recipe name="resourceRepairKit"  count="1" craft_time="3">
+		<recipe name="resourceRepairKit"  count="2" craft_time="3">
 			<ingredient name="resourceNormalRepairKit" count="2" />
 			<ingredient name="smallEngine"  count="1" />
 			<ingredient name="carBattery"  count="1" />
