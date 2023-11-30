@@ -1,10 +1,31 @@
-Notes:9/9/2023
+Alpha 21:
 
-Increased the repair amount of vehicle repair kit in IRO.
+Notes 10/14/2023
 
-Added beaker recipe to SPC
+=============================================================
+Item repairing Overhaul:
+=============================================================
 
-Fixed medical additions medical bandage cloth amount in recipe.
+Added a repair kit for Power tools. Before it used the motor tools repair kit. An engine did not make sense for the nail gun and impact driver.
+
+Buffed the vehicle repair kit to repair a much higher percentage of the vehicle. From 32000 -> 120000 
+Justification. Due to the expensive cost of the vehicle repair kit 30% on most vehicles did not seem fair. 
+
+
+=============================================================
+Repaired Workstation
+=============================================================
+
+Changed the Dew collector to not destroy on close.
+
+=============================================================
+Special Parts craftable
+=============================================================
+
+Added the toolLeadSilverAnode to more containers for loot to increase chances of finding it similiar to how a beaker is found.
+
+Decreased the steel usage in the spring recipe that uses Zinc. 
+
 
 Alpha 20:
 

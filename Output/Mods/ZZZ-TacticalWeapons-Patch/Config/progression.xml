@@ -31,7 +31,7 @@
 		</display_entry>
 	</insertBefore>
 	
-	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/effect_group">
+	<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/effect_group/passive_effect[@name='CraftingTier' and @tags='gunHandgunT2Magnum44']">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,100" value="1" tags="P99"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,100" value="1" tags="Colt_M1873"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="Colt1911"/>
@@ -68,7 +68,7 @@
 		<passive_effect name="CraftingTier" operation="base_add" level="54,58,62,66,70,100" value="1,2,3,4,5,5" tags="KRISS_Vector"/>
 		
 		<passive_effect name="CraftingTier" operation="base_add" level="65,69,73,77,81,100" value="1,2,3,4,5,5" tags="DesertEagle"/>
-	</append>
+	</insertAfter>
 	
 	<remove xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingHandguns']/display_entry[@item='gunHandgunT3DesertVulture']"/>
 	<remove xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingHandguns']/display_entry[@item='gunHandgunT3SMG5']"/>
@@ -100,7 +100,7 @@
 		</display_entry>
 	</insertBefore>
 	
-	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']/effect_group">
+	<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']/effect_group/passive_effect[@name='CraftingTier' and @tags='gunRifleT3SniperRifle']">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,100" value="1" tags="M1894"/>
 		
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="18,100" value="1" tags="Kar98K"/>		
@@ -124,7 +124,7 @@
 		
 		<passive_effect name="CraftingTier" operation="base_add" level="51,55,59,63,67,100" value="1,2,3,4,5,5" tags="M110"/>
 		<passive_effect name="CraftingTier" operation="base_add" level="54,58,62,66,70,100" value="1,2,3,4,5,5" tags="M82a1"/>
-	</append>
+	</insertAfter>
 	
 	<remove xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingRifles']/display_entry[@item='gunRifleT0PipeRifle']"/>
 	<remove xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingRifles']/display_entry[@item='gunRifleT1HuntingRifle']"/>
@@ -152,7 +152,7 @@
 		</display_entry>
 	</insertBefore>
 	
-	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']/effect_group">
+	<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']/effect_group/passive_effect[@name='CraftingTier' and @tags='gunShotgunT3AutoShotgun']">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,100" value="1" tags="s686"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="SPAS12"/>
 		
@@ -170,7 +170,7 @@
 		<passive_effect name="CraftingTier" operation="base_add" level="36,40,44,48,52,100" value="1,2,3,4,5,5" tags="Saiga12K"/>
 		
 		<passive_effect name="CraftingTier" operation="base_add" level="51,55,59,63,67,100" value="1,2,3,4,5,5" tags="AA12"/>
-	</append>
+	</insertAfter>
 
 	<remove xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingShotguns']/display_entry[@item='gunShotgunT0PipeShotgun']"/>
 	<remove xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingShotguns']/display_entry[@item='gunShotgunT1DoubleBarrel']"/>
@@ -207,7 +207,7 @@
 		</display_entry>
 	</insertBefore>
 	
-	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']/effect_group">
+	<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']/effect_group/passive_effect[@name='CraftingTier' and @tags='gunMGT3M60']">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,100" value="1" tags="M4A1"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,100" value="1" tags="M16A4"/>
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="SCAR_L"/>
@@ -241,7 +241,7 @@
 		<passive_effect name="CraftingTier" operation="base_add" level="54,58,62,66,70,100" value="1,2,3,4,5,5" tags="M249"/>
 		
 		<passive_effect name="CraftingTier" operation="base_add" level="65,69,73,77,81,100" value="1,2,3,4,5,5" tags="gatling"/>
-	</append>
+	</insertAfter>
 	
 	<remove xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMachineGuns']/display_entry[@item='gunMGT0PipeMachineGun']"/>
 	<remove xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingMachineGuns']/display_entry[@item='gunMGT1AK47']"/>
@@ -273,7 +273,7 @@
 	<!-- The icon must be appended after the other changes -->
 	<append xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingExplosives']/display_entry[@icon='mineAirFilter,resourceGunPowder,thrownTimedCharge']/@icon">,MGL140</append>
 		
-	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/effect_group">
+	<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/effect_group/passive_effect[@name='CraftingTier' and @tags='gunExplosivesT3RocketLauncher']">
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="15,100" value="1" tags="M79"/>
 		
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="ChinaLake"/>
@@ -286,6 +286,6 @@
 		
 		<passive_effect name="CraftingTier" operation="base_add" level="40,44,48,52,56,100" value="1,2,3,4,5,5" tags="MGL140"/>
 
-	</append>
+	</insertAfter>
 
 </ZZZ-TacticalWeapons-Patch>

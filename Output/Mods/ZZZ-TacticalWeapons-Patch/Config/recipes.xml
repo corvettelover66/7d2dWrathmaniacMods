@@ -1,0 +1,155 @@
+<ZZZ-TacticalWeapons-Patch>
+	<remove xpath="/recipes/recipe[@name='CQBSS_ECOS']"/>
+	<remove xpath="/recipes/recipe[@name='ACOG_ECOS']"/>
+	<remove xpath="/recipes/recipe[@name='TAFlashLight(pistol)']"/>
+
+	<append xpath="/recipes">
+		<recipe name="pistolSuppressor"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="5" />
+			<ingredient name="resourceOil"  count="2" />
+			<ingredient name="resourceMechanicalParts"  count="2" />
+		</recipe>
+	
+		<recipe name="rifleSuppressor"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="5" />
+			<ingredient name="resourceOil"  count="2" />
+			<ingredient name="resourceMechanicalParts"  count="2" />
+		</recipe>
+	
+		<recipe name="Leupold_CQBSS"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceBrokenGlass"  count="20" />
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="10" />
+			<ingredient name="resourceGlue"  count="5" />
+		</recipe>
+	
+		<recipe name="AN/PVS22"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceBrokenGlass"  count="15" />
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="8" />
+			<ingredient name="resourceGlue"  count="3" />
+		</recipe>
+	
+		<recipe name="ACOG_TA31"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceBrokenGlass"  count="15" />
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="8" />
+			<ingredient name="resourceGlue"  count="3" />
+		</recipe>
+	
+		<recipe name="ACOG_TA01"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceBrokenGlass"  count="15" />
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="8" />
+			<ingredient name="resourceGlue"  count="3" />
+		</recipe>
+	
+		<recipe name="ACOG_ECOS"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceBrokenGlass"  count="15" />
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="8" />
+			<ingredient name="resourceGlue"  count="3" />
+		</recipe>
+	
+		<recipe name="CQBSS_ECOS"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceBrokenGlass"  count="15" />
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="8" />
+			<ingredient name="resourceGlue"  count="3" />
+		</recipe>
+
+		<recipe name="Aimpoint_CompM3"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceBrokenGlass"  count="15" />
+			<ingredient name="resourceForgedIron"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="5" />
+			<ingredient name="resourceGlue"  count="2" />
+		</recipe>
+
+		<recipe name="Aimpoint_MicroT1"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceBrokenGlass"  count="15" />
+			<ingredient name="resourceForgedIron"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="5" />
+			<ingredient name="resourceGlue"  count="2" />
+		</recipe>
+	
+		<recipe name="Aimpoint_ACRO"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="10" />
+			<ingredient name="resourceGlue"  count="5" />
+			<ingredient name="resourceElectricParts"  count="10" />
+		</recipe>
+	
+		<recipe name="EOTech_EXPS3"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="10" />
+			<ingredient name="resourceGlue"  count="5" />
+			<ingredient name="resourceElectricParts"  count="10" />
+		</recipe>
+
+		<recipe name="RMRSight"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceScrapPolymers"  count="10" />
+			<ingredient name="resourceGlue"  count="5" />
+			<ingredient name="resourceElectricParts"  count="10" />
+		</recipe>
+	
+		<recipe name="TALaserSight(pistol)"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceGlue"  count="2" />
+			<ingredient name="resourceElectricParts"  count="10" />
+			<ingredient name="resourceMechanicalParts"  count="2" />
+		</recipe>
+	
+		<recipe name="TALaserSight(barrel)"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceGlue"  count="2" />
+			<ingredient name="resourceElectricParts"  count="10" />
+			<ingredient name="resourceMechanicalParts"  count="2" />
+		</recipe>
+	
+		<recipe name="ANPEQ15"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceGlue"  count="2" />
+			<ingredient name="resourceElectricParts"  count="10" />
+			<ingredient name="resourceMechanicalParts"  count="2" />
+		</recipe>
+	
+		<recipe name="ANPEQ2"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceForgedSteel"  count="10" />
+			<ingredient name="resourceGlue"  count="2" />
+			<ingredient name="resourceElectricParts"  count="10" />
+			<ingredient name="resourceMechanicalParts"  count="2" />
+		</recipe>
+	
+		<recipe name="TacticalForegrip"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceForgedIron"  count="5" />
+			<ingredient name="resourceGlue"  count="5" />
+			<ingredient name="resourceMechanicalParts"  count="5" />
+			<ingredient name="resourceSpring"  count="10" />
+		</recipe>
+	
+		<recipe name="LAM"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceScrapPolymers"  count="10" />
+			<ingredient name="resourceGlue"  count="2" />
+			<ingredient name="resourceElectricParts"  count="5" />
+			<ingredient name="meleeToolFlashlight02"  count="1" />
+			<ingredient name="resourceForgedSteel"  count="10" />
+		</recipe>
+	
+		<recipe name="TAFlashLight(pistol)"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceScrapPolymers"  count="10" />
+			<ingredient name="resourceGlue"  count="2" />
+			<ingredient name="resourceElectricParts"  count="5" />
+			<ingredient name="meleeToolFlashlight02"  count="1" />
+		</recipe>
+	
+		<recipe name="TacticalBipod"  count="1"  tags="learnable,workbenchCrafting"  craft_area="workbench" >
+			<ingredient name="resourceForgedIron"  count="5" />
+			<ingredient name="resourceGlue"  count="5" />
+			<ingredient name="resourceMechanicalParts"  count="5" />
+			<ingredient name="resourceSpring"  count="10" />
+		</recipe>
+	</append>
+</ZZZ-TacticalWeapons-Patch>

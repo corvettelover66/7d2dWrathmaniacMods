@@ -1,0 +1,3 @@
+<WrathmaniacsRepairedWorkstations>
+	<removeattribute xpath="/lootcontainers/lootcontainer[@name='collapsedDewCollector']/@destroy_on_close"/>
+</WrathmaniacsRepairedWorkstations>

@@ -1,4 +1,24 @@
 <WrathmaniacsSpecialPartsCraftable>
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestMedical']">
+			<item name="toolLeadSilverAnode"  loot_prob_template="QuestT2Prob" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='airdropMedicine']">
+			<item name="toolLeadSilverAnode"  loot_prob_template="low" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupLootChestBonusItems']">
+			<item name="toolLeadSilverAnode"  loot_prob_template="medLow" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupPopNPillsCrate03']">
+			<item name="toolLeadSilverAnode"  loot_prob_template="low" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupChemistryStationLoot03']">
+			<item name="toolLeadSilverAnode"  loot_prob_template="veryLow" />
+	</append>
+
 	<append xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot01']">
 			<item name="resourceRefinedCopper"  count="25,50"  loot_prob_template="med" />
 			<item name="resourceZinc"  count="20,40"  loot_prob_template="med" />
