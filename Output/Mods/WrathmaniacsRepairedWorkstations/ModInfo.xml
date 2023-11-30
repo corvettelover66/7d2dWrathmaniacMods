@@ -2,7 +2,7 @@
 <xml>
 	<Name value="RepairedWorkstations" />
 	<DisplayName value="WrathmaniacsRepairedWorkstations" />
-	<Version value="1.4.0.21" />
+	<Version value="1.3.0.21" />
 	<Description value="Allows you to craft any workstation using any found broken or working workstation (i.e. workbench, cement mixer, ect.) " />
 	<Author value="wrathmaniac" />
 	<Website value="" />
