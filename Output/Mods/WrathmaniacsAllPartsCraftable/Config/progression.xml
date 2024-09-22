@@ -1,5 +1,5 @@
 <WrathmaniacsAllPartsCraftable>
-	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingArmor']/display_entry[@icon='resourceMilitaryFiber']">
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingArmor']/display_entry[@icon='armorRaiderHelmet']">
 			<display_entry unlock_level="39"  item="armorSteelSetParts"/>
 			<display_entry unlock_level="39"  item="Disassemble armorSteelSetParts"/>
 			<display_entry unlock_level="39"  item="armorMilitarySetParts"/>
