@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="More Zombies x2 (A20Experimental)" />
+	<Name value="MoreZombiesx2" />
 	<DisplayName value="WrathmaniacsMoreZombies_x2" />
-	<Version value="MZ-1.0(20.a.e)" />
+	<Version value="1.0.0.1" />
 	<Description value="Adds more zombie spawns per biome x2." />
 	<Author value="Wrathmaniac" />
-	<Website value="" />
+	<Website value="https://www.nexusmods.com/7daystodie/mods/1022" />
 </xml>

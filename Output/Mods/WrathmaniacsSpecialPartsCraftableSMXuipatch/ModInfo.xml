@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="Wrathmaniacs Special Parts Craftable SMXui patch" />
+	<Name value="WrathmaniacsSpecialPartsCraftableSMXuipatch" />
 	<DisplayName value="WrathmaniacsSpecialPartsCraftableSMXuipatch" />
 	<Version value="2.2" />
 	<Description value="Small patch to make the new tool appear cleaner on the campfire." />
 	<Author value="wrathmaniac" />
-	<Website value="" />
+	<Website value="https://www.nexusmods.com/7daystodie/mods/1024" />
 </xml>
