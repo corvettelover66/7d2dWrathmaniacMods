@@ -81,13 +81,9 @@
 			<property name="Extends" value="resourceMGPartsRepairKit" />
 			<property name="CustomIcon" value="resourceToolAllSteelPartsRepairKit" />
 		</item>
-		<item name="resourceMilitarySetPartsRepairKit">
+		<item name="resourceArmorPartsRepairKit">
 			<property name="Extends" value="resourceMGPartsRepairKit" />
-			<property name="CustomIcon" value="resourceMilitarySetPartsRepairKit" />
-		</item>
-		<item name="resourceSteelSetPartsRepairKit">
-			<property name="Extends" value="resourceMGPartsRepairKit" />
-			<property name="CustomIcon" value="resourceSteelSetPartsRepairKit" />
+			<property name="CustomIcon" value="resourceArmorPartsRepairKit" />
 		</item>
 		<item name="resourceMotorToolRepairKit">
 			<property name="Extends" value="resourceMGPartsRepairKit" />
@@ -138,9 +134,8 @@
 	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='RepairTools']/@value">resourceMotorToolRepairKit</set>
 
 	<!-- steel armor -->
-	<set xpath="/items/item[@name='armorSteelMaster']/property[@name='RepairTools']/@value">resourceSteelSetPartsRepairKit</set>
-	<!-- military armor -->
-	<set xpath="/items/item[@name='armorMilitaryMaster']/property[@name='RepairTools']/@value">resourceMilitarySetPartsRepairKit</set>
+	<set xpath="/items/item[@name='partsMaster']/property[@name='RepairTools']/@value">resourceArmorPartsRepairKit</set>
+
 	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='RepairAmount']/@value">100000</set>
 	<!-- I need to overwrite the repair kits AFTER setting the others, this will ensure only basic items get affected-->
 	<set xpath="/items/item/property[@value='resourceRepairKit']/@value">resourceNormalRepairKit</set>
