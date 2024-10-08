@@ -22,9 +22,9 @@
 			<ingredient name="resourceDuctTape" count="1" />
 			<ingredient name="resourceOil" count="1" />
 		</recipe>
-		<recipe name="resourceSteelSetPartsRepairKit" count="1">
+		<recipe name="resourceArmorPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="armorSteelSetParts" count="1" />
+			<ingredient name="armorParts" count="1" />
 		</recipe>
 		<recipe name="resourceToolAxePartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />
@@ -36,10 +36,6 @@
 			<ingredient name="resourceForgedSteel" count="1" />
 			<ingredient name="meleeToolAxeT3ChainsawParts" count="2" />
 			<ingredient name="smallEngine"  count="1" />
-		</recipe>
-		<recipe name="resourceMilitarySetPartsRepairKit" count="1">
-			<ingredient name="resourceNormalRepairKit" count="1" />
-			<ingredient name="armorMilitarySetParts" count="1" />
 		</recipe>
 		<recipe name="resourceToolAllSteelPartsRepairKit" count="1">
 			<ingredient name="resourceNormalRepairKit" count="1" />

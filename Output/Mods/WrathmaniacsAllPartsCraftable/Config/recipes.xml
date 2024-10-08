@@ -35,8 +35,8 @@
 		<recipe name="Disassemble gunHuntingRifleParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
 			<ingredient name="gunRifleT1HuntingRifleParts" count="1" />
 		</recipe>
-		<recipe name="Disassemble armorSteelSetParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
-			<ingredient name="armorSteelSetParts" count="1" />
+		<recipe name="Disassemble armorParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
+			<ingredient name="armorParts" count="1" />
 		</recipe>
 		<recipe name="Disassemble meleeToolAllSteelParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
 			<ingredient name="meleeToolAllSteelParts" count="1" />
@@ -46,9 +46,6 @@
 		</recipe>
 		<recipe name="Disassemble gunPistolParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
 			<ingredient name="gunHandgunT1PistolParts" count="1" />
-		</recipe>
-		<recipe name="Disassemble armorMilitarySetParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="16">
-			<ingredient name="armorMilitarySetParts" count="1" />
 		</recipe>
 		<recipe name="Disassemble meleeToolChainsawParts" tags="learnable,workbenchCrafting" count="1" craft_area="workbench" craft_time="16">
 			<ingredient name="meleeToolAxeT3ChainsawParts" count="1" />
@@ -62,11 +59,6 @@
 			<ingredient name="resourceForgedSteel" count="8"></ingredient>
 		</recipe>
 		<recipe name="meleeToolAxeT3ChainsawParts" count="1" craft_time="30" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
-			<ingredient name="resourceSpring" count="2" />
-			<ingredient name="resourceMechanicalParts" count="5" />
-			<ingredient name="resourceForgedSteel" count="10" />
-		</recipe>
-		<recipe name="armorMilitarySetParts" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceSpring" count="2" />
 			<ingredient name="resourceMechanicalParts" count="5" />
 			<ingredient name="resourceForgedSteel" count="10" />
@@ -86,7 +78,7 @@
 			<ingredient name="resourceMechanicalParts" count="2" />
 			<ingredient name="resourceForgedSteel" count="5" />
 		</recipe>
-		<recipe name="armorSteelSetParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
+		<recipe name="armorParts" count="1" tags="learnable,workbenchCrafting" craft_area="workbench" craft_time="30">
 			<ingredient name="resourceSpring" count="1" />
 			<ingredient name="resourceMechanicalParts" count="2" />
 			<ingredient name="resourceForgedSteel" count="5" />

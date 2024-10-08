@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="Special Parts Craftable Repaired Workstations Patch" />
+	<Name value="SpecialPartsCraftableRepairedWorkstationsPatch" />
 	<DisplayName value="WrathmaniacsSpecialPartsCraftableRepairedWorkstationsPatch" />
-	<Version value="1.0.0.21" />
+	<Version value="1.0.0.1" />
 	<Description value="Patch for Repaired workstations that adds the anode to the repaired Chem station." />
 	<Author value="Wrathmaniac" />
-	<Website value="" />
+	<Website value="https://www.nexusmods.com/7daystodie/mods/1024" />
 </xml>

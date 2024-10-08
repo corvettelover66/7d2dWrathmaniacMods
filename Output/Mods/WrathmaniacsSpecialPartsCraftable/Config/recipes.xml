@@ -1,6 +1,6 @@
 <WrathmaniacsSpecialPartsCraftable>
 	<append xpath="/recipes">
-		<recipe name="toolBeaker"  count="1"  tags="learnable,perkAdvancedEngineering"  craft_area="forge" >
+		<recipe name="toolBeaker"  count="1"  tags="learnable,perkAdvancedEngineering" material_based="true"  craft_area="forge"  is_trackable="false" >
 			<ingredient name="unit_glass"  count="100" />
 			<ingredient name="unit_lead"  count="40" />
 			<ingredient name="unit_clay"  count="20" />

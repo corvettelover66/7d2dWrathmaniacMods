@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="More Animals All Biomes Medium" />
+	<Name value="MoreAnimalsAllBiomesMedium" />
 	<DisplayName value="WrathmaniacsMoreAnimalsAllBiomesMedium" />
 	<Version value="1.0" />
 	<Description value="Adds more animal spawns per biome friendly and enemy! Medium Friendly 4 Enemy 3." />
 	<Author value="Wrathmaniac" />
-	<Website value="" />
+	<Website value="https://www.nexusmods.com/7daystodie/mods/1021" />
 </xml>

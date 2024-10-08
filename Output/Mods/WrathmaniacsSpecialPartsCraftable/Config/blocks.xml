@@ -113,7 +113,7 @@
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	
-	<insertBefore xpath="/blocks/block[@name='cntBeerCooler']/drop[@event='Destroy']">
+	<insertBefore xpath="/blocks/block[@name='cntCoolerRandomLootHelper']/drop[@event='Destroy']">
 			<drop event="Harvest"  name="resourceRefinedCopper"  count="1,4"  tag="salvageHarvest" />
 	</insertBefore>
 	

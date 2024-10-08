@@ -1,3 +1,46 @@
+Version 1.1
+============
+Notes: 10/08/2024
+
+All Parts Craftable
+======
+Updated Version in ModInfo.xml.
+Added nexus mod URL to modinfo.
+Fixed small error related to missing military fiber.
+Changed all references of steelParts to armorParts and removed military parts.
+
+Better Starting Items
+======
+Updated Version in ModInfo.xml.
+Added nexus mod URL to modinfo.
+Adding the backpack icon to the mod because for some reason the vanilla version was there but it was being ignored.
+
+Item Repairing Overhaul
+======
+Updated Version in ModInfo.xml.
+Added nexus mod URL to modinfo.
+Fixed any references to military armor parts and steel armor parts to replace with armor parts, including the icon.
+
+Special Parts Craftable
+=====
+Updated Version in ModInfo.xml.
+Added nexus mod URL to modinfo.
+Small bug in the blocks XML changes.
+
+
+Mods with only ModInfo Changes:
+Junk Turret Overhaul & IRO version
+Medical Additions
+Mining Station
+More Animals
+More Zombies
+Random Game Tweaks
+
+
+Updated the Mod Info XML for all mods to version 1.0
+
+
+====================================================================
 Notes: 11/28/2023
 IRO:
 ======

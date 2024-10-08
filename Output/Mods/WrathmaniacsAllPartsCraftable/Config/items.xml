@@ -151,9 +151,9 @@
 				<property name="Create_item_count" value="2,3,8" />
 			</property>
 		</item>
-		<item name="Disassemble armorSteelSetParts">
+		<item name="Disassemble armorParts">
 			<property name="Extends" value="Disassemble Item" />
-			<property name="CustomIcon" value="armorSteelSetParts" />
+			<property name="CustomIcon" value="armorParts" />
 			<property name="ItemTypeIcon" value="bundle" />
 			<property name="UnlockedBy" value="craftingArmor"/>
 			<property class="Action0">
@@ -207,20 +207,6 @@
 				<property name="Create_item_count" value="1,2,5" />
 			</property>
 		</item>
-		<item name="Disassemble armorMilitarySetParts">
-			<property name="Extends" value="Disassemble Item" />
-			<property name="CustomIcon" value="armorMilitarySetParts" />
-			<property name="ItemTypeIcon" value="bundle" />
-			<property name="UnlockedBy" value="craftingArmor"  />
-			<property class="Action0">
-				<property name="Class" value="OpenBundle" />
-				<property name="Delay" value="0" />
-				<property name="Use_time" value="0" />
-				<property name="Sound_start" value="close_garbage" />
-				<property name="Create_item" value="resourceForgedSteel,resourceMechanicalParts,resourceSpring" />
-				<property name="Create_item_count" value="10,5,2" />
-			</property>
-		</item>
 		<item name="Disassemble meleeToolChainsawParts">
 			<property name="Extends" value="Disassemble Item" />
 			<property name="CustomIcon" value="meleeToolAxeT3ChainsawParts" />
@@ -256,7 +242,7 @@
 	<append xpath="/items/item[@name='meleeToolAllSteelParts']">
 		<property name="UnlockedBy" value="craftingHarvestingTools"/>
 	</append>
-	<append xpath="/items/item[@name='armorSteelSetParts']">
+	<append xpath="/items/item[@name='armorParts']">
 		<property name="UnlockedBy" value="craftingArmor"/>
 	</append>
 	<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']">
@@ -294,9 +280,6 @@
 	</append>
 	<append xpath="/items/item[@name='meleeToolAxeT3ChainsawParts']">
 		<property name="UnlockedBy" value="craftingHarvestingTools" />
-	</append>
-	<append xpath="/items/item[@name='armorMilitarySetParts']">
-		<property name="UnlockedBy" value="craftingArmor" />
 	</append>
 	<append xpath="/items/item[@name='gunBotRoboticsParts']">
 		<property name="UnlockedBy" value="craftingRobotics" />

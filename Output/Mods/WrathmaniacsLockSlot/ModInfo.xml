@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="Wrathmaniacs Lockslots Patch" />
+	<Name value="WrathmaniacsLockslotsPatch" />
 	<DisplayName value="WrathmaniacsLockSlot" />
 	<Version value="1.0.0.21" />
 	<Description value="Small Patch to add a locking mechanism to the player inventory." />

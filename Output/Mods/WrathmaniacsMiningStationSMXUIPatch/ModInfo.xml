@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="Wrathmaniacs Mining Station SMX UI Patch" />
+	<Name value="WrathmaniacsMiningStationSMXUIPatch" />
 	<DisplayName value="WrathmaniacsMiningStationSMXUIPatch" />
-	<Version value="1.0" />
+	<Version value="1.0.0.0" />
 	<Description value="Small patch to make the mod work with SMX UI." />
 	<Author value="wrathmaniac" />
-	<Website value="" />
+	<Website value="https://www.nexusmods.com/7daystodie/mods/1197" />
 </xml>

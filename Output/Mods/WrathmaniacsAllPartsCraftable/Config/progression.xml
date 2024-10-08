@@ -1,11 +1,9 @@
 <WrathmaniacsAllPartsCraftable>
-	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingArmor']/display_entry[@icon='resourceMilitaryFiber']">
-			<display_entry unlock_level="39"  item="armorSteelSetParts"/>
-			<display_entry unlock_level="39"  item="Disassemble armorSteelSetParts"/>
-			<display_entry unlock_level="39"  item="armorMilitarySetParts"/>
-			<display_entry unlock_level="39"  item="Disassemble armorMilitarySetParts"/>
+	<insertAfter xpath="/progression/crafting_skills[@complete_sound='ui_mag_read_set']/crafting_skill[@name='craftingArmor']/display_entry[@icon='armorRaiderHelmet']">
+			<display_entry unlock_level="39"  item="armorParts"/>
+			<display_entry unlock_level="39"  item="Disassemble armorParts"/>
 			<effect_group>
-				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="39,100"  value="1"  tags="armorSteelSetParts,Disassemble armorSteelSetParts,armorMilitarySetParts,Disassemble armorMilitarySetParts"/>
+				<passive_effect name="RecipeTagUnlocked"  operation="base_set"  level="39,100"  value="1"  tags="armorParts,Disassemble armorParts"/>
 			</effect_group>
 	</insertAfter>
 

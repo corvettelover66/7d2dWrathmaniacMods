@@ -5,10 +5,9 @@ resourceExplosivesPartsRepairKit,items,item,New,Rocket Launcher Repair Kit
 resourceHandgunPartsRepairKit,items,item,New,Handgun Repair Kit
 resourceMGPartsRepairKit,items,item,New,Machine Gun Repair Kit
 resourceMGPartsRepairKitDesc,items,item,New,To repair more advanced items you will need the item's parts and a repair kit to repair them.
-resourceMilitarySetPartsRepairKit,items,item,New,Military Armor Repair Kit
 resourceRiflePartsRepairKit,items,item,New,Rifle Repair Kit
 resourceShotgunPartsRepairKit,items,item,New,Shotgun Repair Kit
-resourceSteelSetPartsRepairKit,items,item,New,Steel Armor Repair Kit
+resourceArmorPartsRepairKit,items,item,New,Armor Repair Kit
 resourceToolAllSteelPartsRepairKit,items,item,New,Steel Tool Repair Kit
 resourceToolAxePartsRepairKit,items,item,New,Power Tool Repair Kit
 resourceMotorToolRepairKit,items,item,New,Motor Tool Repair Kit
